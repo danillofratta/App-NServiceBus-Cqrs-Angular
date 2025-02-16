@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "src\\Product\\Product.WebApi\\Product.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Stock\\Stock.WebApi\\Stock.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Sale\\Sale.WebApi\\Sale.WebApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

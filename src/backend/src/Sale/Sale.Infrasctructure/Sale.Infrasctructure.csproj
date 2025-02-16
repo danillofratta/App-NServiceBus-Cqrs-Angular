@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NServiceBus" Version="9.2.6" />
+    <PackageReference Include="NServiceBus.RabbitMQ" Version="9.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Shared.Dto\Shared.Dto.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.Infrasctructure\Shared.Infrasctructure.csproj" />
+    <ProjectReference Include="..\Sale.Core.Applicationi\Sale.Core.Application.csproj" />
+  </ItemGroup>
+
+</Project>

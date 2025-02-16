@@ -1,0 +1,33 @@
+<mat-toolbar>
+
+  <button mat-icon-button class="white-icon" aria-label="Menu icon" (click)="toggleMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  Menu
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container">
+
+  <mat-sidenav #drawer mode="side" class="sidenav" [opened]="isScreenWide">
+
+    <mat-nav-list>
+      <a mat-list-item routerLink="sale">Sale</a>
+    </mat-nav-list>
+
+    <mat-nav-list>
+      <a mat-list-item routerLink="product">Product</a>
+    </mat-nav-list>
+    <mat-nav-list>
+      <a mat-list-item routerLink="stock">Stock</a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+
+    <div class="content">
+
+      <router-outlet></router-outlet>
+
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

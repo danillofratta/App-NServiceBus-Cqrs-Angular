@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{662A4DED-234D-427E-B621-A345D415AC98}|src\\Stock\\Stock.Core.Application\\Stock.Core.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\stock\\stock.core.application\\sale\\create\\event\\createsalehandleeventreceive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662A4DED-234D-427E-B621-A345D415AC98}|src\\Stock\\Stock.Core.Application\\Stock.Core.Application.csproj|solutionrelative:src\\stock\\stock.core.application\\sale\\create\\event\\createsalehandleeventreceive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66C10F6C-0066-41E7-A03A-A669436A62D6}|src\\Sale\\Sale.Core.Applicationi\\Sale.Core.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.applicationi\\sale\\commands\\createsale\\createsalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66C10F6C-0066-41E7-A03A-A669436A62D6}|src\\Sale\\Sale.Core.Applicationi\\Sale.Core.Application.csproj|solutionrelative:src\\sale\\sale.core.applicationi\\sale\\commands\\createsale\\createsalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateSaleHandler.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Applicationi\\Sale\\Commands\\CreateSale\\CreateSaleHandler.cs",
+              "RelativeDocumentMoniker": "src\\Sale\\Sale.Core.Applicationi\\Sale\\Commands\\CreateSale\\CreateSaleHandler.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Applicationi\\Sale\\Commands\\CreateSale\\CreateSaleHandler.cs",
+              "RelativeToolTip": "src\\Sale\\Sale.Core.Applicationi\\Sale\\Commands\\CreateSale\\CreateSaleHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:32:21.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateSaleHandleEventReceive.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Core.Application\\Sale\\Create\\Event\\CreateSaleHandleEventReceive.cs",
+              "RelativeDocumentMoniker": "src\\Stock\\Stock.Core.Application\\Sale\\Create\\Event\\CreateSaleHandleEventReceive.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Core.Application\\Sale\\Create\\Event\\CreateSaleHandleEventReceive.cs",
+              "RelativeToolTip": "src\\Stock\\Stock.Core.Application\\Sale\\Create\\Event\\CreateSaleHandleEventReceive.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA1wCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T13:34:23.417Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

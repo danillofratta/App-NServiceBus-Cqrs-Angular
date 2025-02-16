@@ -1,0 +1,135 @@
+<h1>Create Sale</h1>
+
+<app-loading-spinner [isLoading]="busy" [message]="'Loading'"> </app-loading-spinner>
+
+<div>
+  <form [formGroup]="form" *ngIf="!busy">
+    <mat-form-field appearance="fill">
+      <mat-label>Choose a customer</mat-label>
+      <input matInput
+             formControlName="customerControl"
+             [matAutocomplete]="autoCustomer">
+      <mat-autocomplete #autoCustomer="matAutocomplete"
+                        [displayWith]="displayCustomer">
+        <mat-option *ngFor="let customer of filteredCustomers | async"
+                    [value]="customer">
+          {{customer.id}} - {{customer.name}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Choose a Branch</mat-label>
+      <input matInput
+             formControlName="branchControl"
+             [matAutocomplete]="autoBranch">
+      <mat-autocomplete #autoBranch="matAutocomplete"
+                        [displayWith]="displayBranch">
+        <mat-option *ngFor="let branch of filteredBranchs | async"
+                    [value]="branch">
+          {{branch.id}} - {{branch.name}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+
+
+    <div class="action-buttons">
+      <button mat-raised-button
+              color="primary"
+              [disabled]="form.invalid || (saleItems$ | async)?.length === 0"
+              (click)="save()">
+        Save
+      </button>
+      <button mat-button (click)="cancel()">
+        Cancel
+      </button>
+    </div>
+
+
+    <app-show-error-list [_ListError]="_ListError"></app-show-error-list>
+
+  </form>
+
+  <br /><br />
+
+        <form [formGroup]="formitem" *ngIf="!busy">
+
+          <input formControlName="idproduct" type="hidden" readonly />
+          <input formControlName="nameproduct" type="hidden" readonly />
+          
+          <app-product-auto-complete placeholder="Is required"
+                                     *ngIf="!busy"
+                                     (productSelected)="onProductSelected($event)" />
+
+          <mat-form-field>
+            <mat-label>Quantity</mat-label>
+            <input matInput
+                   formControlName="quantity"
+                   type="number"
+                   min="1">
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Unit Price</mat-label>
+            <input matInput
+                   formControlName="unitPrice"
+                   type="number"
+                   step="0.01"
+                   min="0">
+          </mat-form-field>
+
+          <button mat-raised-button
+                  color="primary"
+                  (click)="addItem()"
+                  
+                  >
+            Add Item
+          </button>
+
+          <h2>Sale Items</h2>
+          <table mat-table [dataSource]="saleItems$" class="mat-elevation-z8">
+            <ng-container matColumnDef="ProductId">
+              <th mat-header-cell *matHeaderCellDef>Product</th>
+              <td mat-cell *matCellDef="let item">{{item.ProductId}}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="ProductName">
+              <th mat-header-cell *matHeaderCellDef>Product</th>
+              <td mat-cell *matCellDef="let item">{{item.ProductName}}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="Quantity">
+              <th mat-header-cell *matHeaderCellDef>Quantity</th>
+              <td mat-cell *matCellDef="let item">{{item.Quantity}}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="UnitPrice">
+              <th mat-header-cell *matHeaderCellDef>Unit Price</th>
+              <th mat-header-cell *matHeaderCellDef>Total Price</th>
+              <td mat-cell *matCellDef="let item">{{item.UnitPrice}}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="TotalPrice">
+              <th mat-header-cell *matHeaderCellDef>Total Price</th>
+              <td mat-cell *matCellDef="let item">{{item.TotalPrice}}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="actions">
+              <th mat-header-cell *matHeaderCellDef>Actions</th>
+              <td mat-cell *matCellDef="let item; let i = index">
+                <button mat-icon-button color="warn" (click)="removeItem(i)">
+                  <mat-icon>delete</mat-icon>
+                </button>
+              </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          </table>
+
+
+        </form>
+   
+</div>
+
+

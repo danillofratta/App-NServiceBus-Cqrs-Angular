@@ -1,0 +1,17 @@
+.form-container {
+  padding: 20px;
+  max-width: 600px;
+}
+
+  .form-container mat-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+.table-container {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}

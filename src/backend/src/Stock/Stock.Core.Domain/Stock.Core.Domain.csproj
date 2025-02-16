@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Enum\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Base.Core.Domain.Application\Base.Core.Domain.Application.csproj" />
+    <ProjectReference Include="..\..\Base\Base.Domain.Common\Base.Core.Domain.Common.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.Dto\Shared.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

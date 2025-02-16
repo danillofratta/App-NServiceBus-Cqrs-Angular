@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="NServiceBus" Version="9.2.6" />
+    <PackageReference Include="NServiceBus.RabbitMQ" Version="9.2.0" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Base.WebApi\Base.WebApi.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.Dto\Shared.Dto.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.Infrasctructure\Shared.Infrasctructure.csproj" />
+    <ProjectReference Include="..\Sale.Core.Applicationi\Sale.Core.Application.csproj" />
+    <ProjectReference Include="..\Sale.Infrasctructure\Sale.Infrasctructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,48 @@
+<h1 id="tableLabel">Modify Sale</h1>
+
+<div>
+  <app-loading-spinner [isLoading]="busy" [message]="'Loading'"></app-loading-spinner>
+
+  <form [formGroup]="form" *ngIf="!busy">
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <mat-label>ID</mat-label>
+        <input matInput formControlName="id" type="text" placeholder="Id" readonly />
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <mat-label>Customer Id</mat-label>
+        <input matInput formControlName="customerId" type="text" placeholder="Id" />
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <mat-label>Customer Name</mat-label>
+        <input matInput formControlName="customerName" type="text" placeholder="Name" />
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field class="example-full-width">
+        <mat-label>Branch ID</mat-label>
+        <input matInput formControlName="branchId" type="text" placeholder="Id" />
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field class="example-full-width">
+        <mat-label>Branch </mat-label>
+        <input matInput formControlName="branchName" type="text" placeholder="Id" />
+      </mat-form-field>
+    </div>
+
+    <div>
+      <button mat-raised-button [disabled]="form.invalid" (click)="modify()">Modify</button>
+      <a routerLink="/sale">Cancel</a>
+    </div>
+
+  </form>
+</div>

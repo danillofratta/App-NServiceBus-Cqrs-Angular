@@ -1,0 +1,6 @@
+@Sale.WebApi_HostAddress = http://localhost:5033
+
+GET {{Sale.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

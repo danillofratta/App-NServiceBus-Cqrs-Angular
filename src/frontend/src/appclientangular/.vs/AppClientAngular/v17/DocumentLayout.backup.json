@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\AppClientAngular\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\frontend\\src\\appclientangular\\appclientangular\\src\\app\\pages\\dashboard\\stock\\stock.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|solutionrelative:src\\app\\pages\\dashboard\\stock\\stock.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\frontend\\src\\appclientangular\\appclientangular\\src\\app\\pages\\dashboard\\stock\\stock.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|solutionrelative:src\\app\\pages\\dashboard\\stock\\stock.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "stock.component.html",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\AppClientAngular\\src\\app\\pages\\dashboard\\stock\\stock.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\dashboard\\stock\\stock.component.html",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\AppClientAngular\\src\\app\\pages\\dashboard\\stock\\stock.component.html",
+              "RelativeToolTip": "src\\app\\pages\\dashboard\\stock\\stock.component.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-16T14:38:49.629Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "stock.component.ts",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\AppClientAngular\\src\\app\\pages\\dashboard\\stock\\stock.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\dashboard\\stock\\stock.component.ts",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\AppClientAngular\\src\\app\\pages\\dashboard\\stock\\stock.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\dashboard\\stock\\stock.component.ts",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAQwHEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-16T14:38:53.435Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
