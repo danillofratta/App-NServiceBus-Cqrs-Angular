@@ -8,12 +8,12 @@
 
   <ItemGroup>
     <Folder Include="Enum\" />
-    <Folder Include="Service\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Base\Base.Core.Domain.Application\Base.Core.Domain.Application.csproj" />
-    <ProjectReference Include="..\..\Base\Base.Domain.Common\Base.Core.Domain.Common.csproj" />
+    <ProjectReference Include="..\..\Base\Base.Core.Domain\Base.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\Sale\Sale.Core.Domain.Contracts\Sale.Core.Domain.Contracts.csproj" />
     <ProjectReference Include="..\..\Shared\Shared.Dto\Shared.Dto.csproj" />
   </ItemGroup>
 

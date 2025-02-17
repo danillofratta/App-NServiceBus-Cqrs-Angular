@@ -1,5 +1,4 @@
-﻿using Base.WebApi.Common;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace Base.WebApi.Controller;

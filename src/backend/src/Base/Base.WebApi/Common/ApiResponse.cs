@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Base.Common.Validation;
 
-namespace Base.WebApi.Common;
+namespace Base.WebApi;
 
 public class ApiResponse 
 {

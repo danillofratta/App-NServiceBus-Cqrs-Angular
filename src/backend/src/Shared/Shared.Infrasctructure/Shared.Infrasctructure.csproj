@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Base\Base.Core.Domain\Base.Core.Domain.csproj" />
     <ProjectReference Include="..\..\Product\Product.Core.Domain\Product.Core.Domain.csproj" />
     <ProjectReference Include="..\..\Sale\Sale.Core.Domain\Sale.Core.Domain.csproj" />
     <ProjectReference Include="..\..\Stock\Stock.Core.Domain\Stock.Core.Domain.csproj" />

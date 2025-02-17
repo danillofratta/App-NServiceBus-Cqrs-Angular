@@ -17,10 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Base\Base.Core.Domain\Base.Core.Domain.csproj" />
     <ProjectReference Include="..\..\Base\Base.WebApi\Base.WebApi.csproj" />
     <ProjectReference Include="..\..\Shared\Shared.Dto\Shared.Dto.csproj" />
     <ProjectReference Include="..\..\Shared\Shared.Infrasctructure\Shared.Infrasctructure.csproj" />
-    <ProjectReference Include="..\Sale.Core.Applicationi\Sale.Core.Application.csproj" />
+    <ProjectReference Include="..\Sale.Core.Domain.Application\Sale.Core.Domain.Application.csproj" />
+    <ProjectReference Include="..\Sale.Core.Domain\Sale.Core.Domain.csproj" />
     <ProjectReference Include="..\Sale.Infrasctructure\Sale.Infrasctructure.csproj" />
   </ItemGroup>
 

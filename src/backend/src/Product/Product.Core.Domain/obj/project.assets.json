@@ -61,7 +61,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Base.Core.Domain.Common/1.0.0": {
+      "Base.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -69,10 +69,10 @@
           "MediatR": "12.4.1"
         },
         "compile": {
-          "bin/placeholder/Base.Core.Domain.Common.dll": {}
+          "bin/placeholder/Base.Core.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Base.Core.Domain.Common.dll": {}
+          "bin/placeholder/Base.Core.Domain.dll": {}
         }
       }
     }
@@ -166,15 +166,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Base.Core.Domain.Common/1.0.0": {
+    "Base.Core.Domain/1.0.0": {
       "type": "project",
-      "path": "../../Base/Base.Domain.Common/Base.Core.Domain.Common.csproj",
-      "msbuildProject": "../../Base/Base.Domain.Common/Base.Core.Domain.Common.csproj"
+      "path": "../../Base/Base.Core.Domain/Base.Core.Domain.csproj",
+      "msbuildProject": "../../Base/Base.Core.Domain/Base.Core.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Base.Core.Domain.Common >= 1.0.0"
+      "Base.Core.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -214,8 +214,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Domain.Common\\Base.Core.Domain.Common.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Domain.Common\\Base.Core.Domain.Common.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
             }
           }
         }

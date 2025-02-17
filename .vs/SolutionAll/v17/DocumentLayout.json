@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A775EC7B-4DE3-489A-BBAF-1C053E863289}|src\\backend\\src\\Stock\\Stock.Infrastructure\\Stock.Infrastructure.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\stock\\stock.infrastructure\\services\\bus\\endpoint\\stockendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A775EC7B-4DE3-489A-BBAF-1C053E863289}|src\\backend\\src\\Stock\\Stock.Infrastructure\\Stock.Infrastructure.csproj|solutionrelative:src\\backend\\src\\stock\\stock.infrastructure\\services\\bus\\endpoint\\stockendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610366E-CBF5-49CA-9381-B437A0B5174E}|src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.contracts\\event\\createdsaleitemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7610366E-CBF5-49CA-9381-B437A0B5174E}|src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj|solutionrelative:src\\backend\\src\\sale\\sale.core.domain.contracts\\event\\createdsaleitemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610366E-CBF5-49CA-9381-B437A0B5174E}|src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.contracts\\event\\createdsaleevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7610366E-CBF5-49CA-9381-B437A0B5174E}|src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj|solutionrelative:src\\backend\\src\\sale\\sale.core.domain.contracts\\event\\createdsaleevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610366E-CBF5-49CA-9381-B437A0B5174E}|src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.contracts\\event\\createdsalecalculatestockokevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7610366E-CBF5-49CA-9381-B437A0B5174E}|src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj|solutionrelative:src\\backend\\src\\sale\\sale.core.domain.contracts\\event\\createdsalecalculatestockokevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{047AC8BF-D592-4D41-B078-57A2E80F505D}|src\\backend\\src\\Stock\\Stock.WebApi\\Stock.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\stock\\stock.webapi\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{047AC8BF-D592-4D41-B078-57A2E80F505D}|src\\backend\\src\\Stock\\Stock.WebApi\\Stock.WebApi.csproj|solutionrelative:src\\backend\\src\\stock\\stock.webapi\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +55,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StockEndPoint.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure\\Services\\Bus\\EndPoint\\StockEndPoint.cs",
+              "RelativeDocumentMoniker": "src\\backend\\src\\Stock\\Stock.Infrastructure\\Services\\Bus\\EndPoint\\StockEndPoint.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure\\Services\\Bus\\EndPoint\\StockEndPoint.cs",
+              "RelativeToolTip": "src\\backend\\src\\Stock\\Stock.Infrastructure\\Services\\Bus\\EndPoint\\StockEndPoint.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:59:03.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreatedSaleItemEvent.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleItemEvent.cs",
+              "RelativeDocumentMoniker": "src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleItemEvent.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleItemEvent.cs",
+              "RelativeToolTip": "src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleItemEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:58:47.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreatedSaleEvent.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleEvent.cs",
+              "RelativeDocumentMoniker": "src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleEvent.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleEvent.cs",
+              "RelativeToolTip": "src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:58:45.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreatedSaleCalculateStockOkEvent.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleCalculateStockOkEvent.cs",
+              "RelativeDocumentMoniker": "src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleCalculateStockOkEvent.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleCalculateStockOkEvent.cs",
+              "RelativeToolTip": "src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Event\\CreatedSaleCalculateStockOkEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:58:45.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.WebApi\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "src\\backend\\src\\Stock\\Stock.WebApi\\Controllers\\StockController.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.WebApi\\Controllers\\StockController.cs",
+              "RelativeToolTip": "src\\backend\\src\\Stock\\Stock.WebApi\\Controllers\\StockController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T11:57:49.826Z",
+              "EditorCaption": ""
             }
           ]
         },

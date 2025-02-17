@@ -8,9 +8,11 @@
     ".NETCoreApp,Version=v8.0": {
       "Sale.Infrasctructure/1.0.0": {
         "dependencies": {
+          "Base.Core.Domain": "1.0.0",
           "NServiceBus": "9.2.6",
           "NServiceBus.RabbitMQ": "9.2.0",
-          "Sale.Core.Application": "1.0.0",
+          "Sale.Core.Domain": "1.0.0",
+          "Sale.Core.Domain.Application": "1.0.0",
           "Shared.Dto": "1.0.0",
           "Shared.Infrasctructure": "1.0.0"
         },
@@ -1067,10 +1069,19 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
-      "Base.Core.Domain.Application/1.0.0": {
+      "Base.Core.Domain/1.0.0": {
         "dependencies": {
-          "Base.Core.Domain.Common": "1.0.0"
+          "FluentValidation": "11.11.0",
+          "MediatR": "12.4.1"
         },
+        "runtime": {
+          "Base.Core.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Base.Core.Domain.Application/1.0.0": {
         "runtime": {
           "Base.Core.Domain.Application.dll": {
             "assemblyVersion": "1.0.0",
@@ -1078,21 +1089,9 @@
           }
         }
       },
-      "Base.Core.Domain.Common/1.0.0": {
-        "dependencies": {
-          "FluentValidation": "11.11.0",
-          "MediatR": "12.4.1"
-        },
-        "runtime": {
-          "Base.Core.Domain.Common.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Base.WebApi/1.0.0": {
         "dependencies": {
-          "Base.Core.Domain.Common": "1.0.0",
+          "Base.Core.Domain": "1.0.0",
           "FluentValidation": "11.11.0",
           "MediatR": "12.4.1",
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
@@ -1107,7 +1106,7 @@
       },
       "Product.Core.Domain/1.0.0": {
         "dependencies": {
-          "Base.Core.Domain.Common": "1.0.0"
+          "Base.Core.Domain": "1.0.0"
         },
         "runtime": {
           "Product.Core.Domain.dll": {
@@ -1116,29 +1115,9 @@
           }
         }
       },
-      "Sale.Core.Application/1.0.0": {
-        "dependencies": {
-          "AutoMapper": "13.0.1",
-          "Base.Core.Domain.Common": "1.0.0",
-          "Base.WebApi": "1.0.0",
-          "FluentValidation": "11.11.0",
-          "MediatR": "12.4.1",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
-          "NServiceBus": "9.2.6",
-          "Sale.Core.Domain": "1.0.0",
-          "Serilog": "4.2.0",
-          "Shared.Dto": "1.0.0"
-        },
-        "runtime": {
-          "Sale.Core.Application.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Sale.Core.Domain/1.0.0": {
         "dependencies": {
-          "Base.Core.Domain.Common": "1.0.0"
+          "Base.Core.Domain": "1.0.0"
         },
         "runtime": {
           "Sale.Core.Domain.dll": {
@@ -1147,11 +1126,41 @@
           }
         }
       },
+      "Sale.Core.Domain.Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Base.Core.Domain": "1.0.0",
+          "Base.WebApi": "1.0.0",
+          "FluentValidation": "11.11.0",
+          "MediatR": "12.4.1",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
+          "NServiceBus": "9.2.6",
+          "Sale.Core.Domain": "1.0.0",
+          "Sale.Core.Domain.Contracts": "1.0.0",
+          "Serilog": "4.2.0",
+          "Shared.Dto": "1.0.0"
+        },
+        "runtime": {
+          "Sale.Core.Domain.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Sale.Core.Domain.Contracts/1.0.0": {
+        "dependencies": {
+          "Base.Core.Domain": "1.0.0",
+          "NServiceBus": "9.2.6"
+        },
+        "runtime": {
+          "Sale.Core.Domain.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Shared.Dto/1.0.0": {
         "dependencies": {
-          "Base.Core.Domain.Application": "1.0.0",
-          "Base.Core.Domain.Common": "1.0.0",
-          "Base.WebApi": "1.0.0",
           "MediatR": "12.4.1",
           "NServiceBus": "9.2.6"
         },
@@ -1164,6 +1173,7 @@
       },
       "Shared.Infrasctructure/1.0.0": {
         "dependencies": {
+          "Base.Core.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Newtonsoft.Json": "9.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.1",
@@ -1181,8 +1191,9 @@
       },
       "Stock.Core.Domain/1.0.0": {
         "dependencies": {
+          "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
-          "Base.Core.Domain.Common": "1.0.0",
+          "Sale.Core.Domain.Contracts": "1.0.0",
           "Shared.Dto": "1.0.0"
         },
         "runtime": {
@@ -1907,12 +1918,12 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
-    "Base.Core.Domain.Application/1.0.0": {
+    "Base.Core.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Base.Core.Domain.Common/1.0.0": {
+    "Base.Core.Domain.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1927,12 +1938,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Sale.Core.Application/1.0.0": {
+    "Sale.Core.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Sale.Core.Domain/1.0.0": {
+    "Sale.Core.Domain.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sale.Core.Domain.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

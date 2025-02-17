@@ -33,7 +33,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Base.WebApi.Common.ApiResponseWithData\u00601[[Sale.WebApi.Controllers.Sale.Create.CreateSaleResponse, Sale.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Base.WebApi.ApiResponseWithData\u00601[[Sale.WebApi.Controllers.Sale.Create.CreateSaleResponse, Sale.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -42,7 +42,7 @@
         "StatusCode": 200
       },
       {
-        "Type": "Base.WebApi.Common.ApiResponse",
+        "Type": "Base.WebApi.ApiResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -51,7 +51,7 @@
         "StatusCode": 400
       },
       {
-        "Type": "Base.WebApi.Common.ApiResponse",
+        "Type": "Base.WebApi.ApiResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

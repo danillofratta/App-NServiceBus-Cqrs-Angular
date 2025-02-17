@@ -113,7 +113,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Base.Core.Domain.Common/1.0.0": {
+      "Base.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -121,17 +121,17 @@
           "MediatR": "12.4.1"
         },
         "compile": {
-          "bin/placeholder/Base.Core.Domain.Common.dll": {}
+          "bin/placeholder/Base.Core.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Base.Core.Domain.Common.dll": {}
+          "bin/placeholder/Base.Core.Domain.dll": {}
         }
       },
       "Product.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Base.Core.Domain.Common": "1.0.0"
+          "Base.Core.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Product.Core.Domain.dll": {}
@@ -323,10 +323,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Base.Core.Domain.Common/1.0.0": {
+    "Base.Core.Domain/1.0.0": {
       "type": "project",
-      "path": "../../Base/Base.Domain.Common/Base.Core.Domain.Common.csproj",
-      "msbuildProject": "../../Base/Base.Domain.Common/Base.Core.Domain.Common.csproj"
+      "path": "../../Base/Base.Core.Domain/Base.Core.Domain.csproj",
+      "msbuildProject": "../../Base/Base.Core.Domain/Base.Core.Domain.csproj"
     },
     "Product.Core.Domain/1.0.0": {
       "type": "project",

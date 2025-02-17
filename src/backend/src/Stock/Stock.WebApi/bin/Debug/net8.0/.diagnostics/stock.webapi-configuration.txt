@@ -10,7 +10,7 @@
         "FileVersion": "1.0.0"
       },
       {
-        "FullName": "Stock.Core.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FullName": "Stock.Core.Domain.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       },
       {
@@ -26,11 +26,7 @@
         "FileVersion": "1.0.0"
       },
       {
-        "FullName": "Base.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "FileVersion": "1.0.0"
-      },
-      {
-        "FullName": "Shared.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FullName": "Sale.Core.Domain.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       },
       {
@@ -413,11 +409,11 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.Mvc.Formatters.Json.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Diagnostics.FileVersionInfo.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Diagnostics.FileVersionInfo.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.Authentication.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -554,10 +550,6 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\System.Threading.RateLimiting.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.Authentication.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -758,6 +750,10 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.Mvc.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.Mvc.Formatters.Json.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -1967,7 +1963,7 @@
     "ProcessorCount": 20,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.12",
-    "WorkingSet": 73695232,
+    "WorkingSet": 74838016,
     "SystemPageSize": 4096,
     "HostName": "NoteDF",
     "UserName": "danil",
@@ -1991,11 +1987,12 @@
     "MessageConventions": [
       "NServiceBus Marker Interfaces"
     ],
-    "NumberOfMessagesFoundAtStartup": 3,
+    "NumberOfMessagesFoundAtStartup": 4,
     "Messages": [
-      "Shared.Dto.Event.Sale.CreateSaleEventReponseFromStockDto",
-      "Base.WebApi.Common.ApiResponseEvent",
-      "Shared.Dto.Event.Sale.CreateSaleEventDto"
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockFailEvent",
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockOkEvent",
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleEvent",
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleItemEvent"
     ]
   },
   "Persistence": {
@@ -2021,8 +2018,8 @@
       
     ],
     "MessageHandlers": {
-      "Shared.Dto.Event.Sale.CreateSaleEventDto": [
-        "Stock.Core.Application.Sale.Create.Event.CreateSaleHandleEventReceive"
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleEvent": [
+        "Stock.Core.Application.Sale.Create.Event.CreatedSaleHandleEvent"
       ]
     }
   },

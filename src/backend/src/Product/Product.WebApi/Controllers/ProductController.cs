@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
-using Base.Core.Domain.Common;
-using Base.WebApi.Common;
+using Base.WebApi;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Product.Core.Application.Products.Create;

@@ -3,6 +3,7 @@ using NServiceBus;
 using NServiceBus.Routing;
 using Sale.Core.Application;
 using Sale.Core.Application.Sales.Create;
+using Sale.Core.Domain.Application;
 using Sale.Core.Domain.Repository;
 using Sale.Infrasctructure.Services.Bus;
 using Sale.Infrasctructure.Services.Bus.Config;

@@ -182,36 +182,6 @@
         },
         "additionalProperties": false
       },
-      "CreateSaleItemDto": {
-        "type": "object",
-        "properties": {
-          "productId": {
-            "type": "string",
-            "nullable": true
-          },
-          "productName": {
-            "type": "string",
-            "nullable": true
-          },
-          "quantity": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "unitPrice": {
-            "type": "number",
-            "format": "double"
-          },
-          "discount": {
-            "type": "number",
-            "format": "double"
-          },
-          "totalPrice": {
-            "type": "number",
-            "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
       "CreateSaleRequest": {
         "type": "object",
         "properties": {
@@ -234,7 +204,7 @@
           "saleItens": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/CreateSaleItemDto"
+              "$ref": "#/components/schemas/SaleItensDto"
             },
             "nullable": true
           }
@@ -274,6 +244,51 @@
           },
           "data": {
             "$ref": "#/components/schemas/CreateSaleResponse"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SaleItemStatusDto": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "SaleItensDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "productId": {
+            "type": "string",
+            "nullable": true
+          },
+          "productName": {
+            "type": "string",
+            "nullable": true
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "unitPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "discount": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "status": {
+            "$ref": "#/components/schemas/SaleItemStatusDto"
           }
         },
         "additionalProperties": false

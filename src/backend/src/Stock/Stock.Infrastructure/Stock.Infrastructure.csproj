@@ -12,9 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\Shared.Dto\Shared.Dto.csproj" />
+    <ProjectReference Include="..\..\Base\Base.Core.Domain\Base.Core.Domain.csproj" />
     <ProjectReference Include="..\..\Shared\Shared.Infrasctructure\Shared.Infrasctructure.csproj" />
-    <ProjectReference Include="..\Stock.Core.Application\Stock.Core.Application.csproj" />
+    <ProjectReference Include="..\Stock.Core.Domain.Application\Stock.Core.Domain.Application.csproj" />
     <ProjectReference Include="..\Stock.Core.Domain\Stock.Core.Domain.csproj" />
   </ItemGroup>
 

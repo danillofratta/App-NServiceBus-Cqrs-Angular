@@ -12,9 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Base\Base.Core.Domain.Application\Base.Core.Domain.Application.csproj" />
-    <ProjectReference Include="..\..\Base\Base.Domain.Common\Base.Core.Domain.Common.csproj" />
-    <ProjectReference Include="..\..\Base\Base.WebApi\Base.WebApi.csproj" />
+    <Folder Include="Command\Sale\" />
+    <Folder Include="Enum\" />
   </ItemGroup>
 
 </Project>

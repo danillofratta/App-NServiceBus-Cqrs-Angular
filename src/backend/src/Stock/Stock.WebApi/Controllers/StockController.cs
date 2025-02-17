@@ -1,9 +1,8 @@
 ﻿using AutoMapper;
-using Base.WebApi.Common;
+using Base.WebApi;
 using Base.WebApi.Controller;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Sale.Core.Domain.Repository;
 using Stock.Core.Application.Stock.AddProductStock;
 using Stock.Core.Application.Stock.Query.GetList;
 using Stock.Core.Domain.Repository;

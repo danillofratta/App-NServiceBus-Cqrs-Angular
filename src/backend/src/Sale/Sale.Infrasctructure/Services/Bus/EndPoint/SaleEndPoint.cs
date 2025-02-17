@@ -1,14 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NServiceBus;
-using NServiceBus.Logging;
-using NServiceBus.Routing;
-using Sale.Core.Application;
-using Sale.Core.Application.Sale.Commands.CreateSale.Event;
+using Sale.Core.Domain.Contracts.Event;
 using Sale.Core.Domain.Repository;
 using Sale.Infrastructure.Repository;
-using Shared.Dto.Event.Sale;
 using Shared.Infrastructure;
-using Stock.Core.Domain.Repository;
 
 namespace Sale.Infrasctructure.Services.Bus.Endpoint;
 
@@ -56,7 +50,7 @@ public class SaleEndPoint
     {        
         var routing = transport.Routing();
 
-        routing.RouteToEndpoint(typeof(CreateSaleEventDto), "stock.webapi");
+        routing.RouteToEndpoint(typeof(CreatedSaleEvent), "stock.webapi");
 
     }
 
@@ -70,12 +64,12 @@ public class SaleEndPoint
                 components.AddDbContext<DefaultDbContext>();
 
                 components.AddScoped<ISaleRepository, SaleRepository>();
-                components.AddScoped<CreateSaleHandlerEventFromStock>();                
+                components.AddScoped<CreatedSaleCalculateStockFailEvent>();                
 
                 components.AddMediatR(cfg =>
                 {
                     cfg.RegisterServicesFromAssemblies(
-                        typeof(ApplicationLayer).Assembly
+                        typeof(Sale.Core.Domain.Application.ApplicationLayer).Assembly
                     );
                 });
             });

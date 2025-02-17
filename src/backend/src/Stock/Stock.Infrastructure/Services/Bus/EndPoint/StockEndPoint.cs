@@ -1,10 +1,11 @@
-﻿using Shared.Dto.Event.Sale;
-using Microsoft.Extensions.DependencyInjection;
-using Stock.Core.Domain.Services;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Stock.Core.Domain.Repository;
 using Stock.Infrastructure.Repository;
 using Shared.Infrastructure;
 using Stock.Core.Application;
+using Sale.Core.Domain.Contracts.Event;
+using Stock.Core.Application.Sale.Create.Event;
+using Stock.Core.Domain.Services;
 
 namespace Stock.Infrasctructure.Services.Bus.Endpoint;
 
@@ -52,9 +53,9 @@ public class StockEndPoint
     {
         var routing = transport.Routing();
         //create sale and send to stock
-        routing.RouteToEndpoint(typeof(CreateSaleEventDto), "stock.webapi");
+        routing.RouteToEndpoint(typeof(CreatedSaleEvent), "stock.webapi");
         //stock check and send to sale
-        routing.RouteToEndpoint(typeof(CreateSaleEventReponseFromStockDto), "sale.webapi");
+        routing.RouteToEndpoint(typeof(CreatedSaleCalculateStockFailEvent), "sale.webapi");
     }
 
     /// <summary>
@@ -72,7 +73,7 @@ public class StockEndPoint
 
                 components.AddScoped<IStockRepository, StockRepository>();
 
-                components.AddScoped<SubtractAndCheckItemInStockService>();
+                components.AddScoped<CalculateStockService>();
 
                 components.AddAutoMapper(typeof(StockEndPoint).Assembly);
 

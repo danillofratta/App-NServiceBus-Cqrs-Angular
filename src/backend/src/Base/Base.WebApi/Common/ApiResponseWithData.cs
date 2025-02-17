@@ -1,4 +1,4 @@
-﻿namespace Base.WebApi.Common;
+﻿namespace Base.WebApi;
 
 public class ApiResponseWithData<T> : ApiResponse
 {

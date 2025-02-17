@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="NServiceBus" Version="9.2.6" />
+    <PackageReference Include="NServiceBus.RabbitMQ" Version="9.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Base.Core.Domain.Application\Base.Core.Domain.Application.csproj" />
+    <ProjectReference Include="..\..\Base\Base.Core.Domain\Base.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\Sale\Sale.Core.Domain.Contracts\Sale.Core.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.Dto\Shared.Dto.csproj" />
+    <ProjectReference Include="..\Stock.Core.Domain\Stock.Core.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Stock\Services\" />
+  </ItemGroup>
+
+</Project>

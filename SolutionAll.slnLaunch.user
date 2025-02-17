@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "src\\backend\\src\\Product\\Product.WebApi\\Product.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\backend\\src\\Stock\\Stock.WebApi\\Stock.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\backend\\src\\Sale\\Sale.WebApi\\Sale.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\frontend\\src\\appclientangular\\AppClientAngular.esproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

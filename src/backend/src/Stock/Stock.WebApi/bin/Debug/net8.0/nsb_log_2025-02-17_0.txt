@@ -1,0 +1,10 @@
+﻿2025-02-17 08:19:18.869 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-17 08:19:18.953 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-17 08:47:11.892 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-17 08:47:12.009 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-17 08:58:04.131 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-17 08:58:04.219 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-17 09:00:03.627 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-17 09:00:03.703 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-17 09:01:08.653 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-17 09:01:08.742 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.

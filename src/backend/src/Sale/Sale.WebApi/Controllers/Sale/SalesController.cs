@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Base.WebApi.Common;
+using Base.WebApi;
 using Base.WebApi.Controller;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

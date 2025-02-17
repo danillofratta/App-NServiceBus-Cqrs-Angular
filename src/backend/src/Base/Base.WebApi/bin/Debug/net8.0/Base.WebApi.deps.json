@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "Base.WebApi/1.0.0": {
         "dependencies": {
-          "Base.Core.Domain.Common": "1.0.0",
+          "Base.Core.Domain": "1.0.0",
           "FluentValidation": "11.11.0",
           "MediatR": "12.4.1",
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
@@ -874,13 +874,13 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
-      "Base.Core.Domain.Common/1.0.0": {
+      "Base.Core.Domain/1.0.0": {
         "dependencies": {
           "FluentValidation": "11.11.0",
           "MediatR": "12.4.1"
         },
         "runtime": {
-          "Base.Core.Domain.Common.dll": {
+          "Base.Core.Domain.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1468,7 +1468,7 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
-    "Base.Core.Domain.Common/1.0.0": {
+    "Base.Core.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
