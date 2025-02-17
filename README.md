@@ -11,7 +11,5 @@ São 3 serviços:
 - Contrução de um mini framework para implementação
 
 ## TODO 17/02
-- Refatorar
-- Finalizar
 - Implementar Docker
 
