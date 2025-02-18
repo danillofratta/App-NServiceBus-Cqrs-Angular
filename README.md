@@ -1,7 +1,7 @@
 # Objetivo
 
 Este projeto tem o objetivo de demonstrar a implementação das seguintes tecnologias e padrões: 
-- .net, webapi, 
+- API (.net) 
 - Patterns: DDD, EDD, CQRS
 - NServiceBus usando Saga (rabbitmq)
 - Redis
@@ -19,22 +19,20 @@ São 4 serviços:
 - Product, cadastro simples usando redis para cache
 - Stock, cadastro simples entrada de produtos no estoque
 - Sale, cadastro simples de uma venda. 
-    - Processo:
-        - Envia mensagem para serciço Stock
+    - Processo (NServiceBus Saga):
+        - Envia mensagem para serviço Stock
         - Serviço Stock verifica se tem os itens no Stock
-        - Se sim envia mensagem para Sale dizendo ok e envia mensagem para Payment
-        - Se não envia mensange para Sale e encerra o processo
+        - Se sim, envia mensagem para Sale dizendo stock ok e envia mensagem para Payment
+        - Se não, envia mensagem para Sale e encerra o processo
         - Payment simula o pagamento ok ou fail, nos dois casos retorna comunicação para Sale e encerra o processo       
 - Payment, simula pagamento ok ou fail e envia mensagem para Sale
 - Contrução de um mini framework para implementação
 
-## TODO 17/02
-<<<<<<< HEAD
+## TODO 18/02
 - Review para verificar implmentações e refatorar caso necessário
 - Implementar SignalIR para melhoria
 - Implementar SerialLogg para melhoria
 - Implementar possível log na base de dados registrando os status, o tabela especifica ou na tabela especifica
-=======
->>>>>>> aef7bc859e7cf8d4323852e10d0eec0d20f88316
+
 - Implementar Docker
 
