@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "9.0.0",
           "Newtonsoft.Json": "9.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.1",
+          "Payment.Core.Domain": "1.0.0",
           "Product.Core.Domain": "1.0.0",
           "Sale.Core.Domain": "1.0.0",
           "StackExchange.Redis": "2.8.24",
@@ -1189,6 +1190,17 @@
           }
         }
       },
+      "Payment.Core.Domain/1.0.0": {
+        "dependencies": {
+          "Base.Core.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Payment.Core.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Product.Core.Domain/1.0.0": {
         "dependencies": {
           "Base.Core.Domain": "1.0.0"
@@ -1211,18 +1223,6 @@
           }
         }
       },
-      "Sale.Core.Domain.Contracts/1.0.0": {
-        "dependencies": {
-          "Base.Core.Domain": "1.0.0",
-          "NServiceBus": "9.2.6"
-        },
-        "runtime": {
-          "Sale.Core.Domain.Contracts.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Shared.Dto/1.0.0": {
         "dependencies": {
           "MediatR": "12.4.1",
@@ -1239,12 +1239,19 @@
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
-          "Sale.Core.Domain.Contracts": "1.0.0",
           "Shared.Dto": "1.0.0"
         },
         "runtime": {
           "Stock.Core.Domain.dll": {
             "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Sale.Core.Domain.Contracts/1.0.0.0": {
+        "runtime": {
+          "Sale.Core.Domain.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1925,17 +1932,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Payment.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Product.Core.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Sale.Core.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Sale.Core.Domain.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1947,6 +1954,11 @@
     },
     "Stock.Core.Domain/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sale.Core.Domain.Contracts/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

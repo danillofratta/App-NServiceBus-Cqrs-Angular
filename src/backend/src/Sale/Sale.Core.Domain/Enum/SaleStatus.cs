@@ -13,6 +13,10 @@ namespace Sale.Core.Domain.Enum
     {
         Create =0,
         Cancelled,
-        OutOfStock
+        StockInsufficient,
+        StockConfirmed,
+        PaymentWaiting,
+        PaymentConfirmed,
+        PaymentCancelled
     }
 }

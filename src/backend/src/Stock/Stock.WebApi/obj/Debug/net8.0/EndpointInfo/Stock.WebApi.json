@@ -110,7 +110,7 @@
         "properties": {
           "productId": {
             "type": "string",
-            "nullable": true
+            "format": "uuid"
           },
           "productName": {
             "type": "string",

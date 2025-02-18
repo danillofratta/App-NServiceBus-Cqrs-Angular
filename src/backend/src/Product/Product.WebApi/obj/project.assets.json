@@ -1788,6 +1788,19 @@
           "bin/placeholder/Base.WebApi.dll": {}
         }
       },
+      "Payment.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Base.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Payment.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Payment.Core.Domain.dll": {}
+        }
+      },
       "Product.Core.Appplication/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1817,18 +1830,18 @@
           "bin/placeholder/Product.Core.Domain.dll": {}
         }
       },
-      "Product.Infrastructure/1.0.0": {
+      "Product.Infrastructure.Orm/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Product.Core.Domain": "1.0.0",
-          "Shared.Infrasctructure": "1.0.0"
+          "Shared.Infrasctructure.Orm": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Product.Infrastructure.dll": {}
+          "bin/placeholder/Product.Infrastructure.Orm.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Product.Infrastructure.dll": {}
+          "bin/placeholder/Product.Infrastructure.Orm.dll": {}
         }
       },
       "Sale.Core.Domain/1.0.0": {
@@ -1842,20 +1855,6 @@
         },
         "runtime": {
           "bin/placeholder/Sale.Core.Domain.dll": {}
-        }
-      },
-      "Sale.Core.Domain.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Base.Core.Domain": "1.0.0",
-          "NServiceBus": "9.2.6"
-        },
-        "compile": {
-          "bin/placeholder/Sale.Core.Domain.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sale.Core.Domain.Contracts.dll": {}
         }
       },
       "Shared.Dto/1.0.0": {
@@ -1872,7 +1871,7 @@
           "bin/placeholder/Shared.Dto.dll": {}
         }
       },
-      "Shared.Infrasctructure/1.0.0": {
+      "Shared.Infrasctructure.Orm/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1880,16 +1879,17 @@
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Newtonsoft.Json": "9.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.1",
+          "Payment.Core.Domain": "1.0.0",
           "Product.Core.Domain": "1.0.0",
           "Sale.Core.Domain": "1.0.0",
           "StackExchange.Redis": "2.8.24",
           "Stock.Core.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Shared.Infrasctructure.dll": {}
+          "bin/placeholder/Shared.Infrasctructure.Orm.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Shared.Infrasctructure.dll": {}
+          "bin/placeholder/Shared.Infrasctructure.Orm.dll": {}
         }
       },
       "Stock.Core.Domain/1.0.0": {
@@ -1898,7 +1898,6 @@
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
-          "Sale.Core.Domain.Contracts": "1.0.0",
           "Shared.Dto": "1.0.0"
         },
         "compile": {
@@ -5703,6 +5702,11 @@
       "path": "../../Base/Base.WebApi/Base.WebApi.csproj",
       "msbuildProject": "../../Base/Base.WebApi/Base.WebApi.csproj"
     },
+    "Payment.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Payment/Payment.Core.Domain/Payment.Core.Domain.csproj",
+      "msbuildProject": "../../Payment/Payment.Core.Domain/Payment.Core.Domain.csproj"
+    },
     "Product.Core.Appplication/1.0.0": {
       "type": "project",
       "path": "../Product.Core.Appplication/Product.Core.Appplication.csproj",
@@ -5713,30 +5717,25 @@
       "path": "../Product.Core.Domain/Product.Core.Domain.csproj",
       "msbuildProject": "../Product.Core.Domain/Product.Core.Domain.csproj"
     },
-    "Product.Infrastructure/1.0.0": {
+    "Product.Infrastructure.Orm/1.0.0": {
       "type": "project",
-      "path": "../Product.Infrastructure/Product.Infrastructure.csproj",
-      "msbuildProject": "../Product.Infrastructure/Product.Infrastructure.csproj"
+      "path": "../Product.Infrastructure/Product.Infrastructure.Orm.csproj",
+      "msbuildProject": "../Product.Infrastructure/Product.Infrastructure.Orm.csproj"
     },
     "Sale.Core.Domain/1.0.0": {
       "type": "project",
       "path": "../../Sale/Sale.Core.Domain/Sale.Core.Domain.csproj",
       "msbuildProject": "../../Sale/Sale.Core.Domain/Sale.Core.Domain.csproj"
     },
-    "Sale.Core.Domain.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../../Sale/Sale.Core.Domain.Contracts/Sale.Core.Domain.Contracts.csproj",
-      "msbuildProject": "../../Sale/Sale.Core.Domain.Contracts/Sale.Core.Domain.Contracts.csproj"
-    },
     "Shared.Dto/1.0.0": {
       "type": "project",
       "path": "../../Shared/Shared.Dto/Shared.Dto.csproj",
       "msbuildProject": "../../Shared/Shared.Dto/Shared.Dto.csproj"
     },
-    "Shared.Infrasctructure/1.0.0": {
+    "Shared.Infrasctructure.Orm/1.0.0": {
       "type": "project",
-      "path": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.csproj",
-      "msbuildProject": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.csproj"
+      "path": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.Orm.csproj",
+      "msbuildProject": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.Orm.csproj"
     },
     "Stock.Core.Domain/1.0.0": {
       "type": "project",
@@ -5750,7 +5749,7 @@
       "MediatR >= 12.4.1",
       "Product.Core.Appplication >= 1.0.0",
       "Product.Core.Domain >= 1.0.0",
-      "Product.Infrastructure >= 1.0.0",
+      "Product.Infrastructure.Orm >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -5800,8 +5799,8 @@
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\Product.Infrastructure.Orm.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\Product.Infrastructure.Orm.csproj"
             }
           }
         }

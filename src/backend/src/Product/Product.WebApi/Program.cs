@@ -1,6 +1,6 @@
 using Product.Core.Appplication;
 using Product.Core.Domain.Repository;
-using Product.Infrastructure.Repository;
+using Product.Infrastructure.Orm.Repository;
 using Shared.Infrasctructure.Service;
 using Shared.Infrastructure;
 using StackExchange.Redis;

@@ -3,7 +3,7 @@ using Sale.Core.Domain.Repository;
 using Shared.Infrasctructure;
 using Shared.Infrastructure;
 
-namespace Sale.Infrastructure.Repository;
+namespace Sale.Infrastructure.Orm.Repository;
 
 public class SaleRepository : RepositoryBase<SaleCoreDomainEntities.Sale>, ISaleRepository
 {

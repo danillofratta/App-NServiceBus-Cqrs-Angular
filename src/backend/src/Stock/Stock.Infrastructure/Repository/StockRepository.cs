@@ -3,7 +3,7 @@ using Shared.Infrasctructure;
 using Shared.Infrastructure;
 using Stock.Core.Domain.Repository;
 
-namespace Stock.Infrastructure.Repository;
+namespace Stock.Infrastructure.Orm.Repository;
 
 public class StockRepository : RepositoryBase<StockCoreDomainEntitties.Stock>, IStockRepository
 {
@@ -11,12 +11,12 @@ public class StockRepository : RepositoryBase<StockCoreDomainEntitties.Stock>, I
     {
     }    
 
-    public async Task<StockCoreDomainEntitties.Stock> GetByProductIdAsync(string id, CancellationToken cancellationToken = default)
+    public async Task<StockCoreDomainEntitties.Stock> GetByProductIdAsync(Guid id, CancellationToken cancellationToken = default)
     {
         return await _DefaultDbContext.Stocks.AsNoTracking().FirstOrDefaultAsync(x => x.ProductId == id, cancellationToken);
     }
 
-    public async Task<List<StockCoreDomainEntitties.Stock>> GetListProductVyIdAsync(string id)
+    public async Task<List<StockCoreDomainEntitties.Stock>> GetListProductVyIdAsync(Guid id)
     {
         return await _DefaultDbContext.Stocks.AsNoTracking().Where(x => x.ProductId == id).ToListAsync();
     }

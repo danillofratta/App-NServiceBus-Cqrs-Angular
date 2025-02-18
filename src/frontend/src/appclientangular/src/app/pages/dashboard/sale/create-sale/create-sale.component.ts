@@ -22,7 +22,7 @@ export class CreateSaleComponent implements OnInit {
   public busy = false;
   public _ListError: string[] = [];
 
-  private productDto: any;
+  public productDto: any;
 
   private saleItemsSubject = new BehaviorSubject<CreateSaleItemResponseDto[]>([]);
   public saleItems$ = this.saleItemsSubject.asObservable();
@@ -57,7 +57,7 @@ export class CreateSaleComponent implements OnInit {
       nameproduct: [''],
       idproduct: ['', Validators.required],
       quantity: [1, [Validators.required, Validators.min(1)]],
-      unitPrice: [0, [Validators.required, Validators.min(0)]],
+      unitPrice: [0, [Validators.required, Validators.min(0.01)]],
       saleItems: this.fb.array([])
     });
 
@@ -98,10 +98,10 @@ export class CreateSaleComponent implements OnInit {
       nameproduct: [''],
       idproduct: ['', Validators.required],
       quantity: [1, [Validators.required, Validators.min(1)]],
-      unitPrice: [0, [Validators.required, Validators.min(0)]]
+      unitPrice: [0, [Validators.required, Validators.min(0.01)]]
     });
 
-    this.productDto = null;
+    this.productDto = null;    
   }
 
   removeItem(index: number) {
@@ -180,12 +180,12 @@ export class CreateSaleComponent implements OnInit {
   onProductSelected(record: ProductDto) {
     this.productDto = record;
 
-    if (record) {
-      this.form.controls['idproduct'].setValue(record.id);
-      this.form.controls['nameproduct'].setValue(record.name);
+    if (record != null) {
+      this.formitem.controls['idproduct'].setValue(record.id);
+      this.formitem.controls['nameproduct'].setValue(record.name);
     } else {
-      this.form.controls['idproduct'].reset();
-      this.form.controls['nameproduct'].reset();
+      this.formitem.controls['idproduct'].reset();
+      this.formitem.controls['nameproduct'].reset();
     }
   }
 }

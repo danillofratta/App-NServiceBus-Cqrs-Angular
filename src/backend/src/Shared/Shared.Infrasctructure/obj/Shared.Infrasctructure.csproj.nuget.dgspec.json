@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj",
-        "projectName": "Product.Core.Domain",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj",
+        "projectName": "Payment.Core.Domain",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -225,14 +225,14 @@
         }
       }
     },
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj",
-        "projectName": "Sale.Core.Domain.Contracts",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj",
+        "projectName": "Product.Core.Domain",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -278,12 +278,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "NServiceBus": {
-              "target": "Package",
-              "version": "[9.2.6, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -491,6 +485,9 @@
               "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
                 "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
               },
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj"
+              },
               "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
                 "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj"
               },
@@ -605,9 +602,6 @@
               },
               "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
                 "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
-              },
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj"
               },
               "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Dto\\Shared.Dto.csproj": {
                 "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Dto\\Shared.Dto.csproj"

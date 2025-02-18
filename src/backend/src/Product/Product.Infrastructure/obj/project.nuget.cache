@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lV4bKVjVPeU=",
+  "dgSpecHash": "/wTflgmO2m0=",
   "success": true,
-  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
+  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\Product.Infrastructure.Orm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danil\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",

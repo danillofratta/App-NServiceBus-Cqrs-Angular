@@ -17,6 +17,7 @@
           "NServiceBus": "9.2.6",
           "Sale.Core.Domain": "1.0.0",
           "Sale.Core.Domain.Contracts": "1.0.0",
+          "Sale.Core.Domain.Saga": "1.0.0",
           "Serilog": "4.2.0",
           "Shared.Dto": "1.0.0"
         },
@@ -957,6 +958,18 @@
           }
         }
       },
+      "Sale.Core.Domain.Saga/1.0.0": {
+        "dependencies": {
+          "NServiceBus": "9.2.6",
+          "Sale.Core.Domain.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Sale.Core.Domain.Saga.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Shared.Dto/1.0.0": {
         "dependencies": {
           "MediatR": "12.4.1",
@@ -1581,6 +1594,11 @@
       "sha512": ""
     },
     "Sale.Core.Domain.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sale.Core.Domain.Saga/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1975,6 +1975,19 @@
           "bin/placeholder/Base.WebApi.dll": {}
         }
       },
+      "Payment.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Base.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Payment.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Payment.Core.Domain.dll": {}
+        }
+      },
       "Product.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2014,6 +2027,7 @@
           "NServiceBus": "9.2.6",
           "Sale.Core.Domain": "1.0.0",
           "Sale.Core.Domain.Contracts": "1.0.0",
+          "Sale.Core.Domain.Saga": "1.0.0",
           "Serilog": "4.2.0",
           "Shared.Dto": "1.0.0"
         },
@@ -2038,7 +2052,21 @@
           "bin/placeholder/Sale.Core.Domain.Contracts.dll": {}
         }
       },
-      "Sale.Infrasctructure/1.0.0": {
+      "Sale.Core.Domain.Saga/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "NServiceBus": "9.2.6",
+          "Sale.Core.Domain.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sale.Core.Domain.Saga.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sale.Core.Domain.Saga.dll": {}
+        }
+      },
+      "Sale.Infrasctructure.Orm/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -2048,13 +2076,29 @@
           "Sale.Core.Domain": "1.0.0",
           "Sale.Core.Domain.Application": "1.0.0",
           "Shared.Dto": "1.0.0",
-          "Shared.Infrasctructure": "1.0.0"
+          "Shared.Infrasctructure.Orm": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Sale.Infrasctructure.dll": {}
+          "bin/placeholder/Sale.Infrasctructure.Orm.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Sale.Infrasctructure.dll": {}
+          "bin/placeholder/Sale.Infrasctructure.Orm.dll": {}
+        }
+      },
+      "Sale.Infrastructure.Bus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "NServiceBus": "9.2.6",
+          "NServiceBus.RabbitMQ": "9.2.0",
+          "Sale.Core.Domain.Saga": "1.0.0",
+          "Sale.Infrasctructure.Orm": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sale.Infrastructure.Bus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sale.Infrastructure.Bus.dll": {}
         }
       },
       "Shared.Dto/1.0.0": {
@@ -2071,7 +2115,7 @@
           "bin/placeholder/Shared.Dto.dll": {}
         }
       },
-      "Shared.Infrasctructure/1.0.0": {
+      "Shared.Infrasctructure.Orm/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -2079,16 +2123,17 @@
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Newtonsoft.Json": "9.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.1",
+          "Payment.Core.Domain": "1.0.0",
           "Product.Core.Domain": "1.0.0",
           "Sale.Core.Domain": "1.0.0",
           "StackExchange.Redis": "2.8.24",
           "Stock.Core.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Shared.Infrasctructure.dll": {}
+          "bin/placeholder/Shared.Infrasctructure.Orm.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Shared.Infrasctructure.dll": {}
+          "bin/placeholder/Shared.Infrasctructure.Orm.dll": {}
         }
       },
       "Stock.Core.Domain/1.0.0": {
@@ -2097,7 +2142,6 @@
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
-          "Sale.Core.Domain.Contracts": "1.0.0",
           "Shared.Dto": "1.0.0"
         },
         "compile": {
@@ -6174,6 +6218,11 @@
       "path": "../../Base/Base.WebApi/Base.WebApi.csproj",
       "msbuildProject": "../../Base/Base.WebApi/Base.WebApi.csproj"
     },
+    "Payment.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Payment/Payment.Core.Domain/Payment.Core.Domain.csproj",
+      "msbuildProject": "../../Payment/Payment.Core.Domain/Payment.Core.Domain.csproj"
+    },
     "Product.Core.Domain/1.0.0": {
       "type": "project",
       "path": "../../Product/Product.Core.Domain/Product.Core.Domain.csproj",
@@ -6194,20 +6243,30 @@
       "path": "../Sale.Core.Domain.Contracts/Sale.Core.Domain.Contracts.csproj",
       "msbuildProject": "../Sale.Core.Domain.Contracts/Sale.Core.Domain.Contracts.csproj"
     },
-    "Sale.Infrasctructure/1.0.0": {
+    "Sale.Core.Domain.Saga/1.0.0": {
       "type": "project",
-      "path": "../Sale.Infrasctructure/Sale.Infrasctructure.csproj",
-      "msbuildProject": "../Sale.Infrasctructure/Sale.Infrasctructure.csproj"
+      "path": "../Sale.Core.Domain.Saga/Sale.Core.Domain.Saga.csproj",
+      "msbuildProject": "../Sale.Core.Domain.Saga/Sale.Core.Domain.Saga.csproj"
+    },
+    "Sale.Infrasctructure.Orm/1.0.0": {
+      "type": "project",
+      "path": "../Sale.Infrasctructure/Sale.Infrasctructure.Orm.csproj",
+      "msbuildProject": "../Sale.Infrasctructure/Sale.Infrasctructure.Orm.csproj"
+    },
+    "Sale.Infrastructure.Bus/1.0.0": {
+      "type": "project",
+      "path": "../Sale.Infrastructure.Bus/Sale.Infrastructure.Bus.csproj",
+      "msbuildProject": "../Sale.Infrastructure.Bus/Sale.Infrastructure.Bus.csproj"
     },
     "Shared.Dto/1.0.0": {
       "type": "project",
       "path": "../../Shared/Shared.Dto/Shared.Dto.csproj",
       "msbuildProject": "../../Shared/Shared.Dto/Shared.Dto.csproj"
     },
-    "Shared.Infrasctructure/1.0.0": {
+    "Shared.Infrasctructure.Orm/1.0.0": {
       "type": "project",
-      "path": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.csproj",
-      "msbuildProject": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.csproj"
+      "path": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.Orm.csproj",
+      "msbuildProject": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.Orm.csproj"
     },
     "Stock.Core.Domain/1.0.0": {
       "type": "project",
@@ -6225,11 +6284,12 @@
       "NServiceBus.RabbitMQ >= 9.2.0",
       "Sale.Core.Domain >= 1.0.0",
       "Sale.Core.Domain.Application >= 1.0.0",
-      "Sale.Infrasctructure >= 1.0.0",
+      "Sale.Infrasctructure.Orm >= 1.0.0",
+      "Sale.Infrastructure.Bus >= 1.0.0",
       "Serilog >= 4.2.0",
       "Serilog.AspNetCore >= 9.0.0",
       "Shared.Dto >= 1.0.0",
-      "Shared.Infrasctructure >= 1.0.0",
+      "Shared.Infrasctructure.Orm >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -6282,14 +6342,17 @@
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrasctructure\\Sale.Infrasctructure.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrasctructure\\Sale.Infrasctructure.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrasctructure\\Sale.Infrasctructure.Orm.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrasctructure\\Sale.Infrasctructure.Orm.csproj"
+            },
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrastructure.Bus\\Sale.Infrastructure.Bus.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrastructure.Bus\\Sale.Infrastructure.Bus.csproj"
             },
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Dto\\Shared.Dto.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Dto\\Shared.Dto.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure\\Shared.Infrasctructure.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure\\Shared.Infrasctructure.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure\\Shared.Infrasctructure.Orm.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure\\Shared.Infrasctructure.Orm.csproj"
             }
           }
         }

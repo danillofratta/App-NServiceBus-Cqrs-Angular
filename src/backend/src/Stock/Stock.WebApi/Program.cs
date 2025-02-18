@@ -2,8 +2,9 @@ using Serilog;
 using Shared.Infrastructure;
 using Stock.Core.Application;
 using Stock.Core.Domain.Repository;
-using Stock.Infrasctructure.Services.Bus.Config;
-using Stock.Infrastructure.Repository;
+using Stock.Core.Domain.Services;
+using Stock.Infrasctructure.Services.Bus;
+using Stock.Infrastructure.Orm.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +33,7 @@ builder.Services.AddAutoMapper(typeof(Program).Assembly, typeof(ApplicationLayer
 
 builder.Services.AddDbContext<DefaultDbContext>();
 builder.Services.AddScoped<IStockRepository, StockRepository>();
+builder.Services.AddScoped<CalculateStockService>();
 
 builder.Services.AddNServiceBus();
 

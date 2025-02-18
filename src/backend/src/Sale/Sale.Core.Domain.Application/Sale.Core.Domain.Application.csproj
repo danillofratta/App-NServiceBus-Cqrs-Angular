@@ -27,6 +27,7 @@
     <ProjectReference Include="..\..\Base\Base.WebApi\Base.WebApi.csproj" />
     <ProjectReference Include="..\..\Shared\Shared.Dto\Shared.Dto.csproj" />
     <ProjectReference Include="..\Sale.Core.Domain.Contracts\Sale.Core.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\Sale.Core.Domain.Saga\Sale.Core.Domain.Saga.csproj" />
     <ProjectReference Include="..\Sale.Core.Domain\Sale.Core.Domain.csproj" />
   </ItemGroup>
 

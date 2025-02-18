@@ -8,7 +8,7 @@ using Shared.Infrastructure;
 
 #nullable disable
 
-namespace Shared.Infrasctructure.Migrations
+namespace Shared.Infrasctructure.Orm.Migrations
 {
     [DbContext(typeof(DefaultDbContext))]
     partial class DefaultDbContextModelSnapshot : ModelSnapshot
@@ -22,7 +22,7 @@ namespace Shared.Infrasctructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("NaoEstaFuncionando.Stock", b =>
+            modelBuilder.Entity("PaymentCoreDomainEntities.Payment", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -34,23 +34,18 @@ namespace Shared.Infrasctructure.Migrations
                     b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("numeric");
+                    b.Property<Guid>("SaleId")
+                        .HasColumnType("uuid");
 
-                    b.Property<string>("ProductId")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
 
-                    b.Property<string>("ProductName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<decimal>("Quantity")
+                    b.Property<decimal>("Total")
                         .HasColumnType("numeric");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Stocks");
+                    b.ToTable("Payments");
                 });
 
             modelBuilder.Entity("Product.Core.Domain.Entities.Product", b =>
@@ -77,7 +72,7 @@ namespace Shared.Infrasctructure.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Sale.Core.Domain.Entities.Sale", b =>
+            modelBuilder.Entity("SaleCoreDomainEntities.Sale", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -122,7 +117,7 @@ namespace Shared.Infrasctructure.Migrations
                     b.ToTable("Sales");
                 });
 
-            modelBuilder.Entity("Sale.Core.Domain.Entities.SaleItens", b =>
+            modelBuilder.Entity("SaleCoreDomainEntities.SaleItens", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -137,9 +132,8 @@ namespace Shared.Infrasctructure.Migrations
                     b.Property<decimal>("Discount")
                         .HasColumnType("numeric");
 
-                    b.Property<string>("ProductId")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uuid");
 
                     b.Property<string>("ProductName")
                         .IsRequired()
@@ -167,9 +161,39 @@ namespace Shared.Infrasctructure.Migrations
                     b.ToTable("SaleItens");
                 });
 
-            modelBuilder.Entity("Sale.Core.Domain.Entities.SaleItens", b =>
+            modelBuilder.Entity("StockCoreDomainEntitties.Stock", b =>
                 {
-                    b.HasOne("Sale.Core.Domain.Entities.Sale", "Sale")
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<decimal>("Quantity")
+                        .HasColumnType("numeric");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Stocks");
+                });
+
+            modelBuilder.Entity("SaleCoreDomainEntities.SaleItens", b =>
+                {
+                    b.HasOne("SaleCoreDomainEntities.Sale", "Sale")
                         .WithMany("SaleItens")
                         .HasForeignKey("SaleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -178,7 +202,7 @@ namespace Shared.Infrasctructure.Migrations
                     b.Navigation("Sale");
                 });
 
-            modelBuilder.Entity("Sale.Core.Domain.Entities.Sale", b =>
+            modelBuilder.Entity("SaleCoreDomainEntities.Sale", b =>
                 {
                     b.Navigation("SaleItens");
                 });

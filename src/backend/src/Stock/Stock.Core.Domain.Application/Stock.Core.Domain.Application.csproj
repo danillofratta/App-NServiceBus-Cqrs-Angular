@@ -16,12 +16,9 @@
     <ProjectReference Include="..\..\Base\Base.Core.Domain.Application\Base.Core.Domain.Application.csproj" />
     <ProjectReference Include="..\..\Base\Base.Core.Domain\Base.Core.Domain.csproj" />
     <ProjectReference Include="..\..\Sale\Sale.Core.Domain.Contracts\Sale.Core.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\..\Sale\Sale.Core.Domain.Saga\Sale.Core.Domain.Saga.csproj" />
     <ProjectReference Include="..\..\Shared\Shared.Dto\Shared.Dto.csproj" />
     <ProjectReference Include="..\Stock.Core.Domain\Stock.Core.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Stock\Services\" />
   </ItemGroup>
 
 </Project>

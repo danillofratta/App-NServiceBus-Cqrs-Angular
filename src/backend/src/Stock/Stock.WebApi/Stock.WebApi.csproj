@@ -19,7 +19,8 @@
     <ProjectReference Include="..\..\Base\Base.Core.Domain\Base.Core.Domain.csproj" />
     <ProjectReference Include="..\..\Base\Base.WebApi\Base.WebApi.csproj" />
     <ProjectReference Include="..\Stock.Core.Domain\Stock.Core.Domain.csproj" />
-    <ProjectReference Include="..\Stock.Infrastructure\Stock.Infrastructure.csproj" />
+    <ProjectReference Include="..\Stock.Infrastructure.Bus\Stock.Infrastructure.Bus.csproj" />
+    <ProjectReference Include="..\Stock.Infrastructure\Stock.Infrastructure.Orm.csproj" />
   </ItemGroup>
 
 </Project>

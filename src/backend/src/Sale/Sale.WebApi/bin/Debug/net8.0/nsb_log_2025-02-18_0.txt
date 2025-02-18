@@ -1,0 +1,1338 @@
+﻿2025-02-18 09:39:09.267 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 09:39:09.534 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 09:42:14.762 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 09:42:15.119 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 09:43:04.983 INFO  Immediate Retry is going to retry message '31c7b16d-959c-41e1-8a2e-b28800d1962b' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 31c7b16d-959c-41e1-8a2e-b28800d1962b
+	Pipeline canceled: False
+2025-02-18 09:43:05.007 INFO  Immediate Retry is going to retry message '31c7b16d-959c-41e1-8a2e-b28800d1962b' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 31c7b16d-959c-41e1-8a2e-b28800d1962b
+	Pipeline canceled: False
+2025-02-18 09:43:05.024 WARN  Delayed Retry will reschedule message '31c7b16d-959c-41e1-8a2e-b28800d1962b' after a delay of 00:00:10 because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 31c7b16d-959c-41e1-8a2e-b28800d1962b
+	Pipeline canceled: False
+2025-02-18 09:43:15.066 INFO  Immediate Retry is going to retry message '31c7b16d-959c-41e1-8a2e-b28800d1962b' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 31c7b16d-959c-41e1-8a2e-b28800d1962b
+	Pipeline canceled: False
+2025-02-18 09:43:15.079 INFO  Immediate Retry is going to retry message '31c7b16d-959c-41e1-8a2e-b28800d1962b' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 31c7b16d-959c-41e1-8a2e-b28800d1962b
+	Pipeline canceled: False
+2025-02-18 09:43:15.090 ERROR Moving message '31c7b16d-959c-41e1-8a2e-b28800d1962b' to the error queue 'error' because processing failed due to an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 31c7b16d-959c-41e1-8a2e-b28800d1962b
+	Pipeline canceled: False
+2025-02-18 09:44:52.622 INFO  Immediate Retry is going to retry message '3cf7ba87-ed47-4e5b-9d1c-b28800d20e91' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 3cf7ba87-ed47-4e5b-9d1c-b28800d20e91
+	Pipeline canceled: False
+2025-02-18 09:44:52.634 INFO  Immediate Retry is going to retry message '3cf7ba87-ed47-4e5b-9d1c-b28800d20e91' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 3cf7ba87-ed47-4e5b-9d1c-b28800d20e91
+	Pipeline canceled: False
+2025-02-18 09:44:52.662 WARN  Delayed Retry will reschedule message '3cf7ba87-ed47-4e5b-9d1c-b28800d20e91' after a delay of 00:00:10 because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 3cf7ba87-ed47-4e5b-9d1c-b28800d20e91
+	Pipeline canceled: False
+2025-02-18 09:45:02.694 INFO  Immediate Retry is going to retry message '3cf7ba87-ed47-4e5b-9d1c-b28800d20e91' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 3cf7ba87-ed47-4e5b-9d1c-b28800d20e91
+	Pipeline canceled: False
+2025-02-18 09:45:02.702 INFO  Immediate Retry is going to retry message '3cf7ba87-ed47-4e5b-9d1c-b28800d20e91' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 3cf7ba87-ed47-4e5b-9d1c-b28800d20e91
+	Pipeline canceled: False
+2025-02-18 09:45:02.709 ERROR Moving message '3cf7ba87-ed47-4e5b-9d1c-b28800d20e91' to the error queue 'error' because processing failed due to an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SaleStockConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 3cf7ba87-ed47-4e5b-9d1c-b28800d20e91
+	Pipeline canceled: False
+2025-02-18 09:45:55.752 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 09:45:56.052 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 09:46:46.725 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 09:46:46.916 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 09:48:48.553 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 09:48:48.702 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 09:49:59.056 INFO  Immediate Retry is going to retry message 'fe8c704c-c9f2-4d77-a561-b28800d34b1b' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateInstanceMessage/MutateIncomingMessageBehavior.cs:line 62
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 61
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:49:49:358814 Z
+	Handler failure time: 2025-02-18 12:49:59:002621 Z
+	Handler canceled: False
+	Message ID: fe8c704c-c9f2-4d77-a561-b28800d34b1b
+	Pipeline canceled: False
+2025-02-18 09:50:02.404 INFO  Immediate Retry is going to retry message 'fe8c704c-c9f2-4d77-a561-b28800d34b1b' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:50:01:621522 Z
+	Handler failure time: 2025-02-18 12:50:02:399943 Z
+	Handler canceled: False
+	Message ID: fe8c704c-c9f2-4d77-a561-b28800d34b1b
+	Pipeline canceled: False
+2025-02-18 09:50:03.611 WARN  Delayed Retry will reschedule message 'fe8c704c-c9f2-4d77-a561-b28800d34b1b' after a delay of 00:00:10 because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:50:03:025491 Z
+	Handler failure time: 2025-02-18 12:50:03:606569 Z
+	Handler canceled: False
+	Message ID: fe8c704c-c9f2-4d77-a561-b28800d34b1b
+	Pipeline canceled: False
+2025-02-18 09:50:19.608 INFO  Immediate Retry is going to retry message 'fe8c704c-c9f2-4d77-a561-b28800d34b1b' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:50:18:703628 Z
+	Handler failure time: 2025-02-18 12:50:19:607079 Z
+	Handler canceled: False
+	Message ID: fe8c704c-c9f2-4d77-a561-b28800d34b1b
+	Pipeline canceled: False
+2025-02-18 09:50:20.978 INFO  Immediate Retry is going to retry message 'fe8c704c-c9f2-4d77-a561-b28800d34b1b' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:50:20:223299 Z
+	Handler failure time: 2025-02-18 12:50:20:975743 Z
+	Handler canceled: False
+	Message ID: fe8c704c-c9f2-4d77-a561-b28800d34b1b
+	Pipeline canceled: False
+2025-02-18 09:50:22.225 ERROR Moving message 'fe8c704c-c9f2-4d77-a561-b28800d34b1b' to the error queue 'error' because processing failed due to an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:50:21:607874 Z
+	Handler failure time: 2025-02-18 12:50:22:222696 Z
+	Handler canceled: False
+	Message ID: fe8c704c-c9f2-4d77-a561-b28800d34b1b
+	Pipeline canceled: False
+2025-02-18 09:51:04.163 INFO  Immediate Retry is going to retry message 'f459f061-5a2e-4a37-978c-b28800d3b568' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:50:58:018014 Z
+	Handler failure time: 2025-02-18 12:51:04:161620 Z
+	Handler canceled: False
+	Message ID: f459f061-5a2e-4a37-978c-b28800d3b568
+	Pipeline canceled: False
+2025-02-18 09:51:11.279 INFO  Immediate Retry is going to retry message 'f459f061-5a2e-4a37-978c-b28800d3b568' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:51:08:043291 Z
+	Handler failure time: 2025-02-18 12:51:11:277392 Z
+	Handler canceled: False
+	Message ID: f459f061-5a2e-4a37-978c-b28800d3b568
+	Pipeline canceled: False
+2025-02-18 09:51:17.233 WARN  Delayed Retry will reschedule message 'f459f061-5a2e-4a37-978c-b28800d3b568' after a delay of 00:00:10 because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:51:15:829568 Z
+	Handler failure time: 2025-02-18 12:51:17:230132 Z
+	Handler canceled: False
+	Message ID: f459f061-5a2e-4a37-978c-b28800d3b568
+	Pipeline canceled: False
+2025-02-18 09:51:37.095 INFO  Immediate Retry is going to retry message 'f459f061-5a2e-4a37-978c-b28800d3b568' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:51:29:212428 Z
+	Handler failure time: 2025-02-18 12:51:37:093236 Z
+	Handler canceled: False
+	Message ID: f459f061-5a2e-4a37-978c-b28800d3b568
+	Pipeline canceled: False
+2025-02-18 09:51:42.196 INFO  Immediate Retry is going to retry message 'f459f061-5a2e-4a37-978c-b28800d3b568' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:51:41:206781 Z
+	Handler failure time: 2025-02-18 12:51:42:195485 Z
+	Handler canceled: False
+	Message ID: f459f061-5a2e-4a37-978c-b28800d3b568
+	Pipeline canceled: False
+2025-02-18 09:51:43.777 ERROR Moving message 'f459f061-5a2e-4a37-978c-b28800d3b568' to the error queue 'error' because processing failed due to an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:51:43:028741 Z
+	Handler failure time: 2025-02-18 12:51:43:775776 Z
+	Handler canceled: False
+	Message ID: f459f061-5a2e-4a37-978c-b28800d3b568
+	Pipeline canceled: False
+2025-02-18 09:55:34.358 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 09:55:34.492 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 09:57:02.758 INFO  Immediate Retry is going to retry message '3e421db9-90ed-4f2d-9d5e-b28800d5546d' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:56:57:648861 Z
+	Handler failure time: 2025-02-18 12:57:02:728755 Z
+	Handler canceled: False
+	Message ID: 3e421db9-90ed-4f2d-9d5e-b28800d5546d
+	Pipeline canceled: False
+2025-02-18 09:58:49.572 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 09:58:49.693 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 09:59:15.454 INFO  Immediate Retry is going to retry message '3e421db9-90ed-4f2d-9d5e-b28800d5546d' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateInstanceMessage/MutateIncomingMessageBehavior.cs:line 62
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 61
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:59:05:372451 Z
+	Handler failure time: 2025-02-18 12:59:15:381878 Z
+	Handler canceled: False
+	Message ID: 3e421db9-90ed-4f2d-9d5e-b28800d5546d
+	Pipeline canceled: False
+2025-02-18 09:59:58.972 WARN  Delayed Retry will reschedule message '3e421db9-90ed-4f2d-9d5e-b28800d5546d' after a delay of 00:00:10 because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 12:59:15:572473 Z
+	Handler failure time: 2025-02-18 12:59:58:966352 Z
+	Handler canceled: False
+	Message ID: 3e421db9-90ed-4f2d-9d5e-b28800d5546d
+	Pipeline canceled: False
+2025-02-18 10:00:12.410 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:00:12.536 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 10:00:21.158 INFO  Immediate Retry is going to retry message '3e421db9-90ed-4f2d-9d5e-b28800d5546d' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateInstanceMessage/MutateIncomingMessageBehavior.cs:line 62
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 61
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:00:14:517202 Z
+	Handler failure time: 2025-02-18 13:00:21:028938 Z
+	Handler canceled: False
+	Message ID: 3e421db9-90ed-4f2d-9d5e-b28800d5546d
+	Pipeline canceled: False
+2025-02-18 10:00:35.260 INFO  Immediate Retry is going to retry message '3e421db9-90ed-4f2d-9d5e-b28800d5546d' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:00:23:302560 Z
+	Handler failure time: 2025-02-18 13:00:35:195273 Z
+	Handler canceled: False
+	Message ID: 3e421db9-90ed-4f2d-9d5e-b28800d5546d
+	Pipeline canceled: False
+2025-02-18 10:04:01.300 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:04:01.416 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 10:04:31.816 INFO  Immediate Retry is going to retry message '3e421db9-90ed-4f2d-9d5e-b28800d5546d' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateInstanceMessage/MutateIncomingMessageBehavior.cs:line 62
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 61
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:04:04:958669 Z
+	Handler failure time: 2025-02-18 13:04:31:743811 Z
+	Handler canceled: False
+	Message ID: 3e421db9-90ed-4f2d-9d5e-b28800d5546d
+	Pipeline canceled: False
+2025-02-18 10:05:19.735 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:05:19.823 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 10:05:30.055 INFO  Immediate Retry is going to retry message '3e421db9-90ed-4f2d-9d5e-b28800d5546d' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateInstanceMessage/MutateIncomingMessageBehavior.cs:line 62
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 61
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:05:22:655857 Z
+	Handler failure time: 2025-02-18 13:05:29:937836 Z
+	Handler canceled: False
+	Message ID: 3e421db9-90ed-4f2d-9d5e-b28800d5546d
+	Pipeline canceled: False
+2025-02-18 10:05:32.280 ERROR Moving message '3e421db9-90ed-4f2d-9d5e-b28800d5546d' to the error queue 'error' because processing failed due to an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:05:30:168432 Z
+	Handler failure time: 2025-02-18 13:05:32:273960 Z
+	Handler canceled: False
+	Message ID: 3e421db9-90ed-4f2d-9d5e-b28800d5546d
+	Pipeline canceled: False
+2025-02-18 10:06:13.381 INFO  Immediate Retry is going to retry message 'f1b63039-82ef-4338-9929-b28800d7ee8f' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:06:11:068510 Z
+	Handler failure time: 2025-02-18 13:06:13:378476 Z
+	Handler canceled: False
+	Message ID: f1b63039-82ef-4338-9929-b28800d7ee8f
+	Pipeline canceled: False
+2025-02-18 10:06:35.115 INFO  Immediate Retry is going to retry message 'f1b63039-82ef-4338-9929-b28800d7ee8f' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:06:13:401911 Z
+	Handler failure time: 2025-02-18 13:06:35:109084 Z
+	Handler canceled: False
+	Message ID: f1b63039-82ef-4338-9929-b28800d7ee8f
+	Pipeline canceled: False
+2025-02-18 10:07:00.473 WARN  Delayed Retry will reschedule message 'f1b63039-82ef-4338-9929-b28800d7ee8f' after a delay of 00:00:10 because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:06:35:136020 Z
+	Handler failure time: 2025-02-18 13:07:00:469172 Z
+	Handler canceled: False
+	Message ID: f1b63039-82ef-4338-9929-b28800d7ee8f
+	Pipeline canceled: False
+2025-02-18 10:07:21.839 INFO  Immediate Retry is going to retry message 'f1b63039-82ef-4338-9929-b28800d7ee8f' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:07:14:369479 Z
+	Handler failure time: 2025-02-18 13:07:21:836506 Z
+	Handler canceled: False
+	Message ID: f1b63039-82ef-4338-9929-b28800d7ee8f
+	Pipeline canceled: False
+2025-02-18 10:07:22.475 INFO  Immediate Retry is going to retry message 'f1b63039-82ef-4338-9929-b28800d7ee8f' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:07:21:855285 Z
+	Handler failure time: 2025-02-18 13:07:22:472969 Z
+	Handler canceled: False
+	Message ID: f1b63039-82ef-4338-9929-b28800d7ee8f
+	Pipeline canceled: False
+2025-02-18 10:07:23.150 ERROR Moving message 'f1b63039-82ef-4338-9929-b28800d7ee8f' to the error queue 'error' because processing failed due to an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:07:22:489965 Z
+	Handler failure time: 2025-02-18 13:07:23:147964 Z
+	Handler canceled: False
+	Message ID: f1b63039-82ef-4338-9929-b28800d7ee8f
+	Pipeline canceled: False
+2025-02-18 10:09:49.516 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:09:49.637 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 10:11:07.126 INFO  Immediate Retry is going to retry message '39f166e4-ff3c-4947-ac11-b28800d94761' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:11:05:396304 Z
+	Handler failure time: 2025-02-18 13:11:07:105263 Z
+	Handler canceled: False
+	Message ID: 39f166e4-ff3c-4947-ac11-b28800d94761
+	Pipeline canceled: False
+2025-02-18 10:12:49.551 INFO  Immediate Retry is going to retry message '39f166e4-ff3c-4947-ac11-b28800d94761' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:11:08:599248 Z
+	Handler failure time: 2025-02-18 13:12:49:528832 Z
+	Handler canceled: False
+	Message ID: 39f166e4-ff3c-4947-ac11-b28800d94761
+	Pipeline canceled: False
+2025-02-18 10:12:52.779 WARN  Delayed Retry will reschedule message '39f166e4-ff3c-4947-ac11-b28800d94761' after a delay of 00:00:10 because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:12:49:614044 Z
+	Handler failure time: 2025-02-18 13:12:52:774664 Z
+	Handler canceled: False
+	Message ID: 39f166e4-ff3c-4947-ac11-b28800d94761
+	Pipeline canceled: False
+2025-02-18 10:13:04.076 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:13:04.199 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 10:14:14.653 INFO  Immediate Retry is going to retry message '39f166e4-ff3c-4947-ac11-b28800d94761' because of an exception:
+System.Exception: No destination specified for message: Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+   at NServiceBus.UnicastSendRouter.RouteUsingTable(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 100
+   at NServiceBus.UnicastSendRouter.SelectRoute(State state, IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 59
+   at NServiceBus.UnicastSendRouter.Route(IOutgoingSendContext context) in /_/src/NServiceBus.Core/Routing/UnicastSendRouter.cs:line 49
+   at NServiceBus.SendConnector.Invoke(IOutgoingSendContext context, Func`2 stage) in /_/src/NServiceBus.Core/Routing/Routers/SendConnector.cs:line 17
+   at NServiceBus.MessageOperations.SendMessage(IBehaviorContext context, Type messageType, Object message, SendOptions options) in /_/src/NServiceBus.Core/Unicast/MessageOperations.cs:line 137
+   at Sale.Core.Domain.Saga.SaleSaga.Handle(StockConfirmedEvent message, IMessageHandlerContext context) in C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Core.Domain.Saga\Saga\SaleSaga.cs:line 39
+   at NServiceBus.InvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in /_/src/NServiceBus.Core/Pipeline/Incoming/InvokeHandlerTerminator.cs:line 27
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 114
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateInstanceMessage/MutateIncomingMessageBehavior.cs:line 62
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 61
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message type: Sale.Core.Domain.Saga.Events.StockConfirmedEvent
+	Handler type: Sale.Core.Domain.Saga.SaleSaga
+	Handler start time: 2025-02-18 13:14:04:176820 Z
+	Handler failure time: 2025-02-18 13:14:14:580091 Z
+	Handler canceled: False
+	Message ID: 39f166e4-ff3c-4947-ac11-b28800d94761
+	Pipeline canceled: False
+2025-02-18 10:15:41.371 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:15:41.556 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 10:17:34.389 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:17:34.559 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 10:20:36.079 INFO  Immediate Retry is going to retry message '44a44339-b6c9-4ed2-9e0c-b28800dbe42d' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 44a44339-b6c9-4ed2-9e0c-b28800dbe42d
+	Pipeline canceled: False
+2025-02-18 10:20:36.100 INFO  Immediate Retry is going to retry message '44a44339-b6c9-4ed2-9e0c-b28800dbe42d' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 44a44339-b6c9-4ed2-9e0c-b28800dbe42d
+	Pipeline canceled: False
+2025-02-18 10:20:36.117 WARN  Delayed Retry will reschedule message '44a44339-b6c9-4ed2-9e0c-b28800dbe42d' after a delay of 00:00:10 because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 44a44339-b6c9-4ed2-9e0c-b28800dbe42d
+	Pipeline canceled: False
+2025-02-18 10:20:46.156 INFO  Immediate Retry is going to retry message '44a44339-b6c9-4ed2-9e0c-b28800dbe42d' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 44a44339-b6c9-4ed2-9e0c-b28800dbe42d
+	Pipeline canceled: False
+2025-02-18 10:20:46.170 INFO  Immediate Retry is going to retry message '44a44339-b6c9-4ed2-9e0c-b28800dbe42d' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 44a44339-b6c9-4ed2-9e0c-b28800dbe42d
+	Pipeline canceled: False
+2025-02-18 10:20:46.178 ERROR Moving message '44a44339-b6c9-4ed2-9e0c-b28800dbe42d' to the error queue 'error' because processing failed due to an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 44a44339-b6c9-4ed2-9e0c-b28800dbe42d
+	Pipeline canceled: False
+2025-02-18 10:24:26.594 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:24:26.733 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 10:25:52.102 INFO  Immediate Retry is going to retry message 'eccaa885-a476-4352-8a17-b28800dd5690' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: eccaa885-a476-4352-8a17-b28800dd5690
+	Pipeline canceled: False
+2025-02-18 10:25:52.125 INFO  Immediate Retry is going to retry message 'eccaa885-a476-4352-8a17-b28800dd5690' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: eccaa885-a476-4352-8a17-b28800dd5690
+	Pipeline canceled: False
+2025-02-18 10:25:52.141 WARN  Delayed Retry will reschedule message 'eccaa885-a476-4352-8a17-b28800dd5690' after a delay of 00:00:10 because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: eccaa885-a476-4352-8a17-b28800dd5690
+	Pipeline canceled: False
+2025-02-18 10:26:02.167 INFO  Immediate Retry is going to retry message 'eccaa885-a476-4352-8a17-b28800dd5690' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: eccaa885-a476-4352-8a17-b28800dd5690
+	Pipeline canceled: False
+2025-02-18 10:26:02.184 INFO  Immediate Retry is going to retry message 'eccaa885-a476-4352-8a17-b28800dd5690' because of an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: eccaa885-a476-4352-8a17-b28800dd5690
+	Pipeline canceled: False
+2025-02-18 10:26:02.204 ERROR Moving message 'eccaa885-a476-4352-8a17-b28800dd5690' to the error queue 'error' because processing failed due to an exception:
+System.InvalidOperationException: Unable to resolve service for type 'Sale.Core.Domain.Service.SalePaymentConfirmedService' while attempting to activate 'Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 46
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: eccaa885-a476-4352-8a17-b28800dd5690
+	Pipeline canceled: False
+2025-02-18 10:27:47.699 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:27:47.889 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 10:32:50.604 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:32:50.732 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 10:36:38.898 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 10:36:39.067 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 11:11:00.099 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 11:11:00.450 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 11:17:13.095 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 11:17:13.356 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-18 11:36:45.956 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-18 11:36:46.177 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.

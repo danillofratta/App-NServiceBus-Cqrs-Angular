@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SaleCoreDomainEntities;
 using System.Reflection;
 
 namespace Shared.Infrastructure;
@@ -9,6 +10,8 @@ public class DefaultDbContext : DbContext
     public DbSet<SaleCoreDomainEntities.SaleItens> SaleItens { get; set; }
     public DbSet<StockCoreDomainEntitties.Stock> Stocks { get; set; }
     public DbSet<Product.Core.Domain.Entities.Product> Products { get; set; }
+
+    public DbSet<PaymentCoreDomainEntities.Payment> Payments { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -50,6 +53,9 @@ public class DefaultDbContext : DbContext
             .HasKey(x => x.Id);
 
         modelBuilder.Entity<Product.Core.Domain.Entities.Product>()
+            .HasKey(x => x.Id);
+
+        modelBuilder.Entity<PaymentCoreDomainEntities.Payment>()
             .HasKey(x => x.Id);
     }
 }

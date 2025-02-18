@@ -58,7 +58,7 @@
           <input formControlName="nameproduct" type="hidden" readonly />
           
           <app-product-auto-complete placeholder="Is required"
-                                     *ngIf="!busy"
+                                     *ngIf="!busy"                                      
                                      (productSelected)="onProductSelected($event)" />
 
           <mat-form-field>
@@ -81,7 +81,7 @@
           <button mat-raised-button
                   color="primary"
                   (click)="addItem()"
-                  
+                  [disabled]="formitem.invalid"
                   >
             Add Item
           </button>

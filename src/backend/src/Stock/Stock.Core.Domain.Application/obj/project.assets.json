@@ -458,6 +458,20 @@
           "bin/placeholder/Sale.Core.Domain.Contracts.dll": {}
         }
       },
+      "Sale.Core.Domain.Saga/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "NServiceBus": "9.2.6",
+          "Sale.Core.Domain.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sale.Core.Domain.Saga.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sale.Core.Domain.Saga.dll": {}
+        }
+      },
       "Shared.Dto/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -478,7 +492,6 @@
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
-          "Sale.Core.Domain.Contracts": "1.0.0",
           "Shared.Dto": "1.0.0"
         },
         "compile": {
@@ -1142,6 +1155,11 @@
       "path": "../../Sale/Sale.Core.Domain.Contracts/Sale.Core.Domain.Contracts.csproj",
       "msbuildProject": "../../Sale/Sale.Core.Domain.Contracts/Sale.Core.Domain.Contracts.csproj"
     },
+    "Sale.Core.Domain.Saga/1.0.0": {
+      "type": "project",
+      "path": "../../Sale/Sale.Core.Domain.Saga/Sale.Core.Domain.Saga.csproj",
+      "msbuildProject": "../../Sale/Sale.Core.Domain.Saga/Sale.Core.Domain.Saga.csproj"
+    },
     "Shared.Dto/1.0.0": {
       "type": "project",
       "path": "../../Shared/Shared.Dto/Shared.Dto.csproj",
@@ -1161,6 +1179,7 @@
       "NServiceBus >= 9.2.6",
       "NServiceBus.RabbitMQ >= 9.2.0",
       "Sale.Core.Domain.Contracts >= 1.0.0",
+      "Sale.Core.Domain.Saga >= 1.0.0",
       "Shared.Dto >= 1.0.0",
       "Stock.Core.Domain >= 1.0.0"
     ]
@@ -1210,6 +1229,9 @@
             },
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj"
+            },
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj"
             },
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Dto\\Shared.Dto.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Dto\\Shared.Dto.csproj"

@@ -10,9 +10,9 @@ public interface IStockRepository : IRepositoryBase<StockCoreDomainEntitties.Sto
     /// <param name="id"></param>
     /// <param name="cancellationToken"></param>
     /// <returns></returns>
-    Task<StockCoreDomainEntitties.Stock> GetByProductIdAsync(string id, CancellationToken cancellationToken = default);
+    Task<StockCoreDomainEntitties.Stock> GetByProductIdAsync(Guid id, CancellationToken cancellationToken = default);
 
-    Task<List<StockCoreDomainEntitties.Stock>> GetListProductVyIdAsync(string id);
+    Task<List<StockCoreDomainEntitties.Stock>> GetListProductVyIdAsync(Guid id);
 
     Task<(IReadOnlyList<StockCoreDomainEntitties.Stock> stocks, int totalCount)> GetPagedAsync
     (

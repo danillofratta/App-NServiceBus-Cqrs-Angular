@@ -12,7 +12,7 @@
           "MediatR": "12.4.1",
           "Product.Core.Appplication": "1.0.0",
           "Product.Core.Domain": "1.0.0",
-          "Product.Infrastructure": "1.0.0",
+          "Product.Infrastructure.Orm": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -968,6 +968,17 @@
           }
         }
       },
+      "Payment.Core.Domain/1.0.0": {
+        "dependencies": {
+          "Base.Core.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Payment.Core.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Product.Core.Appplication/1.0.0": {
         "dependencies": {
           "AutoMapper": "14.0.0",
@@ -993,13 +1004,13 @@
           }
         }
       },
-      "Product.Infrastructure/1.0.0": {
+      "Product.Infrastructure.Orm/1.0.0": {
         "dependencies": {
           "Product.Core.Domain": "1.0.0",
-          "Shared.Infrasctructure": "1.0.0"
+          "Shared.Infrasctructure.Orm": "1.0.0"
         },
         "runtime": {
-          "Product.Infrastructure.dll": {
+          "Product.Infrastructure.Orm.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1011,18 +1022,6 @@
         },
         "runtime": {
           "Sale.Core.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Sale.Core.Domain.Contracts/1.0.0": {
-        "dependencies": {
-          "Base.Core.Domain": "1.0.0",
-          "NServiceBus": "9.2.6"
-        },
-        "runtime": {
-          "Sale.Core.Domain.Contracts.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1040,19 +1039,20 @@
           }
         }
       },
-      "Shared.Infrasctructure/1.0.0": {
+      "Shared.Infrasctructure.Orm/1.0.0": {
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Newtonsoft.Json": "9.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.1",
+          "Payment.Core.Domain": "1.0.0",
           "Product.Core.Domain": "1.0.0",
           "Sale.Core.Domain": "1.0.0",
           "StackExchange.Redis": "2.8.24",
           "Stock.Core.Domain": "1.0.0"
         },
         "runtime": {
-          "Shared.Infrasctructure.dll": {
+          "Shared.Infrasctructure.Orm.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1062,7 +1062,6 @@
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
-          "Sale.Core.Domain.Contracts": "1.0.0",
           "Shared.Dto": "1.0.0"
         },
         "runtime": {
@@ -1802,6 +1801,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Payment.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Product.Core.Appplication/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1812,7 +1816,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Product.Infrastructure/1.0.0": {
+    "Product.Infrastructure.Orm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1822,17 +1826,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Sale.Core.Domain.Contracts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Shared.Dto/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Shared.Infrasctructure/1.0.0": {
+    "Shared.Infrasctructure.Orm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

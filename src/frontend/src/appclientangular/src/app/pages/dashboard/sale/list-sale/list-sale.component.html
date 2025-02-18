@@ -49,7 +49,11 @@
         <span [ngSwitch]="element.status">
           <span *ngSwitchCase="0">Create</span>
           <span *ngSwitchCase="1">Cancelled</span>
-          <span *ngSwitchCase="2">OutOfStock</span>          
+          <span *ngSwitchCase="2">Stock Insufficiente</span>
+          <span *ngSwitchCase="3">Stock Confirmed</span>
+          <span *ngSwitchCase="4">Paiment Wainting</span>
+          <span *ngSwitchCase="5">Paiment Confirmed</span>
+          <span *ngSwitchCase="6">Paiment Cancelled</span>          
         </span>
       </td>
     </ng-container>

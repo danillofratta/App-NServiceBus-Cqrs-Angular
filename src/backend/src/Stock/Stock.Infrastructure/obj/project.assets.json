@@ -1285,6 +1285,19 @@
           "bin/placeholder/Base.Core.Domain.Application.dll": {}
         }
       },
+      "Payment.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Base.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Payment.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Payment.Core.Domain.dll": {}
+        }
+      },
       "Product.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1325,6 +1338,20 @@
           "bin/placeholder/Sale.Core.Domain.Contracts.dll": {}
         }
       },
+      "Sale.Core.Domain.Saga/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "NServiceBus": "9.2.6",
+          "Sale.Core.Domain.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sale.Core.Domain.Saga.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sale.Core.Domain.Saga.dll": {}
+        }
+      },
       "Shared.Dto/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1339,7 +1366,7 @@
           "bin/placeholder/Shared.Dto.dll": {}
         }
       },
-      "Shared.Infrasctructure/1.0.0": {
+      "Shared.Infrasctructure.Orm/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1347,16 +1374,17 @@
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Newtonsoft.Json": "9.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.1",
+          "Payment.Core.Domain": "1.0.0",
           "Product.Core.Domain": "1.0.0",
           "Sale.Core.Domain": "1.0.0",
           "StackExchange.Redis": "2.8.24",
           "Stock.Core.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Shared.Infrasctructure.dll": {}
+          "bin/placeholder/Shared.Infrasctructure.Orm.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Shared.Infrasctructure.dll": {}
+          "bin/placeholder/Shared.Infrasctructure.Orm.dll": {}
         }
       },
       "Stock.Core.Domain/1.0.0": {
@@ -1365,7 +1393,6 @@
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
-          "Sale.Core.Domain.Contracts": "1.0.0",
           "Shared.Dto": "1.0.0"
         },
         "compile": {
@@ -1385,6 +1412,7 @@
           "NServiceBus": "9.2.6",
           "NServiceBus.RabbitMQ": "9.2.0",
           "Sale.Core.Domain.Contracts": "1.0.0",
+          "Sale.Core.Domain.Saga": "1.0.0",
           "Shared.Dto": "1.0.0",
           "Stock.Core.Domain": "1.0.0"
         },
@@ -4451,6 +4479,11 @@
       "path": "../../Base/Base.Core.Domain.Application/Base.Core.Domain.Application.csproj",
       "msbuildProject": "../../Base/Base.Core.Domain.Application/Base.Core.Domain.Application.csproj"
     },
+    "Payment.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Payment/Payment.Core.Domain/Payment.Core.Domain.csproj",
+      "msbuildProject": "../../Payment/Payment.Core.Domain/Payment.Core.Domain.csproj"
+    },
     "Product.Core.Domain/1.0.0": {
       "type": "project",
       "path": "../../Product/Product.Core.Domain/Product.Core.Domain.csproj",
@@ -4466,15 +4499,20 @@
       "path": "../../Sale/Sale.Core.Domain.Contracts/Sale.Core.Domain.Contracts.csproj",
       "msbuildProject": "../../Sale/Sale.Core.Domain.Contracts/Sale.Core.Domain.Contracts.csproj"
     },
+    "Sale.Core.Domain.Saga/1.0.0": {
+      "type": "project",
+      "path": "../../Sale/Sale.Core.Domain.Saga/Sale.Core.Domain.Saga.csproj",
+      "msbuildProject": "../../Sale/Sale.Core.Domain.Saga/Sale.Core.Domain.Saga.csproj"
+    },
     "Shared.Dto/1.0.0": {
       "type": "project",
       "path": "../../Shared/Shared.Dto/Shared.Dto.csproj",
       "msbuildProject": "../../Shared/Shared.Dto/Shared.Dto.csproj"
     },
-    "Shared.Infrasctructure/1.0.0": {
+    "Shared.Infrasctructure.Orm/1.0.0": {
       "type": "project",
-      "path": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.csproj",
-      "msbuildProject": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.csproj"
+      "path": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.Orm.csproj",
+      "msbuildProject": "../../Shared/Shared.Infrasctructure/Shared.Infrasctructure.Orm.csproj"
     },
     "Stock.Core.Domain/1.0.0": {
       "type": "project",
@@ -4492,7 +4530,7 @@
       "Base.Core.Domain >= 1.0.0",
       "NServiceBus >= 9.2.6",
       "NServiceBus.RabbitMQ >= 9.2.0",
-      "Shared.Infrasctructure >= 1.0.0",
+      "Shared.Infrasctructure.Orm >= 1.0.0",
       "Stock.Core.Domain >= 1.0.0",
       "Stock.Core.Domain.Application >= 1.0.0"
     ]
@@ -4505,9 +4543,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure\\Stock.Infrastructure.csproj",
-      "projectName": "Stock.Infrastructure",
-      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure\\Stock.Infrastructure.csproj",
+      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure\\Stock.Infrastructure.Orm.csproj",
+      "projectName": "Stock.Infrastructure.Orm",
+      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure\\Stock.Infrastructure.Orm.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
       "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
@@ -4537,8 +4575,8 @@
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure\\Shared.Infrasctructure.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure\\Shared.Infrasctructure.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure\\Shared.Infrasctructure.Orm.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure\\Shared.Infrasctructure.Orm.csproj"
             },
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Core.Domain.Application\\Stock.Core.Domain.Application.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Core.Domain.Application\\Stock.Core.Domain.Application.csproj"

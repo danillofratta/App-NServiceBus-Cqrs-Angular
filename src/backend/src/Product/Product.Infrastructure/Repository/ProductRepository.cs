@@ -5,7 +5,7 @@ using Shared.Infrastructure;
 using Shared.Infrasctructure.Service;
 using Microsoft.EntityFrameworkCore;
 
-namespace Product.Infrastructure.Repository;
+namespace Product.Infrastructure.Orm.Repository;
 
 public class ProductRepository : RepositoryBase<Product.Core.Domain.Entities.Product>, IProductRepository
 {

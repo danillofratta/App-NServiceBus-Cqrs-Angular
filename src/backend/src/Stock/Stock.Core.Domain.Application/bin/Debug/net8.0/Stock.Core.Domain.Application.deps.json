@@ -14,6 +14,7 @@
           "NServiceBus": "9.2.6",
           "NServiceBus.RabbitMQ": "9.2.0",
           "Sale.Core.Domain.Contracts": "1.0.0",
+          "Sale.Core.Domain.Saga": "1.0.0",
           "Shared.Dto": "1.0.0",
           "Stock.Core.Domain": "1.0.0"
         },
@@ -291,6 +292,18 @@
           }
         }
       },
+      "Sale.Core.Domain.Saga/1.0.0": {
+        "dependencies": {
+          "NServiceBus": "9.2.6",
+          "Sale.Core.Domain.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Sale.Core.Domain.Saga.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Shared.Dto/1.0.0": {
         "dependencies": {
           "MediatR": "12.4.1",
@@ -307,7 +320,6 @@
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
-          "Sale.Core.Domain.Contracts": "1.0.0",
           "Shared.Dto": "1.0.0"
         },
         "runtime": {
@@ -504,6 +516,11 @@
       "sha512": ""
     },
     "Sale.Core.Domain.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sale.Core.Domain.Saga/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

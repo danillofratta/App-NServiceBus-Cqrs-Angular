@@ -12,7 +12,7 @@ public class SaleItens : BaseEntity
     /// <summary>
     /// External Identities
     /// </summary>
-    public string ProductId { get; set; }
+    public Guid ProductId { get; set; }
 
     /// <summary>
     /// External Identities
