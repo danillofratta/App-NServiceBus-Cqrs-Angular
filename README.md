@@ -29,9 +29,12 @@ São 4 serviços:
 - Contrução de um mini framework para implementação
 
 ## TODO 17/02
+<<<<<<< HEAD
 - Review para verificar implmentações e refatorar caso necessário
 - Implementar SignalIR para melhoria
 - Implementar SerialLogg para melhoria
 - Implementar possível log na base de dados registrando os status, o tabela especifica ou na tabela especifica
+=======
+>>>>>>> aef7bc859e7cf8d4323852e10d0eec0d20f88316
 - Implementar Docker
 
