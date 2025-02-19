@@ -8,13 +8,12 @@ namespace Shared.Infrasctructure
     public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {
         protected readonly DefaultDbContext _DefaultDbContext;
+        protected readonly IRedisCacheService _RedisCacheService;
 
         public RepositoryBase(DefaultDbContext defaultDbContext) 
         {
             _DefaultDbContext = defaultDbContext;
-        }
-        //TODO ADD redis
-        protected readonly IRedisCacheService _RedisCacheService;
+        }        
 
         public RepositoryBase(DefaultDbContext appDbContext, IRedisCacheService redisCacheService)
         {

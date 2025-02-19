@@ -6,7 +6,6 @@ import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { StockApi } from '../../../../domain/api/StockApi';
 import { ProductDto } from '../../../../domain/dto/ProductDto';
-import { SignalRStockService } from '../../../../domain/signalr/SignalRStockService';
 
 
 @Component({

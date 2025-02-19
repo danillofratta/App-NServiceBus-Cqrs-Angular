@@ -1,10 +1,19 @@
+﻿using Microsoft.AspNetCore.SignalR;
+using Payment.Core.Domain.Application;
+using Payment.Core.Domain.Application.Payment.Service;
 using Payment.Core.Domain.Repository;
 using Payment.Infrasctructure;
 using Payment.Infrasctructure.Services.Bus;
+using Payment.Infrastructure.Orm.Notification;
 using Payment.Infrastructure.Orm.Repository;
 using Shared.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//builder.Services.AddSignalR(options =>
+//{
+//    options.EnableDetailedErrors = true;
+//});
 
 // Add services to the container.
 
@@ -19,12 +28,12 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddMediatR(cfg =>
 {
     cfg.RegisterServicesFromAssemblies(
-        //typeof(ApplicationLayer).Assembly,
+        typeof(ApplicationLayer).Assembly,
         typeof(Program).Assembly
     );
 });
 
-//builder.Services.AddAutoMapper(typeof(Program).Assembly, typeof(ApplicationLayer).Assembly);
+builder.Services.AddAutoMapper(typeof(Program).Assembly, typeof(ApplicationLayer).Assembly);
 
 builder.Services.AddDbContext<DefaultDbContext>();
 builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
@@ -42,6 +51,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+
+app.UseRouting();
 app.UseAuthorization();
 
 app.UseCors(cors => cors
@@ -55,7 +66,15 @@ app.UseCors((g) => g.AllowCredentials());
 
 app.MapControllers();
 
-app.MapGet("/", () => "Stock API est� rodando!");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+
+    endpoints.MapHub<NotificationPaymentHub>("/NotificationPaymentHub");
+});
+
+
+app.MapGet("/", () => "Stock API está rodando!");
 
 
 app.Run();

@@ -32,6 +32,9 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { ShowErrorListComponent } from './components/show-error-list/show-error-list.component';
 import { ProductComponent } from './pages/dashboard/product/product.component';
 import { StockComponent } from './pages/dashboard/stock/stock.component';
+import { ListPaymentComponent } from './pages/dashboard/payment/list-payment/list-payment.component';
+import { PaymentApi } from '../domain/api/PaymentApi';
+import { SignalRPaymentSevice } from '../domain/api/SignalRPaymentSevice';
 
 @NgModule({
   declarations: [
@@ -49,7 +52,9 @@ import { StockComponent } from './pages/dashboard/stock/stock.component';
 
     CreateSaleComponent,
     ModifySaleComponent,
-    ListSaleComponent
+    ListSaleComponent,
+    
+    ListPaymentComponent
   ],
   imports: [
     BrowserModule,
@@ -75,7 +80,7 @@ import { StockComponent } from './pages/dashboard/stock/stock.component';
     MatOptionModule,
     MatAutocompleteModule    
   ],
-  providers: [SaleApi, provideAnimationsAsync(),  ProductApi],
+  providers: [SaleApi, PaymentApi, provideAnimationsAsync(), ProductApi, SignalRPaymentSevice],
   bootstrap: [AppComponent]
 })
 export class AppModule {

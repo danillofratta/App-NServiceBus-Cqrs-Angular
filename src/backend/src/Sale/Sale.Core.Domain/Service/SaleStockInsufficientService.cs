@@ -23,7 +23,7 @@ namespace Sale.Core.Domain.Service
             try
             {
                 var sale = await _salerepository.GetByIdAsync(idsale);
-                if (sale != null)
+                if (sale != null && sale.Status != Enum.SaleStatus.StockInsufficient)
                 {
                     sale.Status = Enum.SaleStatus.StockInsufficient;
                     await _salerepository.UpdateAsync(sale);

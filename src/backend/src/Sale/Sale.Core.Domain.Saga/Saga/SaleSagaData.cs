@@ -9,6 +9,9 @@ namespace Sale.Core.Domain.Saga
     public class SaleSagaData : ContainSagaData
     {
         public Guid SaleId { get; set; }
+
+        public bool IsProcessStarted { get; set; }
+
         public bool IsStockConfirmed { get; set; }
         public bool IsPaymentConfirmed { get; set; }
     }

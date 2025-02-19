@@ -1868,8 +1868,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
           "NServiceBus": "9.2.6",
-          "Sale.Core.Domain.Contracts": "1.0.0"
+          "Sale.Core.Domain": "1.0.0",
+          "Sale.Core.Domain.Contracts": "1.0.0",
+          "Serilog": "4.2.0"
         },
         "compile": {
           "bin/placeholder/Sale.Core.Domain.Saga.dll": {}

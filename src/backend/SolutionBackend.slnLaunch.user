@@ -13,6 +13,10 @@
       {
         "Path": "src\\Sale\\Sale.WebApi\\Sale.WebApi.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "src\\Payment\\Payment.WebApi\\Payment.WebApi.csproj",
+        "Action": "Start"
       }
     ]
   }

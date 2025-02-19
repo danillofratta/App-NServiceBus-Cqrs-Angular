@@ -6,6 +6,7 @@ import { ModifySaleComponent } from './pages/dashboard/sale/modify-sale/modify-s
 import { CreateSaleComponent } from './pages/dashboard/sale/create-sale/create-sale.component';
 import { ProductComponent } from './pages/dashboard/product/product.component';
 import { StockComponent } from './pages/dashboard/stock/stock.component';
+import { ListPaymentComponent } from './pages/dashboard/payment/list-payment/list-payment.component';
 
 const routes: Routes =
   [
@@ -18,7 +19,8 @@ const routes: Routes =
         { path: 'sale/modify/:id', component: ModifySaleComponent },
         { path: 'sale/create', component: CreateSaleComponent },
         { path: 'product', component: ProductComponent },
-        { path: 'stock', component: StockComponent },     
+        { path: 'stock', component: StockComponent },
+        { path: 'payment', component: ListPaymentComponent },     
         { path: '', redirectTo: 'dashboard', pathMatch: 'full' } // Rota padrão
       ]
     }

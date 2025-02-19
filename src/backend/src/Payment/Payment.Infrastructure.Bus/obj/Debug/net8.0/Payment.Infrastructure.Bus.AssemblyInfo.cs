@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Payment.Infrastructure.Bus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26873e3f49c0b5d594f46b1348ad2adf27846cce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e12fdec327253ccb53296110d1f6f84a92706e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Payment.Infrastructure.Bus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Payment.Infrastructure.Bus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

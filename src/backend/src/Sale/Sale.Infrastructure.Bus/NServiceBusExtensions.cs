@@ -1,10 +1,13 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Sale.Core.Domain.Application.Sale.Handlers;
+using NServiceBus;
 using Sale.Core.Domain.Repository;
+using Sale.Core.Domain.Saga;
 using Sale.Core.Domain.Saga.Commands;
 using Sale.Core.Domain.Service;
 using Sale.Infrastructure.Orm.Repository;
 using Shared.Infrastructure;
+using System;
+using System.ComponentModel;
 
 namespace Sale.Infrasctructure.Services.Bus
 {
@@ -14,6 +17,7 @@ namespace Sale.Infrasctructure.Services.Bus
         {
             var sagaEndpoint = ConfigureSagaEndpoint();
             var sagaEndpointInstance = sagaEndpoint.GetAwaiter().GetResult();
+            
             services.AddSingleton(sagaEndpointInstance);
             services.AddSingleton<IMessageSession>(sagaEndpointInstance);
         }
@@ -21,16 +25,19 @@ namespace Sale.Infrasctructure.Services.Bus
         private static async Task<IEndpointInstance> ConfigureSagaEndpoint()
         {
             var endpointConfiguration = new EndpointConfiguration("SaleSagaEndpoint");
-
+            
             // Transport Configuration
             var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
             transport.UseConventionalRoutingTopology(QueueType.Classic);
             transport.ConnectionString("amqp://guest:guest@localhost:5672/");
 
+            //transport.Routing(). EnableMessageDrivenPubSub();
+            transport.PrefetchCount(1);
+
             // Message Routing
             var routing = transport.Routing();
             routing.RouteToEndpoint(typeof(ReserveStockCommand), "StockSagaEndpoint");
-            routing.RouteToEndpoint(typeof(ProcessPaymentCommand), "PaymentSagaEndpoint");
+            //routing.RouteToEndpoint(typeof(ProcessPaymentCommand), "PaymentSagaEndpoint");
 
             // Error Handling
             endpointConfiguration.EnableInstallers();
@@ -38,28 +45,28 @@ namespace Sale.Infrasctructure.Services.Bus
             endpointConfiguration.UseSerialization<SystemJsonSerializer>();
 
             var recoverability = endpointConfiguration.Recoverability();
-            recoverability.Immediate(immediate => immediate.NumberOfRetries(2));
-            recoverability.Delayed(delayed => delayed.NumberOfRetries(1).TimeIncrease(TimeSpan.FromSeconds(10)));
+            recoverability.Immediate(immediate => immediate.NumberOfRetries(1)); // Reduzir tentativas imediatas
+            recoverability.Delayed(delayed => delayed.NumberOfRetries(1).TimeIncrease(TimeSpan.FromSeconds(5))); // Reduzir retries automáticos
 
             // Persistence
-            endpointConfiguration.UsePersistence<LearningPersistence>();
+            endpointConfiguration.UsePersistence<LearningPersistence>();           
 
             // Component Registration
             endpointConfiguration.RegisterComponents(registration =>
             {
                 registration.AddLogging();
+                
                 registration.AddDbContext<DefaultDbContext>();
                 registration.AddScoped<ISaleRepository, SaleRepository>();
 
-                registration.AddTransient<SaleStockConfirmedService>();
-                registration.AddTransient<SalePaymentFailedService>();
-                registration.AddTransient<SalePaymentConfirmedService>();
-                registration.AddTransient<SaleStockConfirmedService>();
-                registration.AddTransient<SaleStockInsufficientService>();
+                //if use singleton error in trackrecord sale need commit or something like this
+                registration.AddScoped<SaleSaga>();
 
-                //registration.AddTransient<ReserveStockCommand>();
-                registration.AddTransient<SalePaymentHandler>();
-                registration.AddTransient<SaleStockHandler>();                
+                registration.AddScoped<SaleStockConfirmedService>();
+                registration.AddScoped<SaleStockInsufficientService>();
+
+                registration.AddScoped<SalePaymentFailedService>();
+                registration.AddScoped<SalePaymentConfirmedService>();
             });
 
             return await NServiceBus.Endpoint.Start(endpointConfiguration).ConfigureAwait(false);

@@ -1,3 +1,9 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.sourcelink.json
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\bin\Debug\net8.0\Payment.Infrastructure.Bus.deps.json
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\bin\Debug\net8.0\Payment.Infrastructure.Bus.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\bin\Debug\net8.0\Payment.Infrastructure.Bus.pdb
@@ -25,12 +31,6 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Inf
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\bin\Debug\net8.0\Shared.Dto.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\bin\Debug\net8.0\Shared.Infrasctructure.Orm.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\bin\Debug\net8.0\Stock.Core.Domain.pdb
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.csproj.AssemblyReference.cache
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.GeneratedMSBuildEditorConfig.editorconfig
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.AssemblyInfoInputs.cache
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.AssemblyInfo.cs
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.csproj.CoreCompileInputs.cache
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.sourcelink.json
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment..DDBE963F.Up2Date
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\Payment.Infrastructure.Bus.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure.Bus\obj\Debug\net8.0\refint\Payment.Infrastructure.Bus.dll

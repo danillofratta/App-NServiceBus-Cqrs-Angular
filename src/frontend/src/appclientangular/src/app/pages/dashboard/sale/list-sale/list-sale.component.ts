@@ -1,12 +1,10 @@
 import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
-import { Observable, catchError, finalize, map, of } from 'rxjs';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { SaleApi } from '../../../../../domain/api/SaleApi';
 import { GetSaleResponseDto } from '../../../../../domain/dto/sale/get/GetSaleResponseDto';
 import { Router } from '@angular/router';
 import { CancelSaleResponseDto } from '../../../../../domain/dto/sale/cancel/CancelSaleResponseDto';
-import { ApiResponseDto } from '../../../../../domain/dto/apibase/ApiResponseDto';
 
 @Component({
   selector: 'app-list-sale',

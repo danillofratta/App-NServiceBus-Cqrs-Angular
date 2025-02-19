@@ -1,68 +1,177 @@
-﻿using Sale.Core.Domain.Saga.Events;
+﻿using Microsoft.Extensions.Logging;
 using Sale.Core.Domain.Saga.Commands;
+using Sale.Core.Domain.Saga.Events;
+using Sale.Core.Domain.Service;
 
 namespace Sale.Core.Domain.Saga
 {
     public class SaleSaga : Saga<SaleSagaData>,
-    IAmStartedByMessages<SaleCreatedEvent>,
-    IHandleMessages<StockConfirmedEvent>,
-    IHandleMessages<StockInsufficientEvent>,
-    IHandleMessages<PaymentConfirmedEvent>,
-    IHandleMessages<PaymentFailEvent>
+        IAmStartedByMessages<SaleCreatedEvent>,
+        IHandleMessages<StockConfirmedEvent>,
+        IHandleMessages<StockInsufficientEvent>,
+        IHandleMessages<PaymentConfirmedEvent>,
+        IHandleMessages<PaymentFailEvent>
     {
+        private readonly ILogger<SaleSaga> _logger;
+        private readonly SaleStockConfirmedService _saleStockConfirmedService;
+        private readonly SaleStockInsufficientService _saleStockInsufficientService;
+        private readonly SalePaymentFailedService _SalePaymentFailedService;
+        private readonly SalePaymentConfirmedService _SalePaymentConfirmedService;
+
+        public SaleSaga(
+            ILogger<SaleSaga> logger,
+            SaleStockConfirmedService saleStockConfirmedService,
+            SaleStockInsufficientService saleStockInsufficientService,
+            SalePaymentFailedService SalePaymentFailedService,
+            SalePaymentConfirmedService SalePaymentConfirmedService
+            )
+        {
+            _logger = logger;
+            _saleStockConfirmedService = saleStockConfirmedService;
+            _saleStockInsufficientService = saleStockInsufficientService;
+            _SalePaymentFailedService = SalePaymentFailedService;
+            _SalePaymentConfirmedService = SalePaymentConfirmedService;
+        }
+
         protected override void ConfigureHowToFindSaga(SagaPropertyMapper<SaleSagaData> mapper)
         {
-            mapper.ConfigureMapping<SaleCreatedEvent>(msg => msg.SaleId).ToSaga(saga => saga.SaleId);
-            mapper.ConfigureMapping<StockConfirmedEvent>(msg => msg.SaleId).ToSaga(saga => saga.SaleId);
-            mapper.ConfigureMapping<StockInsufficientEvent>(msg => msg.SaleId).ToSaga(saga => saga.SaleId);
-            mapper.ConfigureMapping<PaymentConfirmedEvent>(msg => msg.SaleId).ToSaga(saga => saga.SaleId);
-            mapper.ConfigureMapping<PaymentFailEvent>(msg => msg.SaleId).ToSaga(saga => saga.SaleId);
+            mapper.ConfigureMapping<SaleCreatedEvent>(message => message.SaleId)
+            .ToSaga(sagaData => sagaData.SaleId);
+            mapper.ConfigureMapping<StockConfirmedEvent>(message => message.SaleId)
+                .ToSaga(sagaData => sagaData.SaleId);
+            mapper.ConfigureMapping<StockInsufficientEvent>(message => message.SaleId)
+                .ToSaga(sagaData => sagaData.SaleId);
+            mapper.ConfigureMapping<PaymentConfirmedEvent>(message => message.SaleId)
+                .ToSaga(sagaData => sagaData.SaleId);
+            mapper.ConfigureMapping<PaymentFailEvent>(message => message.SaleId)
+                .ToSaga(sagaData => sagaData.SaleId);
+
+            //mapper.MapSaga(saga => saga.SaleId)
+            // .ToMessage<SaleCreatedEvent>(msg => msg.SaleId)
+            // .ToMessage<StockConfirmedEvent>(msg => msg.SaleId)
+            // .ToMessage<StockInsufficientEvent>(msg => msg.SaleId)
+            // .ToMessage<PaymentConfirmedEvent>(msg => msg.SaleId)
+            // .ToMessage<PaymentFailEvent>(msg => msg.SaleId);
         }
 
         public async Task Handle(SaleCreatedEvent message, IMessageHandlerContext context)
         {
-            Console.WriteLine($"Saga started to be sold {message.SaleId}. Checking Stock...");
+            _logger.LogInformation("Iniciando saga para venda {SaleId}. Verificando estoque...", message.SaleId);
 
-            await context.Send(new ReserveStockCommand
+            try
             {
-                SaleId = message.SaleId,
-                SaleItens = message.SaleItens
-            });
+                await context.Send("StockSagaEndpoint", new ReserveStockCommand
+                {
+                    SaleId = message.SaleId,
+                    SaleItens = message.SaleItens
+                });
+
+                _logger.LogDebug("Comando ReserveStockCommand enviado para venda {SaleId}", message.SaleId);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao processar SaleCreatedEvent para venda {SaleId}", message.SaleId);
+                throw;
+            }
+
+            await Task.CompletedTask;
         }
 
         public async Task Handle(StockConfirmedEvent message, IMessageHandlerContext context)
         {
-            Console.WriteLine($"Inventory confirmed for Sale {message.SaleId}. Processing payment...");
+            _logger.LogInformation("Estoque confirmado para venda {SaleId}. Processando pagamento...", message.SaleId);
 
-            await context.Send(new Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand
+            try
             {
-                SaleId = message.SaleId,
-                Valor = message.Total
-            });
+                if (Data.IsStockConfirmed)
+                {
+                    _logger.LogWarning("Stock already confirmed for sale {SaleId}", message.SaleId);
+                    return;
+                }
+
+
+                Data.IsStockConfirmed = true;
+                await _saleStockConfirmedService.Process(message.SaleId);
+
+                await context.Send("PaymentSagaEndpoint", new ProcessPaymentCommand
+                {
+                    SaleId = message.SaleId,
+                    Valor = message.Total
+                });
+
+
+                _logger.LogDebug("Comando ProcessPaymentCommand enviado para venda {SaleId}", message.SaleId);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao processar StockConfirmedEvent para venda {SaleId}", message.SaleId);
+                throw;
+            }
+
+            await Task.CompletedTask;
         }
 
         public async Task Handle(StockInsufficientEvent message, IMessageHandlerContext context)
         {
-            Console.WriteLine($"Inventory sotck for Sale {message.SaleId}. Canceling sale...");
+            _logger.LogWarning("Estoque insuficiente para venda {SaleId}. Cancelando venda...", message.SaleId);
 
-            MarkAsComplete();
-            //await context.Publish(new SaleCancelledEvent { SaleId = message.SaleId });
+            try
+            {
+                //await context.Publish(new SaleCancelledEvent { SaleId = message.SaleId });                
+                await _saleStockInsufficientService.Process(message.SaleId);                
+                MarkAsComplete();
+
+                _logger.LogInformation("Venda {SaleId} cancelada por falta de estoque", message.SaleId);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao processar StockInsufficientEvent para venda {SaleId}", message.SaleId);
+                throw;
+            }
+
+            await Task.CompletedTask;            
         }
 
         public async Task Handle(PaymentConfirmedEvent message, IMessageHandlerContext context)
         {
-            Console.WriteLine($"Payment confirmed for Sale {message.SaleId}. Finalizing sale ..");
+            _logger.LogInformation("Pagamento confirmado para venda {SaleId}. Finalizando venda...", message.SaleId);
 
-            MarkAsComplete();
-            //await context.Publish(new SaleFinishedEvent { SaleId = message.SaleId });
+            try
+            {
+                //await context.Publish(new SaleFinishedEvent { SaleId = message.SaleId });
+                await _SalePaymentConfirmedService.Process(message.SaleId);
+                MarkAsComplete();
+
+                _logger.LogInformation("Venda {SaleId} finalizada com sucesso", message.SaleId);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao processar PaymentConfirmedEvent para venda {SaleId}", message.SaleId);
+                throw;
+            }
+
+            await Task.CompletedTask;
         }
 
         public async Task Handle(PaymentFailEvent message, IMessageHandlerContext context)
         {
-            Console.WriteLine($"Payment failed for Sale {message.SaleId}. Canceling sale...");
+            _logger.LogWarning("Falha no pagamento para venda {SaleId}. Cancelando venda...", message.SaleId);
 
-            MarkAsComplete();
-            //await context.Publish(new SaleCancelledEvent { SaleId = message.SaleId });
+            try
+            {
+                //await context.Publish(new SaleCancelledEvent { SaleId = message.SaleId });
+                await _SalePaymentFailedService.Process(message.SaleId);
+                MarkAsComplete();
+
+                _logger.LogInformation("Venda {SaleId} cancelada por falha no pagamento", message.SaleId);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao processar PaymentFailEvent para venda {SaleId}", message.SaleId);
+                throw;
+            }
+
+            await Task.CompletedTask;
         }
     }
 }

@@ -1,6 +1,8 @@
 using Sale.Core.Application.Sales.Create;
 using Sale.Core.Domain.Application;
 using Sale.Core.Domain.Repository;
+using Sale.Core.Domain.Saga;
+using Sale.Core.Domain.Service;
 using Sale.Infrasctructure.Services.Bus;
 using Sale.Infrastructure.Orm.Repository;
 using Serilog;
@@ -9,7 +11,10 @@ using Shared.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Host.UseSerilog();
-builder.Services.AddLogging();
+builder.Services.AddLogging(builder =>
+{
+    builder.AddConsole();
+});
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -27,14 +32,20 @@ builder.Services.AddMediatR(cfg =>
 builder.Services.AddAutoMapper(typeof(Program).Assembly, typeof(ApplicationLayer).Assembly);
 builder.Services.AddDbContext<DefaultDbContext>();
 
-builder.Services.AddNServiceBus();
-
 builder.Services.AddScoped<ISaleRepository, SaleRepository>();
 builder.Services.AddScoped<CreateSaleCommand>();
 builder.Services.AddScoped<CreateSaleResult>();
 builder.Services.AddScoped<CreateSaleHandler>();
-//builder.Services.AddTransient<CreateSaleHandlerEventToStock>();
 
+
+//builder.Services.AddScoped<SaleSaga>();
+//builder.Services.AddScoped<SaleStockConfirmedService>();
+//builder.Services.AddScoped<SaleStockInsufficientService>();
+
+//builder.Services.AddScoped<SalePaymentFailedService>();
+//builder.Services.AddScoped<SalePaymentConfirmedService>();
+
+builder.Services.AddNServiceBus();
 
 var app = builder.Build();
 

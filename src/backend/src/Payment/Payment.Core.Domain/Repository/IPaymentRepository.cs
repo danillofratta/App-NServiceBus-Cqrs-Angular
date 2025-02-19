@@ -22,6 +22,15 @@ public interface IPaymentRepository : IRepositoryBase<PaymentCoreDomainEntities.
     /// <param name="cancellationToken"></param>
     /// <returns></returns>
     Task<List<PaymentCoreDomainEntities.Payment>> GetAll();
-      
+
+    Task<(IReadOnlyList<PaymentCoreDomainEntities.Payment> payments, int totalCount)> GetPagedAsync
+    (
+    int pageNumber,
+    int pageSize,
+    string orderBy,
+    bool isDescending,
+    CancellationToken cancellationToken
+    );
+
 }
 

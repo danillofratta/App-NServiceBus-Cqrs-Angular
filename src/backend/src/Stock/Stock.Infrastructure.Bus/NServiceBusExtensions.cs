@@ -32,7 +32,7 @@ namespace Stock.Infrasctructure.Services.Bus
 
             // Message Routing
             var routing = transport.Routing();
-            routing.RouteToEndpoint(typeof(StockConfirmedEvent), "SaleSagaEndpoint");
+            routing.RouteToEndpoint(typeof(StockConfirmedEvent), "SaleSagaEndpoint"); 
             routing.RouteToEndpoint(typeof(StockInsufficientEvent), "SaleSagaEndpoint");            
 
             // Error Handling
@@ -53,15 +53,11 @@ namespace Stock.Infrasctructure.Services.Bus
                 registration.AddLogging();
                 registration.AddDbContext<DefaultDbContext>();
                 registration.AddScoped<IStockRepository, StockRepository>();
-
                 registration.AddTransient<SaleStockInsufficientService>();
                 registration.AddTransient<CalculateStockService>();
                 registration.AddTransient<CheckItemInStockService>();
-
-                registration.AddTransient<ReserveStockCommand>();
-                registration.AddTransient<ProcessPaymentCommand>();
-
-                registration.AddTransient<ReserveStockCommandHandle>();                    
+                registration.AddTransient<IHandleMessages<ReserveStockCommand>, ReserveStockCommandHandle>();
+                
             });
 
             return await NServiceBus.Endpoint.Start(endpointConfiguration).ConfigureAwait(false);

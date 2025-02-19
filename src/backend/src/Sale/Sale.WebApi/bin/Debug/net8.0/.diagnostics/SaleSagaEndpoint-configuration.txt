@@ -18,16 +18,16 @@
         "FileVersion": "1.0.0"
       },
       {
+        "FullName": "NServiceBus.Transport.RabbitMQ, Version=9.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
+        "FileVersion": "9.2.0"
+      },
+      {
         "FullName": "Sale.Core.Domain.Saga, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       },
       {
         "FullName": "NServiceBus.MessageInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
         "FileVersion": "1.0.0"
-      },
-      {
-        "FullName": "NServiceBus.Transport.RabbitMQ, Version=9.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
-        "FileVersion": "9.2.0"
       },
       {
         "FullName": "Sale.Core.Domain.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -146,6 +146,10 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.Authentication.BearerToken.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.Cryptography.Algorithms.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -310,10 +314,6 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.DataProtection.Extensions.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\Microsoft.CSharp.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -1105,10 +1105,6 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.Cryptography.Algorithms.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.Cryptography.Cng.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -1218,6 +1214,10 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\WindowsBase.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\Microsoft.CSharp.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -1920,7 +1920,7 @@
     "ProcessorCount": 20,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.12",
-    "WorkingSet": 80764928,
+    "WorkingSet": 75681792,
     "SystemPageSize": 4096,
     "HostName": "NoteDF",
     "UserName": "danil",
@@ -1946,19 +1946,19 @@
     ],
     "NumberOfMessagesFoundAtStartup": 13,
     "Messages": [
-      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockOkEvent",
+      "Sale.Core.Domain.Saga.Events.StockInsufficientEvent",
+      "Sale.Core.Domain.Saga.Events.StockConfirmedEvent",
       "Sale.Core.Domain.Saga.Events.SaleFinishedEvent",
+      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand",
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleEvent",
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockFailEvent",
+      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
+      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent",
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleItemEvent",
       "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent",
       "Sale.Core.Domain.Saga.Events.SaleCreatedEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleItemEvent",
-      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand",
-      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent",
-      "Sale.Core.Domain.Saga.Events.StockConfirmedEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockFailEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleEvent",
-      "Sale.Core.Domain.Saga.Events.PaymentFailEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockOkEvent",
-      "Sale.Core.Domain.Saga.Events.StockInsufficientEvent"
+      "Sale.Core.Domain.Saga.Events.PaymentFailEvent"
     ]
   },
   "Persistence": {
@@ -1984,31 +1984,27 @@
       
     ],
     "MessageHandlers": {
-      "Sale.Core.Domain.Saga.Events.PaymentFailEvent": [
-        "Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler",
-        "Sale.Core.Domain.Saga.SaleSaga"
-      ],
-      "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent": [
-        "Sale.Core.Domain.Application.Sale.Handlers.SalePaymentHandler",
-        "Sale.Core.Domain.Saga.SaleSaga"
-      ],
-      "Sale.Core.Domain.Saga.Events.StockInsufficientEvent": [
-        "Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler",
+      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent": [
         "Sale.Core.Domain.Saga.SaleSaga"
       ],
       "Sale.Core.Domain.Saga.Events.StockConfirmedEvent": [
-        "Sale.Core.Domain.Application.Sale.Handlers.SaleStockHandler",
         "Sale.Core.Domain.Saga.SaleSaga"
       ],
-      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent": [
+      "Sale.Core.Domain.Saga.Events.StockInsufficientEvent": [
+        "Sale.Core.Domain.Saga.SaleSaga"
+      ],
+      "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent": [
+        "Sale.Core.Domain.Saga.SaleSaga"
+      ],
+      "Sale.Core.Domain.Saga.Events.PaymentFailEvent": [
         "Sale.Core.Domain.Saga.SaleSaga"
       ]
     }
   },
   "Recoverability": {
-    "ImmediateRetries": 2,
+    "ImmediateRetries": 1,
     "DelayedRetries": 1,
-    "DelayedRetriesTimeIncrease": "0:00:10",
+    "DelayedRetriesTimeIncrease": "0:00:05",
     "ErrorQueue": "error",
     "UnrecoverableExceptions": [
       "NServiceBus.MessageDeserializationException"

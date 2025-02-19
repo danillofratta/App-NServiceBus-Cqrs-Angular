@@ -5,5 +5,6 @@ export const environment = {
 
   ApiUrlProduct: 'https://localhost:7105/',
   ApiUrlStock: 'https://localhost:7241/',
-  ApiUrlStockSignal: ''
+  ApiUrlPayment: 'https://localhost:7223/',
+  ApiUrlPaymentSignal: 'https://localhost:7223/NotificationPaymentHub'
 };
