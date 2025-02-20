@@ -1,8 +1,7 @@
 export const environment = {
   production: false,
       
-  ApiUrl: 'https://localhost:7137/',
-  //ApiUrl: 'http://localhost:5000/'
+  ApiUrlSale: 'https://localhost:7137/',
   ApiUrlProduct: 'https://localhost:7105/',
   ApiUrlStock: 'https://localhost:7241/',
   ApiUrlPayment: 'https://localhost:7223/',

@@ -181,6 +181,7 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\Stock.WebApi\obj\Debug\
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\Stock.WebApi\obj\Debug\net8.0\Stock.WebApi.genruntimeconfig.cache
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\Stock.WebApi\obj\Debug\net8.0\ref\Stock.WebApi.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\Stock.WebApi\obj\Debug\net8.0\Stock.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\appsettings.Development.json
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\appsettings.json
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\Stock.WebApi.staticwebassets.endpoints.json
@@ -194,7 +195,6 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\FluentValidation.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\MediatR.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\MediatR.Contracts.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -301,10 +301,10 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Stock.WebApi.props
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Stock.WebApi.props
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\Stock.We.978F79EF.Up2Date
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\Stock.WebApi.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\refint\Stock.WebApi.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\Stock.WebApi.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\Stock.WebApi.genruntimeconfig.cache
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\ref\Stock.WebApi.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

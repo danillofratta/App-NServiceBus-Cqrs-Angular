@@ -1,0 +1,16 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\bin\Release\net8.0\Product.Core.Domain.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\bin\Release\net8.0\Product.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\bin\Release\net8.0\Product.Core.Domain.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\bin\Release\net8.0\Base.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\bin\Release\net8.0\Base.Core.Domain.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\Product.Core.Domain.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\Product.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\Product.Core.Domain.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\Product.Core.Domain.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\Product.Core.Domain.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\Product.Core.Domain.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\Product..14367243.Up2Date
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\Product.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\refint\Product.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\Product.Core.Domain.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Core.Domain\obj\Release\net8.0\ref\Product.Core.Domain.dll

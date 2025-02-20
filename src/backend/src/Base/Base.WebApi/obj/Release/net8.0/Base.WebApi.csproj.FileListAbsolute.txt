@@ -1,0 +1,16 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\bin\Release\net8.0\Base.WebApi.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\bin\Release\net8.0\Base.WebApi.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\bin\Release\net8.0\Base.WebApi.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\bin\Release\net8.0\Base.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\bin\Release\net8.0\Base.Core.Domain.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\Base.WebApi.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\Base.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\Base.WebApi.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\Base.WebApi.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\Base.WebApi.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\Base.WebApi.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\Base.Web.1A4B2772.Up2Date
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\Base.WebApi.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\refint\Base.WebApi.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\Base.WebApi.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.WebApi\obj\Release\net8.0\ref\Base.WebApi.dll

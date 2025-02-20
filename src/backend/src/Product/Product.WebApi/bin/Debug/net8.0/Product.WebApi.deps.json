@@ -10,7 +10,7 @@
         "dependencies": {
           "Base.WebApi": "1.0.0",
           "MediatR": "12.4.1",
-          "Product.Core.Appplication": "1.0.0",
+          "Product.Core.Application": "1.0.0",
           "Product.Core.Domain": "1.0.0",
           "Product.Infrastructure.Orm": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
@@ -979,7 +979,7 @@
           }
         }
       },
-      "Product.Core.Appplication/1.0.0": {
+      "Product.Core.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "14.0.0",
           "FluentValidation": "11.11.0",
@@ -987,7 +987,7 @@
           "Product.Core.Domain": "1.0.0"
         },
         "runtime": {
-          "Product.Core.Appplication.dll": {
+          "Product.Core.Application.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1806,7 +1806,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Product.Core.Appplication/1.0.0": {
+    "Product.Core.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

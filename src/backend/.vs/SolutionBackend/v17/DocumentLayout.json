@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{851DB221-D193-4935-AB6F-8BDDDC4FD2D0}|src\\Sale\\Sale.Infrastructure.Bus\\Sale.Infrastructure.Bus.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.infrastructure.bus\\nservicebusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851DB221-D193-4935-AB6F-8BDDDC4FD2D0}|src\\Sale\\Sale.Infrastructure.Bus\\Sale.Infrastructure.Bus.csproj|solutionrelative:src\\sale\\sale.infrastructure.bus\\nservicebusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{047AC8BF-D592-4D41-B078-57A2E80F505D}|src\\Stock\\Stock.WebApi\\Stock.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\stock\\stock.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{047AC8BF-D592-4D41-B078-57A2E80F505D}|src\\Stock\\Stock.WebApi\\Stock.WebApi.csproj|solutionrelative:src\\stock\\stock.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DC34DE-5FA5-4ABF-822F-175437BC213D}|src\\Payment\\Payment.Infrastructure.Bus\\Payment.Infrastructure.Bus.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\payment\\payment.infrastructure.bus\\nservicebusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DC34DE-5FA5-4ABF-822F-175437BC213D}|src\\Payment\\Payment.Infrastructure.Bus\\Payment.Infrastructure.Bus.csproj|solutionrelative:src\\payment\\payment.infrastructure.bus\\nservicebusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA1A89C2-2898-4A18-A240-7777D104692F}|src\\Stock\\Stock.Infrastructure.Bus\\Stock.Infrastructure.Bus.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\stock\\stock.infrastructure.bus\\nservicebusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA1A89C2-2898-4A18-A240-7777D104692F}|src\\Stock\\Stock.Infrastructure.Bus\\Stock.Infrastructure.Bus.csproj|solutionrelative:src\\stock\\stock.infrastructure.bus\\nservicebusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE643CD0-D4E5-493D-B941-053ADB14A783}|src\\Payment\\Payment.WebApi\\Payment.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\payment\\payment.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE643CD0-D4E5-493D-B941-053ADB14A783}|src\\Payment\\Payment.WebApi\\Payment.WebApi.csproj|solutionrelative:src\\payment\\payment.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7AF9F980-0209-430C-8247-A1D5B91EEDC7}|src\\Sale\\Sale.WebApi\\Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AF9F980-0209-430C-8247-A1D5B91EEDC7}|src\\Sale\\Sale.WebApi\\Sale.WebApi.csproj|solutionrelative:src\\sale\\sale.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4300307-CCCF-40B4-A2DF-419FA45D2310}|src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain\\service\\salestockconfirmedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4300307-CCCF-40B4-A2DF-419FA45D2310}|src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj|solutionrelative:src\\sale\\sale.core.domain\\service\\salestockconfirmedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFE59426-B77E-46AC-9B67-363A11F8862B}|src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.saga\\saga\\salesaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFE59426-B77E-46AC-9B67-363A11F8862B}|src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj|solutionrelative:src\\sale\\sale.core.domain.saga\\saga\\salesaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{851DB221-D193-4935-AB6F-8BDDDC4FD2D0}|src\\Sale\\Sale.Infrastructure.Bus\\Sale.Infrastructure.Bus.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.infrastructure.bus\\nservicebusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{851DB221-D193-4935-AB6F-8BDDDC4FD2D0}|src\\Sale\\Sale.Infrastructure.Bus\\Sale.Infrastructure.Bus.csproj|solutionrelative:src\\sale\\sale.infrastructure.bus\\nservicebusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FF16A97-3AC1-42D9-A652-4D43C34FF806}|src\\Stock\\Stock.Core.Domain.Application\\Stock.Core.Domain.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\stock\\stock.core.domain.application\\stock\\handlers\\reservestockcommandhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FF16A97-3AC1-42D9-A652-4D43C34FF806}|src\\Stock\\Stock.Core.Domain.Application\\Stock.Core.Domain.Application.csproj|solutionrelative:src\\stock\\stock.core.domain.application\\stock\\handlers\\reservestockcommandhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{279DEC4D-ACDE-46E6-84E1-495B55781EE7}|src\\Sale\\Sale.Core.Domain.Application\\Sale.Core.Domain.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.application\\sale\\commands\\createsale\\createsalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{279DEC4D-ACDE-46E6-84E1-495B55781EE7}|src\\Sale\\Sale.Core.Domain.Application\\Sale.Core.Domain.Application.csproj|solutionrelative:src\\sale\\sale.core.domain.application\\sale\\commands\\createsale\\createsalehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90BA17A2-BA45-49DD-8A3E-0A73A7ABDC63}|src\\Payment\\Payment.Infrastructure\\Payment.Infrastructure.Orm.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\payment\\payment.infrastructure\\service\\signalrpaymentnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90BA17A2-BA45-49DD-8A3E-0A73A7ABDC63}|src\\Payment\\Payment.Infrastructure\\Payment.Infrastructure.Orm.csproj|solutionrelative:src\\payment\\payment.infrastructure\\service\\signalrpaymentnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C1C90BB-6102-436F-AF0B-54BD0C21461F}|src\\Shared\\Shared.Infrasctructure\\Shared.Infrasctructure.Orm.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\shared\\shared.infrasctructure\\common\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C1C90BB-6102-436F-AF0B-54BD0C21461F}|src\\Shared\\Shared.Infrasctructure\\Shared.Infrasctructure.Orm.csproj|solutionrelative:src\\shared\\shared.infrasctructure\\common\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{279DEC4D-ACDE-46E6-84E1-495B55781EE7}|src\\Sale\\Sale.Core.Domain.Application\\Sale.Core.Domain.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.application\\sale\\handlers\\salepaymenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{279DEC4D-ACDE-46E6-84E1-495B55781EE7}|src\\Sale\\Sale.Core.Domain.Application\\Sale.Core.Domain.Application.csproj|solutionrelative:src\\sale\\sale.core.domain.application\\sale\\handlers\\salepaymenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{279DEC4D-ACDE-46E6-84E1-495B55781EE7}|src\\Sale\\Sale.Core.Domain.Application\\Sale.Core.Domain.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.application\\sale\\handlers\\salestockhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{279DEC4D-ACDE-46E6-84E1-495B55781EE7}|src\\Sale\\Sale.Core.Domain.Application\\Sale.Core.Domain.Application.csproj|solutionrelative:src\\sale\\sale.core.domain.application\\sale\\handlers\\salestockhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,14 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Sale\\Sale.WebApi\\Program.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\Sale\\Sale.WebApi\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
+              "Title": "NServiceBusConfiguration.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
+              "RelativeToolTip": "src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T15:34:33.909Z",
+              "WhenOpened": "2025-02-20T16:08:40.963Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -70,15 +54,27 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "NServiceBusExtensions.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "RelativeToolTip": "src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwD0AAABfAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Stock\\Stock.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "RelativeToolTip": "src\\Stock\\Stock.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCYAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T15:35:00.375Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T16:18:17.88Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NServiceBusExtensions.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "RelativeToolTip": "src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:18:27.84Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -106,107 +102,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SaleSaga.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSaga.cs",
-              "RelativeDocumentMoniker": "src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSaga.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSaga.cs",
-              "RelativeToolTip": "src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSaga.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T15:39:50.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SaleStockConfirmedService.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Service\\SaleStockConfirmedService.cs",
-              "RelativeDocumentMoniker": "src\\Sale\\Sale.Core.Domain\\Service\\SaleStockConfirmedService.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Service\\SaleStockConfirmedService.cs",
-              "RelativeToolTip": "src\\Sale\\Sale.Core.Domain\\Service\\SaleStockConfirmedService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwA0AAAAlAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Stock\\Stock.WebApi\\Program.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\Stock\\Stock.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T15:46:18.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T17:14:10.673Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ReserveStockCommandHandle.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Core.Domain.Application\\Stock\\Handlers\\ReserveStockCommandHandle.cs",
-              "RelativeDocumentMoniker": "src\\Stock\\Stock.Core.Domain.Application\\Stock\\Handlers\\ReserveStockCommandHandle.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Core.Domain.Application\\Stock\\Handlers\\ReserveStockCommandHandle.cs",
-              "RelativeToolTip": "src\\Stock\\Stock.Core.Domain.Application\\Stock\\Handlers\\ReserveStockCommandHandle.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAWwB8AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Payment\\Payment.WebApi\\Program.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\Payment\\Payment.WebApi\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T16:02:19.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SignalRPaymentNotificationService.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure\\Service\\SignalRPaymentNotificationService.cs",
-              "RelativeDocumentMoniker": "src\\Payment\\Payment.Infrastructure\\Service\\SignalRPaymentNotificationService.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure\\Service\\SignalRPaymentNotificationService.cs",
-              "RelativeToolTip": "src\\Payment\\Payment.Infrastructure\\Service\\SignalRPaymentNotificationService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAYwCgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T15:35:19.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T17:14:02.666Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CreateSaleHandler.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\Sale\\Commands\\CreateSale\\CreateSaleHandler.cs",
-              "RelativeDocumentMoniker": "src\\Sale\\Sale.Core.Domain.Application\\Sale\\Commands\\CreateSale\\CreateSaleHandler.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\Sale\\Commands\\CreateSale\\CreateSaleHandler.cs",
-              "RelativeToolTip": "src\\Sale\\Sale.Core.Domain.Application\\Sale\\Commands\\CreateSale\\CreateSaleHandler.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAswCkAAABFAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Sale\\Sale.WebApi\\Program.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\Sale\\Sale.WebApi\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T15:43:50.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure\\Common\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\Shared.Infrasctructure\\Common\\RepositoryBase.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure\\Common\\RepositoryBase.cs",
-              "RelativeToolTip": "src\\Shared\\Shared.Infrasctructure\\Common\\RepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T15:45:36.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SalePaymentHandler.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\Sale\\Handlers\\SalePaymentHandler.cs",
-              "RelativeDocumentMoniker": "src\\Sale\\Sale.Core.Domain.Application\\Sale\\Handlers\\SalePaymentHandler.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\Sale\\Handlers\\SalePaymentHandler.cs",
-              "RelativeToolTip": "src\\Sale\\Sale.Core.Domain.Application\\Sale\\Handlers\\SalePaymentHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T15:43:43.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SaleStockHandler.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\Sale\\Handlers\\SaleStockHandler.cs",
-              "RelativeDocumentMoniker": "src\\Sale\\Sale.Core.Domain.Application\\Sale\\Handlers\\SaleStockHandler.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\Sale\\Handlers\\SaleStockHandler.cs",
-              "RelativeToolTip": "src\\Sale\\Sale.Core.Domain.Application\\Sale\\Handlers\\SaleStockHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T15:43:42.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T16:14:07.329Z"
             }
           ]
         },

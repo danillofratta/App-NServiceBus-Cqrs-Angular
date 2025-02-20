@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Payment.Core.Domain.Application.Payment.Handlers;
 using Payment.Core.Domain.Application.Payment.Service;
 using Payment.Core.Domain.Repository;
@@ -26,26 +27,36 @@ namespace Payment.Infrasctructure.Services.Bus
             services.AddSingleton<NotificationPaymentHub>();
             services.AddSingleton<SignalRPaymentNotificationService>();
 
-            var sagaEndpoint = ConfigureSagaEndpoint();
+            var sagaEndpoint = ConfigureSagaEndpoint(services);
             var sagaEndpointInstance = sagaEndpoint.GetAwaiter().GetResult();
             services.AddSingleton(sagaEndpointInstance);
             services.AddSingleton<IMessageSession>(sagaEndpointInstance);                             
         }
 
-        private static async Task<IEndpointInstance> ConfigureSagaEndpoint()
+        private static async Task<IEndpointInstance> ConfigureSagaEndpoint(IServiceCollection services)
         {
+            var logger = services.BuildServiceProvider().GetRequiredService<ILogger<IServiceCollection>>();
+            await Task.Delay(TimeSpan.FromSeconds(5));
+
             var endpointConfiguration = new EndpointConfiguration("PaymentSagaEndpoint");
 
             // Transport Configuration
             var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
             transport.UseConventionalRoutingTopology(QueueType.Classic);
+            //todo put in appsettings
+#if DEBUG
             transport.ConnectionString("amqp://guest:guest@localhost:5672/");
-
+            logger.LogInformation("Iniciando configuração do NServiceBus: PAYMENT DEBUG");
+#else
+            transport.ConnectionString("amqp://guest:guest@rabbitmq:5672/");       
+            logger.LogInformation("Iniciando configuração do NServiceBus: PAYMENT RELEASE");
+            Console.Write("RELEASE");
+#endif
             // Message Routing
             var routing = transport.Routing();
             routing.RouteToEndpoint(typeof(PaymentConfirmedEvent), "SaleSagaEndpoint"); 
             routing.RouteToEndpoint(typeof(PaymentFailEvent), "SaleSagaEndpoint");
-
+            
             // Error Handling
             endpointConfiguration.EnableInstallers();
             endpointConfiguration.SendFailedMessagesTo("error");

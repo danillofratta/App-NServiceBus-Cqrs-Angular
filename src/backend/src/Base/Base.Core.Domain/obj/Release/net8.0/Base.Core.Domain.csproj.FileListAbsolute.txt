@@ -1,0 +1,13 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\bin\Release\net8.0\Base.Core.Domain.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\bin\Release\net8.0\Base.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\bin\Release\net8.0\Base.Core.Domain.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\obj\Release\net8.0\Base.Core.Domain.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\obj\Release\net8.0\Base.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\obj\Release\net8.0\Base.Core.Domain.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\obj\Release\net8.0\Base.Core.Domain.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\obj\Release\net8.0\Base.Core.Domain.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\obj\Release\net8.0\Base.Core.Domain.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\obj\Release\net8.0\Base.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\obj\Release\net8.0\refint\Base.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\obj\Release\net8.0\Base.Core.Domain.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain\obj\Release\net8.0\ref\Base.Core.Domain.dll

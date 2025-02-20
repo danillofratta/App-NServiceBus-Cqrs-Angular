@@ -1,10 +1,9 @@
 export const environment = {
   production: true,
 
-  ApiUrl: 'http://localhost:5000/',
-
-  ApiUrlProduct: 'https://localhost:7105/',
-  ApiUrlStock: 'https://localhost:7241/',
-  ApiUrlPayment: 'https://localhost:7223/',
-  ApiUrlPaymentSignal: 'https://localhost:7223/NotificationPaymentHub'
+  ApiUrlSale: 'http://localhost:5001/',
+  ApiUrlProduct: 'http://localhost:5004/',
+  ApiUrlStock: 'http://localhost:5002/',
+  ApiUrlPayment: 'http://localhost:5003/',
+  ApiUrlPaymentSignal: 'http://localhost:5003/NotificationPaymentHub'
 };

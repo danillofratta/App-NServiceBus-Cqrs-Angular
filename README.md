@@ -28,11 +28,14 @@ São 4 serviços:
 - Payment, simula pagamento ok ou fail e envia mensagem para Sale
 - Contrução de um mini framework para implementação
 
-## TODO 18/02
-- Review para verificar implmentações e refatorar caso necessário
-- Implementar SignalIR para melhoria
-- Implementar SerialLogg para melhoria
-- Implementar possível log na base de dados registrando os status, o tabela especifica ou na tabela especifica
+## Rodar Aplicação no Docker
 
-- Implementar Docker
+- build do backend, acessar a pasta src\backend\src e no terminal rodar
+  docker-compose up --build
+- build do fronteend, acessar a pasta src\frontend\appclientangular e no terminal rodar
+  docker build -t app-client -f Dockerfile .
+- rodar migration para gerar o banco de dados. Acessar src\backend\src\Shared\Shared.Infrasctructure e no terminal rodar
+  dotnet ef migrations add InitialCreate
+  dotnet ef database update
+- rodar os containers
 

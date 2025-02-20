@@ -1801,7 +1801,7 @@
           "bin/placeholder/Payment.Core.Domain.dll": {}
         }
       },
-      "Product.Core.Appplication/1.0.0": {
+      "Product.Core.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1811,10 +1811,10 @@
           "Product.Core.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Product.Core.Appplication.dll": {}
+          "bin/placeholder/Product.Core.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Product.Core.Appplication.dll": {}
+          "bin/placeholder/Product.Core.Application.dll": {}
         }
       },
       "Product.Core.Domain/1.0.0": {
@@ -5707,10 +5707,10 @@
       "path": "../../Payment/Payment.Core.Domain/Payment.Core.Domain.csproj",
       "msbuildProject": "../../Payment/Payment.Core.Domain/Payment.Core.Domain.csproj"
     },
-    "Product.Core.Appplication/1.0.0": {
+    "Product.Core.Application/1.0.0": {
       "type": "project",
-      "path": "../Product.Core.Appplication/Product.Core.Appplication.csproj",
-      "msbuildProject": "../Product.Core.Appplication/Product.Core.Appplication.csproj"
+      "path": "../Product.Core.Application/Product.Core.Application.csproj",
+      "msbuildProject": "../Product.Core.Application/Product.Core.Application.csproj"
     },
     "Product.Core.Domain/1.0.0": {
       "type": "project",
@@ -5747,7 +5747,7 @@
     "net8.0": [
       "Base.WebApi >= 1.0.0",
       "MediatR >= 12.4.1",
-      "Product.Core.Appplication >= 1.0.0",
+      "Product.Core.Application >= 1.0.0",
       "Product.Core.Domain >= 1.0.0",
       "Product.Infrastructure.Orm >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
@@ -5793,8 +5793,8 @@
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Appplication\\Product.Core.Appplication.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Appplication\\Product.Core.Appplication.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj"
             },
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj"

@@ -316,14 +316,14 @@
         }
       }
     },
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Appplication\\Product.Core.Appplication.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Appplication\\Product.Core.Appplication.csproj",
-        "projectName": "Product.Core.Appplication",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Appplication\\Product.Core.Appplication.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj",
+        "projectName": "Product.Core.Application",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Appplication\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -587,8 +587,8 @@
               "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj": {
                 "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj"
               },
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Appplication\\Product.Core.Appplication.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Appplication\\Product.Core.Appplication.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj"
               },
               "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
                 "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj"

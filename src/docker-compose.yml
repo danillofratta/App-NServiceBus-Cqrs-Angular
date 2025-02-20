@@ -1,0 +1,120 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: ambev
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - microservices-network      
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6380:6379" # Redis exposto na porta 6380
+    networks:
+      - microservices-network      
+
+  rabbitmq:
+    image: rabbitmq:4-management
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "check_port_connectivity"]
+      interval: 30s
+      timeout: 10s
+      retries: 5    
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"   # Porta de comunicação do RabbitMQ (AMQP)
+      - "15672:15672" # Painel de administração do RabbitMQ
+    environment:
+      RABBITMQ_DEFAULT_USER: guest # Usuário padrão
+      RABBITMQ_DEFAULT_PASS: guest # Senha padrão 
+    networks:
+      - microservices-network      
+
+  api_sale:
+    build:
+      context: ./backend
+      dockerfile: src/Sale/Sale.WebApi/Dockerfile
+    container_name: Sale.WebApi
+    environment:
+      - RABBITMQ_CONNECTION=rabbitmq:5672          
+    depends_on:
+      - rabbitmq
+      - postgres    
+    ports:
+      - "5001:80"
+    networks:
+      - microservices-network      
+
+  api_stock:
+    build:
+      context: ./backend
+      dockerfile: src/Stock/Stock.WebApi/Dockerfile
+    container_name: Stock.WebApi
+    environment:
+      - RABBITMQ_CONNECTION=rabbitmq:5672    
+    depends_on:
+      - api_sale    
+    ports:
+      - "5002:80"      
+    networks:
+      - microservices-network      
+
+  api_payment:
+    build:
+      context: ./backend
+      dockerfile: src/Payment/Payment.WebApi/Dockerfile
+    container_name: Payment.WebApi
+    environment:
+      - RABBITMQ_CONNECTION=rabbitmq:5672    
+    depends_on:
+      - api_stock 
+    ports:
+      - "5003:80"     
+    networks:
+      - microservices-network          
+
+  api_product:
+    build:
+      context: ./backend
+      dockerfile: src/Product/Product.WebApi/Dockerfile
+    container_name: Product.WebApi
+    environment:  
+      - REDIS_CONNECTION=redis:6379
+      - RABBITMQ_CONNECTION=rabbitmq:5672      
+    depends_on:
+      - redis
+      - api_payment   
+    ports:
+      - "5004:80"   
+    networks:
+      - microservices-network   
+      
+  app-client-angular:
+    build:
+      context: ./frontend
+      dockerfile: src/appclientangular/Dockerfile
+    container_name: app-client-angular 
+    # image: app-client-angular  
+    depends_on:
+      - api_product
+    ports:
+      - "4200:80"
+    networks:
+      - microservices-network          
+
+volumes:
+  postgres_data:
+
+networks:
+  microservices-network:
+    driver: bridge
+    

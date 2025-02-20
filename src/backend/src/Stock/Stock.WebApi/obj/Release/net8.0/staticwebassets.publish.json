@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lE8vTc+W5gc7iNpXzaWAo7iRETi4D9Zk2GdgbKgjUhc=",
+  "Source": "Stock.WebApi",
+  "BasePath": "_content/Stock.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

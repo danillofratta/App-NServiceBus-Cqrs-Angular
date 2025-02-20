@@ -10,12 +10,12 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastru
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Sale.Core.Domain.Contracts.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Sale.Core.Domain.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Sale.Core.Domain.Saga.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Sale.Infrasctructure.Orm.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Sale.Infrastructure.Orm.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Shared.Dto.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Shared.Infrasctructure.Orm.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Stock.Core.Domain.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Sale.Core.Domain.Saga.pdb
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Sale.Infrasctructure.Orm.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Sale.Infrastructure.Orm.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Base.Core.Domain.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Base.Core.Domain.Application.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.Infrastructure.Bus\bin\Debug\net8.0\Base.WebApi.pdb

@@ -1,0 +1,12 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\bin\Release\net8.0\Base.Core.Domain.Application.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\bin\Release\net8.0\Base.Core.Domain.Application.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\bin\Release\net8.0\Base.Core.Domain.Application.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\obj\Release\net8.0\Base.Core.Domain.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\obj\Release\net8.0\Base.Core.Domain.Application.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\obj\Release\net8.0\Base.Core.Domain.Application.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\obj\Release\net8.0\Base.Core.Domain.Application.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\obj\Release\net8.0\Base.Core.Domain.Application.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\obj\Release\net8.0\Base.Core.Domain.Application.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\obj\Release\net8.0\refint\Base.Core.Domain.Application.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\obj\Release\net8.0\Base.Core.Domain.Application.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Core.Domain.Application\obj\Release\net8.0\ref\Base.Core.Domain.Application.dll

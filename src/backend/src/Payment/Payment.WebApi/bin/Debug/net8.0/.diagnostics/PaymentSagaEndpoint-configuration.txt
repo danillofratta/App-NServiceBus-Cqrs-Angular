@@ -1956,7 +1956,7 @@
     "ProcessorCount": 20,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.12",
-    "WorkingSet": 74924032,
+    "WorkingSet": 75448320,
     "SystemPageSize": 4096,
     "HostName": "NoteDF",
     "UserName": "danil",

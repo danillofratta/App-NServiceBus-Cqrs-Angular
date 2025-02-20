@@ -23,7 +23,7 @@ export class SaleApi extends API {
   ) {
     super(http, router);
 
-    this._baseurl = environment.ApiUrl;
+    this._baseurl = environment.ApiUrlSale;
 
     this._endpoint = "api/v1/sales/";
   }

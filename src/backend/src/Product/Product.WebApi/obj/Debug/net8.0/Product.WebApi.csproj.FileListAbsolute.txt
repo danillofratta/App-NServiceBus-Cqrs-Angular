@@ -118,7 +118,7 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Base.Core.Domain.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Base.WebApi.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Payment.Core.Domain.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Product.Core.Appplication.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Product.Core.Application.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Product.Core.Domain.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Product.Infrastructure.Orm.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Sale.Core.Domain.dll
@@ -126,7 +126,7 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Shared.Infrasctructure.Orm.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Stock.Core.Domain.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Base.WebApi.pdb
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Product.Core.Appplication.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Product.Core.Application.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Product.Core.Domain.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Product.Infrastructure.Orm.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\bin\Debug\net8.0\Base.Core.Domain.pdb
@@ -154,10 +154,10 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Product.WebApi.props
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Product.WebApi.props
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\Product..44D9FF55.Up2Date
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\Product.WebApi.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\refint\Product.WebApi.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\Product.WebApi.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\Product.WebApi.genruntimeconfig.cache
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\ref\Product.WebApi.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -37,18 +37,28 @@ builder.Services.AddScoped<CalculateStockService>();
 
 builder.Services.AddNServiceBus();
 
+#if DEBUG
+
+#else
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(80); // Porta do container
+});
+#endif
+
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
+app.UseSwagger();
+app.UseSwaggerUI();
+//}
 
 app.UseHttpsRedirection();
 
+app.UseRouting();
 app.UseAuthorization();
-
 
 app.UseCors(cors => cors
 .AllowAnyMethod()
@@ -57,9 +67,11 @@ app.UseCors(cors => cors
 );
 
 app.UseCors((g) => g.AllowAnyOrigin());
-app.UseCors((g) => g.AllowCredentials());
 
-app.MapControllers();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
 app.MapGet("/", () => "Stock API está rodando!");
 

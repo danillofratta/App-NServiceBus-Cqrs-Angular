@@ -14,7 +14,7 @@
         "FileVersion": "1.0.0"
       },
       {
-        "FullName": "Sale.Infrastructure.Bus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FullName": "Sale.Core.Domain.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       },
       {
@@ -22,15 +22,15 @@
         "FileVersion": "9.2.0"
       },
       {
-        "FullName": "Sale.Core.Domain.Saga, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "FileVersion": "1.0.0"
-      },
-      {
         "FullName": "NServiceBus.MessageInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
         "FileVersion": "1.0.0"
       },
       {
-        "FullName": "Sale.Core.Domain.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FullName": "Sale.Core.Domain.Saga, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FileVersion": "1.0.0"
+      },
+      {
+        "FullName": "Sale.Infrastructure.Bus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       }
     ],
@@ -1920,7 +1920,7 @@
     "ProcessorCount": 20,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.12",
-    "WorkingSet": 75681792,
+    "WorkingSet": 122961920,
     "SystemPageSize": 4096,
     "HostName": "NoteDF",
     "UserName": "danil",
@@ -1946,19 +1946,19 @@
     ],
     "NumberOfMessagesFoundAtStartup": 13,
     "Messages": [
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockOkEvent",
-      "Sale.Core.Domain.Saga.Events.StockInsufficientEvent",
+      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent",
+      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent",
       "Sale.Core.Domain.Saga.Events.StockConfirmedEvent",
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleItemEvent",
+      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockOkEvent",
+      "Sale.Core.Domain.Saga.Events.PaymentFailEvent",
       "Sale.Core.Domain.Saga.Events.SaleFinishedEvent",
-      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand",
+      "Sale.Core.Domain.Saga.Events.StockInsufficientEvent",
+      "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent",
       "Sale.Core.Domain.Contracts.Event.CreatedSaleEvent",
       "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockFailEvent",
-      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
-      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleItemEvent",
-      "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent",
-      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent",
-      "Sale.Core.Domain.Saga.Events.PaymentFailEvent"
+      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand"
     ]
   },
   "Persistence": {
@@ -2002,9 +2002,9 @@
     }
   },
   "Recoverability": {
-    "ImmediateRetries": 1,
-    "DelayedRetries": 1,
-    "DelayedRetriesTimeIncrease": "0:00:05",
+    "ImmediateRetries": 5,
+    "DelayedRetries": 3,
+    "DelayedRetriesTimeIncrease": "0:00:10",
     "ErrorQueue": "error",
     "UnrecoverableExceptions": [
       "NServiceBus.MessageDeserializationException"

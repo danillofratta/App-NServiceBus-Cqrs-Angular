@@ -4267,9 +4267,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\Product.Infrastructure.ORM.csproj",
-      "projectName": "Product.Infrastructure.ORM",
-      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\Product.Infrastructure.ORM.csproj",
+      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\Product.Infrastructure.Orm.csproj",
+      "projectName": "Product.Infrastructure.Orm",
+      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\Product.Infrastructure.Orm.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
       "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Product\\Product.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",

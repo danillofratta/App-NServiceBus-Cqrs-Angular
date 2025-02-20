@@ -10,10 +10,10 @@ using Shared.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.Services.AddSignalR(options =>
-//{
-//    options.EnableDetailedErrors = true;
-//});
+builder.Services.AddSignalR(options =>
+{
+    options.EnableDetailedErrors = true;
+});
 
 // Add services to the container.
 
@@ -40,14 +40,23 @@ builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 
 builder.Services.AddNServiceBus();
 
+#if DEBUG
+
+#else
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(80); // Porta do container
+});
+#endif
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseHttpsRedirection();
 
@@ -62,7 +71,6 @@ app.UseCors(cors => cors
 );
 
 app.UseCors((g) => g.AllowAnyOrigin());
-app.UseCors((g) => g.AllowCredentials());
 
 app.MapControllers();
 

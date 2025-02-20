@@ -9,7 +9,7 @@ import { environment } from '../environments/environment.development';
 export class AppComponent {
   title = 'AppAngular';
   constructor() {
-    console.log('API URL:', environment.ApiUrl);
+    console.log('API URL:', environment.ApiUrlSale);
     console.log('API URL:', environment.production);
   }
 }

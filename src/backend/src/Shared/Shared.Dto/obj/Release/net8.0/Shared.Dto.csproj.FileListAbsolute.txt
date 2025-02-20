@@ -1,0 +1,13 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\bin\Release\net8.0\Shared.Dto.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\bin\Release\net8.0\Shared.Dto.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\bin\Release\net8.0\Shared.Dto.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\obj\Release\net8.0\Shared.Dto.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\obj\Release\net8.0\Shared.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\obj\Release\net8.0\Shared.Dto.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\obj\Release\net8.0\Shared.Dto.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\obj\Release\net8.0\Shared.Dto.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\obj\Release\net8.0\Shared.Dto.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\obj\Release\net8.0\Shared.Dto.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\obj\Release\net8.0\refint\Shared.Dto.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\obj\Release\net8.0\Shared.Dto.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Shared\Shared.Dto\obj\Release\net8.0\ref\Shared.Dto.dll

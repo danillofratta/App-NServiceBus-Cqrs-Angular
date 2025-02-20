@@ -21,7 +21,7 @@ RUN npm run build -- --configuration=${ENVIRONMENT}
 FROM nginx:alpine
 
 # Copiar arquivos de build para o nginx
-COPY --from=builder /app/dist/app-client-sale/browser /usr/share/nginx/html
+COPY --from=builder /app/dist/app-client-angular/browser /usr/share/nginx/html
 
 # Copiar configuração personalizada do nginx (opcional)
 COPY nginx.conf /etc/nginx/conf.d/default.conf

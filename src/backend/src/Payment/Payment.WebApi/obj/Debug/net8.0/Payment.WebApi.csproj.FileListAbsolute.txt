@@ -1,10 +1,3 @@
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.csproj.AssemblyReference.cache
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.AssemblyInfoInputs.cache
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.AssemblyInfo.cs
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.csproj.CoreCompileInputs.cache
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.sourcelink.json
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\appsettings.Development.json
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\appsettings.json
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Payment.WebApi.staticwebassets.endpoints.json
@@ -19,6 +12,7 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\MediatR.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Microsoft.AspNet.SignalR.Core.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Microsoft.AspNet.SignalR.ServiceBus3.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -54,6 +48,7 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Microsoft.ServiceBus.dll
@@ -86,6 +81,14 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Sale.Core.Domain.Saga.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Shared.Dto.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Stock.Core.Domain.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.sourcelink.json
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\scopedcss\bundle\Payment.WebApi.styles.css
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\staticwebassets.development.json
@@ -96,13 +99,10 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Payment.WebApi.props
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Payment.WebApi.props
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment..41CEE4C2.Up2Date
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\refint\Payment.WebApi.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.genruntimeconfig.cache
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\ref\Payment.WebApi.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\Microsoft.AspNet.SignalR.ServiceBus3.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\Payment.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

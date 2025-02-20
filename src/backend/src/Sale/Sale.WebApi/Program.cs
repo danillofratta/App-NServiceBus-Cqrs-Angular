@@ -37,23 +37,50 @@ builder.Services.AddScoped<CreateSaleCommand>();
 builder.Services.AddScoped<CreateSaleResult>();
 builder.Services.AddScoped<CreateSaleHandler>();
 
-
-//builder.Services.AddScoped<SaleSaga>();
-//builder.Services.AddScoped<SaleStockConfirmedService>();
-//builder.Services.AddScoped<SaleStockInsufficientService>();
-
-//builder.Services.AddScoped<SalePaymentFailedService>();
-//builder.Services.AddScoped<SalePaymentConfirmedService>();
-
+//aqui com servicebus rodando dentro webpi
 builder.Services.AddNServiceBus();
+
+//aqui com servicebus rorando em outro serviço
+//configura servicebus que é chamado em outro processo fora da webapi
+//builder.Services.AddSingleton(provider =>
+//{
+//    var endpointConfiguration = new EndpointConfiguration("SaleSagaEndpoint");
+
+//    // Defina o transporte correto (exemplo: RabbitMQ, Azure Service Bus, etc.)
+//    var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
+//    transport.UseConventionalRoutingTopology(QueueType.Classic);
+//    transport.ConnectionString("amqp://guest:guest@localhost:5672/");// Troque para o transporte real, se necessário
+//    endpointConfiguration.UsePersistence<LearningPersistence>();
+
+//    endpointConfiguration.UseSerialization<SystemJsonSerializer>();
+
+//    var endpointInstance = NServiceBus.Endpoint.Start(endpointConfiguration).GetAwaiter().GetResult();
+//    return endpointInstance;
+//});
+
+builder.Services.AddScoped<IMessageSession>(provider =>
+{
+    var endpointInstance = provider.GetRequiredService<IEndpointInstance>();
+    return endpointInstance;
+});
+
+#if DEBUG
+
+#else
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(80); // Porta do container
+});
+#endif
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
+app.UseSwagger();
+app.UseSwaggerUI();
+//}
 
 app.UseHttpsRedirection();
 
@@ -68,7 +95,12 @@ app.UseCors(cors => cors
 );
 
 app.UseCors((g) => g.AllowAnyOrigin());
-app.UseCors((g) => g.AllowCredentials());
+
+app.UseRouting();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
 app.MapGet("/", () => "NServiceBus está rodando!");
 

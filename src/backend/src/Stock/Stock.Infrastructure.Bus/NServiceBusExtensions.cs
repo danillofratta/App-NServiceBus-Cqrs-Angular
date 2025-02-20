@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using NServiceBus;
 using Sale.Core.Domain.Saga.Commands;
 using Sale.Core.Domain.Saga.Events;
@@ -15,21 +16,32 @@ namespace Stock.Infrasctructure.Services.Bus
     {
         public static void AddNServiceBus(this IServiceCollection services)
         {
-            var sagaEndpoint = ConfigureSagaEndpoint();
+            var sagaEndpoint = ConfigureSagaEndpoint(services);
             var sagaEndpointInstance = sagaEndpoint.GetAwaiter().GetResult();
             services.AddSingleton(sagaEndpointInstance);
             services.AddSingleton<IMessageSession>(sagaEndpointInstance);
         }
 
-        private static async Task<IEndpointInstance> ConfigureSagaEndpoint()
+        private static async Task<IEndpointInstance> ConfigureSagaEndpoint(IServiceCollection services)
         {
+            var logger = services.BuildServiceProvider().GetRequiredService<ILogger<IServiceCollection>>();
+            await Task.Delay(TimeSpan.FromSeconds(4));
+
             var endpointConfiguration = new EndpointConfiguration("StockSagaEndpoint");
 
             // Transport Configuration
             var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
             transport.UseConventionalRoutingTopology(QueueType.Classic);
-            transport.ConnectionString("amqp://guest:guest@localhost:5672/");
-
+            //todo put in appsettings
+            //todo put in appsettings
+            #if DEBUG
+                        transport.ConnectionString("amqp://guest:guest@localhost:5672/");
+                        logger.LogInformation("Iniciando configuração do NServiceBus: STOCK DEBUG");
+            #else
+            transport.ConnectionString("amqp://guest:guest@rabbitmq:5672/");
+            logger.LogInformation("Iniciando configuração do NServiceBus: STOCK RELEASE");
+                        Console.Write("RELEASE");
+            #endif
             // Message Routing
             var routing = transport.Routing();
             routing.RouteToEndpoint(typeof(StockConfirmedEvent), "SaleSagaEndpoint"); 
