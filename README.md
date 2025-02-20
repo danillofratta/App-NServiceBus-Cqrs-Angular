@@ -31,12 +31,12 @@ São 4 serviços:
 ## Rodar Aplicação no Docker
 
 - build do backend, acessar a pasta src\backend\src e no terminal rodar
-  docker-compose up --build
+    - docker-compose up --build
 - build do fronteend, acessar a pasta src\frontend\appclientangular e no terminal rodar
-  docker build -t app-client -f Dockerfile .
+    - docker build -t app-client -f Dockerfile .
 - rodar migration para gerar o banco de dados. Acessar src\backend\src\Shared\Shared.Infrasctructure e no terminal rodar
-  dotnet ef migrations add InitialCreate
-  dotnet ef database update
+    - dotnet ef migrations add InitialCreate
+    - dotnet ef database update
 - rodar os containers
 
 ## TODO
