@@ -40,6 +40,8 @@ São 4 serviços:
 - rodar os containers
 
 ## TODO
+- criar diagramas arquitetura do projeto
+- criar diagramas fluxo do processo
 - criar IoC
 - revisar projeto
 - add mais consultas com signalr
