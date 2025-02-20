@@ -39,3 +39,8 @@ São 4 serviços:
   dotnet ef database update
 - rodar os containers
 
+## TODO
+- criar IoC
+- revisar projeto
+- add mais consultas com signalr
+
