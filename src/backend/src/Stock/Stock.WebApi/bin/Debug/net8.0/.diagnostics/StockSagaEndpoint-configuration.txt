@@ -1968,7 +1968,7 @@
     "ProcessorCount": 20,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.12",
-    "WorkingSet": 75997184,
+    "WorkingSet": 76066816,
     "SystemPageSize": 4096,
     "HostName": "NoteDF",
     "UserName": "danil",
@@ -1979,7 +1979,7 @@
     "LicenseType": "Trial",
     "Edition": null,
     "Tier": null,
-    "LicenseStatus": 0,
+    "LicenseStatus": 2,
     "LicenseLocation": "Trial License",
     "ValidApplications": "All",
     "CommercialLicense": false,
@@ -1992,21 +1992,23 @@
     "MessageConventions": [
       "NServiceBus Marker Interfaces"
     ],
-    "NumberOfMessagesFoundAtStartup": 13,
+    "NumberOfMessagesFoundAtStartup": 15,
     "Messages": [
+      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent",
       "Sale.Core.Domain.Saga.Events.PaymentFailEvent",
-      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
-      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent",
+      "Sale.Core.Domain.Saga.Commands.SalePaymentConfirmedCommand",
+      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand",
+      "Sale.Core.Domain.Contracts.Event.CreatedSaleEvent",
+      "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent",
+      "Sale.Core.Domain.Saga.Commands.SaleStockConfirmedCommand",
+      "Sale.Core.Domain.Saga.Commands.SalePaymentCancelledCommand",
       "Sale.Core.Domain.Saga.Events.StockInsufficientEvent",
       "Sale.Core.Domain.Saga.Events.StockConfirmedEvent",
-      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleItemEvent",
-      "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockFailEvent",
+      "Sale.Core.Domain.Saga.Commands.SaleStockInsufficienCommand",
+      "Sale.Core.Domain.Saga.Saga.Events.ProcessPaymentEvent",
       "Sale.Core.Domain.Saga.Events.SaleFinishedEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockOkEvent",
-      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent"
+      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
+      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent"
     ]
   },
   "Persistence": {
@@ -2027,7 +2029,7 @@
     "InstanceSpecificQueueAddress": null,
     "PurgeOnStartup": false,
     "TransactionMode": "ReceiveOnly",
-    "MaxConcurrency": 20,
+    "MaxConcurrency": 1,
     "Satellites": [
       
     ],
@@ -2053,8 +2055,8 @@
     }
   },
   "Recoverability": {
-    "ImmediateRetries": 2,
-    "DelayedRetries": 1,
+    "ImmediateRetries": 5,
+    "DelayedRetries": 3,
     "DelayedRetriesTimeIncrease": "0:00:10",
     "ErrorQueue": "error",
     "UnrecoverableExceptions": [

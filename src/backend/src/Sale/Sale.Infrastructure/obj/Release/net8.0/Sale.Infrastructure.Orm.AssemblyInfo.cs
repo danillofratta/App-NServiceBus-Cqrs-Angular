@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sale.Infrastructure.Orm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a9231e66cd6600fdc23cd1c12cba964509af18a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3ff2b6757cf56dc119ccbc8247ad0ed4fd6e885")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sale.Infrastructure.Orm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sale.Infrastructure.Orm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

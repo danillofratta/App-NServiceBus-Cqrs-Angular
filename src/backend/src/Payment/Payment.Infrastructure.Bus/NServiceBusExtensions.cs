@@ -1,13 +1,14 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Payment.Core.Domain.Application.Payment.Handlers;
-using Payment.Core.Domain.Application.Payment.Service;
 using Payment.Core.Domain.Repository;
 using Payment.Core.Domain.Services;
 using Payment.Infrastructure.Orm.Notification;
 using Payment.Infrastructure.Orm.Repository;
 using Sale.Core.Domain.Saga.Commands;
 using Sale.Core.Domain.Saga.Events;
+using Sale.Core.Domain.Saga.Saga.Events;
+using Sale.Core.Domain.Service;
 using Shared.Infrastructure;
 
 
@@ -18,14 +19,7 @@ namespace Payment.Infrasctructure.Services.Bus
     {
         public static void AddNServiceBus(this IServiceCollection services)
         {
-            //services.AddSignalR();
-            //services.AddSingleton<SignalRPaymentNotificationService>();
-
-            //services.AddSingleton<NotificationPaymentHub>();
-
             services.AddSignalR();
-            services.AddSingleton<NotificationPaymentHub>();
-            services.AddSingleton<SignalRPaymentNotificationService>();
 
             var sagaEndpoint = ConfigureSagaEndpoint(services);
             var sagaEndpointInstance = sagaEndpoint.GetAwaiter().GetResult();
@@ -54,20 +48,27 @@ namespace Payment.Infrasctructure.Services.Bus
 #endif
             // Message Routing
             var routing = transport.Routing();
+            
             routing.RouteToEndpoint(typeof(PaymentConfirmedEvent), "SaleSagaEndpoint"); 
             routing.RouteToEndpoint(typeof(PaymentFailEvent), "SaleSagaEndpoint");
-            
+
             // Error Handling
             endpointConfiguration.EnableInstallers();
             endpointConfiguration.SendFailedMessagesTo("error");
             endpointConfiguration.UseSerialization<SystemJsonSerializer>();
 
-            var recoverability = endpointConfiguration.Recoverability();
-            recoverability.Immediate(immediate => immediate.NumberOfRetries(5)); // Ajuste o número de tentativas
-            recoverability.Delayed(delayed => delayed.NumberOfRetries(3).TimeIncrease(TimeSpan.FromSeconds(10))); // Ajuste o delay
+            endpointConfiguration.LimitMessageProcessingConcurrencyTo(1);
+
+            //var recoverability = endpointConfiguration.Recoverability();
+            //recoverability.Immediate(immediate => immediate.NumberOfRetries(5)); // Ajuste o número de tentativas
+            //recoverability.Delayed(delayed => delayed.NumberOfRetries(3).TimeIncrease(TimeSpan.FromSeconds(10))); // Ajuste o delay
 
             // Persistence
             endpointConfiguration.UsePersistence<LearningPersistence>();
+
+            //signal
+            var conventions = endpointConfiguration.Conventions();
+            conventions.DefiningEventsAs(type => type == typeof(ProcessPaymentEvent));
 
             // Component Registration
             endpointConfiguration.RegisterComponents(registration =>
@@ -75,14 +76,12 @@ namespace Payment.Infrasctructure.Services.Bus
                 registration.AddLogging();
                 registration.AddDbContext<DefaultDbContext>();
                 registration.AddScoped<IPaymentRepository, PaymentRepository>();
-                registration.AddTransient<IHandleMessages<ProcessPaymentCommand>, ProcessPaymentHandler>(); // ✅ Responsável por processar pagamentos
+                //registration.AddTransient<IHandleMessages<ProcessPaymentCommand>, ProcessPaymentHandler>(); // ✅ Responsável por processar pagamentos
                 registration.AddTransient<PaymentCreateService>();
+                registration.AddTransient<ProcessPaymentHandler>();
 
                 //signalr
-                registration.AddSignalR();
-                registration.AddSingleton<NotificationPaymentHub>();
-                registration.AddSingleton<SignalRPaymentNotificationService>();
-                
+                registration.AddSignalR();               
 
             });
             

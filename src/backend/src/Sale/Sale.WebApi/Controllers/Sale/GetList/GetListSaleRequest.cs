@@ -1,5 +1,4 @@
-﻿
-using Sale.Core.Application.Sale.Dto;
+﻿using Sale.Core.Domain.Application.Sale.Query.GetSalesList.Dto;
 
 namespace Sale.WebApi.Controllers.Sale.GetList;
 

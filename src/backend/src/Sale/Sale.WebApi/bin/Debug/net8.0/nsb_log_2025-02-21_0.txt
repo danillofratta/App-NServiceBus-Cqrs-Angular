@@ -1,0 +1,53 @@
+﻿2025-02-21 14:15:40.614 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 14:15:40.787 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 14:15:42.725 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 14:18:38.396 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 14:18:38.684 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 14:18:40.877 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 14:20:24.141 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 14:20:24.349 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 14:20:25.071 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 14:21:37.024 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 14:21:37.146 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 14:21:37.761 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 14:24:28.148 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 14:24:28.395 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 14:24:29.453 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 14:54:10.556 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 14:54:10.683 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 14:54:11.656 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 14:55:55.258 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 14:55:55.360 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 14:55:56.285 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 15:04:18.788 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 15:04:18.977 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 15:04:20.437 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 15:12:28.837 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 15:12:29.048 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 15:12:30.655 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 15:14:58.674 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 15:14:58.741 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 15:14:59.205 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 15:15:08.381 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 15:15:08.536 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 15:15:09.474 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 15:16:31.056 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 15:16:31.198 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 15:16:31.911 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 15:28:43.099 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 15:28:43.373 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 15:28:45.576 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 15:33:33.763 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 15:33:34.623 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 15:33:36.608 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 15:36:28.669 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 15:36:32.508 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 15:36:33.645 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 15:56:12.102 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 15:56:12.859 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 15:57:18.011 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 15:57:18.129 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 15:57:19.128 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.
+2025-02-21 16:02:08.680 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-21 16:02:08.908 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-21 16:02:13.392 WARN  The specified prefetch count '1' is smaller than the specified maximum concurrency '20'. The maximum concurrency value will be used as the prefetch count instead.

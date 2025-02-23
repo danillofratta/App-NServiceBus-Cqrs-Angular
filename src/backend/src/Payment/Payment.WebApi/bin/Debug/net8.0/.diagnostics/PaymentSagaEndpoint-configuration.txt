@@ -37,14 +37,6 @@
     "ErrorsThrownDuringScanning": false,
     "SkippedFiles": [
       {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.AspNet.SignalR.Core.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.AspNet.SignalR.ServiceBus3.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.DotNet.PlatformAbstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -113,18 +105,6 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.Owin.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.Owin.Security.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.ServiceBus.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Newtonsoft.Json.dll",
         "SkipReason": "File was explicitly excluded from scanning."
       },
@@ -147,6 +127,14 @@
       {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Payment.WebApi.exe",
         "SkipReason": "File is not a .NET assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\Microsoft.VisualBasic.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "SkipReason": "File is a .NET runtime assembly."
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.Authentication.BearerToken.dll",
@@ -186,26 +174,6 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Resources.ResourceManager.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Caching.Memory.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.AccessControl.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.AspNet.SignalR.Core.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.CommandLine.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.AspNet.SignalR.ServiceBus3.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -265,6 +233,10 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Caching.Memory.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Reflection.DispatchProxy.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -274,6 +246,14 @@
       },
       {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Linq.Expressions.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.Ini.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -290,10 +270,6 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Diagnostics.FileVersionInfo.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.Owin.Security.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -321,20 +297,12 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Private.Xml.Linq.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Diagnostics.Tracing.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.Owin.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Newtonsoft.Json.dll",
         "SkipReason": "File was explicitly excluded from scanning."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Private.Xml.Linq.dll",
+        "SkipReason": "File is a .NET runtime assembly."
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Threading.dll",
@@ -349,15 +317,19 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.Json.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\System.Diagnostics.DiagnosticSource.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\bin\\Debug\\net8.0\\Microsoft.ServiceBus.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.Xml.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -381,35 +353,15 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.CommandLine.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Linq.Expressions.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.Ini.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.Json.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\Microsoft.VisualBasic.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.UserSecrets.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.Xml.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -1001,6 +953,10 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Diagnostics.Tracing.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -1410,6 +1366,10 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Runtime.Serialization.Primitives.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.AccessControl.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -1956,7 +1916,7 @@
     "ProcessorCount": 20,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.12",
-    "WorkingSet": 75448320,
+    "WorkingSet": 77029376,
     "SystemPageSize": 4096,
     "HostName": "NoteDF",
     "UserName": "danil",
@@ -1967,7 +1927,7 @@
     "LicenseType": "Trial",
     "Edition": null,
     "Tier": null,
-    "LicenseStatus": 0,
+    "LicenseStatus": 2,
     "LicenseLocation": "Trial License",
     "ValidApplications": "All",
     "CommercialLicense": false,
@@ -1976,25 +1936,27 @@
     "UpgradeProtectionExpirationDate": null
   },
   "Messages": {
-    "CustomConventionUsed": false,
+    "CustomConventionUsed": true,
     "MessageConventions": [
-      "NServiceBus Marker Interfaces"
+      "Modified NServiceBus Marker Interfaces"
     ],
-    "NumberOfMessagesFoundAtStartup": 13,
+    "NumberOfMessagesFoundAtStartup": 15,
     "Messages": [
-      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
-      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand",
-      "Sale.Core.Domain.Saga.Events.StockInsufficientEvent",
-      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent",
-      "Sale.Core.Domain.Saga.Events.SaleFinishedEvent",
-      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent",
       "Sale.Core.Domain.Contracts.Event.CreatedSaleEvent",
+      "Sale.Core.Domain.Saga.Commands.SalePaymentCancelledCommand",
+      "Sale.Core.Domain.Saga.Events.StockInsufficientEvent",
+      "Sale.Core.Domain.Saga.Commands.SalePaymentConfirmedCommand",
+      "Sale.Core.Domain.Saga.Saga.Events.ProcessPaymentEvent",
+      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
+      "Sale.Core.Domain.Saga.Commands.SaleStockConfirmedCommand",
       "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent",
       "Sale.Core.Domain.Saga.Events.StockConfirmedEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleItemEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockFailEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockOkEvent",
-      "Sale.Core.Domain.Saga.Events.PaymentFailEvent"
+      "Sale.Core.Domain.Saga.Events.SaleFinishedEvent",
+      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand",
+      "Sale.Core.Domain.Saga.Commands.SaleStockInsufficienCommand",
+      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent",
+      "Sale.Core.Domain.Saga.Events.PaymentFailEvent",
+      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent"
     ]
   },
   "Persistence": {
@@ -2015,7 +1977,7 @@
     "InstanceSpecificQueueAddress": null,
     "PurgeOnStartup": false,
     "TransactionMode": "ReceiveOnly",
-    "MaxConcurrency": 20,
+    "MaxConcurrency": 1,
     "Satellites": [
       
     ],

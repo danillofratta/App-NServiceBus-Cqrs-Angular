@@ -1,8 +1,6 @@
 using Sale.Core.Application.Sales.Create;
 using Sale.Core.Domain.Application;
 using Sale.Core.Domain.Repository;
-using Sale.Core.Domain.Saga;
-using Sale.Core.Domain.Service;
 using Sale.Infrasctructure.Services.Bus;
 using Sale.Infrastructure.Orm.Repository;
 using Serilog;
@@ -10,10 +8,17 @@ using Shared.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseSerilog();
+builder.Host.UseSerilog(new LoggerConfiguration()
+        //.MinimumLevel.Information() // Ou Debug para mais detalhes
+        .WriteTo.Console()
+        //.WriteTo.File("logs/sale.log", rollingInterval: RollingInterval.Day)
+        .WriteTo.Debug()        
+        .CreateLogger());
+
 builder.Services.AddLogging(builder =>
 {
     builder.AddConsole();
+    //builder.AddSerilog();
 });
 
 builder.Services.AddControllers();

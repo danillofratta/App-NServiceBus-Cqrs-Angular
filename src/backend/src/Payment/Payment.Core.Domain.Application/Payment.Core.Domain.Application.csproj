@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Sale\Sale.Core.Domain.Saga\Sale.Core.Domain.Saga.csproj" />
     <ProjectReference Include="..\Payment.Core.Domain\Payment.Core.Domain.csproj" />
+    <ProjectReference Include="..\Payment.Infrastructure\Payment.Infrastructure.Orm.csproj" />
   </ItemGroup>
 
 </Project>

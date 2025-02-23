@@ -1,14 +1,19 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Npgsql;
+using NpgsqlTypes;
 using NServiceBus;
+using Sale.Core.Application.Sales.Create;
+using Sale.Core.Domain.Application.Sale.Handle;
 using Sale.Core.Domain.Repository;
-using Sale.Core.Domain.Saga;
-using Sale.Core.Domain.Saga.Commands;
 using Sale.Core.Domain.Service;
 using Sale.Infrastructure.Orm.Repository;
 using Shared.Infrastructure;
-using System;
-using System.ComponentModel;
+
+using OpenTelemetry;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
+using OpenTelemetry.Metrics;
 
 namespace Sale.Infrasctructure.Services.Bus
 {
@@ -34,51 +39,86 @@ namespace Sale.Infrasctructure.Services.Bus
             transport.UseConventionalRoutingTopology(QueueType.Classic);
 
             //todo put in appsettings
-            //#if DEBUG
-            //            transport.ConnectionString("amqp://guest:guest@localhost:5672/");
-            //            logger.LogInformation("Iniciando configuração do NServiceBus: SALE DEBUG");
-            //#else
-            transport.ConnectionString("amqp://guest:guest@rabbitmq:5672/");
-            logger.LogInformation("Iniciando configuração do NServiceBus: SALE RELEASE");
-            //            Console.Write("RELEASE");
-            //#endif
+#if DEBUG
+            transport.ConnectionString("amqp://guest:guest@localhost:5672/");
+            logger.LogInformation("Iniciando configuração do NServiceBus: PAYMENT DEBUG");
+#else
+            transport.ConnectionString("amqp://guest:guest@rabbitmq:5672/");       
+            logger.LogInformation("Iniciando configuração do NServiceBus: PAYMENT RELEASE");
+            Console.Write("RELEASE");
+#endif
 
-            //transport.Routing(). EnableMessageDrivenPubSub();
-            transport.PrefetchCount(1);
-
-            // Message Routing
-            var routing = transport.Routing();
-            routing.RouteToEndpoint(typeof(ReserveStockCommand), "StockSagaEndpoint");
-            //routing.RouteToEndpoint(typeof(ProcessPaymentCommand), "PaymentSagaEndpoint");
-
-            // Error Handling
-            endpointConfiguration.EnableInstallers();
-            endpointConfiguration.SendFailedMessagesTo("error");
-            endpointConfiguration.UseSerialization<SystemJsonSerializer>();
+            var conventions = endpointConfiguration.Conventions();
+            conventions.DefiningEventsAs(type => type.Namespace != null && type.Namespace.Contains(".Events"));            
 
             var recoverability = endpointConfiguration.Recoverability();
-            recoverability.Immediate(immediate => immediate.NumberOfRetries(1)); // Reduzir tentativas imediatas
-            recoverability.Delayed(delayed => delayed.NumberOfRetries(1).TimeIncrease(TimeSpan.FromSeconds(5))); // Reduzir retries automáticos
+            recoverability.Immediate(immediate => immediate.NumberOfRetries(2)); // Reduzir tentativas imediatas
+            recoverability.Delayed(delayed => delayed.NumberOfRetries(1).TimeIncrease(TimeSpan.FromSeconds(20))); // Reduzir retries automáticos
 
             // Persistence
-            endpointConfiguration.UsePersistence<LearningPersistence>();           
+            var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
+            var connection = "Host=localhost;Port=5432;Username=admin;Password=root;Database=apitest;";
+
+            persistence.ConnectionBuilder(() => new NpgsqlConnection(connection));
+            persistence.SqlDialect<SqlDialect.PostgreSql>();            
+            var dialect = persistence.SqlDialect<SqlDialect.PostgreSql>();
+            dialect.JsonBParameterModifier(parameter =>
+            {
+                var npgsqlParameter = (NpgsqlParameter)parameter;
+                npgsqlParameter.NpgsqlDbType = NpgsqlDbType.Jsonb;
+            });
+
+            persistence.TablePrefix("");
+            endpointConfiguration.EnableInstallers();
+
+            endpointConfiguration.EnableOutbox();
+            endpointConfiguration.UseSerialization<SystemJsonSerializer>();
+            endpointConfiguration.LimitMessageProcessingConcurrencyTo(1);  
+            
+            endpointConfiguration.EnableOpenTelemetry();
+            services.AddOpenTelemetry()
+                       .WithTracing(tracerProviderBuilder =>
+                       {
+                           tracerProviderBuilder
+                               .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("SaleSaga"))
+                               .AddAspNetCoreInstrumentation()
+                               .AddHttpClientInstrumentation();
+                               //.AddNServiceBusInstrumentation() // Captura telemetria do NServiceBus
+                               //.AddOtlpExporter(options =>
+                               //{
+                               //    options.Endpoint = new Uri("http://localhost:4317"); // OTLP para Jaeger ou outro observability backend
+                               //})
+                               //.AddConsoleExporter();
+                       })
+                       .WithMetrics(metricsProviderBuilder =>
+                       {
+                           metricsProviderBuilder
+                               .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("SaleSaga"))
+                               .AddAspNetCoreInstrumentation()
+                               .AddHttpClientInstrumentation()
+                               .AddMeter("NServiceBus") // Para métricas do NServiceBus
+                               .AddConsoleExporter();
+                       });
 
             // Component Registration
             endpointConfiguration.RegisterComponents(registration =>
             {
                 registration.AddLogging();
-                
+
                 registration.AddDbContext<DefaultDbContext>();
                 registration.AddScoped<ISaleRepository, SaleRepository>();
 
-                //if use singleton error in trackrecord sale need commit or something like this
-                registration.AddScoped<SaleSaga>();
+                registration.AddTransient<CreateSaleHandler>();
 
-                registration.AddScoped<SaleStockConfirmedService>();
-                registration.AddScoped<SaleStockInsufficientService>();
+                registration.AddTransient<SaleStockConfirmedService>();
+                registration.AddTransient<SalePaymentFailedService>();
+                registration.AddTransient<SalePaymentConfirmedService>();
+                registration.AddTransient<SaleStockInsufficientService>();
 
-                registration.AddScoped<SalePaymentFailedService>();
-                registration.AddScoped<SalePaymentConfirmedService>();
+                registration.AddTransient<SalePaymentCanceleldHandle>();
+                registration.AddTransient<SalePaymentConfirmedHandle>();
+                registration.AddTransient<SaleStockConfirmedHandle>();
+                registration.AddTransient<SaleStockInsufficienHandle>();
             });
 
             return await NServiceBus.Endpoint.Start(endpointConfiguration).ConfigureAwait(false);

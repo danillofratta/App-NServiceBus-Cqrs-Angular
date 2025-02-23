@@ -1,0 +1,198 @@
+﻿2025-02-23 12:59:59.220 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 12:59:59.316 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 12:59:59.320 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 13:03:29.735 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 13:03:29.983 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 13:03:29.990 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 13:04:56.650 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 13:04:56.655 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 13:08:02.996 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 13:08:03.095 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 13:08:03.100 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 13:09:11.872 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 13:09:11.876 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 13:09:57.227 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 13:09:57.232 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 13:14:23.255 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 13:14:23.356 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 13:14:23.360 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 13:15:14.042 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 13:15:14.049 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 13:19:39.585 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 13:19:39.702 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 13:19:39.708 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 13:20:56.014 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 13:20:56.018 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 13:22:05.738 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 13:22:05.889 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 13:22:05.895 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 13:22:56.325 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 13:22:56.329 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:03:56.231 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 15:03:56.384 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 15:03:56.389 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 15:06:57.982 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:06:57.992 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:09:17.917 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:09:17.921 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:11:47.914 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 15:11:48.133 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 15:11:48.141 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 15:12:48.689 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:12:48.695 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:15:04.610 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:15:04.616 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:16:34.781 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 15:16:34.915 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 15:16:34.922 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 15:17:48.213 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:17:48.272 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:18:26.255 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:18:26.260 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:19:32.347 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:19:32.354 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:21:31.545 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:21:31.548 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:22:09.020 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:22:09.024 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:22:55.993 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:22:55.998 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:23:47.781 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'.
+2025-02-23 15:23:47.788 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:23:47.794 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:23:47.800 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:24:46.315 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:24:46.317 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:26:01.086 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:26:01.096 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:26:35.824 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 15:26:35.962 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 15:26:35.966 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 15:26:52.443 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:26:52.447 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:31:50.989 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 15:31:51.153 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 15:31:51.163 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 15:33:48.323 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:33:48.328 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:36:24.155 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:36:24.161 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:42:25.876 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 15:42:36.201 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 15:42:36.206 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 15:42:43.087 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:42:43.098 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:42:43.117 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'.
+2025-02-23 15:42:43.124 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:44:22.521 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:44:22.529 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:45:03.824 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 15:45:03.906 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 15:45:03.911 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 15:46:36.709 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:46:36.713 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:47:30.051 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:47:30.055 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:47:30.083 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:47:30.088 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:47:32.131 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'.
+2025-02-23 15:47:32.139 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:47:35.385 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:47:35.392 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:48:41.607 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 15:48:41.798 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 15:48:41.807 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 15:49:26.439 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:49:26.445 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:49:26.500 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 15:49:26.506 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:54:46.641 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 15:54:46.770 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 15:54:46.776 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 15:55:13.747 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:55:13.752 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:55:13.776 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:55:13.780 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:56:32.935 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 15:56:33.080 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 15:56:33.085 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 15:57:34.350 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:57:34.356 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 15:57:34.392 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 15:57:34.398 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:01:15.480 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:01:15.588 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:01:15.592 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:02:12.514 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 16:02:12.519 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:02:12.543 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 16:02:12.547 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:06:39.546 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:06:39.689 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:06:39.695 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:07:50.146 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 16:07:50.152 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:07:50.193 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 16:07:50.197 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:15:05.199 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:15:05.289 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:15:05.293 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:15:31.628 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockInsufficientEvent'.
+2025-02-23 16:15:31.631 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockInsufficientEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:18:27.196 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:18:27.290 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:18:27.294 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:19:26.008 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockInsufficientEvent'.
+2025-02-23 16:19:26.012 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockInsufficientEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:19:26.016 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockInsufficientEvent'.
+2025-02-23 16:19:26.019 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockInsufficientEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:21:54.630 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockInsufficientEvent'.
+2025-02-23 16:21:54.635 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockInsufficientEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:21:56.008 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockInsufficientEvent'.
+2025-02-23 16:21:56.013 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockInsufficientEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:22:52.367 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 16:22:52.370 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:22:52.988 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 16:22:52.992 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:27:13.746 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:27:13.834 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:27:13.838 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:27:45.569 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 16:27:45.573 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:27:47.812 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-23 16:27:47.816 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:31:41.806 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:31:42.094 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:31:42.100 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:32:45.978 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:32:46.101 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:32:46.104 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:34:13.389 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:34:13.493 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:34:13.497 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:34:22.397 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-23 16:34:22.406 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-23 16:35:59.000 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:35:59.099 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:35:59.104 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:37:45.914 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:37:46.001 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:37:46.005 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:39:37.400 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:39:37.493 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:39:37.496 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:42:27.646 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:42:27.745 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:42:27.748 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 16:48:19.815 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 16:48:19.918 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 16:48:19.921 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 17:01:52.962 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 17:01:53.078 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 17:01:53.083 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 17:10:51.437 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 17:10:51.543 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 17:10:51.547 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-23 17:14:42.272 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-23 17:14:42.409 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-23 17:14:42.414 WARN  Trial license expiring in 4 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8

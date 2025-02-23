@@ -12,6 +12,8 @@ public interface IPaymentRepository : IRepositoryBase<PaymentCoreDomainEntities.
     /// <returns></returns>
     Task<PaymentCoreDomainEntities.Payment> GetByIdSaleAsync(Guid SaleId, CancellationToken cancellationToken = default);
 
+    Task<PaymentCoreDomainEntities.Payment> GetByPaymentRequestId(Guid paymentRequestId);
+
     /// <summary>
     /// Returns sales from the database
     /// </summary>

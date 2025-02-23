@@ -1,0 +1,12 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\bin\Release\net8.0\Stock.Core.Domain.Contracts.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\bin\Release\net8.0\Stock.Core.Domain.Contracts.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\bin\Release\net8.0\Stock.Core.Domain.Contracts.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\obj\Release\net8.0\Stock.Core.Domain.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\obj\Release\net8.0\Stock.Core.Domain.Contracts.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\obj\Release\net8.0\Stock.Core.Domain.Contracts.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\obj\Release\net8.0\Stock.Core.Domain.Contracts.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\obj\Release\net8.0\Stock.Core.Domain.Contracts.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\obj\Release\net8.0\Stock.Core.Domain.Contracts.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\obj\Release\net8.0\refint\Stock.Core.Domain.Contracts.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\obj\Release\net8.0\Stock.Core.Domain.Contracts.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.Core.Domain.Contracts\obj\Release\net8.0\ref\Stock.Core.Domain.Contracts.dll

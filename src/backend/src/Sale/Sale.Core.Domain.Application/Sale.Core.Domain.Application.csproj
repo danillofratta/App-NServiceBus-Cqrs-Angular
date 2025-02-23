@@ -7,9 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Sale\Commands\ModifySale\" />
-    <Folder Include="Sale\Commands\DeleteSale\" />
-    <Folder Include="Sale\Commands\CancelSale\" />
     <Folder Include="Sale\Query\GetSale\" />
   </ItemGroup>
 

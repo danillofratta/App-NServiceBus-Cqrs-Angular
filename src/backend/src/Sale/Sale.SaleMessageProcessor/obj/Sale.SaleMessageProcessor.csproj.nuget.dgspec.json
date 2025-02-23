@@ -806,9 +806,37 @@
               "target": "Package",
               "version": "[9.2.6, )"
             },
+            "NServiceBus.Persistence.Sql": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "NServiceBus.RabbitMQ": {
               "target": "Package",
               "version": "[9.2.0, )"
+            },
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "OpenTelemetry.Exporter.Zipkin": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.11.0, )"
             }
           },
           "imports": [

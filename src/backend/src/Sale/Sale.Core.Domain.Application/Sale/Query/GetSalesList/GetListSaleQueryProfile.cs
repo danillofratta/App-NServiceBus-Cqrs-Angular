@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Sale.Core.Application.Sale.Dto;
+using Sale.Core.Domain.Application.Sale.Query.GetSalesList.Dto;
 using SaleCoreDomainEntities;
 
 namespace Sale.Core.Application.Sale.Query.GetSalesList

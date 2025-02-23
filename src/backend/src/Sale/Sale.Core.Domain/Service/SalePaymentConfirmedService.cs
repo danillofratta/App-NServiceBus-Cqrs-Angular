@@ -36,7 +36,7 @@ namespace Sale.Core.Domain.Service
                         new ValidationErrorDetail
                         {
                             Error = ex.Message,
-                            Detail = "error save payment confirmed"
+                            Detail = "Error save payment not confirmed"
                         }
                     );
                 throw ex;

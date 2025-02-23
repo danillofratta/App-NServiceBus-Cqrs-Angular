@@ -36,7 +36,7 @@ namespace Sale.Core.Domain.Service
                         new ValidationErrorDetail
                         {
                             Error = ex.Message,
-                            Detail = "error save stock insufficient"
+                            Detail = "error save stock not insufficient"
                         }
                     );
                 throw ex;

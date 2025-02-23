@@ -7,13 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNet.SignalR.ServiceBus3" Version="2.4.3" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Sale\Sale.Core.Domain.Saga\Sale.Core.Domain.Saga.csproj" />
     <ProjectReference Include="..\..\Shared\Shared.Infrasctructure\Shared.Infrasctructure.Orm.csproj" />
-    <ProjectReference Include="..\Payment.Core.Domain.Application\Payment.Core.Domain.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Service\" />
   </ItemGroup>
 
 </Project>

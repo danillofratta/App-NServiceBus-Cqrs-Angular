@@ -1,7 +1,9 @@
 ﻿using Microsoft.Extensions.Logging;
 using Sale.Core.Domain.Saga.Commands;
 using Sale.Core.Domain.Saga.Events;
+using Sale.Core.Domain.Saga.Saga.Events;
 using Sale.Core.Domain.Service;
+using SaleCoreDomainEntities;
 
 namespace Sale.Core.Domain.Saga
 {
@@ -13,24 +15,27 @@ namespace Sale.Core.Domain.Saga
         IHandleMessages<PaymentFailEvent>
     {
         private readonly ILogger<SaleSaga> _logger;
-        private readonly SaleStockConfirmedService _saleStockConfirmedService;
-        private readonly SaleStockInsufficientService _saleStockInsufficientService;
-        private readonly SalePaymentFailedService _SalePaymentFailedService;
-        private readonly SalePaymentConfirmedService _SalePaymentConfirmedService;
+
+        //Uma alternativa é usar direto dentro do saga
+        //private readonly SaleStockConfirmedService _saleStockConfirmedService;
+        //private readonly SaleStockInsufficientService _saleStockInsufficientService;
+        //private readonly SalePaymentFailedService _SalePaymentFailedService;
+        //private readonly SalePaymentConfirmedService _SalePaymentConfirmedService;
 
         public SaleSaga(
-            ILogger<SaleSaga> logger,
-            SaleStockConfirmedService saleStockConfirmedService,
-            SaleStockInsufficientService saleStockInsufficientService,
-            SalePaymentFailedService SalePaymentFailedService,
-            SalePaymentConfirmedService SalePaymentConfirmedService
+            ILogger<SaleSaga> logger//,
+            //SaleStockConfirmedService saleStockConfirmedService,
+            //SaleStockInsufficientService saleStockInsufficientService,
+            //SalePaymentFailedService SalePaymentFailedService,
+            //SalePaymentConfirmedService SalePaymentConfirmedService
             )
         {
             _logger = logger;
-            _saleStockConfirmedService = saleStockConfirmedService;
-            _saleStockInsufficientService = saleStockInsufficientService;
-            _SalePaymentFailedService = SalePaymentFailedService;
-            _SalePaymentConfirmedService = SalePaymentConfirmedService;
+            //_saleStockConfirmedService = saleStockConfirmedService;
+            //_saleStockInsufficientService = saleStockInsufficientService;
+            //_SalePaymentFailedService = SalePaymentFailedService;
+            //_SalePaymentConfirmedService = SalePaymentConfirmedService;
+            _logger.LogInformation("Nova instância de SaleSaga criada com ID de instância {InstanceId}", Guid.NewGuid());
         }
 
         protected override void ConfigureHowToFindSaga(SagaPropertyMapper<SaleSagaData> mapper)
@@ -45,13 +50,6 @@ namespace Sale.Core.Domain.Saga
                 .ToSaga(sagaData => sagaData.SaleId);
             mapper.ConfigureMapping<PaymentFailEvent>(message => message.SaleId)
                 .ToSaga(sagaData => sagaData.SaleId);
-
-            //mapper.MapSaga(saga => saga.SaleId)
-            // .ToMessage<SaleCreatedEvent>(msg => msg.SaleId)
-            // .ToMessage<StockConfirmedEvent>(msg => msg.SaleId)
-            // .ToMessage<StockInsufficientEvent>(msg => msg.SaleId)
-            // .ToMessage<PaymentConfirmedEvent>(msg => msg.SaleId)
-            // .ToMessage<PaymentFailEvent>(msg => msg.SaleId);
         }
 
         public async Task Handle(SaleCreatedEvent message, IMessageHandlerContext context)
@@ -60,11 +58,17 @@ namespace Sale.Core.Domain.Saga
 
             try
             {
+                if (Data.ProcessStarted.HasValue)
+                    return;
+
+                Data.ProcessStarted = DateTime.UtcNow;
+
                 await context.Send("StockSagaEndpoint", new ReserveStockCommand
                 {
                     SaleId = message.SaleId,
                     SaleItens = message.SaleItens
                 });
+                _logger.LogInformation("Comando ReserveStockCommand enviado para venda {SaleId}", message.SaleId);
 
                 _logger.LogDebug("Comando ReserveStockCommand enviado para venda {SaleId}", message.SaleId);
             }
@@ -73,8 +77,6 @@ namespace Sale.Core.Domain.Saga
                 _logger.LogError(ex, "Erro ao processar SaleCreatedEvent para venda {SaleId}", message.SaleId);
                 throw;
             }
-
-            await Task.CompletedTask;
         }
 
         public async Task Handle(StockConfirmedEvent message, IMessageHandlerContext context)
@@ -83,19 +85,32 @@ namespace Sale.Core.Domain.Saga
 
             try
             {
-                if (Data.IsStockConfirmed)
+                if (Data.StockConfirmed.HasValue)
                 {
                     _logger.LogWarning("Stock already confirmed for sale {SaleId}", message.SaleId);
                     return;
                 }
 
+                if (Data.PaymentRequested.HasValue || Data.PaymentRequestId.HasValue)
+                {
+                    _logger.LogWarning("Payment already requested for sale {SaleId}", message.SaleId);
+                    return;
+                }
 
-                Data.IsStockConfirmed = true;
-                await _saleStockConfirmedService.Process(message.SaleId);
+                Data.StockConfirmed = DateTime.UtcNow;
+
+                await context.Send("SaleSagaEndpoint", new SaleStockConfirmedCommand
+                {   
+                    SaleId = message.SaleId
+                });
+
+                Data.PaymentRequestId = Guid.NewGuid();
+                Data.PaymentRequested = DateTime.UtcNow;
 
                 await context.Send("PaymentSagaEndpoint", new ProcessPaymentCommand
                 {
                     SaleId = message.SaleId,
+                    PaymentRequestId = Data.PaymentRequestId.Value,
                     Valor = message.Total
                 });
 
@@ -107,8 +122,6 @@ namespace Sale.Core.Domain.Saga
                 _logger.LogError(ex, "Erro ao processar StockConfirmedEvent para venda {SaleId}", message.SaleId);
                 throw;
             }
-
-            await Task.CompletedTask;
         }
 
         public async Task Handle(StockInsufficientEvent message, IMessageHandlerContext context)
@@ -118,7 +131,16 @@ namespace Sale.Core.Domain.Saga
             try
             {
                 //await context.Publish(new SaleCancelledEvent { SaleId = message.SaleId });                
-                await _saleStockInsufficientService.Process(message.SaleId);                
+                //await _saleStockInsufficientService.Process(message.SaleId);
+                if (Data.StockInsufficient.HasValue)
+                    return;
+
+                Data.StockInsufficient = DateTime.UtcNow;
+
+                await context.Send("SaleSagaEndpoint", new SaleStockInsufficienCommand
+                {
+                    SaleId = message.SaleId
+                });
                 MarkAsComplete();
 
                 _logger.LogInformation("Venda {SaleId} cancelada por falta de estoque", message.SaleId);
@@ -129,7 +151,7 @@ namespace Sale.Core.Domain.Saga
                 throw;
             }
 
-            await Task.CompletedTask;            
+            await Task.CompletedTask;
         }
 
         public async Task Handle(PaymentConfirmedEvent message, IMessageHandlerContext context)
@@ -139,7 +161,16 @@ namespace Sale.Core.Domain.Saga
             try
             {
                 //await context.Publish(new SaleFinishedEvent { SaleId = message.SaleId });
-                await _SalePaymentConfirmedService.Process(message.SaleId);
+                //await _SalePaymentConfirmedService.Process(message.SaleId);
+                if (Data.PaymentConfirmed.HasValue)
+                    return;
+
+                Data.PaymentConfirmed = DateTime.UtcNow;
+
+                await context.Send("SaleSagaEndpoint", new SalePaymentConfirmedCommand
+                {
+                    SaleId = message.SaleId
+                });
                 MarkAsComplete();
 
                 _logger.LogInformation("Venda {SaleId} finalizada com sucesso", message.SaleId);
@@ -160,7 +191,14 @@ namespace Sale.Core.Domain.Saga
             try
             {
                 //await context.Publish(new SaleCancelledEvent { SaleId = message.SaleId });
-                await _SalePaymentFailedService.Process(message.SaleId);
+                //await _SalePaymentFailedService.Process(message.SaleId);
+                if (Data.PaymentCancelled.HasValue)
+                    return;
+
+                await context.Send("SaleSagaEndpoint", new SalePaymentCancelledCommand
+                {
+                    SaleId = message.SaleId
+                });
                 MarkAsComplete();
 
                 _logger.LogInformation("Venda {SaleId} cancelada por falha no pagamento", message.SaleId);

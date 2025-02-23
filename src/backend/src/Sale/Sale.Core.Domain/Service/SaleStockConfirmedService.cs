@@ -25,9 +25,6 @@ namespace Sale.Core.Domain.Service
                 var sale = await _salerepository.GetByIdAsync(idsale);
                 if (sale != null)
                 {
-                    //sale.Status = Enum.SaleStatus.StockConfirmed;
-                    //await _salerepository.UpdateAsync(sale);
-
                     sale.Status = Enum.SaleStatus.PaymentWaiting;
                     await _salerepository.UpdateAsync(sale);                    
                 }
@@ -39,7 +36,7 @@ namespace Sale.Core.Domain.Service
                         new ValidationErrorDetail
                         {
                             Error = ex.Message,
-                            Detail = "error save stock confirmed"
+                            Detail = "error save stock not confirmed"
                         }
                     );
                 throw ex;

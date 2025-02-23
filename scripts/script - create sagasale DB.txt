@@ -1,0 +1,22 @@
+-- Table: public.SaleSaga
+
+-- DROP TABLE IF EXISTS public."SaleSaga";
+
+CREATE TABLE IF NOT EXISTS public."SaleSaga"
+(
+    "Id" uuid NOT NULL,
+    "Data" jsonb,
+    "LastModified" timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
+    "Version" integer DEFAULT 1,
+    "SagaTypeVersion" text COLLATE pg_catalog."default" DEFAULT 1,
+    "Concurrency" integer DEFAULT 1,
+    "Correlation_SaleId" uuid,
+    "Metadata" text COLLATE pg_catalog."default",
+    "PersistenceVersion" text COLLATE pg_catalog."default",
+    CONSTRAINT salesaga_pkey PRIMARY KEY ("Id")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."SaleSaga"
+    OWNER to admin;

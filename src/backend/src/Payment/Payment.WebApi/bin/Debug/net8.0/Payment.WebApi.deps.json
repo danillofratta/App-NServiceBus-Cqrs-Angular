@@ -69,30 +69,6 @@
           }
         }
       },
-      "Microsoft.AspNet.SignalR.Core/2.4.3": {
-        "dependencies": {
-          "Microsoft.Owin.Security": "2.1.0",
-          "Newtonsoft.Json": "11.0.2"
-        },
-        "runtime": {
-          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
-            "assemblyVersion": "2.4.3.0",
-            "fileVersion": "2.4.3.22014"
-          }
-        }
-      },
-      "Microsoft.AspNet.SignalR.ServiceBus3/2.4.3": {
-        "dependencies": {
-          "Microsoft.AspNet.SignalR.Core": "2.4.3",
-          "WindowsAzure.ServiceBus": "3.4.5"
-        },
-        "runtime": {
-          "lib/net45/Microsoft.AspNet.SignalR.ServiceBus3.dll": {
-            "assemblyVersion": "2.4.3.0",
-            "fileVersion": "2.4.3.22014"
-          }
-        }
-      },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
@@ -532,29 +508,6 @@
           }
         }
       },
-      "Microsoft.Owin/2.1.0": {
-        "dependencies": {
-          "Owin": "1.0.0"
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.30113.529"
-          }
-        }
-      },
-      "Microsoft.Owin.Security/2.1.0": {
-        "dependencies": {
-          "Microsoft.Owin": "2.1.0",
-          "Owin": "1.0.0"
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Security.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.30113.529"
-          }
-        }
-      },
       "Newtonsoft.Json/11.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -619,14 +572,6 @@
           "lib/net8.0/NServiceBus.Transport.RabbitMQ.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.2.0.0"
-          }
-        }
-      },
-      "Owin/1.0.0": {
-        "runtime": {
-          "lib/net40/Owin.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -992,14 +937,6 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.6.0": {},
-      "WindowsAzure.ServiceBus/3.4.5": {
-        "runtime": {
-          "lib/net45-full/Microsoft.ServiceBus.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.50805.5"
-          }
-        }
-      },
       "Base.Core.Domain/1.0.0": {
         "dependencies": {
           "FluentValidation": "11.11.0",
@@ -1052,6 +989,7 @@
           "Microsoft.AspNetCore.SignalR.Core": "1.2.0",
           "NServiceBus": "9.2.6",
           "Payment.Core.Domain": "1.0.0",
+          "Payment.Infrastructure.Orm": "1.0.0",
           "Sale.Core.Domain.Saga": "1.0.0"
         },
         "runtime": {
@@ -1065,6 +1003,7 @@
         "dependencies": {
           "NServiceBus": "9.2.6",
           "NServiceBus.RabbitMQ": "9.2.0",
+          "Payment.Core.Domain.Application": "1.0.0",
           "Payment.Infrastructure.Orm": "1.0.0"
         },
         "runtime": {
@@ -1076,9 +1015,8 @@
       },
       "Payment.Infrastructure.Orm/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNet.SignalR.ServiceBus3": "2.4.3",
           "Microsoft.AspNetCore.SignalR": "1.2.0",
-          "Payment.Core.Domain.Application": "1.0.0",
+          "Sale.Core.Domain.Saga": "1.0.0",
           "Shared.Infrasctructure.Orm": "1.0.0"
         },
         "runtime": {
@@ -1223,20 +1161,6 @@
       "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
       "path": "mediatr.contracts/2.0.1",
       "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
-    },
-    "Microsoft.AspNet.SignalR.Core/2.4.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-zxvv9HhsUa3nfyC7rIwFxHVcGffyQrjqNUO6pBKLyv3eFigkEy3N+6KbbSedzIyCfthglTbvU+m4sg8tawRlvA==",
-      "path": "microsoft.aspnet.signalr.core/2.4.3",
-      "hashPath": "microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512"
-    },
-    "Microsoft.AspNet.SignalR.ServiceBus3/2.4.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-m0bdgUZXVDd+JO5NUbutmFpVVncQxlMQth57ZSR9Mu3HlFPJ4vHGpxELfUY7UUGPqNIoBRFS/4QvJQ/UZ7/iiw==",
-      "path": "microsoft.aspnet.signalr.servicebus3/2.4.3",
-      "hashPath": "microsoft.aspnet.signalr.servicebus3.2.4.3.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
       "type": "package",
@@ -1602,20 +1526,6 @@
       "path": "microsoft.openapi/1.6.14",
       "hashPath": "microsoft.openapi.1.6.14.nupkg.sha512"
     },
-    "Microsoft.Owin/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-lk0kK64mlmcmtWX8YOYkZsnZKDoGEzMZhe8e1bcP+FFcgD4f2QfKwvu5Z8Bh8WS0VO7Rgk+DJ0hwW0k+S/UGMg==",
-      "path": "microsoft.owin/2.1.0",
-      "hashPath": "microsoft.owin.2.1.0.nupkg.sha512"
-    },
-    "Microsoft.Owin.Security/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-4n1V0p+O6W1L0xHUM8Cjp2Y+MmmUkiCZv6PvRNIDCJD9zlerBJa2HECo9lUiWC+KuasQJ3QxB1FmipNBxdXXIQ==",
-      "path": "microsoft.owin.security/2.1.0",
-      "hashPath": "microsoft.owin.security.2.1.0.nupkg.sha512"
-    },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
       "serviceable": true,
@@ -1657,13 +1567,6 @@
       "sha512": "sha512-OqSHy8hQLm0TxlKdsD4/jUgMHd+JwdhtbPKm0U9I6CdVVHzzVK6JOLkFO6uzfsM0w7jVTVcACHGlMHomH/5GTw==",
       "path": "nservicebus.rabbitmq/9.2.0",
       "hashPath": "nservicebus.rabbitmq.9.2.0.nupkg.sha512"
-    },
-    "Owin/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
-      "path": "owin/1.0.0",
-      "hashPath": "owin.1.0.0.nupkg.sha512"
     },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "type": "package",
@@ -1986,13 +1889,6 @@
       "sha512": "sha512-I5G6Y8jb0xRtGUC9Lahy7FUvlYlnGMMkbuKAQBy8Jb7Y6Yn8OlBEiUOY0PqZ0hy6Ua8poVA1ui1tAIiXNxGdsg==",
       "path": "system.threading.tasks.extensions/4.6.0",
       "hashPath": "system.threading.tasks.extensions.4.6.0.nupkg.sha512"
-    },
-    "WindowsAzure.ServiceBus/3.4.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8HZeLdBQtKVFyRxwhg06eJQmkta7Bz4Ic4CXIAZVQuiYx6iNXAZiv1ywls9MAEV19xMI9y7beegxEpBE1pEApw==",
-      "path": "windowsazure.servicebus/3.4.5",
-      "hashPath": "windowsazure.servicebus.3.4.5.nupkg.sha512"
     },
     "Base.Core.Domain/1.0.0": {
       "type": "project",

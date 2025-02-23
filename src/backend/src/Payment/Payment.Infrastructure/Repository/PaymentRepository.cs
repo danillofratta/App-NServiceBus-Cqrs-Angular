@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Payment.Core.Domain.Application.Payment.Service;
+
 using Payment.Core.Domain.Repository;
 using Shared.Infrasctructure;
 using Shared.Infrastructure;
@@ -8,41 +8,26 @@ namespace Payment.Infrastructure.Orm.Repository;
 
 public class PaymentRepository : RepositoryBase<PaymentCoreDomainEntities.Payment>, IPaymentRepository
 {
-    //private readonly PaymentNotificationService _notificationService;
 
-    //public PaymentRepository(DefaultDbContext defaultDbContext, PaymentNotificationService notificationService) : base(defaultDbContext)
-    //{
-    //    _notificationService = notificationService;        
-    //}
-
-    private readonly SignalRPaymentNotificationService _notificationService;
-
-    public PaymentRepository(SignalRPaymentNotificationService notificationService, DefaultDbContext defaultDbContext) : base(defaultDbContext)
+    public PaymentRepository( DefaultDbContext defaultDbContext) : base(defaultDbContext)
     {
-        _notificationService = notificationService;
     }
 
-    //public PaymentRepository(DefaultDbContext defaultDbContext) : base(defaultDbContext)
-    //{
 
-    //}
 
     public async override Task AfterDeleteAsync(PaymentCoreDomainEntities.Payment obj)
     {        
-        //await _notificationService.NotifyPaymentsUpdated();
+
     }
 
     public async override Task AfterUpdateAsync(PaymentCoreDomainEntities.Payment obj)
     {
-        //await _notificationService.NotifyPaymentsUpdated();
+
     }
 
     public async override Task AfterSaveAsync(PaymentCoreDomainEntities.Payment obj)
     {
-        //await _notificationService.NotifyPaymentsUpdated();
-        var payments = await GetAll();
-        await _notificationService.NotifyPaymentsUpdated(payments);
-        //await _hubContext.Clients.All.SendAsync("GetListPayment", payments);        
+    
     }
 
     public async Task<PaymentCoreDomainEntities.Payment> GetByIdSaleAsync(Guid SaleId, CancellationToken cancellationToken = default)
@@ -98,6 +83,11 @@ public class PaymentRepository : RepositoryBase<PaymentCoreDomainEntities.Paymen
             .ToListAsync(cancellationToken);
 
         return (items, totalCount);
+    }
+
+    public async Task<PaymentCoreDomainEntities.Payment> GetByPaymentRequestId(Guid paymentRequestId)
+    {
+        return await _DefaultDbContext.Payments.FirstOrDefaultAsync(x => x.PaymentRequestId == paymentRequestId);    
     }
 }
 

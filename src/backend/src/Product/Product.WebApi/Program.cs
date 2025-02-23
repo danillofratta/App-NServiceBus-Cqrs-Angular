@@ -31,9 +31,8 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 var apiUrls = builder.Configuration.GetSection("ConnectionStrings").Get<Dictionary<string, string>>();
 builder.Services.AddSingleton<IConnectionMultiplexer>(x =>
 {
-    //return ConnectionMultiplexer.Connect(apiUrls["redis"]);
-    return ConnectionMultiplexer.Connect("localhost: 6379");
-
+    return ConnectionMultiplexer.Connect(apiUrls["Redis"]);
+    //return ConnectionMultiplexer.Connect("localhost: 6379");    
 });
 #else
 builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect("redis:6379"));

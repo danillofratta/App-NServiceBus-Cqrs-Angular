@@ -39,7 +39,7 @@ namespace Sale.Core.Application.Sales.Create
             var result = _mapper.Map<CreateSaleResult>(created);
 
             // Create a separate handler for publishing the event
-            var eventMessage = new SaleCreatedEvent//CreatedSaleEvent
+            var eventMessage = new SaleCreatedEvent
             {
                 SaleId = record.Id,
                 SaleItens = command.SaleItens

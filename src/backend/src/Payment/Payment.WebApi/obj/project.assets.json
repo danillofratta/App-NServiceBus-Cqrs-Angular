@@ -74,40 +74,6 @@
           }
         }
       },
-      "Microsoft.AspNet.SignalR.Core/2.4.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Owin.Security": "2.1.0",
-          "Newtonsoft.Json": "6.0.4"
-        },
-        "compile": {
-          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "Microsoft.AspNet.SignalR.ServiceBus3/2.4.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.SignalR.Core": "2.4.3",
-          "WindowsAzure.ServiceBus": "3.4.5"
-        },
-        "compile": {
-          "lib/net45/Microsoft.AspNet.SignalR.ServiceBus3.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/Microsoft.AspNet.SignalR.ServiceBus3.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -1038,39 +1004,6 @@
           }
         }
       },
-      "Microsoft.Owin/2.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Owin": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Owin.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.dll": {
-            "related": ".XML"
-          }
-        }
-      },
-      "Microsoft.Owin.Security/2.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Owin": "2.1.0",
-          "Owin": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Owin.Security.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Security.dll": {
-            "related": ".XML"
-          }
-        }
-      },
       "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
@@ -1169,15 +1102,6 @@
           "lib/net8.0/NServiceBus.Transport.RabbitMQ.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Owin/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Owin.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Owin.dll": {}
         }
       },
       "Pipelines.Sockets.Unofficial/2.2.8": {
@@ -1908,19 +1832,6 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "WindowsAzure.ServiceBus/3.4.5": {
-        "type": "package",
-        "compile": {
-          "lib/net45-full/Microsoft.ServiceBus.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45-full/Microsoft.ServiceBus.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Base.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1983,6 +1894,7 @@
           "Microsoft.AspNetCore.SignalR.Core": "1.2.0",
           "NServiceBus": "9.2.6",
           "Payment.Core.Domain": "1.0.0",
+          "Payment.Infrastructure.Orm": "1.0.0",
           "Sale.Core.Domain.Saga": "1.0.0"
         },
         "compile": {
@@ -1998,6 +1910,7 @@
         "dependencies": {
           "NServiceBus": "9.2.6",
           "NServiceBus.RabbitMQ": "9.2.0",
+          "Payment.Core.Domain.Application": "1.0.0",
           "Payment.Infrastructure.Orm": "1.0.0"
         },
         "compile": {
@@ -2011,9 +1924,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.AspNet.SignalR.ServiceBus3": "2.4.3",
           "Microsoft.AspNetCore.SignalR": "1.2.0",
-          "Payment.Core.Domain.Application": "1.0.0",
+          "Sale.Core.Domain.Saga": "1.0.0",
           "Shared.Infrasctructure.Orm": "1.0.0"
         },
         "compile": {
@@ -2221,36 +2133,6 @@
         "lib/netstandard2.0/MediatR.Contracts.xml",
         "mediatr.contracts.2.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.SignalR.Core/2.4.3": {
-      "sha512": "zxvv9HhsUa3nfyC7rIwFxHVcGffyQrjqNUO6pBKLyv3eFigkEy3N+6KbbSedzIyCfthglTbvU+m4sg8tawRlvA==",
-      "type": "package",
-      "path": "microsoft.aspnet.signalr.core/2.4.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/Microsoft.AspNet.SignalR.Core.dll",
-        "lib/net45/Microsoft.AspNet.SignalR.Core.pdb",
-        "lib/net45/Microsoft.AspNet.SignalR.Core.xml",
-        "microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512",
-        "microsoft.aspnet.signalr.core.nuspec",
-        "packageIcon.png"
-      ]
-    },
-    "Microsoft.AspNet.SignalR.ServiceBus3/2.4.3": {
-      "sha512": "m0bdgUZXVDd+JO5NUbutmFpVVncQxlMQth57ZSR9Mu3HlFPJ4vHGpxELfUY7UUGPqNIoBRFS/4QvJQ/UZ7/iiw==",
-      "type": "package",
-      "path": "microsoft.aspnet.signalr.servicebus3/2.4.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/Microsoft.AspNet.SignalR.ServiceBus3.dll",
-        "lib/net45/Microsoft.AspNet.SignalR.ServiceBus3.pdb",
-        "lib/net45/Microsoft.AspNet.SignalR.ServiceBus3.xml",
-        "microsoft.aspnet.signalr.servicebus3.2.4.3.nupkg.sha512",
-        "microsoft.aspnet.signalr.servicebus3.nuspec",
-        "packageIcon.png"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
@@ -3499,34 +3381,6 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "Microsoft.Owin/2.1.0": {
-      "sha512": "lk0kK64mlmcmtWX8YOYkZsnZKDoGEzMZhe8e1bcP+FFcgD4f2QfKwvu5Z8Bh8WS0VO7Rgk+DJ0hwW0k+S/UGMg==",
-      "type": "package",
-      "path": "microsoft.owin/2.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/Microsoft.Owin.XML",
-        "lib/net40/Microsoft.Owin.dll",
-        "lib/net45/Microsoft.Owin.XML",
-        "lib/net45/Microsoft.Owin.dll",
-        "microsoft.owin.2.1.0.nupkg.sha512",
-        "microsoft.owin.nuspec"
-      ]
-    },
-    "Microsoft.Owin.Security/2.1.0": {
-      "sha512": "4n1V0p+O6W1L0xHUM8Cjp2Y+MmmUkiCZv6PvRNIDCJD9zlerBJa2HECo9lUiWC+KuasQJ3QxB1FmipNBxdXXIQ==",
-      "type": "package",
-      "path": "microsoft.owin.security/2.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/Microsoft.Owin.Security.XML",
-        "lib/net45/Microsoft.Owin.Security.dll",
-        "microsoft.owin.security.2.1.0.nupkg.sha512",
-        "microsoft.owin.security.nuspec"
-      ]
-    },
     "Newtonsoft.Json/11.0.2": {
       "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
@@ -3639,18 +3493,6 @@
         "lib/net8.0/NServiceBus.Transport.RabbitMQ.xml",
         "nservicebus.rabbitmq.9.2.0.nupkg.sha512",
         "nservicebus.rabbitmq.nuspec"
-      ]
-    },
-    "Owin/1.0.0": {
-      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
-      "type": "package",
-      "path": "owin/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/Owin.dll",
-        "owin.1.0.0.nupkg.sha512",
-        "owin.nuspec"
       ]
     },
     "Pipelines.Sockets.Unofficial/2.2.8": {
@@ -5793,21 +5635,6 @@
         "system.threading.tasks.extensions.nuspec"
       ]
     },
-    "WindowsAzure.ServiceBus/3.4.5": {
-      "sha512": "8HZeLdBQtKVFyRxwhg06eJQmkta7Bz4Ic4CXIAZVQuiYx6iNXAZiv1ywls9MAEV19xMI9y7beegxEpBE1pEApw==",
-      "type": "package",
-      "path": "windowsazure.servicebus/3.4.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/app.config.install.xdt",
-        "content/web.config.install.xdt",
-        "lib/net45-full/Microsoft.ServiceBus.dll",
-        "lib/net45-full/Microsoft.ServiceBus.xml",
-        "windowsazure.servicebus.3.4.5.nupkg.sha512",
-        "windowsazure.servicebus.nuspec"
-      ]
-    },
     "Base.Core.Domain/1.0.0": {
       "type": "project",
       "path": "../../Base/Base.Core.Domain/Base.Core.Domain.csproj",
@@ -6003,67 +5830,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.SignalR.Core 2.4.3' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Microsoft.AspNet.SignalR.Core",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.SignalR.ServiceBus3 2.4.3' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Microsoft.AspNet.SignalR.ServiceBus3",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Owin 2.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Microsoft.Owin",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Owin.Security 2.1.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Microsoft.Owin.Security",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Owin 1.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Owin",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'WindowsAzure.ServiceBus 3.4.5' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "WindowsAzure.ServiceBus",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

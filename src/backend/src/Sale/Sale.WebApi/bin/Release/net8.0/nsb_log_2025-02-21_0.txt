@@ -1,0 +1,2 @@
+﻿2025-02-21 14:28:44.709 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Release\net8.0\' with level Info
+2025-02-21 14:28:44.830 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.

@@ -1,0 +1,331 @@
+﻿2025-02-22 15:16:17.792 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 15:16:17.940 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 15:16:17.946 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 15:16:22.518 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'.
+2025-02-22 15:16:22.541 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 15:16:22.563 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'.
+2025-02-22 15:16:22.576 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 15:17:17.560 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-22 15:17:17.565 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 15:20:42.901 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 15:20:43.045 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 15:20:43.050 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 15:26:06.473 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 15:26:06.558 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 15:26:06.562 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 15:26:07.207 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-22 15:26:07.213 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 15:31:07.352 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 15:31:07.491 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 15:31:07.494 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 15:33:09.669 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 15:33:09.870 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 15:33:09.877 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 15:34:20.215 INFO  Immediate Retry is going to retry message '6ac95b4a-28f5-4f2e-b5ee-b28c01320df3' because of an exception:
+System.IO.FileNotFoundException: Could not find file 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\8d28a1ff-c2bd-8e23-9857-7bdd6abd336f.json'.
+File name: 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\8d28a1ff-c2bd-8e23-9857-7bdd6abd336f.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.AsyncWindowsFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/SagaPersister/SagaStorageFile.cs:line 60
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken)
+   at NServiceBus.LearningSynchronizedStorageSession.Open(Guid sagaId, Type entityType, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 77
+   at NServiceBus.LearningSynchronizedStorageSession.Read[TSagaData](Guid sagaId, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 46
+   at NServiceBus.PropertySagaFinder`1.Find(IServiceProvider builder, SagaFinderDefinition finderDefinition, ISynchronizedStorageSession storageSession, ContextBag context, Object message, IReadOnlyDictionary`2 messageHeaders, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Sagas/PropertySagaFinder.cs:line 42
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 77
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 6ac95b4a-28f5-4f2e-b5ee-b28c01320df3
+	Pipeline canceled: False
+2025-02-22 15:34:20.226 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-22 15:34:20.228 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 15:35:29.111 INFO  Immediate Retry is going to retry message 'eeca7cf9-36aa-4a63-821b-b28c013247d2' because of an exception:
+System.IO.IOException: The process cannot access the file 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\17ffd7e4-f069-baf0-bf19-4bd379229d96.json' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.AsyncWindowsFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/SagaPersister/SagaStorageFile.cs:line 60
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken)
+   at NServiceBus.LearningSynchronizedStorageSession.Open(Guid sagaId, Type entityType, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 77
+   at NServiceBus.LearningSynchronizedStorageSession.Read[TSagaData](Guid sagaId, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 46
+   at NServiceBus.PropertySagaFinder`1.Find(IServiceProvider builder, SagaFinderDefinition finderDefinition, ISynchronizedStorageSession storageSession, ContextBag context, Object message, IReadOnlyDictionary`2 messageHeaders, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Sagas/PropertySagaFinder.cs:line 42
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 77
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: eeca7cf9-36aa-4a63-821b-b28c013247d2
+	Pipeline canceled: False
+2025-02-22 15:35:30.962 INFO  Immediate Retry is going to retry message 'fc57c7aa-46b0-4a01-af91-b28c01325183' because of an exception:
+System.IO.IOException: The process cannot access the file 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\17ffd7e4-f069-baf0-bf19-4bd379229d96.json' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.AsyncWindowsFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/SagaPersister/SagaStorageFile.cs:line 60
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken)
+   at NServiceBus.LearningSynchronizedStorageSession.Open(Guid sagaId, Type entityType, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 77
+   at NServiceBus.LearningSynchronizedStorageSession.Read[TSagaData](Guid sagaId, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 46
+   at NServiceBus.PropertySagaFinder`1.Find(IServiceProvider builder, SagaFinderDefinition finderDefinition, ISynchronizedStorageSession storageSession, ContextBag context, Object message, IReadOnlyDictionary`2 messageHeaders, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Sagas/PropertySagaFinder.cs:line 42
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 77
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: fc57c7aa-46b0-4a01-af91-b28c01325183
+	Pipeline canceled: False
+2025-02-22 15:35:49.151 INFO  Immediate Retry is going to retry message '1ef92076-e72a-43a8-b702-b28c01327550' because of an exception:
+System.IO.FileNotFoundException: Could not find file 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\17ffd7e4-f069-baf0-bf19-4bd379229d96.json'.
+File name: 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\17ffd7e4-f069-baf0-bf19-4bd379229d96.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.AsyncWindowsFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/SagaPersister/SagaStorageFile.cs:line 60
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken)
+   at NServiceBus.LearningSynchronizedStorageSession.Open(Guid sagaId, Type entityType, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 77
+   at NServiceBus.LearningSynchronizedStorageSession.Read[TSagaData](Guid sagaId, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 46
+   at NServiceBus.PropertySagaFinder`1.Find(IServiceProvider builder, SagaFinderDefinition finderDefinition, ISynchronizedStorageSession storageSession, ContextBag context, Object message, IReadOnlyDictionary`2 messageHeaders, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Sagas/PropertySagaFinder.cs:line 42
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 77
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 1ef92076-e72a-43a8-b702-b28c01327550
+	Pipeline canceled: False
+2025-02-22 15:35:49.163 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-22 15:35:49.166 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 15:38:29.084 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 15:38:29.174 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 15:38:29.178 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 15:39:38.224 INFO  Immediate Retry is going to retry message '8728ed82-76ca-4714-832c-b28c01336b9f' because of an exception:
+System.IO.IOException: The process cannot access the file 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\c8a226aa-6e17-cf36-1061-e56b65dc081d.json' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.AsyncWindowsFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/SagaPersister/SagaStorageFile.cs:line 60
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken)
+   at NServiceBus.LearningSynchronizedStorageSession.Open(Guid sagaId, Type entityType, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 77
+   at NServiceBus.LearningSynchronizedStorageSession.Read[TSagaData](Guid sagaId, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 46
+   at NServiceBus.PropertySagaFinder`1.Find(IServiceProvider builder, SagaFinderDefinition finderDefinition, ISynchronizedStorageSession storageSession, ContextBag context, Object message, IReadOnlyDictionary`2 messageHeaders, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Sagas/PropertySagaFinder.cs:line 42
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 77
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 8728ed82-76ca-4714-832c-b28c01336b9f
+	Pipeline canceled: False
+2025-02-22 15:39:44.943 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-22 15:39:44.948 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 15:40:43.552 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 15:40:43.711 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 15:40:43.721 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 15:42:20.964 INFO  Immediate Retry is going to retry message 'ce9ed379-5b12-4640-b65e-b28c01343e67' because of an exception:
+System.IO.FileNotFoundException: Could not find file 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\528fcf65-1e10-aa8c-955b-b38f541a585e.json'.
+File name: 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\528fcf65-1e10-aa8c-955b-b38f541a585e.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.AsyncWindowsFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/SagaPersister/SagaStorageFile.cs:line 60
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken)
+   at NServiceBus.LearningSynchronizedStorageSession.Open(Guid sagaId, Type entityType, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 77
+   at NServiceBus.LearningSynchronizedStorageSession.Read[TSagaData](Guid sagaId, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 46
+   at NServiceBus.PropertySagaFinder`1.Find(IServiceProvider builder, SagaFinderDefinition finderDefinition, ISynchronizedStorageSession storageSession, ContextBag context, Object message, IReadOnlyDictionary`2 messageHeaders, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Sagas/PropertySagaFinder.cs:line 42
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 77
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: ce9ed379-5b12-4640-b65e-b28c01343e67
+	Pipeline canceled: False
+2025-02-22 15:42:20.982 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-22 15:42:20.991 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 15:53:00.952 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 15:53:01.312 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 15:53:01.316 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 15:54:13.756 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-22 15:54:13.762 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:00:02.409 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 16:00:02.505 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 16:00:02.509 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 16:01:28.620 INFO  Immediate Retry is going to retry message '92bd8369-a4ba-4faf-a16e-b28c013970e3' because of an exception:
+System.IO.IOException: The process cannot access the file 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\79beee80-0eb3-4722-8396-63ae86df3a98.json' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.AsyncWindowsFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/SagaPersister/SagaStorageFile.cs:line 60
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken)
+   at NServiceBus.LearningSynchronizedStorageSession.Open(Guid sagaId, Type entityType, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 77
+   at NServiceBus.LearningSynchronizedStorageSession.Read[TSagaData](Guid sagaId, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 46
+   at NServiceBus.PropertySagaFinder`1.Find(IServiceProvider builder, SagaFinderDefinition finderDefinition, ISynchronizedStorageSession storageSession, ContextBag context, Object message, IReadOnlyDictionary`2 messageHeaders, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Sagas/PropertySagaFinder.cs:line 42
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 77
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 92bd8369-a4ba-4faf-a16e-b28c013970e3
+	Pipeline canceled: False
+2025-02-22 16:02:12.443 INFO  Immediate Retry is going to retry message 'ece351dc-b72b-4799-965d-b28c0139b1bf' because of an exception:
+System.IO.FileNotFoundException: Could not find file 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\79beee80-0eb3-4722-8396-63ae86df3a98.json'.
+File name: 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\79beee80-0eb3-4722-8396-63ae86df3a98.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.AsyncWindowsFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/SagaPersister/SagaStorageFile.cs:line 60
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken)
+   at NServiceBus.LearningSynchronizedStorageSession.Open(Guid sagaId, Type entityType, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 77
+   at NServiceBus.LearningSynchronizedStorageSession.Read[TSagaData](Guid sagaId, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 46
+   at NServiceBus.PropertySagaFinder`1.Find(IServiceProvider builder, SagaFinderDefinition finderDefinition, ISynchronizedStorageSession storageSession, ContextBag context, Object message, IReadOnlyDictionary`2 messageHeaders, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Sagas/PropertySagaFinder.cs:line 42
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 77
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: ece351dc-b72b-4799-965d-b28c0139b1bf
+	Pipeline canceled: False
+2025-02-22 16:02:12.454 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-22 16:02:12.456 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:02:12.550 INFO  Immediate Retry is going to retry message 'bcbea948-05c4-4a28-b98e-b28c0139b1bf' because of an exception:
+System.IO.FileNotFoundException: Could not find file 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\79beee80-0eb3-4722-8396-63ae86df3a98.json'.
+File name: 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\.sagas\Sale.Core.Domain.Saga.SaleSaga\79beee80-0eb3-4722-8396-63ae86df3a98.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.AsyncWindowsFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/SagaPersister/SagaStorageFile.cs:line 60
+   at NServiceBus.SagaStorageFile.OpenWithRetryOnConcurrency(String filePath, FileMode fileAccess, CancellationToken cancellationToken)
+   at NServiceBus.LearningSynchronizedStorageSession.Open(Guid sagaId, Type entityType, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 77
+   at NServiceBus.LearningSynchronizedStorageSession.Read[TSagaData](Guid sagaId, SagaManifestCollection sagaManifests, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Persistence/Learning/LearningSynchronizedStorageSession.cs:line 46
+   at NServiceBus.PropertySagaFinder`1.Find(IServiceProvider builder, SagaFinderDefinition finderDefinition, ISynchronizedStorageSession storageSession, ContextBag context, Object message, IReadOnlyDictionary`2 messageHeaders, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Sagas/PropertySagaFinder.cs:line 42
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/SagaPersistenceBehavior.cs:line 77
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 49
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: bcbea948-05c4-4a28-b98e-b28c0139b1bf
+	Pipeline canceled: False
+2025-02-22 16:02:12.559 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-22 16:02:12.563 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:13:14.885 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 16:13:15.009 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 16:13:15.013 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 16:14:16.735 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-22 16:14:16.741 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:14:16.772 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-22 16:14:16.776 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:20:41.928 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'.
+2025-02-22 16:20:41.932 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.StockConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:20:41.936 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-22 16:20:41.939 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:20:41.945 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-22 16:20:41.949 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:24:00.849 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 16:24:00.950 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 16:24:00.956 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 16:24:21.326 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-22 16:24:21.329 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:24:21.350 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-22 16:24:21.354 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:25:45.145 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-22 16:25:59.400 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:26:00.684 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'.
+2025-02-22 16:26:00.691 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:32:00.094 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 16:32:00.234 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 16:32:00.240 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 16:32:36.043 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-22 16:32:36.049 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.
+2025-02-22 16:34:54.749 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-22 16:34:54.922 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-22 16:34:54.931 WARN  Trial license expiring in 5 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-22 16:35:23.002 INFO  Could not find a started saga of 'Sale.Core.Domain.Saga.SaleSaga' for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'.
+2025-02-22 16:35:23.009 INFO  Could not find any started sagas for message type 'Sale.Core.Domain.Saga.Events.PaymentFailEvent'. Going to invoke SagaNotFoundHandlers.

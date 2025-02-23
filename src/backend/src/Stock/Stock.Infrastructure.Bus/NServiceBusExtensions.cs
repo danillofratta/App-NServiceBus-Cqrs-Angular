@@ -32,29 +32,31 @@ namespace Stock.Infrasctructure.Services.Bus
             // Transport Configuration
             var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
             transport.UseConventionalRoutingTopology(QueueType.Classic);
+            
             //todo put in appsettings
-            //todo put in appsettings
-            #if DEBUG
-                        transport.ConnectionString("amqp://guest:guest@localhost:5672/");
-                        logger.LogInformation("Iniciando configuração do NServiceBus: STOCK DEBUG");
-            #else
-            transport.ConnectionString("amqp://guest:guest@rabbitmq:5672/");
-            logger.LogInformation("Iniciando configuração do NServiceBus: STOCK RELEASE");
-                        Console.Write("RELEASE");
-            #endif
+#if DEBUG
+            transport.ConnectionString("amqp://guest:guest@localhost:5672/");
+            logger.LogInformation("Iniciando configuração do NServiceBus: PAYMENT DEBUG");
+#else
+            transport.ConnectionString("amqp://guest:guest@rabbitmq:5672/");       
+            logger.LogInformation("Iniciando configuração do NServiceBus: PAYMENT RELEASE");
+            Console.Write("RELEASE");
+#endif
             // Message Routing
             var routing = transport.Routing();
-            routing.RouteToEndpoint(typeof(StockConfirmedEvent), "SaleSagaEndpoint"); 
-            routing.RouteToEndpoint(typeof(StockInsufficientEvent), "SaleSagaEndpoint");            
+            //routing.RouteToEndpoint(typeof(StockConfirmedEvent), "SaleSagaEndpoint"); 
+            //routing.RouteToEndpoint(typeof(StockInsufficientEvent), "SaleSagaEndpoint");           
 
             // Error Handling
             endpointConfiguration.EnableInstallers();
             endpointConfiguration.SendFailedMessagesTo("error");
             endpointConfiguration.UseSerialization<SystemJsonSerializer>();
 
-            var recoverability = endpointConfiguration.Recoverability();
-            recoverability.Immediate(immediate => immediate.NumberOfRetries(2));
-            recoverability.Delayed(delayed => delayed.NumberOfRetries(1).TimeIncrease(TimeSpan.FromSeconds(10)));
+            endpointConfiguration.LimitMessageProcessingConcurrencyTo(1);
+
+            //var recoverability = endpointConfiguration.Recoverability();
+            //recoverability.Immediate(immediate => immediate.NumberOfRetries(2));
+            //recoverability.Delayed(delayed => delayed.NumberOfRetries(1).TimeIncrease(TimeSpan.FromSeconds(10)));
 
             // Persistence
             endpointConfiguration.UsePersistence<LearningPersistence>();
@@ -68,8 +70,7 @@ namespace Stock.Infrasctructure.Services.Bus
                 registration.AddTransient<SaleStockInsufficientService>();
                 registration.AddTransient<CalculateStockService>();
                 registration.AddTransient<CheckItemInStockService>();
-                registration.AddTransient<IHandleMessages<ReserveStockCommand>, ReserveStockCommandHandle>();
-                
+                registration.AddTransient<IHandleMessages<ReserveStockCommand>, ReserveStockCommandHandle>();                
             });
 
             return await NServiceBus.Endpoint.Start(endpointConfiguration).ConfigureAwait(false);

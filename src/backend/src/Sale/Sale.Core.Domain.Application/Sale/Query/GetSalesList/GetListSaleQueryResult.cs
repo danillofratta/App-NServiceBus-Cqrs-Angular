@@ -1,4 +1,4 @@
-﻿using Sale.Core.Application.Sale.Dto;
+﻿using Sale.Core.Domain.Application.Sale.Query.GetSalesList.Dto;
 using Sale.Core.Domain.Enum;
 
 namespace Sale.Core.Application.Sale.Query.GetSalesList

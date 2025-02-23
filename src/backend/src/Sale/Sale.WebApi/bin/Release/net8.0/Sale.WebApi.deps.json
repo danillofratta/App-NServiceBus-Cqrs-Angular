@@ -16,8 +16,8 @@
           "NServiceBus.RabbitMQ": "9.2.0",
           "Sale.Core.Domain": "1.0.0",
           "Sale.Core.Domain.Application": "1.0.0",
-          "Sale.Infrasctructure.Orm": "1.0.0",
           "Sale.Infrastructure.Bus": "1.0.0",
+          "Sale.Infrastructure.Orm": "1.0.0",
           "Serilog": "4.2.0",
           "Serilog.AspNetCore": "9.0.0",
           "Shared.Dto": "1.0.0",
@@ -1207,7 +1207,21 @@
           }
         }
       },
-      "Sale.Infrasctructure.Orm/1.0.0": {
+      "Sale.Infrastructure.Bus/1.0.0": {
+        "dependencies": {
+          "NServiceBus": "9.2.6",
+          "NServiceBus.RabbitMQ": "9.2.0",
+          "Sale.Core.Domain.Saga": "1.0.0",
+          "Sale.Infrastructure.Orm": "1.0.0"
+        },
+        "runtime": {
+          "Sale.Infrastructure.Bus.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Sale.Infrastructure.Orm/1.0.0": {
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
           "NServiceBus": "9.2.6",
@@ -1218,21 +1232,7 @@
           "Shared.Infrasctructure.Orm": "1.0.0"
         },
         "runtime": {
-          "Sale.Infrasctructure.Orm.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Sale.Infrastructure.Bus/1.0.0": {
-        "dependencies": {
-          "NServiceBus": "9.2.6",
-          "NServiceBus.RabbitMQ": "9.2.0",
-          "Sale.Core.Domain.Saga": "1.0.0",
-          "Sale.Infrasctructure.Orm": "1.0.0"
-        },
-        "runtime": {
-          "Sale.Infrastructure.Bus.dll": {
+          "Sale.Infrastructure.Orm.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -2119,12 +2119,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Sale.Infrasctructure.Orm/1.0.0": {
+    "Sale.Infrastructure.Bus/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Sale.Infrastructure.Bus/1.0.0": {
+    "Sale.Infrastructure.Orm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

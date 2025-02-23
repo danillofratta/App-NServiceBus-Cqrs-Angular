@@ -14,15 +14,7 @@
         "FileVersion": "1.0.0"
       },
       {
-        "FullName": "Sale.Core.Domain.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "FileVersion": "1.0.0"
-      },
-      {
-        "FullName": "NServiceBus.Transport.RabbitMQ, Version=9.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
-        "FileVersion": "9.2.0"
-      },
-      {
-        "FullName": "NServiceBus.MessageInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
+        "FullName": "Sale.Infrastructure.Bus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       },
       {
@@ -30,7 +22,19 @@
         "FileVersion": "1.0.0"
       },
       {
-        "FullName": "Sale.Infrastructure.Bus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FullName": "NServiceBus.MessageInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
+        "FileVersion": "1.0.0"
+      },
+      {
+        "FullName": "NServiceBus.Transport.RabbitMQ, Version=9.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
+        "FileVersion": "9.2.0"
+      },
+      {
+        "FullName": "NServiceBus.Persistence.Sql, Version=8.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
+        "FileVersion": "8.1.1"
+      },
+      {
+        "FullName": "Sale.Core.Domain.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       }
     ],
@@ -65,6 +69,10 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Configuration.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -93,11 +101,19 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.Configuration.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.ObjectPool.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -146,10 +162,6 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.Authentication.BearerToken.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.Cryptography.Algorithms.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -209,11 +221,7 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.dll",
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Configuration.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -221,7 +229,7 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.AccessControl.dll",
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -281,6 +289,10 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.Configuration.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Hosting.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -301,6 +313,14 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.Claims.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -313,15 +333,19 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Runtime.Numerics.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Xml.XPath.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.DataProtection.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Xml.XPath.XDocument.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.FileExtensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -345,6 +369,18 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Diagnostics.Contracts.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\System.Text.Json.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Formats.Asn1.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -357,15 +393,11 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Diagnostics.Contracts.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.FileExtensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\System.Text.Json.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.AccessControl.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -441,10 +473,6 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Logging.Configuration.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Logging.Console.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -470,14 +498,6 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Logging.TraceSource.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.Claims.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -1105,6 +1125,10 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.Cryptography.Algorithms.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.Cryptography.Cng.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -1202,14 +1226,6 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Xml.XmlSerializer.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Runtime.Numerics.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Xml.XPath.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -1417,14 +1433,21 @@
     {
       "Name": "NServiceBus.OpenTelemetryFeature",
       "EnabledByDefault": false,
-      "Active": false,
-      "PrerequisiteStatus": null,
+      "Active": true,
+      "PrerequisiteStatus": {
+        "IsSatisfied": true,
+        "Reasons": [
+          
+        ]
+      },
       "Dependencies": [
         
       ],
       "Version": "9.2.6",
-      "StartupTasks": null,
-      "DependenciesAreMet": false
+      "StartupTasks": [
+        
+      ],
+      "DependenciesAreMet": true
     },
     {
       "Name": "NServiceBus.ReceiveStatisticsFeature",
@@ -1448,23 +1471,16 @@
     {
       "Name": "NServiceBus.LearningSynchronizedStorage",
       "EnabledByDefault": false,
-      "Active": true,
-      "PrerequisiteStatus": {
-        "IsSatisfied": true,
-        "Reasons": [
-          
-        ]
-      },
+      "Active": false,
+      "PrerequisiteStatus": null,
       "Dependencies": [
         [
           "NServiceBus.Features.SynchronizedStorage"
         ]
       ],
       "Version": "9.2.6",
-      "StartupTasks": [
-        
-      ],
-      "DependenciesAreMet": true
+      "StartupTasks": null,
+      "DependenciesAreMet": false
     },
     {
       "Name": "NServiceBus.SerializationFeature",
@@ -1695,6 +1711,20 @@
     {
       "Name": "NServiceBus.Features.LearningSagaPersistence",
       "EnabledByDefault": false,
+      "Active": false,
+      "PrerequisiteStatus": null,
+      "Dependencies": [
+        [
+          "NServiceBus.Features.Sagas"
+        ]
+      ],
+      "Version": "9.2.6",
+      "StartupTasks": null,
+      "DependenciesAreMet": false
+    },
+    {
+      "Name": "NServiceBus.Features.Outbox",
+      "EnabledByDefault": false,
       "Active": true,
       "PrerequisiteStatus": {
         "IsSatisfied": true,
@@ -1704,7 +1734,7 @@
       },
       "Dependencies": [
         [
-          "NServiceBus.Features.Sagas"
+          "NServiceBus.Features.SynchronizedStorage"
         ]
       ],
       "Version": "9.2.6",
@@ -1712,20 +1742,6 @@
         
       ],
       "DependenciesAreMet": true
-    },
-    {
-      "Name": "NServiceBus.Features.Outbox",
-      "EnabledByDefault": false,
-      "Active": false,
-      "PrerequisiteStatus": null,
-      "Dependencies": [
-        [
-          "NServiceBus.Features.SynchronizedStorage"
-        ]
-      ],
-      "Version": "9.2.6",
-      "StartupTasks": null,
-      "DependenciesAreMet": false
     },
     {
       "Name": "NServiceBus.Features.SynchronizedStorage",
@@ -1907,6 +1923,132 @@
       "Version": "9.2.6",
       "StartupTasks": null,
       "DependenciesAreMet": false
+    },
+    {
+      "Name": "InstallerFeature",
+      "EnabledByDefault": false,
+      "Active": true,
+      "PrerequisiteStatus": {
+        "IsSatisfied": true,
+        "Reasons": [
+          
+        ]
+      },
+      "Dependencies": [
+        
+      ],
+      "Version": "8.1.1",
+      "StartupTasks": [
+        
+      ],
+      "DependenciesAreMet": true
+    },
+    {
+      "Name": "SqlOutboxFeature",
+      "EnabledByDefault": false,
+      "Active": true,
+      "PrerequisiteStatus": {
+        "IsSatisfied": true,
+        "Reasons": [
+          
+        ]
+      },
+      "Dependencies": [
+        [
+          "NServiceBus.Features.Outbox"
+        ],
+        [
+          "SqlStorageSessionFeature"
+        ]
+      ],
+      "Version": "8.1.1",
+      "StartupTasks": [
+        "OutboxCleaner"
+      ],
+      "DependenciesAreMet": true
+    },
+    {
+      "Name": "SqlSagaFeature",
+      "EnabledByDefault": false,
+      "Active": true,
+      "PrerequisiteStatus": {
+        "IsSatisfied": true,
+        "Reasons": [
+          
+        ]
+      },
+      "Dependencies": [
+        [
+          "NServiceBus.Features.Sagas"
+        ],
+        [
+          "SqlStorageSessionFeature"
+        ]
+      ],
+      "Version": "8.1.1",
+      "StartupTasks": [
+        
+      ],
+      "DependenciesAreMet": true
+    },
+    {
+      "Name": "SqlValidateStorageTypeCombinationFeature",
+      "EnabledByDefault": true,
+      "Active": true,
+      "PrerequisiteStatus": {
+        "IsSatisfied": true,
+        "Reasons": [
+          
+        ]
+      },
+      "Dependencies": [
+        [
+          "NServiceBus.Features.RootFeature",
+          "SqlOutboxFeature"
+        ],
+        [
+          "NServiceBus.Features.RootFeature",
+          "SqlSagaFeature"
+        ]
+      ],
+      "Version": "8.1.1",
+      "StartupTasks": [
+        
+      ],
+      "DependenciesAreMet": true
+    },
+    {
+      "Name": "SqlSubscriptionFeature",
+      "EnabledByDefault": false,
+      "Active": false,
+      "PrerequisiteStatus": null,
+      "Dependencies": [
+        [
+          "NServiceBus.Features.MessageDrivenSubscriptions"
+        ]
+      ],
+      "Version": "8.1.1",
+      "StartupTasks": null,
+      "DependenciesAreMet": false
+    },
+    {
+      "Name": "SqlStorageSessionFeature",
+      "EnabledByDefault": false,
+      "Active": true,
+      "PrerequisiteStatus": {
+        "IsSatisfied": true,
+        "Reasons": [
+          
+        ]
+      },
+      "Dependencies": [
+        
+      ],
+      "Version": "8.1.1",
+      "StartupTasks": [
+        
+      ],
+      "DependenciesAreMet": true
     }
   ],
   "Hosting": {
@@ -1920,7 +2062,7 @@
     "ProcessorCount": 20,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.12",
-    "WorkingSet": 122961920,
+    "WorkingSet": 80523264,
     "SystemPageSize": 4096,
     "HostName": "NoteDF",
     "UserName": "danil",
@@ -1931,7 +2073,7 @@
     "LicenseType": "Trial",
     "Edition": null,
     "Tier": null,
-    "LicenseStatus": 0,
+    "LicenseStatus": 2,
     "LicenseLocation": "Trial License",
     "ValidApplications": "All",
     "CommercialLicense": false,
@@ -1940,31 +2082,60 @@
     "UpgradeProtectionExpirationDate": null
   },
   "Messages": {
-    "CustomConventionUsed": false,
+    "CustomConventionUsed": true,
     "MessageConventions": [
-      "NServiceBus Marker Interfaces"
+      "Modified NServiceBus Marker Interfaces"
     ],
-    "NumberOfMessagesFoundAtStartup": 13,
+    "NumberOfMessagesFoundAtStartup": 15,
     "Messages": [
-      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent",
-      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent",
-      "Sale.Core.Domain.Saga.Events.StockConfirmedEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleItemEvent",
-      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockOkEvent",
-      "Sale.Core.Domain.Saga.Events.PaymentFailEvent",
-      "Sale.Core.Domain.Saga.Events.SaleFinishedEvent",
+      "Sale.Core.Domain.Saga.Commands.SalePaymentConfirmedCommand",
+      "Sale.Core.Domain.Saga.Commands.SalePaymentCancelledCommand",
+      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand",
       "Sale.Core.Domain.Saga.Events.StockInsufficientEvent",
-      "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent",
+      "Sale.Core.Domain.Saga.Saga.Events.ProcessPaymentEvent",
+      "Sale.Core.Domain.Saga.Commands.SaleStockConfirmedCommand",
       "Sale.Core.Domain.Contracts.Event.CreatedSaleEvent",
-      "Sale.Core.Domain.Contracts.Event.CreatedSaleCalculateStockFailEvent",
-      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand"
+      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent",
+      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent",
+      "Sale.Core.Domain.Saga.Commands.SaleStockInsufficienCommand",
+      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
+      "Sale.Core.Domain.Saga.Events.SaleFinishedEvent",
+      "Sale.Core.Domain.Saga.Events.PaymentFailEvent",
+      "Sale.Core.Domain.Saga.Events.StockConfirmedEvent",
+      "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent"
     ]
   },
+  "NServiceBus.Persistence.Sql.Outbox": {
+    "CleanupDisabled": false,
+    "TimeToKeepDeduplicationData": "7.00:00:00",
+    "FrequencyToRunDeduplicationDataCleanup": "00:01:00"
+  },
+  "NServiceBus.Persistence.Sql.Sagas": {
+    "CustomJsonSettings": false,
+    "VersionSpecificJsonSettings": false,
+    "CustomSagaWriter": false,
+    "CustomSagaReader": false
+  },
+  "NServiceBus.Persistence.Sql.SqlDialect": {
+    "Name": "PostgreSql",
+    "CustomDiagnostics": {
+      "CustomSchema": false,
+      "CustomJsonBParameterModifier": true,
+      "DoNotUseTransportConnection": false
+    }
+  },
   "Persistence": {
+    "Outbox": {
+      "Type": "NServiceBus.SqlPersistence",
+      "Version": "8.1.1"
+    },
     "Sagas": {
-      "Type": "NServiceBus.LearningPersistence",
-      "Version": "9.2.6"
+      "Type": "NServiceBus.SqlPersistence",
+      "Version": "8.1.1"
+    },
+    "Subscriptions": {
+      "Type": "NServiceBus.SqlPersistence",
+      "Version": "8.1.1"
     }
   },
   "Receiving": {
@@ -1979,11 +2150,23 @@
     "InstanceSpecificQueueAddress": null,
     "PurgeOnStartup": false,
     "TransactionMode": "ReceiveOnly",
-    "MaxConcurrency": 20,
+    "MaxConcurrency": 1,
     "Satellites": [
       
     ],
     "MessageHandlers": {
+      "Sale.Core.Domain.Saga.Commands.SalePaymentCancelledCommand": [
+        "Sale.Core.Domain.Application.Sale.Handle.SalePaymentCanceleldHandle"
+      ],
+      "Sale.Core.Domain.Saga.Commands.SalePaymentConfirmedCommand": [
+        "Sale.Core.Domain.Application.Sale.Handle.SalePaymentConfirmedHandle"
+      ],
+      "Sale.Core.Domain.Saga.Commands.SaleStockConfirmedCommand": [
+        "Sale.Core.Domain.Application.Sale.Handle.SaleStockConfirmedHandle"
+      ],
+      "Sale.Core.Domain.Saga.Commands.SaleStockInsufficienCommand": [
+        "Sale.Core.Domain.Application.Sale.Handle.SaleStockInsufficienHandle"
+      ],
       "Sale.Core.Domain.Saga.Events.SaleCreatedEvent": [
         "Sale.Core.Domain.Saga.SaleSaga"
       ],
@@ -2002,12 +2185,13 @@
     }
   },
   "Recoverability": {
-    "ImmediateRetries": 5,
-    "DelayedRetries": 3,
-    "DelayedRetriesTimeIncrease": "0:00:10",
+    "ImmediateRetries": 2,
+    "DelayedRetries": 1,
+    "DelayedRetriesTimeIncrease": "0:00:20",
     "ErrorQueue": "error",
     "UnrecoverableExceptions": [
-      "NServiceBus.MessageDeserializationException"
+      "NServiceBus.MessageDeserializationException",
+      "NServiceBus.Persistence.Sql.SerializationException"
     ]
   },
   "Serialization": {

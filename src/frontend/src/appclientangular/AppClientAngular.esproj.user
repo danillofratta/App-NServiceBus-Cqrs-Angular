@@ -10,4 +10,14 @@
   "webRoot": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular"
 }</LaunchJsonTarget>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebuggerFlavor>LaunchJsonDebugger</DebuggerFlavor>
+    <LaunchJsonTarget>{
+  "name": "localhost (Chrome)",
+  "type": "chrome",
+  "request": "launch",
+  "url": "http://localhost:56683",
+  "webRoot": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular"
+}</LaunchJsonTarget>
+  </PropertyGroup>
 </Project>

@@ -1,8 +1,5 @@
-﻿using Microsoft.AspNetCore.SignalR;
-using Payment.Core.Domain.Application;
-using Payment.Core.Domain.Application.Payment.Service;
+﻿using Payment.Core.Domain.Application;
 using Payment.Core.Domain.Repository;
-using Payment.Infrasctructure;
 using Payment.Infrasctructure.Services.Bus;
 using Payment.Infrastructure.Orm.Notification;
 using Payment.Infrastructure.Orm.Repository;
@@ -14,11 +11,11 @@ builder.Services.AddSignalR(options =>
 {
     options.EnableDetailedErrors = true;
 });
+builder.Services.AddSingleton<NotificationPaymentHubEvent>();
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -78,7 +75,7 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
 
-    endpoints.MapHub<NotificationPaymentHub>("/NotificationPaymentHub");
+    endpoints.MapHub<NotificationPaymentHubEvent>("/NotificationPaymentHub");
 });
 
 

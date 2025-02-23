@@ -3,7 +3,6 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Inf
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Payment.Infrastructure.Orm.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Base.Core.Domain.Application.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Base.Core.Domain.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Payment.Core.Domain.Application.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Payment.Core.Domain.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Product.Core.Domain.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Sale.Core.Domain.Contracts.dll
@@ -13,7 +12,6 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Inf
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Shared.Infrasctructure.Orm.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Stock.Core.Domain.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Shared.Infrasctructure.Orm.pdb
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Payment.Core.Domain.Application.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Base.Core.Domain.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Base.Core.Domain.Application.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Infrastructure\bin\Debug\net8.0\Payment.Core.Domain.pdb

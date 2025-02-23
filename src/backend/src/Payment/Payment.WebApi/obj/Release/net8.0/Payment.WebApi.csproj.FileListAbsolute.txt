@@ -11,8 +11,6 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\FluentValidation.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\MediatR.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\MediatR.Contracts.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.AspNet.SignalR.Core.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.AspNet.SignalR.ServiceBus3.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -31,15 +29,12 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.Extensions.Options.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.Extensions.Primitives.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.OpenApi.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.Owin.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.Owin.Security.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Newtonsoft.Json.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Npgsql.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\NServiceBus.Core.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\NServiceBus.MessageInterfaces.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\NServiceBus.Transport.RabbitMQ.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Owin.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Pipelines.Sockets.Unofficial.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\RabbitMQ.Client.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Serilog.dll
@@ -51,7 +46,6 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\System.Security.Cryptography.Xml.dll
-C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Microsoft.ServiceBus.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Base.Core.Domain.Application.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Release\net8.0\Base.Core.Domain.dll
@@ -105,3 +99,4 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.Web
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Release\net8.0\Payment.WebApi.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Release\net8.0\Payment.WebApi.genruntimeconfig.cache
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Release\net8.0\ref\Payment.WebApi.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\obj\Release\net8.0\staticwebassets.upToDateCheck.txt

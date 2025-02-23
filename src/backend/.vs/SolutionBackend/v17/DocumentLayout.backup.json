@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FFE59426-B77E-46AC-9B67-363A11F8862B}|src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.saga\\saga\\commands\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE59426-B77E-46AC-9B67-363A11F8862B}|src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj|solutionrelative:src\\sale\\sale.core.domain.saga\\saga\\commands\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE59426-B77E-46AC-9B67-363A11F8862B}|src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.saga\\saga\\events\\processpaymentevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE59426-B77E-46AC-9B67-363A11F8862B}|src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj|solutionrelative:src\\sale\\sale.core.domain.saga\\saga\\events\\processpaymentevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5FEB084-BAA1-4F4C-B9AB-7C127F4413EC}|src\\Payment\\Payment.Core.Domain.Application\\Payment.Core.Domain.Application.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\payment\\payment.core.domain.application\\payment\\handlers\\processpaymenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5FEB084-BAA1-4F4C-B9AB-7C127F4413EC}|src\\Payment\\Payment.Core.Domain.Application\\Payment.Core.Domain.Application.csproj|solutionrelative:src\\payment\\payment.core.domain.application\\payment\\handlers\\processpaymenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE59426-B77E-46AC-9B67-363A11F8862B}|src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.saga\\saga\\salesaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE59426-B77E-46AC-9B67-363A11F8862B}|src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj|solutionrelative:src\\sale\\sale.core.domain.saga\\saga\\salesaga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{851DB221-D193-4935-AB6F-8BDDDC4FD2D0}|src\\Sale\\Sale.Infrastructure.Bus\\Sale.Infrastructure.Bus.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.infrastructure.bus\\nservicebusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{851DB221-D193-4935-AB6F-8BDDDC4FD2D0}|src\\Sale\\Sale.Infrastructure.Bus\\Sale.Infrastructure.Bus.csproj|solutionrelative:src\\sale\\sale.infrastructure.bus\\nservicebusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{047AC8BF-D592-4D41-B078-57A2E80F505D}|src\\Stock\\Stock.WebApi\\Stock.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\stock\\stock.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{047AC8BF-D592-4D41-B078-57A2E80F505D}|src\\Stock\\Stock.WebApi\\Stock.WebApi.csproj|solutionrelative:src\\stock\\stock.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85DC34DE-5FA5-4ABF-822F-175437BC213D}|src\\Payment\\Payment.Infrastructure.Bus\\Payment.Infrastructure.Bus.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\payment\\payment.infrastructure.bus\\nservicebusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85DC34DE-5FA5-4ABF-822F-175437BC213D}|src\\Payment\\Payment.Infrastructure.Bus\\Payment.Infrastructure.Bus.csproj|solutionrelative:src\\payment\\payment.infrastructure.bus\\nservicebusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA1A89C2-2898-4A18-A240-7777D104692F}|src\\Stock\\Stock.Infrastructure.Bus\\Stock.Infrastructure.Bus.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\stock\\stock.infrastructure.bus\\nservicebusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA1A89C2-2898-4A18-A240-7777D104692F}|src\\Stock\\Stock.Infrastructure.Bus\\Stock.Infrastructure.Bus.csproj|solutionrelative:src\\stock\\stock.infrastructure.bus\\nservicebusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE643CD0-D4E5-493D-B941-053ADB14A783}|src\\Payment\\Payment.WebApi\\Payment.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\payment\\payment.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +33,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{7AF9F980-0209-430C-8247-A1D5B91EEDC7}|src\\Sale\\Sale.WebApi\\Sale.WebApi.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AF9F980-0209-430C-8247-A1D5B91EEDC7}|src\\Sale\\Sale.WebApi\\Sale.WebApi.csproj|solutionrelative:src\\sale\\sale.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE59426-B77E-46AC-9B67-363A11F8862B}|src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\sale\\sale.core.domain.saga\\saga\\salesagadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE59426-B77E-46AC-9B67-363A11F8862B}|src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj|solutionrelative:src\\sale\\sale.core.domain.saga\\saga\\salesagadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BA17A2-BA45-49DD-8A3E-0A73A7ABDC63}|src\\Payment\\Payment.Infrastructure\\Payment.Infrastructure.Orm.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\payment\\payment.infrastructure\\repository\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90BA17A2-BA45-49DD-8A3E-0A73A7ABDC63}|src\\Payment\\Payment.Infrastructure\\Payment.Infrastructure.Orm.csproj|solutionrelative:src\\payment\\payment.infrastructure\\repository\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DE4B90-14F9-42FC-A660-2B5DF9012A70}|src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\payment\\payment.core.domain\\repository\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DE4B90-14F9-42FC-A660-2B5DF9012A70}|src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj|solutionrelative:src\\payment\\payment.core.domain\\repository\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DE4B90-14F9-42FC-A660-2B5DF9012A70}|src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\backend\\src\\payment\\payment.core.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DE4B90-14F9-42FC-A660-2B5DF9012A70}|src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj|solutionrelative:src\\payment\\payment.core.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,47 +58,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NServiceBusConfiguration.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
-              "RelativeToolTip": "src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SaleSaga.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSaga.cs",
+              "RelativeDocumentMoniker": "src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSaga.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSaga.cs",
+              "RelativeToolTip": "src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSaga.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwDwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:08:40.963Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-02-22T16:43:31.643Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SaleSagaData.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSagaData.cs",
+              "RelativeDocumentMoniker": "src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSagaData.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSagaData.cs",
+              "RelativeToolTip": "src\\Sale\\Sale.Core.Domain.Saga\\Saga\\SaleSagaData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T18:45:47.581Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Commands.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Saga\\Commands\\Commands.cs",
+              "RelativeDocumentMoniker": "src\\Sale\\Sale.Core.Domain.Saga\\Saga\\Commands\\Commands.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Saga\\Commands\\Commands.cs",
+              "RelativeToolTip": "src\\Sale\\Sale.Core.Domain.Saga\\Saga\\Commands\\Commands.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T20:16:57.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NServiceBusExtensions.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Stock\\Stock.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "RelativeToolTip": "src\\Stock\\Stock.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCYAAABbAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProcessPaymentEvent.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Saga\\Events\\ProcessPaymentEvent.cs",
+              "RelativeDocumentMoniker": "src\\Sale\\Sale.Core.Domain.Saga\\Saga\\Events\\ProcessPaymentEvent.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Saga\\Events\\ProcessPaymentEvent.cs",
+              "RelativeToolTip": "src\\Sale\\Sale.Core.Domain.Saga\\Saga\\Events\\ProcessPaymentEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:18:17.88Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NServiceBusExtensions.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "RelativeToolTip": "src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwDMAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:18:27.84Z",
-              "IsPinned": true
+              "WhenOpened": "2025-02-23T20:16:48.703Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -102,39 +138,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Stock\\Stock.WebApi\\Program.cs",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Stock\\Stock.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\Stock\\Stock.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "NServiceBusConfiguration.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
+              "RelativeToolTip": "src\\Sale\\Sale.Infrastructure.Bus\\NServiceBusConfiguration.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowG4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T17:14:10.673Z"
+              "WhenOpened": "2025-02-23T19:04:20.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "ProcessPaymentHandler.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain.Application\\Payment\\Handlers\\ProcessPaymentHandler.cs",
+              "RelativeDocumentMoniker": "src\\Payment\\Payment.Core.Domain.Application\\Payment\\Handlers\\ProcessPaymentHandler.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain.Application\\Payment\\Handlers\\ProcessPaymentHandler.cs",
+              "RelativeToolTip": "src\\Payment\\Payment.Core.Domain.Application\\Payment\\Handlers\\ProcessPaymentHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T19:12:10.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NServiceBusExtensions.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "RelativeToolTip": "src\\Payment\\Payment.Infrastructure.Bus\\NServiceBusExtensions.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowFAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T19:09:11.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "src\\Payment\\Payment.WebApi\\Program.cs",
               "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\Program.cs",
               "RelativeToolTip": "src\\Payment\\Payment.WebApi\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T17:14:02.666Z"
+              "WhenOpened": "2025-02-23T20:13:44.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "src\\Sale\\Sale.WebApi\\Program.cs",
               "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\Program.cs",
               "RelativeToolTip": "src\\Sale\\Sale.WebApi\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEkAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T16:14:07.329Z"
+              "WhenOpened": "2025-02-23T19:41:54.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Repository\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "src\\Payment\\Payment.Core.Domain\\Repository\\IPaymentRepository.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Repository\\IPaymentRepository.cs",
+              "RelativeToolTip": "src\\Payment\\Payment.Core.Domain\\Repository\\IPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T19:11:06.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure\\Repository\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "src\\Payment\\Payment.Infrastructure\\Repository\\PaymentRepository.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure\\Repository\\PaymentRepository.cs",
+              "RelativeToolTip": "src\\Payment\\Payment.Infrastructure\\Repository\\PaymentRepository.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T19:11:29.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "src\\Payment\\Payment.Core.Domain\\Entities\\Payment.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Entities\\Payment.cs",
+              "RelativeToolTip": "src\\Payment\\Payment.Core.Domain\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T19:10:46.581Z"
             }
           ]
         },
