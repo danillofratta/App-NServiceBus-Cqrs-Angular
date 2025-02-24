@@ -39,8 +39,12 @@ São 4 serviços:
     - dotnet ef database update
 - rodar os containers
 
+## Fluxo Mensagens entras as APIs
+
+![alt text](image.png)
+
 ## TODO
-- criar diagramas arquitetura do projeto
+
 - criar diagramas fluxo do processo
 - criar IoC
 - revisar projeto
