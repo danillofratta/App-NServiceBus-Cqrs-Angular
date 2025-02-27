@@ -10,7 +10,8 @@ namespace Payment.Core.Domain.Services
     {
         private readonly IPaymentRepository _PaymentRepository;
 
-        public PaymentConfirmedService(IPaymentRepository paymentRepository) { 
+        public PaymentConfirmedService(IPaymentRepository paymentRepository)
+        {
             _PaymentRepository = paymentRepository;
         }
 

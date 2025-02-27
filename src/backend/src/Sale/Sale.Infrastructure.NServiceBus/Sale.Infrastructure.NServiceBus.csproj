@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="9.0.1" />
+    <PackageReference Include="NServiceBus" Version="9.2.6" />
+    <PackageReference Include="NServiceBus.Extensions.Logging" Version="3.0.1" />
+    <PackageReference Include="NServiceBus.Newtonsoft.Json" Version="4.0.1" />
+    <PackageReference Include="NServiceBus.Persistence.Sql" Version="8.1.1" />
+    <PackageReference Include="NServiceBus.RabbitMQ" Version="9.2.0" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Base.Core.Domain.Messaging\Base.Core.Domain.Messaging.csproj" />
+    <ProjectReference Include="..\..\Base\Base.Infrastructure.Messaging.NServiceBus\Base.Infrastructure.Messaging.NServiceBus.csproj" />
+    <ProjectReference Include="..\..\Base\Base.Infrastructure.Messaging\Base.Infrastructure.Messaging.csproj" />
+    <ProjectReference Include="..\Sale.Core.Domain.Application\Sale.Core.Domain.Application.csproj" />
+    <ProjectReference Include="..\Sale.Core.Domain\Sale.Core.Domain.csproj" />
+    <ProjectReference Include="..\Sale.Infrastructure.Orm\Sale.Infrastructure.Orm.csproj" />
+  </ItemGroup>
+
+</Project>

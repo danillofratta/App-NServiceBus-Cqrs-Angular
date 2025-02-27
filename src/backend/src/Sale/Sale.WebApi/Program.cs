@@ -1,10 +1,11 @@
+using Base.Infrastructure.Messaging;
 using Sale.Core.Application.Sales.Create;
 using Sale.Core.Domain.Application;
 using Sale.Core.Domain.Repository;
-using Sale.Infrasctructure.Services.Bus;
 using Sale.Infrastructure.Orm.Repository;
 using Serilog;
-using Shared.Infrastructure;
+using Shared.Infrastructure.Orm;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,8 +43,22 @@ builder.Services.AddScoped<CreateSaleCommand>();
 builder.Services.AddScoped<CreateSaleResult>();
 builder.Services.AddScoped<CreateSaleHandler>();
 
+
+// Configuração dinâmica do IMessageBus via provedores
+string messagingType = builder.Configuration["Messaging:Type"] ?? "Rebus";
+ConfigureMessageBus(builder.Services, messagingType);
+
+
 //aqui com servicebus rodando dentro webpi
-builder.Services.AddNServiceBus();
+//builder.Services.AddNServiceBus();
+//builder.Services.AddScoped<IMessageSession>(provider =>
+//{
+//    var endpointInstance = provider.GetRequiredService<IEndpointInstance>();
+//    return endpointInstance;
+//});
+
+//builder.Services.AddRebusInfrastructure();
+//builder.Services.AddHostedService<RebusSubscriptions>();
 
 //aqui com servicebus rorando em outro serviço
 //configura servicebus que é chamado em outro processo fora da webapi
@@ -51,7 +66,7 @@ builder.Services.AddNServiceBus();
 //{
 //    var endpointConfiguration = new EndpointConfiguration("SaleSagaEndpoint");
 
-//    // Defina o transporte correto (exemplo: RabbitMQ, Azure Service Bus, etc.)
+//     Defina o transporte correto (exemplo: RabbitMQ, Azure Service Bus, etc.)
 //    var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
 //    transport.UseConventionalRoutingTopology(QueueType.Classic);
 //    transport.ConnectionString("amqp://guest:guest@localhost:5672/");// Troque para o transporte real, se necessário
@@ -63,11 +78,7 @@ builder.Services.AddNServiceBus();
 //    return endpointInstance;
 //});
 
-builder.Services.AddScoped<IMessageSession>(provider =>
-{
-    var endpointInstance = provider.GetRequiredService<IEndpointInstance>();
-    return endpointInstance;
-});
+
 
 #if DEBUG
 
@@ -110,3 +121,65 @@ app.UseEndpoints(endpoints =>
 app.MapGet("/", () => "NServiceBus está rodando!");
 
 app.Run();
+
+static void ConfigureMessageBus(IServiceCollection services, string messagingType)
+{
+    string providerNamespace = $"Sale.Infrastructure.{messagingType}";
+    string providerFullName = $"{providerNamespace}.{messagingType}Provider";
+
+    try
+    {
+        Console.WriteLine($"Tentando carregar assembly: {providerNamespace}");
+        var assembly = Assembly.Load($"{providerNamespace}");
+        Console.WriteLine($"Assembly carregado com sucesso: {assembly.FullName}");
+
+        var providerType = assembly.GetType(providerFullName);
+        if (providerType == null)
+        {
+            Console.WriteLine($"Tipo {providerFullName} não encontrado no assembly.");
+            throw new InvalidOperationException($"Provedor para {messagingType} não encontrado ou inválido.");
+        }
+        if (!typeof(IMessageBusProvider).IsAssignableFrom(providerType))
+        {
+            Console.WriteLine($"Tipo {providerFullName} não implementa IMessageBusProvider.");
+            throw new InvalidOperationException($"Provedor para {messagingType} não encontrado ou inválido.");
+        }
+
+        Console.WriteLine($"Criando instância de {providerFullName}");
+        var provider = Activator.CreateInstance(providerType) as IMessageBusProvider;
+        if (provider == null)
+        {
+            throw new InvalidOperationException($"Não foi possível criar instância do provedor para {messagingType}.");
+        }
+        provider?.Configure(services, messagingType);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Erro detalhado: {ex}");
+        throw new InvalidOperationException($"Erro ao carregar o provedor para {messagingType}: {ex.Message}", ex);
+    }
+}
+
+//public class RebusSubscriptions : IHostedService
+//{
+//    private readonly IBus _bus;
+
+//    public RebusSubscriptions(IBus bus)
+//    {
+//        _bus = bus;
+//    }
+
+//    public async Task StartAsync(CancellationToken cancellationToken)
+//    {
+//        await _bus.Subscribe<SaleCreatedEvent>();
+//        await _bus.Subscribe<StockConfirmedEvent>();
+//        await _bus.Subscribe<StockInsufficientEvent>();
+//        await _bus.Subscribe<PaymentConfirmedEvent>();
+//        await _bus.Subscribe<PaymentFailEvent>();
+//    }
+
+//    public Task StopAsync(CancellationToken cancellationToken)
+//    {
+//        return Task.CompletedTask;
+//    }
+//}

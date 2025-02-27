@@ -11,11 +11,11 @@
           "AutoMapper": "14.0.0",
           "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
+          "Base.Infrastructure.Messaging": "1.0.0",
+          "MediatR": "12.4.1",
           "NServiceBus": "9.2.6",
-          "NServiceBus.RabbitMQ": "9.2.0",
+          "Rebus": "8.7.1",
           "Sale.Core.Domain.Contracts": "1.0.0",
-          "Sale.Core.Domain.Saga": "1.0.0",
-          "Shared.Dto": "1.0.0",
           "Stock.Core.Domain": "1.0.0"
         },
         "runtime": {
@@ -30,14 +30,6 @@
           "lib/net8.0/AutoMapper.dll": {
             "assemblyVersion": "14.0.0.0",
             "fileVersion": "14.0.0.0"
-          }
-        }
-      },
-      "BitFaster.Caching/2.5.2": {
-        "runtime": {
-          "lib/net6.0/BitFaster.Caching.dll": {
-            "assemblyVersion": "2.5.2.0",
-            "fileVersion": "2.5.2.0"
           }
         }
       },
@@ -139,24 +131,12 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2",
           "Microsoft.Extensions.Options": "8.0.0",
-          "System.Diagnostics.DiagnosticSource": "9.0.2"
+          "System.Diagnostics.DiagnosticSource": "8.0.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
-          }
-        }
-      },
-      "Microsoft.Extensions.Logging.Abstractions/9.0.2": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2",
-          "System.Diagnostics.DiagnosticSource": "9.0.2"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
           }
         }
       },
@@ -195,6 +175,14 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
       "NServiceBus/9.2.6": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -217,48 +205,18 @@
           }
         }
       },
-      "NServiceBus.RabbitMQ/9.2.0": {
+      "Rebus/8.7.1": {
         "dependencies": {
-          "BitFaster.Caching": "2.5.2",
-          "NServiceBus": "9.2.6",
-          "RabbitMQ.Client": "6.8.1"
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "lib/net8.0/NServiceBus.Transport.RabbitMQ.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.2.0.0"
+          "lib/net8.0/Rebus.dll": {
+            "assemblyVersion": "8.7.1.0",
+            "fileVersion": "8.7.1.0"
           }
         }
       },
-      "RabbitMQ.Client/6.8.1": {
-        "dependencies": {
-          "System.Memory": "4.5.5",
-          "System.Threading.Channels": "7.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.8.1.0"
-          }
-        }
-      },
-      "Serilog/4.2.0": {
-        "runtime": {
-          "lib/net8.0/Serilog.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.2.0.0"
-          }
-        }
-      },
-      "System.Diagnostics.DiagnosticSource/9.0.2": {
-        "runtime": {
-          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
-          }
-        }
-      },
-      "System.Memory/4.5.5": {},
+      "System.Diagnostics.DiagnosticSource/8.0.0": {},
       "System.Security.Cryptography.Pkcs/8.0.1": {
         "runtime": {
           "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
@@ -286,7 +244,6 @@
           }
         }
       },
-      "System.Threading.Channels/7.0.0": {},
       "Base.Core.Domain/1.0.0": {
         "dependencies": {
           "FluentValidation": "11.11.0",
@@ -307,12 +264,12 @@
           }
         }
       },
-      "Sale.Core.Domain/1.0.0": {
+      "Base.Infrastructure.Messaging/1.0.0": {
         "dependencies": {
-          "Base.Core.Domain": "1.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2"
         },
         "runtime": {
-          "Sale.Core.Domain.dll": {
+          "Base.Infrastructure.Messaging.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -330,38 +287,10 @@
           }
         }
       },
-      "Sale.Core.Domain.Saga/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
-          "NServiceBus": "9.2.6",
-          "Sale.Core.Domain": "1.0.0",
-          "Sale.Core.Domain.Contracts": "1.0.0",
-          "Serilog": "4.2.0"
-        },
-        "runtime": {
-          "Sale.Core.Domain.Saga.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Shared.Dto/1.0.0": {
-        "dependencies": {
-          "MediatR": "12.4.1",
-          "NServiceBus": "9.2.6"
-        },
-        "runtime": {
-          "Shared.Dto.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Stock.Core.Domain/1.0.0": {
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
-          "Base.Core.Domain.Application": "1.0.0",
-          "Shared.Dto": "1.0.0"
+          "Base.Core.Domain.Application": "1.0.0"
         },
         "runtime": {
           "Stock.Core.Domain.dll": {
@@ -384,13 +313,6 @@
       "sha512": "sha512-OC+1neAPM4oCCqQj3g2GJ2shziNNhOkxmNB9cVS8jtx4JbgmRzLcUOxB9Tsz6cVPHugdkHgCaCrTjjSI0Z5sCQ==",
       "path": "automapper/14.0.0",
       "hashPath": "automapper.14.0.0.nupkg.sha512"
-    },
-    "BitFaster.Caching/2.5.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-r/oIIyHwEpQs+dHNj36xuoU1bZ+jv+X2g4xZT1hrhwzFuQND8jiSOGMeAc9GbIuHtC0CYIlNpXEUBezu7NcRVg==",
-      "path": "bitfaster.caching/2.5.2",
-      "hashPath": "bitfaster.caching.2.5.2.nupkg.sha512"
     },
     "FluentValidation/11.11.0": {
       "type": "package",
@@ -462,13 +384,6 @@
       "path": "microsoft.extensions.diagnostics.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/9.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dV9s2Lamc8jSaqhl2BQSPn/AryDIH2sSbQUyLitLXV0ROmsb+SROnn2cH939JFbsNrnf3mIM3GNRKT7P0ldwLg==",
-      "path": "microsoft.extensions.logging.abstractions/9.0.2",
-      "hashPath": "microsoft.extensions.logging.abstractions.9.0.2.nupkg.sha512"
-    },
     "Microsoft.Extensions.Options/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -490,6 +405,13 @@
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
     "NServiceBus/9.2.6": {
       "type": "package",
       "serviceable": true,
@@ -504,40 +426,19 @@
       "path": "nservicebus.messageinterfaces/1.0.0",
       "hashPath": "nservicebus.messageinterfaces.1.0.0.nupkg.sha512"
     },
-    "NServiceBus.RabbitMQ/9.2.0": {
+    "Rebus/8.7.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OqSHy8hQLm0TxlKdsD4/jUgMHd+JwdhtbPKm0U9I6CdVVHzzVK6JOLkFO6uzfsM0w7jVTVcACHGlMHomH/5GTw==",
-      "path": "nservicebus.rabbitmq/9.2.0",
-      "hashPath": "nservicebus.rabbitmq.9.2.0.nupkg.sha512"
+      "sha512": "sha512-HIxlzizlw46zjmy6ykOmbT0QMpxquLnVWc6xVOIZM1RjTTXAJm9AddFzlomqlq2UJl/OJFwoM5DwLmHFOdnO5w==",
+      "path": "rebus/8.7.1",
+      "hashPath": "rebus.8.7.1.nupkg.sha512"
     },
-    "RabbitMQ.Client/6.8.1": {
+    "System.Diagnostics.DiagnosticSource/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
-      "path": "rabbitmq.client/6.8.1",
-      "hashPath": "rabbitmq.client.6.8.1.nupkg.sha512"
-    },
-    "Serilog/4.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA==",
-      "path": "serilog/4.2.0",
-      "hashPath": "serilog.4.2.0.nupkg.sha512"
-    },
-    "System.Diagnostics.DiagnosticSource/9.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-z5CMQNLzk8UKnTEHRKb4nq03CCDWBMEF2gfP3oPKZn4F8wip6LFZCP5rF90DREHqdNddScIGAfszXJSjh4drSw==",
-      "path": "system.diagnostics.diagnosticsource/9.0.2",
-      "hashPath": "system.diagnostics.diagnosticsource.9.0.2.nupkg.sha512"
-    },
-    "System.Memory/4.5.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
-      "path": "system.memory/4.5.5",
-      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+      "sha512": "sha512-c9xLpVz6PL9lp/djOWtk5KPDZq3cSYpmXoJQY524EOtuFl5z9ZtsotpsyrDW40U1DRnQSYvcPKEUV0X//u6gkQ==",
+      "path": "system.diagnostics.diagnosticsource/8.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512"
     },
     "System.Security.Cryptography.Pkcs/8.0.1": {
       "type": "package",
@@ -553,13 +454,6 @@
       "path": "system.security.cryptography.xml/8.0.2",
       "hashPath": "system.security.cryptography.xml.8.0.2.nupkg.sha512"
     },
-    "System.Threading.Channels/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
-      "path": "system.threading.channels/7.0.0",
-      "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
-    },
     "Base.Core.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -570,22 +464,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Sale.Core.Domain/1.0.0": {
+    "Base.Infrastructure.Messaging/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Sale.Core.Domain.Contracts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Sale.Core.Domain.Saga/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Shared.Dto/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

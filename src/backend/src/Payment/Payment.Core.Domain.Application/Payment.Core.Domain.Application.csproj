@@ -10,12 +10,16 @@
     <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.0" />
     <PackageReference Include="NServiceBus" Version="9.2.6" />
+    <PackageReference Include="Rebus" Version="8.7.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Sale\Sale.Core.Domain.Saga\Sale.Core.Domain.Saga.csproj" />
+    <ProjectReference Include="..\..\Base\Base.Core.Domain.Messaging\Base.Core.Domain.Messaging.csproj" />
+    <ProjectReference Include="..\..\Base\Base.Infrastructure.Messaging\Base.Infrastructure.Messaging.csproj" />
+    <ProjectReference Include="..\..\Sale\Sale.Core.Domain.Contracts\Sale.Core.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.Infrasctructure.Orm\Shared.Infrasctructure.Orm.csproj" />
     <ProjectReference Include="..\Payment.Core.Domain\Payment.Core.Domain.csproj" />
-    <ProjectReference Include="..\Payment.Infrastructure\Payment.Infrastructure.Orm.csproj" />
+    <ProjectReference Include="..\Payment.Infrastructure.Orm\Payment.Infrastructure.Orm.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,7 @@ namespace Payment.Core.Domain.Application.Payment.Query.GetSalesList
     {
         public GetListPaymentQueryProfile()
         {
-            CreateMap<PaymentCoreDomainEntities.Payment, GetListPaymentQueryResult>();            
+            CreateMap<PaymentCoreDomainEntities.Payment, GetListPaymentQueryResult>();
         }
     }
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CcyY6FrA/SY=",
+  "dgSpecHash": "/61wOPux/3s=",
   "success": true,
-  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.Saga.csproj",
+  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Saga\\Sale.Core.Domain.SagaNServiceBus.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\danil\\.nuget\\packages\\bitfaster.caching\\2.5.2\\bitfaster.caching.2.5.2.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
@@ -20,10 +21,14 @@
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\nservicebus\\9.2.6\\nservicebus.9.2.6.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\nservicebus.messageinterfaces\\1.0.0\\nservicebus.messageinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\nservicebus.rabbitmq\\9.2.0\\nservicebus.rabbitmq.9.2.0.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.2\\system.diagnostics.diagnosticsource.9.0.2.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
-    "C:\\Users\\danil\\.nuget\\packages\\system.security.cryptography.xml\\8.0.2\\system.security.cryptography.xml.8.0.2.nupkg.sha512"
+    "C:\\Users\\danil\\.nuget\\packages\\system.security.cryptography.xml\\8.0.2\\system.security.cryptography.xml.8.0.2.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

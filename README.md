@@ -45,7 +45,10 @@ São 4 serviços:
 
 ## TODO
 
-- criar diagramas fluxo do processo
+- feito refatory no project tirando acoplamento e add rebus with nservicebus
+- continuar refactory para add masstransit
+- nservicebus tem problema de compatibilidade, não está chamando StockHandle mas tb não dá erro
+- depois de refatorar tudo ver para criar services exclusivos para endpoints de mensageria
 - criar IoC
 - revisar projeto
 - add mais consultas com signalr

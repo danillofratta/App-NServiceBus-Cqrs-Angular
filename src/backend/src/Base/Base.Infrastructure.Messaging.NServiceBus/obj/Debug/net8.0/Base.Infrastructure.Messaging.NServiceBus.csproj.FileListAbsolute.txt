@@ -1,0 +1,16 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\bin\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\bin\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\bin\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\bin\Debug\net8.0\Base.Infrastructure.Messaging.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\bin\Debug\net8.0\Base.Infrastructure.Messaging.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\Base.Inf.7BA52EF6.Up2Date
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\refint\Base.Infrastructure.Messaging.NServiceBus.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\Base.Infrastructure.Messaging.NServiceBus.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastructure.Messaging.NServiceBus\obj\Debug\net8.0\ref\Base.Infrastructure.Messaging.NServiceBus.dll

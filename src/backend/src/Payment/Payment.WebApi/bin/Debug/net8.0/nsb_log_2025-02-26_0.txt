@@ -1,0 +1,146 @@
+﻿2025-02-26 15:44:11.717 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:44:11.925 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:44:11.930 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:44:12.202 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:44:12.255 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:45:13.735 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:45:13.871 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:45:13.877 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:45:14.226 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:45:14.303 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:45:43.630 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:45:43.811 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:45:43.828 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:45:44.183 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:45:44.335 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:48:26.088 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:48:26.207 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:48:26.215 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:48:26.466 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:48:26.573 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:49:42.047 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:49:42.145 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:49:42.149 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:49:44.511 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:49:44.561 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:54:42.978 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:54:43.094 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:54:43.098 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:54:45.994 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:54:46.089 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:59:06.661 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:59:06.856 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:59:06.865 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:59:07.518 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:59:07.629 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:03:13.031 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:03:13.299 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:03:13.307 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:04:24.969 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:04:25.255 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:04:25.271 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:05:32.925 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:05:33.135 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:05:33.142 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:07:00.423 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:07:00.552 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:07:00.556 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:08:52.636 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:08:52.898 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:08:52.906 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:09:26.667 INFO  Immediate Retry is going to retry message '2edbdf46-c56f-462f-8962-b290013ba219' because of an exception:
+Npgsql.NpgsqlException (0x80004005): The operation has timed out
+ ---> System.TimeoutException: The operation has timed out.
+   at Npgsql.ThrowHelper.ThrowNpgsqlExceptionWithInnerTimeoutException(String message)
+   at Npgsql.Util.NpgsqlTimeout.Check()
+   at Npgsql.Util.NpgsqlTimeout.CheckAndGetTimeLeft()
+   at Npgsql.Util.NpgsqlTimeout.CheckAndApply(NpgsqlConnector connector)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Extensions.OpenConnection(DbConnection connection, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 46
+   at StorageSession.Open(ContextBag contextBag, CancellationToken cancellationToken) in /_/src/SqlPersistence/SynchronizedStorage/StorageSession.cs:line 76
+   at NServiceBus.Persistence.CompletableSynchronizedStorageSessionExtensions.Open(ICompletableSynchronizedStorageSession session, IOutboxTransaction outboxTransaction, TransportTransaction transportTransaction, ContextBag contextBag, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Reliability/SynchronizedStorage/CompletableSynchronizedStorageSessionExtensions.cs:line 47
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/LoadHandlersConnector.cs:line 25
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Sagas/InvokeSagaNotFoundBehavior.cs:line 17
+   at NServiceBus.MutateIncomingMessageBehavior.InvokeIncomingMessageMutators(IIncomingLogicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateInstanceMessage/MutateIncomingMessageBehavior.cs:line 62
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 39
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 61
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 36
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 2edbdf46-c56f-462f-8962-b290013ba219
+	Pipeline canceled: False
+2025-02-26 16:22:11.623 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:22:11.789 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:22:11.794 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:30:34.552 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:30:34.773 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:30:34.781 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:35:40.586 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:35:40.856 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:35:40.862 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:38:51.824 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:38:52.034 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:38:52.041 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:41:49.285 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:41:49.476 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:41:49.482 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:58:57.219 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:58:57.358 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:58:57.366 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:11:09.373 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:11:09.468 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:11:09.472 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:14:20.804 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:14:21.120 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:14:21.131 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:16:40.868 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:16:40.963 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:16:40.968 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:22:51.160 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:22:51.250 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:22:51.253 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:25:35.566 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:25:35.765 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:25:35.771 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:35:03.920 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:35:04.002 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:35:04.006 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:42:30.850 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:42:31.004 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:42:31.010 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:45:16.142 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:45:16.220 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:45:16.224 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:49:41.549 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:49:41.629 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:49:41.633 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:51:58.137 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:51:58.210 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:51:58.213 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:57:18.021 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:57:18.114 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:57:18.118 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:00:17.277 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:00:17.353 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:00:17.356 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:03:01.119 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:03:01.208 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:03:01.212 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:05:17.465 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:05:17.608 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:05:17.614 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:10:52.925 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:10:53.126 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:10:53.132 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:13:03.068 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Payment\Payment.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:13:03.171 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:13:03.176 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8

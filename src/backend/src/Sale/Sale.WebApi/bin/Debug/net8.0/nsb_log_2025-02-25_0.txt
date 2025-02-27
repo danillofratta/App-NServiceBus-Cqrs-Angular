@@ -1,0 +1,58 @@
+﻿2025-02-25 14:50:24.985 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 14:50:25.089 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 14:50:25.096 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 14:50:25.510 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 14:50:25.626 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-25 14:59:47.573 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 14:59:47.728 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 14:59:47.735 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 14:59:49.116 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 14:59:49.408 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-25 15:02:18.375 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Sale.Core.Domain.Contracts.Event.SaleCreatedEvent' to help NServiceBus to enforce messaging best practices for you.
+2025-02-25 15:02:53.261 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Sale.Core.Domain.Contracts.Event.SaleCreatedEvent' to help NServiceBus to enforce messaging best practices for you.
+2025-02-25 17:15:09.053 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:17:46.709 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:17:46.862 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:17:46.869 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:17:47.280 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 17:17:47.430 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-25 17:19:12.239 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:19:12.332 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:19:12.338 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:19:12.548 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 17:19:12.614 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-25 17:22:15.975 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:22:16.086 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:22:16.091 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:22:16.303 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 17:22:16.370 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-25 17:30:15.853 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:30:16.016 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:30:16.023 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:30:16.411 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 17:30:16.506 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-25 17:30:59.307 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:30:59.434 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:30:59.440 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:30:59.687 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 17:30:59.757 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-25 17:31:53.255 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:31:53.375 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:31:53.380 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:31:53.727 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 17:31:53.835 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-25 17:33:04.484 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:33:04.613 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:33:04.619 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:33:04.940 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 17:33:05.031 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-25 17:34:46.121 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:34:46.231 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:34:46.236 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:34:46.527 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 17:34:46.597 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-25 17:35:53.369 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:35:53.519 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:35:53.524 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:35:53.848 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-25 17:35:53.948 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.

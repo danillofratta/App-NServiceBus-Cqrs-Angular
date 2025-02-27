@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Payment.Core.Domain.Enum
 {
@@ -11,7 +8,7 @@ namespace Payment.Core.Domain.Enum
     /// </summary>
     public enum PaymentStatus
     {
-        Create =0,
+        Create = 0,
         Waiting,
         Cancelled,
         Sucefull

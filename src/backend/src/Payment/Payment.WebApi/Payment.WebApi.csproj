@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -9,16 +9,15 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
-    <PackageReference Include="NServiceBus" Version="9.2.6" />
-    <PackageReference Include="NServiceBus.RabbitMQ" Version="9.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Base\Base.WebApi\Base.WebApi.csproj" />
-    <ProjectReference Include="..\..\Shared\Shared.Infrasctructure\Shared.Infrasctructure.Orm.csproj" />
-    <ProjectReference Include="..\Payment.Infrastructure.Bus\Payment.Infrastructure.Bus.csproj" />
-    <ProjectReference Include="..\Payment.Infrastructure\Payment.Infrastructure.Orm.csproj" />
+    <ProjectReference Include="..\..\Sale\Sale.Core.Domain.Contracts\Sale.Core.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.Infrasctructure.Orm\Shared.Infrasctructure.Orm.csproj" />
+    <ProjectReference Include="..\Payment.Infrastructure.Orm\Payment.Infrastructure.Orm.csproj" />
+    <ProjectReference Include="..\Payment.Infrastrucure.Rebus\Payment.Infrastructure.Rebus.csproj" />
   </ItemGroup>
 
 </Project>

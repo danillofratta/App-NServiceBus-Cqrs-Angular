@@ -17,10 +17,6 @@
       {
         "Path": "src\\Payment\\Payment.WebApi\\Payment.WebApi.csproj",
         "Action": "Start"
-      },
-      {
-        "Path": "Sale.SaleMessageProcessor\\Sale.SaleMessageProcessor.csproj",
-        "Action": "Start"
       }
     ]
   }

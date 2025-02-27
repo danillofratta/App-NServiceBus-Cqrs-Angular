@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ArC02SI3/5g=",
+  "success": true,
+  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging\\Base.Infrastructure.Messaging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

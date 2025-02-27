@@ -1,0 +1,12 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\obj\Debug\net8.0\Base.Infrasctructure.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\obj\Debug\net8.0\Base.Infrasctructure.Messaging.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\obj\Debug\net8.0\Base.Infrasctructure.Messaging.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\obj\Debug\net8.0\Base.Infrasctructure.Messaging.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\obj\Debug\net8.0\Base.Infrasctructure.Messaging.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\bin\Debug\net8.0\Base.Infrasctructure.Messaging.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\bin\Debug\net8.0\Base.Infrasctructure.Messaging.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\bin\Debug\net8.0\Base.Infrasctructure.Messaging.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\obj\Debug\net8.0\Base.Infrasctructure.Messaging.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\obj\Debug\net8.0\refint\Base.Infrasctructure.Messaging.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\obj\Debug\net8.0\Base.Infrasctructure.Messaging.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrasctructure.Messaging\obj\Debug\net8.0\ref\Base.Infrasctructure.Messaging.dll

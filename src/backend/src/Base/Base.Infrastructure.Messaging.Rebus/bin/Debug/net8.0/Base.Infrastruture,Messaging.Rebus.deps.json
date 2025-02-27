@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Base.Infrastruture,Messaging.Rebus/1.0.0": {
+        "dependencies": {
+          "Base.Infrastructure.Messaging": "1.0.0",
+          "Rebus": "8.7.1"
+        },
+        "runtime": {
+          "Base.Infrastruture,Messaging.Rebus.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Rebus/8.7.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/net8.0/Rebus.dll": {
+            "assemblyVersion": "8.7.1.0",
+            "fileVersion": "8.7.1.0"
+          }
+        }
+      },
+      "Base.Infrastructure.Messaging/1.0.0": {
+        "runtime": {
+          "Base.Infrastructure.Messaging.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Base.Infrastruture,Messaging.Rebus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Rebus/8.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HIxlzizlw46zjmy6ykOmbT0QMpxquLnVWc6xVOIZM1RjTTXAJm9AddFzlomqlq2UJl/OJFwoM5DwLmHFOdnO5w==",
+      "path": "rebus/8.7.1",
+      "hashPath": "rebus.8.7.1.nupkg.sha512"
+    },
+    "Base.Infrastructure.Messaging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

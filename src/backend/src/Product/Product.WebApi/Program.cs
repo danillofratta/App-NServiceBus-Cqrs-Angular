@@ -1,8 +1,8 @@
 using Product.Core.Appplication;
 using Product.Core.Domain.Repository;
 using Product.Infrastructure.Orm.Repository;
-using Shared.Infrasctructure.Service;
-using Shared.Infrastructure;
+using Shared.Infrasctructure.Orm.Service;
+using Shared.Infrastructure.Orm;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);

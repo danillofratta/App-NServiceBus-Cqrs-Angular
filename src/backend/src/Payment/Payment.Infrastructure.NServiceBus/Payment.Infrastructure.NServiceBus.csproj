@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NServiceBus" Version="9.2.6" />
+    <PackageReference Include="NServiceBus.Persistence.Sql" Version="8.1.1" />
+    <PackageReference Include="NServiceBus.RabbitMQ" Version="9.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\Base.Infrastructure.Messaging.NServiceBus\Base.Infrastructure.Messaging.NServiceBus.csproj" />
+    <ProjectReference Include="..\..\Base\Base.Infrastructure.Messaging\Base.Infrastructure.Messaging.csproj" />
+    <ProjectReference Include="..\Payment.Core.Domain.Application\Payment.Core.Domain.Application.csproj" />
+    <ProjectReference Include="..\Payment.Infrastructure.Orm\Payment.Infrastructure.Orm.csproj" />
+  </ItemGroup>
+
+</Project>

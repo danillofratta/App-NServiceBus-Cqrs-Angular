@@ -1,0 +1,421 @@
+﻿2025-02-26 15:02:38.783 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:02:38.921 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:02:38.936 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:11:20.858 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:11:20.987 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:11:20.994 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:11:21.261 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:11:21.495 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:14:56.598 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:14:56.693 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:14:56.698 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:14:56.933 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:14:56.996 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:16:24.984 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:16:25.092 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:16:25.096 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:16:25.299 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:16:25.363 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:21:33.049 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:21:33.140 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:21:33.145 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:21:33.349 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:21:33.414 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:25:37.237 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:25:37.343 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:25:37.347 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:25:40.933 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:25:41.016 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:27:14.545 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:27:14.647 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:27:14.651 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:27:14.898 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:27:14.965 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:44:08.093 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:44:08.240 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:44:08.246 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:44:08.545 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:44:08.612 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:45:09.304 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:45:09.554 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:45:09.563 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:45:12.101 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:45:12.200 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:45:39.009 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:45:39.147 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:45:39.151 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:45:42.524 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:45:42.663 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:48:21.239 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:48:21.339 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:48:21.344 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:48:21.576 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:48:21.646 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:49:30.803 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:49:30.917 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:49:30.921 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:49:41.158 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:49:41.223 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:54:39.153 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:54:39.346 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:54:39.350 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:54:41.220 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:54:41.304 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:55:21.424 INFO  Immediate Retry is going to retry message '4ba385d7-b8ab-4060-b4be-b2900137cf4c' because of an exception:
+System.Exception: Failed to ExecuteNonQuery. CommandText:
+
+insert into "public"."OutboxData"
+(
+    "MessageId",
+    "Operations",
+    "PersistenceVersion"
+)
+values
+(
+    @MessageId,
+    @Operations,
+    @PersistenceVersion
+)
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "OutboxData_pkey"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Extensions.ExecuteNonQueryEx(DbCommand command, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 115
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "OutboxData_pkey"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: OutboxData
+    ConstraintName: OutboxData_pkey
+    File: nbtinsert.c
+    Line: 664
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Extensions.ExecuteNonQueryEx(DbCommand command, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 120
+   at OptimisticConcurrencyControlStrategy.Complete(OutboxMessage outboxMessage, DbConnection connection, DbTransaction transaction, ContextBag context, CancellationToken cancellationToken) in /_/src/SqlPersistence/Outbox/OptimisticConcurrencyControlStrategy.cs:line 33
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 4ba385d7-b8ab-4060-b4be-b2900137cf4c
+	Pipeline canceled: False
+2025-02-26 15:55:58.617 INFO  Immediate Retry is going to retry message '838603e7-3145-4ccc-9ccf-b29001380150' because of an exception:
+System.Exception: Failed to ExecuteNonQuery. CommandText:
+
+insert into "public"."OutboxData"
+(
+    "MessageId",
+    "Operations",
+    "PersistenceVersion"
+)
+values
+(
+    @MessageId,
+    @Operations,
+    @PersistenceVersion
+)
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "OutboxData_pkey"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Extensions.ExecuteNonQueryEx(DbCommand command, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 115
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "OutboxData_pkey"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: OutboxData
+    ConstraintName: OutboxData_pkey
+    File: nbtinsert.c
+    Line: 664
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Extensions.ExecuteNonQueryEx(DbCommand command, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 120
+   at OptimisticConcurrencyControlStrategy.Complete(OutboxMessage outboxMessage, DbConnection connection, DbTransaction transaction, ContextBag context, CancellationToken cancellationToken) in /_/src/SqlPersistence/Outbox/OptimisticConcurrencyControlStrategy.cs:line 33
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 838603e7-3145-4ccc-9ccf-b29001380150
+	Pipeline canceled: False
+2025-02-26 15:56:51.588 INFO  Immediate Retry is going to retry message '6027f71a-281d-48a5-a5e5-b29001383678' because of an exception:
+System.Exception: Failed to ExecuteNonQuery. CommandText:
+
+insert into "public"."OutboxData"
+(
+    "MessageId",
+    "Operations",
+    "PersistenceVersion"
+)
+values
+(
+    @MessageId,
+    @Operations,
+    @PersistenceVersion
+)
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "OutboxData_pkey"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Extensions.ExecuteNonQueryEx(DbCommand command, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 115
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "OutboxData_pkey"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: OutboxData
+    ConstraintName: OutboxData_pkey
+    File: nbtinsert.c
+    Line: 664
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Extensions.ExecuteNonQueryEx(DbCommand command, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 120
+   at OptimisticConcurrencyControlStrategy.Complete(OutboxMessage outboxMessage, DbConnection connection, DbTransaction transaction, ContextBag context, CancellationToken cancellationToken) in /_/src/SqlPersistence/Outbox/OptimisticConcurrencyControlStrategy.cs:line 33
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 6027f71a-281d-48a5-a5e5-b29001383678
+	Pipeline canceled: False
+2025-02-26 15:59:01.027 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 15:59:01.257 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 15:59:01.262 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 15:59:01.523 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 15:59:01.598 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 15:59:25.385 INFO  Immediate Retry is going to retry message '0aec5db3-d24b-401f-ae14-b2900138ed5c' because of an exception:
+System.Exception: Failed to ExecuteNonQuery. CommandText:
+
+insert into "public"."OutboxData"
+(
+    "MessageId",
+    "Operations",
+    "PersistenceVersion"
+)
+values
+(
+    @MessageId,
+    @Operations,
+    @PersistenceVersion
+)
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "OutboxData_pkey"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Extensions.ExecuteNonQueryEx(DbCommand command, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 115
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "OutboxData_pkey"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: OutboxData
+    ConstraintName: OutboxData_pkey
+    File: nbtinsert.c
+    Line: 664
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Extensions.ExecuteNonQueryEx(DbCommand command, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 120
+   at OptimisticConcurrencyControlStrategy.Complete(OutboxMessage outboxMessage, DbConnection connection, DbTransaction transaction, ContextBag context, CancellationToken cancellationToken) in /_/src/SqlPersistence/Outbox/OptimisticConcurrencyControlStrategy.cs:line 33
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.RetryAcknowledgementBehavior.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/ServicePlatform/Retries/RetryAcknowledgementBehavior.cs:line 25
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 50
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext, CancellationToken cancellationToken) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 78
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Process(AsyncEventingBasicConsumer consumer, BasicDeliverEventArgs message, CancellationToken messageProcessingCancellationToken) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 414
+Exception details:
+	Message ID: 0aec5db3-d24b-401f-ae14-b2900138ed5c
+	Pipeline canceled: False
+2025-02-26 16:03:09.703 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:03:09.907 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:03:09.915 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:03:10.253 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:03:10.329 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:04:21.692 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:04:21.856 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:04:21.861 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:04:22.151 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:04:22.233 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:05:27.657 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:05:27.785 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:05:27.791 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:05:28.220 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:05:28.360 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:06:57.567 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:06:57.758 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:06:57.764 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:06:58.098 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:06:58.232 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:08:47.866 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:08:48.049 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:08:48.056 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:08:48.413 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:08:48.532 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:21:54.025 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:21:54.441 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:21:54.452 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:21:54.814 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:21:54.910 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:30:03.933 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:30:04.084 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:30:04.090 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:30:04.398 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:30:04.482 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:35:37.275 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:35:37.435 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:35:37.441 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:35:37.898 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:35:37.985 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:38:47.652 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:38:47.746 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:38:47.751 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:38:47.964 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:38:48.019 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:41:45.775 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:41:45.930 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:41:45.936 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:41:46.255 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:41:46.353 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 16:58:55.725 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 16:58:55.861 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 16:58:55.866 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 16:58:56.200 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 16:58:56.316 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:11:06.761 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:11:06.853 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:11:06.860 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:11:07.111 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:11:07.189 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:14:18.453 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:14:18.552 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:14:18.560 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:14:18.859 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:14:18.950 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:16:38.880 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:16:39.034 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:16:39.041 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:16:39.433 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:16:39.560 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:22:48.358 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:22:48.442 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:22:48.446 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:22:48.638 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:22:48.689 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:23:08.322 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Sale.Core.Domain.Contracts.Event.SaleCreatedEvent' to help NServiceBus to enforce messaging best practices for you.
+2025-02-26 17:25:32.647 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:25:32.731 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:25:32.736 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:25:32.955 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:25:33.014 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:25:54.159 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Sale.Core.Domain.Contracts.Event.SaleCreatedEvent' to help NServiceBus to enforce messaging best practices for you.
+2025-02-26 17:27:02.252 ERROR Error cleaning outbox data
+System.TimeoutException: The operation has timed out.
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync[TResult](Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|214_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Extensions.OpenConnection(DbConnection connection, CancellationToken cancellationToken) in /_/src/SqlPersistence/Extensions.cs:line 46
+   at OutboxPersister.RemoveEntriesOlderThan(DateTime dateTime, CancellationToken cancellationToken) in /_/src/SqlPersistence/Outbox/OutboxPersister.cs:line 129
+   at OutboxCleaner.<>c__DisplayClass1_0.<<OnStart>b__0>d.MoveNext() in /_/src/SqlPersistence/Outbox/OutboxCleaner.cs:line 26
+--- End of stack trace from previous location ---
+   at AsyncTimer.<>c__DisplayClass0_0.<<Start>b__0>d.MoveNext() in /_/src/SqlPersistence/Outbox/AsyncTimer.cs:line 22
+2025-02-26 17:27:56.335 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Sale.Core.Domain.Contracts.Event.SaleCreatedEvent' to help NServiceBus to enforce messaging best practices for you.
+2025-02-26 17:35:01.246 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:35:01.392 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:35:01.396 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:35:01.704 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:35:01.788 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:35:23.307 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Sale.Core.Domain.Contracts.Event.SaleCreatedEvent' to help NServiceBus to enforce messaging best practices for you.
+2025-02-26 17:42:27.219 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:42:27.320 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:42:27.327 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:42:27.591 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:42:27.698 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:45:13.954 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:45:14.092 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:45:14.097 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:45:14.303 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:45:14.361 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:49:39.275 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:49:39.388 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:49:39.394 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:49:39.675 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:49:39.786 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:51:54.366 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:51:54.440 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:51:54.443 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:51:54.605 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:51:54.660 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:57:02.664 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 17:57:02.728 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 17:57:02.731 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 17:57:02.898 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 17:57:02.946 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 17:57:41.270 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Sale.Core.Domain.Contracts.Event.SaleCreatedEvent' to help NServiceBus to enforce messaging best practices for you.
+2025-02-26 18:00:14.604 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:00:14.675 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:00:14.678 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:00:14.917 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 18:00:14.983 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 18:02:57.627 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:02:57.741 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:02:57.746 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:02:57.989 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 18:02:58.050 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 18:05:13.760 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:05:13.849 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:05:13.853 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:05:14.042 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 18:05:14.101 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 18:09:21.244 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:09:21.319 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:09:21.323 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:09:21.491 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 18:09:21.551 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 18:10:48.976 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:10:49.053 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:10:49.058 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:10:49.242 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 18:10:49.310 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.
+2025-02-26 18:12:59.591 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-26 18:12:59.665 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-26 18:12:59.670 WARN  Trial license expiring in 1 day. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-26 18:12:59.903 INFO  Executing 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql'
+2025-02-26 18:12:59.970 INFO  Directory 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Sale\Sale.WebApi\bin\Debug\net8.0\NServiceBus.Persistence.Sql\PostgreSql\Sagas' not found so no saga creation scripts will be executed.

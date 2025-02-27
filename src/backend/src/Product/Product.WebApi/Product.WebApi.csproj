@@ -19,7 +19,7 @@
     <ProjectReference Include="..\..\Base\Base.WebApi\Base.WebApi.csproj" />
     <ProjectReference Include="..\Product.Core.Application\Product.Core.Application.csproj" />
     <ProjectReference Include="..\Product.Core.Domain\Product.Core.Domain.csproj" />
-    <ProjectReference Include="..\Product.Infrastructure\Product.Infrastructure.Orm.csproj" />
+    <ProjectReference Include="..\Product.Infrastructure.Orm\Product.Infrastructure.Orm.csproj" />
   </ItemGroup>
 
 </Project>

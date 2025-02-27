@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\frontend\\src\\appclientangular\\src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|solutionrelative:src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\frontend\\src\\appclientangular\\src\\environments\\environment.development.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|solutionrelative:src\\environments\\environment.development.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\frontend\\src\\appclientangular\\src\\domain\\api\\signalrpaymentsevice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|solutionrelative:src\\domain\\api\\signalrpaymentsevice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\frontend\\src\\appclientangular\\src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|solutionrelative:src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD8208E0-C760-4995-A2A3-57742107244F}|AppClientAngular.esproj|c:\\1 arquivos\\ti\\0 dev\\github\\projeto 3 apis\\src\\frontend\\src\\appclientangular\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SignalRPaymentSevice.ts",
               "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\src\\domain\\api\\SignalRPaymentSevice.ts",
               "RelativeDocumentMoniker": "src\\domain\\api\\SignalRPaymentSevice.ts",
@@ -85,6 +85,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "list-payment.component.ts",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts",
+              "RelativeToolTip": "src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-02-21T17:49:41.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "environment.development.ts",
               "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\src\\environments\\environment.development.ts",
               "RelativeDocumentMoniker": "src\\environments\\environment.development.ts",
@@ -92,21 +105,7 @@
               "RelativeToolTip": "src\\environments\\environment.development.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-21T18:34:23.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "list-payment.component.ts",
-              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts",
-              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\frontend\\src\\appclientangular\\src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts",
-              "RelativeToolTip": "src\\app\\pages\\dashboard\\payment\\list-payment\\list-payment.component.ts",
-              "ViewState": "AgIAABsAAAAAAAAAAAAqwCwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-02-21T17:49:41.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T18:34:23.659Z"
             },
             {
               "$type": "Document",

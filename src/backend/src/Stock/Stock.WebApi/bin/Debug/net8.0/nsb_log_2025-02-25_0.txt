@@ -1,0 +1,24 @@
+﻿2025-02-25 14:50:27.385 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 14:50:27.578 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 14:50:27.585 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 14:59:50.271 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 14:59:50.446 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 14:59:50.452 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:30:18.161 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:30:18.310 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:30:18.316 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:31:00.908 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:31:01.044 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:31:01.055 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:31:54.834 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:31:54.973 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:31:54.979 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:33:06.218 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:33:06.405 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:33:06.415 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:34:48.046 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:34:48.242 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:34:48.248 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8
+2025-02-25 17:35:55.060 INFO  Logging to 'C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Stock\Stock.WebApi\bin\Debug\net8.0\' with level Info
+2025-02-25 17:35:55.259 INFO  No valid license could be found. Falling back to trial license with start date '2025-02-13'.
+2025-02-25 17:35:55.268 WARN  Trial license expiring in 2 days. Get your free development license at https://particular.net/license/nservicebus?v=9.2.6&t=0&p=windows&f=8

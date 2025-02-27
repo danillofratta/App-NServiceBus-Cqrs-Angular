@@ -1,9 +1,10 @@
-﻿using Payment.Core.Domain.Application;
+﻿using Base.Infrastructure.Messaging;
+using Payment.Core.Domain.Application;
 using Payment.Core.Domain.Repository;
-using Payment.Infrasctructure.Services.Bus;
 using Payment.Infrastructure.Orm.Notification;
 using Payment.Infrastructure.Orm.Repository;
-using Shared.Infrastructure;
+using Shared.Infrastructure.Orm;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,7 +36,20 @@ builder.Services.AddAutoMapper(typeof(Program).Assembly, typeof(ApplicationLayer
 builder.Services.AddDbContext<DefaultDbContext>();
 builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 
-builder.Services.AddNServiceBus();
+//builder.Services.AddNServiceBus();
+//builder.Services.AddRebusInfrastructure();
+
+string messagingType = builder.Configuration["Messaging:Type"] ?? "Rebus";
+ConfigureMessageBus(builder.Services, messagingType);
+
+builder.Services.AddTransient<IMessageSession>(provider =>
+{
+    var endpointInstance = provider.GetRequiredService<IEndpointInstance>();
+    return endpointInstance;
+});
+
+
+
 
 #if DEBUG
 
@@ -51,8 +65,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 //{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+app.UseSwagger();
+app.UseSwaggerUI();
 //}
 
 app.UseHttpsRedirection();
@@ -79,7 +93,45 @@ app.UseEndpoints(endpoints =>
 });
 
 
-app.MapGet("/", () => "Stock API está rodando!");
+app.MapGet("/", () => "Payment API está rodando!");
 
 
 app.Run();
+
+static void ConfigureMessageBus(IServiceCollection services, string messagingType)
+{
+    string providerNamespace = $"Payment.Infrastructure.{messagingType}";
+    string providerFullName = $"{providerNamespace}.{messagingType}Provider";
+
+    try
+    {
+        Console.WriteLine($"Tentando carregar assembly: {providerNamespace}");
+        var assembly = Assembly.Load($"{providerNamespace}");
+        Console.WriteLine($"Assembly carregado com sucesso: {assembly.FullName}");
+
+        var providerType = assembly.GetType(providerFullName);
+        if (providerType == null)
+        {
+            Console.WriteLine($"Tipo {providerFullName} não encontrado no assembly.");
+            throw new InvalidOperationException($"Provedor para {messagingType} não encontrado ou inválido.");
+        }
+        if (!typeof(IMessageBusProvider).IsAssignableFrom(providerType))
+        {
+            Console.WriteLine($"Tipo {providerFullName} não implementa IMessageBusProvider.");
+            throw new InvalidOperationException($"Provedor para {messagingType} não encontrado ou inválido.");
+        }
+
+        Console.WriteLine($"Criando instância de {providerFullName}");
+        var provider = Activator.CreateInstance(providerType) as IMessageBusProvider;
+        if (provider == null)
+        {
+            throw new InvalidOperationException($"Não foi possível criar instância do provedor para {messagingType}.");
+        }
+        provider?.Configure(services, messagingType);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Erro detalhado: {ex}");
+        throw new InvalidOperationException($"Erro ao carregar o provedor para {messagingType}: {ex.Message}", ex);
+    }
+}

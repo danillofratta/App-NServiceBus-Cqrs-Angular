@@ -7,9 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NServiceBus" Version="9.2.6" />
-    <PackageReference Include="NServiceBus.Extensions.Hosting" Version="3.0.1" />
-    <PackageReference Include="NServiceBus.RabbitMQ" Version="9.2.0" />
     <PackageReference Include="Serilog" Version="4.2.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
@@ -18,9 +15,11 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Base\Base.Core.Domain\Base.Core.Domain.csproj" />
     <ProjectReference Include="..\..\Base\Base.WebApi\Base.WebApi.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.Infrasctructure.Orm\Shared.Infrasctructure.Orm.csproj" />
+    <ProjectReference Include="..\Stock.Core.Domain.Application\Stock.Core.Domain.Application.csproj" />
     <ProjectReference Include="..\Stock.Core.Domain\Stock.Core.Domain.csproj" />
-    <ProjectReference Include="..\Stock.Infrastructure.Bus\Stock.Infrastructure.Bus.csproj" />
-    <ProjectReference Include="..\Stock.Infrastructure\Stock.Infrastructure.Orm.csproj" />
+    <ProjectReference Include="..\Stock.Infrastructure.Orm\Stock.Infrastructure.Orm.csproj" />
+    <ProjectReference Include="..\Stock.Infrastructure.Rebus\Stock.Infrastructure.Rebus.csproj" />
   </ItemGroup>
 
 </Project>

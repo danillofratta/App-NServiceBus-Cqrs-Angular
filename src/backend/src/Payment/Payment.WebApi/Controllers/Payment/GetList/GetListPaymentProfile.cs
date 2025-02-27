@@ -7,7 +7,7 @@ public class GetListPaymentProfile : Profile
 {
     public GetListPaymentProfile()
     {
-        CreateMap<GetListPaymentQueryResult, GetListPaymentResponse>();                   
+        CreateMap<GetListPaymentQueryResult, GetListPaymentResponse>();
     }
 }
 

@@ -14,15 +14,15 @@
         "FileVersion": "1.0.0"
       },
       {
-        "FullName": "Sale.Infrastructure.Bus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-        "FileVersion": "1.0.0"
-      },
-      {
-        "FullName": "Sale.Core.Domain.Saga, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FullName": "Sale.Core.Domain.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       },
       {
         "FullName": "NServiceBus.MessageInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
+        "FileVersion": "1.0.0"
+      },
+      {
+        "FullName": "Sale.Infrastructure.NServiceBus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       },
       {
@@ -34,7 +34,23 @@
         "FileVersion": "8.1.1"
       },
       {
-        "FullName": "Sale.Core.Domain.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FullName": "Base.Infrastructure.Messaging.NServiceBus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FileVersion": "1.0.0"
+      },
+      {
+        "FullName": "NServiceBus.Extensions.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
+        "FileVersion": "3.0.1"
+      },
+      {
+        "FullName": "NServiceBus.Newtonsoft.Json, Version=4.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c",
+        "FileVersion": "4.0.1"
+      },
+      {
+        "FullName": "Sale.Core.Domain.SagaNServiceBus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "FileVersion": "1.0.0"
+      },
+      {
+        "FullName": "Sale.Core.Domain.SagaRebus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
         "FileVersion": "1.0.0"
       }
     ],
@@ -69,10 +85,6 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Configuration.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -101,19 +113,11 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.Configuration.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.ObjectPool.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -173,6 +177,14 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Threading.Channels.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Web.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -190,14 +202,6 @@
       },
       {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.Relational.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Threading.Channels.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -221,15 +225,15 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Configuration.dll",
+        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.EntityFrameworkCore.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -250,6 +254,10 @@
       },
       {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Configuration.Binder.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Xml.Linq.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -289,10 +297,6 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Logging.Configuration.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Hosting.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -313,14 +317,6 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.Claims.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.WebApi\\bin\\Debug\\net8.0\\Microsoft.Extensions.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -333,15 +329,19 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Runtime.Numerics.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Xml.XPath.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.DataProtection.Extensions.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.WebUtilities.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.FileProviders.Physical.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.FileProviders.Composite.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -377,6 +377,10 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.Server.IISIntegration.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -394,10 +398,6 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Configuration.FileExtensions.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.AccessControl.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -445,14 +445,6 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.FileProviders.Physical.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.FileProviders.Composite.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Runtime.Serialization.Json.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -470,6 +462,10 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Http.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Logging.Configuration.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -498,6 +494,14 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Logging.TraceSource.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.Claims.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -833,10 +837,6 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.Server.IISIntegration.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Diagnostics.StackTrace.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -878,10 +878,6 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.StaticFiles.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\8.0.12\\Microsoft.AspNetCore.WebUtilities.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -1205,10 +1201,6 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Xml.Linq.dll",
-        "SkipReason": "File is a .NET runtime assembly."
-      },
-      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Xml.ReaderWriter.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -1226,6 +1218,14 @@
       },
       {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Xml.XmlSerializer.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Runtime.Numerics.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Xml.XPath.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -1393,6 +1393,10 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Security.AccessControl.dll",
+        "SkipReason": "File is a .NET runtime assembly."
+      },
+      {
         "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.12\\System.Text.Encoding.CodePages.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
@@ -1433,21 +1437,14 @@
     {
       "Name": "NServiceBus.OpenTelemetryFeature",
       "EnabledByDefault": false,
-      "Active": true,
-      "PrerequisiteStatus": {
-        "IsSatisfied": true,
-        "Reasons": [
-          
-        ]
-      },
+      "Active": false,
+      "PrerequisiteStatus": null,
       "Dependencies": [
         
       ],
       "Version": "9.2.6",
-      "StartupTasks": [
-        
-      ],
-      "DependenciesAreMet": true
+      "StartupTasks": null,
+      "DependenciesAreMet": false
     },
     {
       "Name": "NServiceBus.ReceiveStatisticsFeature",
@@ -2056,13 +2053,13 @@
     "HostDisplayName": "NOTEDF",
     "MachineName": "NOTEDF",
     "OSPlatform": 2,
-    "OSVersion": "Microsoft Windows NT 10.0.22631.0",
+    "OSVersion": "Microsoft Windows NT 10.0.26100.0",
     "IsServerGC": true,
     "GCLatencyMode": 1,
     "ProcessorCount": 20,
     "Is64BitProcess": true,
     "CLRVersion": "8.0.12",
-    "WorkingSet": 80523264,
+    "WorkingSet": 86765568,
     "SystemPageSize": 4096,
     "HostName": "NoteDF",
     "UserName": "danil",
@@ -2086,23 +2083,24 @@
     "MessageConventions": [
       "Modified NServiceBus Marker Interfaces"
     ],
-    "NumberOfMessagesFoundAtStartup": 15,
+    "NumberOfMessagesFoundAtStartup": 16,
     "Messages": [
-      "Sale.Core.Domain.Saga.Commands.SalePaymentConfirmedCommand",
-      "Sale.Core.Domain.Saga.Commands.SalePaymentCancelledCommand",
-      "Sale.Core.Domain.Saga.Commands.ReserveStockCommand",
-      "Sale.Core.Domain.Saga.Events.StockInsufficientEvent",
-      "Sale.Core.Domain.Saga.Saga.Events.ProcessPaymentEvent",
-      "Sale.Core.Domain.Saga.Commands.SaleStockConfirmedCommand",
+      "Sale.Core.Domain.Contracts.Event.PaymentConfirmedEvent",
+      "Sale.Core.Domain.Contracts.Command.SalePaymentConfirmedCommand",
+      "Sale.Core.Domain.Contracts.Command.SaleStockConfirmedCommand",
+      "Sale.Core.Domain.Contracts.Command.ProcessPaymentCommand",
+      "Sale.Core.Domain.Contracts.Event.SaleFinishedEvent",
+      "Sale.Core.Domain.Contracts.Event.StockInsufficientEvent",
+      "Sale.Core.Domain.Contracts.Event.StockConfirmedEvent",
+      "Sale.Core.Domain.Contracts.Command.SaleStockInsufficienCommand",
+      "Sale.Core.Domain.Contracts.Event.PaymentFailEvent",
+      "Sale.Core.Domain.Contracts.Event.ProcessPaymentEvent",
+      "Sale.Core.Domain.Contracts.Event.SaleCreatedEvent",
+      "Sale.Core.Domain.Contracts.Command.SalePaymentCancelledCommand",
+      "Sale.Core.Application.Sales.Create.CreateSaleCommand",
+      "Sale.Core.Domain.Contracts.Command.ReserveStockCommand",
       "Sale.Core.Domain.Contracts.Event.CreatedSaleEvent",
-      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent",
-      "Sale.Core.Domain.Saga.Events.SaleCancelledEvent",
-      "Sale.Core.Domain.Saga.Commands.SaleStockInsufficienCommand",
-      "Sale.Core.Domain.Saga.Commands.ProcessPaymentCommand",
-      "Sale.Core.Domain.Saga.Events.SaleFinishedEvent",
-      "Sale.Core.Domain.Saga.Events.PaymentFailEvent",
-      "Sale.Core.Domain.Saga.Events.StockConfirmedEvent",
-      "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent"
+      "Sale.Core.Domain.Contracts.Event.SaleCancelledEvent"
     ]
   },
   "NServiceBus.Persistence.Sql.Outbox": {
@@ -2155,39 +2153,39 @@
       
     ],
     "MessageHandlers": {
-      "Sale.Core.Domain.Saga.Commands.SalePaymentCancelledCommand": [
-        "Sale.Core.Domain.Application.Sale.Handle.SalePaymentCanceleldHandle"
+      "Sale.Core.Domain.Contracts.Command.SalePaymentCancelledCommand": [
+        "Sale.Core.Domain.Application.Sale.Handle.SalePaymentCancelledHandle"
       ],
-      "Sale.Core.Domain.Saga.Commands.SalePaymentConfirmedCommand": [
+      "Sale.Core.Domain.Contracts.Command.SalePaymentConfirmedCommand": [
         "Sale.Core.Domain.Application.Sale.Handle.SalePaymentConfirmedHandle"
       ],
-      "Sale.Core.Domain.Saga.Commands.SaleStockConfirmedCommand": [
+      "Sale.Core.Domain.Contracts.Command.SaleStockConfirmedCommand": [
         "Sale.Core.Domain.Application.Sale.Handle.SaleStockConfirmedHandle"
       ],
-      "Sale.Core.Domain.Saga.Commands.SaleStockInsufficienCommand": [
+      "Sale.Core.Domain.Contracts.Command.SaleStockInsufficienCommand": [
         "Sale.Core.Domain.Application.Sale.Handle.SaleStockInsufficienHandle"
       ],
-      "Sale.Core.Domain.Saga.Events.SaleCreatedEvent": [
-        "Sale.Core.Domain.Saga.SaleSaga"
+      "Sale.Core.Domain.Contracts.Event.SaleCreatedEvent": [
+        "Sale.Core.Domain.SagaNServiceBus.SaleSaga"
       ],
-      "Sale.Core.Domain.Saga.Events.StockConfirmedEvent": [
-        "Sale.Core.Domain.Saga.SaleSaga"
+      "Sale.Core.Domain.Contracts.Event.StockConfirmedEvent": [
+        "Sale.Core.Domain.SagaNServiceBus.SaleSaga"
       ],
-      "Sale.Core.Domain.Saga.Events.StockInsufficientEvent": [
-        "Sale.Core.Domain.Saga.SaleSaga"
+      "Sale.Core.Domain.Contracts.Event.StockInsufficientEvent": [
+        "Sale.Core.Domain.SagaNServiceBus.SaleSaga"
       ],
-      "Sale.Core.Domain.Saga.Events.PaymentConfirmedEvent": [
-        "Sale.Core.Domain.Saga.SaleSaga"
+      "Sale.Core.Domain.Contracts.Event.PaymentConfirmedEvent": [
+        "Sale.Core.Domain.SagaNServiceBus.SaleSaga"
       ],
-      "Sale.Core.Domain.Saga.Events.PaymentFailEvent": [
-        "Sale.Core.Domain.Saga.SaleSaga"
+      "Sale.Core.Domain.Contracts.Event.PaymentFailEvent": [
+        "Sale.Core.Domain.SagaNServiceBus.SaleSaga"
       ]
     }
   },
   "Recoverability": {
-    "ImmediateRetries": 2,
-    "DelayedRetries": 1,
-    "DelayedRetriesTimeIncrease": "0:00:20",
+    "ImmediateRetries": 5,
+    "DelayedRetries": 3,
+    "DelayedRetriesTimeIncrease": "0:00:10",
     "ErrorQueue": "error",
     "UnrecoverableExceptions": [
       "NServiceBus.MessageDeserializationException",

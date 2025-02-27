@@ -1,0 +1,16 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\bin\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\bin\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\bin\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\bin\Debug\net8.0\Base.Infrastructure.Messaging.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\bin\Debug\net8.0\Base.Infrastructure.Messaging.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\Base.Inf.75C6322F.Up2Date
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\refint\Base.Infrastruture,Messaging.Rebus.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\Base.Infrastruture,Messaging.Rebus.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Base\Base.Infrastruture,Messaging.Rebus\obj\Debug\net8.0\ref\Base.Infrastruture,Messaging.Rebus.dll

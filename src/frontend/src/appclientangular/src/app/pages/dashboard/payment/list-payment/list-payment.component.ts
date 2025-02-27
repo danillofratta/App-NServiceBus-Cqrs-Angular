@@ -52,6 +52,8 @@ export class ListPaymentComponent implements OnInit, AfterViewInit {
 
       this.list$ = payments$;
 
+      this.dataSource.data = this.list$;
+
       //this.loadDataSource();
     });
   }
