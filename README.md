@@ -23,14 +23,14 @@ São 4 serviços:
 - Product, cadastro simples usando redis para cache
 - Stock, cadastro simples entrada de produtos no estoque
 - Sale, cadastro simples de uma venda. 
-    - Processo (NServiceBus Saga):
+    - Processo (por mensageria MassTransit ou Rebus ou NServiceBus implementado com Saga):
         - Envia mensagem para serviço Stock
         - Serviço Stock verifica se tem os itens no Stock
         - Se sim, envia mensagem para Sale dizendo stock ok e envia mensagem para Payment
         - Se não, envia mensagem para Sale e encerra o processo
         - Payment simula o pagamento ok ou fail, nos dois casos retorna comunicação para Sale e encerra o processo       
 - Payment, simula pagamento ok ou fail e envia mensagem para Sale
-- Contrução de um mini framework para implementação
+- Construção de um mini framework para implementação
 
 ## Rodar Aplicação no Docker
 
