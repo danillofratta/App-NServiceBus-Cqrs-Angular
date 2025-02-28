@@ -50,9 +50,9 @@ São 4 serviços:
 ## Trocar de mensageria
 
 1. WebApi Sale, Stock, Payment relacionar qual mensageria deseja usar. Por exemplo:
-   1.1 Se for usar MassTransit add referencia ao projeto Stock.Infrastructure.MassTransit
-   1.2 Se for usar Rebus add referencia ao projeto Stock.Infrastructure.Rebus
-   1.3 Se for usar NServiceBus add referencia ao projeto Stock.Infrastructure.NServiceBus
+    - 1.1 Se for usar MassTransit add referencia ao projeto Stock.Infrastructure.MassTransit
+    - 1.2 Se for usar Rebus add referencia ao projeto Stock.Infrastructure.Rebus
+    - 1.3 Se for usar NServiceBus add referencia ao projeto Stock.Infrastructure.NServiceBus
 2. No appsettings.json definir qual mensageria utilizar.
 
 TODO:
