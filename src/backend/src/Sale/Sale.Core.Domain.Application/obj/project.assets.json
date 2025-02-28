@@ -31,6 +31,40 @@
           }
         }
       },
+      "MassTransit/8.3.6": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit.Abstractions": "8.3.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/MassTransit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MassTransit.Abstractions/8.3.6": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MediatR/12.4.1": {
         "type": "package",
         "dependencies": {
@@ -520,6 +554,38 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
@@ -1398,6 +1464,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
+          "MassTransit": "8.3.6",
           "NServiceBus": "9.2.6"
         },
         "compile": {
@@ -1448,6 +1515,48 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "MassTransit/8.3.6": {
+      "sha512": "iQQ02dUJuWlpNai3eDN7WmnstvmB2LAD8YN1i8OFT5BaNpGYYg3v0US3S6f1Zz7us+NnGHm6csg25Ak3z0H7Xg==",
+      "type": "package",
+      "path": "masstransit/8.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.README.md",
+        "lib/net472/MassTransit.dll",
+        "lib/net472/MassTransit.xml",
+        "lib/net8.0/MassTransit.dll",
+        "lib/net8.0/MassTransit.xml",
+        "lib/net9.0/MassTransit.dll",
+        "lib/net9.0/MassTransit.xml",
+        "lib/netstandard2.0/MassTransit.dll",
+        "lib/netstandard2.0/MassTransit.xml",
+        "masstransit.8.3.6.nupkg.sha512",
+        "masstransit.nuspec",
+        "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.Abstractions/8.3.6": {
+      "sha512": "F3R3EFPvUvpsiebnijmpvZ4IhSEcqkEJdrhlFuTOjzIUnMRYBgki/oDfFWj57Ki4b9yq0nilt4Q5bk11pC4ygg==",
+      "type": "package",
+      "path": "masstransit.abstractions/8.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.README.md",
+        "lib/net472/MassTransit.Abstractions.dll",
+        "lib/net472/MassTransit.Abstractions.xml",
+        "lib/net8.0/MassTransit.Abstractions.dll",
+        "lib/net8.0/MassTransit.Abstractions.xml",
+        "lib/net9.0/MassTransit.Abstractions.dll",
+        "lib/net9.0/MassTransit.Abstractions.xml",
+        "lib/netstandard2.0/MassTransit.Abstractions.dll",
+        "lib/netstandard2.0/MassTransit.Abstractions.xml",
+        "masstransit.abstractions.8.3.6.nupkg.sha512",
+        "masstransit.abstractions.nuspec",
+        "mt-logo-small.png"
       ]
     },
     "MediatR/12.4.1": {
@@ -1939,6 +2048,44 @@
         "microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
         "microsoft.extensions.diagnostics.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.0": {
+      "sha512": "P9SoBuVZhJPpALZmSq72aQEb9ryP67EdquaCZGXGrrcASTNHYdrUhnpgSwIipgM5oVC+dKpRXg5zxobmF9xr5g==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.0": {
+      "sha512": "AT2qqos3IgI09ok36Qag9T8bb6kHJ3uT9Q5ki6CySybFsK6/9JbvQAgAHf1pVEjST0/N4JaFaCbm40R5edffwg==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.abstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
@@ -4217,6 +4364,7 @@
       "Base.Infrastructure.Messaging.NServiceBus >= 1.0.0",
       "Base.WebApi >= 1.0.0",
       "FluentValidation >= 11.11.0",
+      "MassTransit >= 8.3.6",
       "MediatR >= 12.4.1",
       "Microsoft.Extensions.Logging.Abstractions >= 9.0.2",
       "NServiceBus >= 9.2.6",
@@ -4234,11 +4382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\Sale.Core.Domain.Application.csproj",
+      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\Sale.Core.Domain.Application.csproj",
       "projectName": "Sale.Core.Domain.Application",
-      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\Sale.Core.Domain.Application.csproj",
+      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\Sale.Core.Domain.Application.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\obj\\",
+      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -4263,23 +4411,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging.NServiceBus\\Base.Infrastructure.Messaging.NServiceBus.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging.NServiceBus\\Base.Infrastructure.Messaging.NServiceBus.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging.NServiceBus\\Base.Infrastructure.Messaging.NServiceBus.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging.NServiceBus\\Base.Infrastructure.Messaging.NServiceBus.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging\\Base.Infrastructure.Messaging.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging\\Base.Infrastructure.Messaging.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging\\Base.Infrastructure.Messaging.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging\\Base.Infrastructure.Messaging.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj"
             }
           }
         }
@@ -4307,6 +4455,10 @@
           "FluentValidation": {
             "target": "Package",
             "version": "[11.11.0, )"
+          },
+          "MassTransit": {
+            "target": "Package",
+            "version": "[8.3.6, )"
           },
           "MediatR": {
             "target": "Package",

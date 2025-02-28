@@ -17,7 +17,11 @@ namespace Payment.Infrastructure.Rebus
             if (messagingType.ToLower() != "rebus") return;
 
             services.AddRebus(configure => configure
-                .Transport(t => t.UseRabbitMq("amqp://guest:guest@localhost", "PaymentSagaEndpoint"))
+#if DEBUG
+                .Transport(t => t.UseRabbitMq("amqp://guest:guest@localhost", "SaleSagaEndpoint"))
+#else            
+                .Transport(t => t.UseRabbitMq("amqp://guest:guest@rabbitmq", "SaleSagaEndpoint"))     
+#endif
                 .Routing(r => r.TypeBased()
                     .Map<PaymentConfirmedEvent>("SaleSagaEndpoint")
                     .Map<PaymentFailEvent>("SaleSagaEndpoint")

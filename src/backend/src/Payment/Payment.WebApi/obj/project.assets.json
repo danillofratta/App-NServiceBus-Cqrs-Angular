@@ -31,6 +31,57 @@
           }
         }
       },
+      "MassTransit/8.3.6": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit.Abstractions": "8.3.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/MassTransit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MassTransit.Abstractions/8.3.6": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MassTransit.RabbitMQ/8.3.6": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit": "8.3.6",
+          "RabbitMQ.Client": "7.0.0"
+        },
+        "compile": {
+          "lib/net8.0/MassTransit.RabbitMqTransport.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.RabbitMqTransport.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MediatR/12.4.1": {
         "type": "package",
         "dependencies": {
@@ -788,6 +839,38 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -1120,47 +1203,6 @@
           "lib/net8.0/Rebus.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Rebus.PostgreSql/9.1.1": {
-        "type": "package",
-        "dependencies": {
-          "npgsql": "8.0.3",
-          "rebus": "8.4.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/Rebus.PostgreSql.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Rebus.PostgreSql.dll": {}
-        }
-      },
-      "Rebus.RabbitMq/10.0.0": {
-        "type": "package",
-        "dependencies": {
-          "RabbitMq.Client": "7.0.0",
-          "rebus": "8.2.2"
-        },
-        "compile": {
-          "lib/net8.0/Rebus.RabbitMq.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/Rebus.RabbitMq.dll": {}
-        }
-      },
-      "Rebus.ServiceProvider/10.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "[8.0.0, 10.0.0)",
-          "Microsoft.Extensions.Hosting.Abstractions": "[6.0.0, 10.0.0)",
-          "Microsoft.Extensions.Logging.Abstractions": "[6.0.0, 10.0.0)",
-          "Rebus": "8.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Rebus.ServiceProvider.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/Rebus.ServiceProvider.dll": {}
         }
       },
       "runtime.native.System/4.0.0": {
@@ -1899,19 +1941,18 @@
           "bin/placeholder/Base.Infrastructure.Messaging.dll": {}
         }
       },
-      "Base.Infrastructure.Messaging.Rebus/1.0.0": {
+      "Base.Infrastructure.Messaging.MassTransit/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Base.Infrastructure.Messaging": "1.0.0",
-          "Rebus": "8.7.1",
-          "Rebus.ServiceProvider": "10.3.0"
+          "MassTransit": "8.3.6"
         },
         "compile": {
-          "bin/placeholder/Base.Infrastructure.Messaging.Rebus.dll": {}
+          "bin/placeholder/Base.Infrastructure.Messaging.MassTransit.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Base.Infrastructure.Messaging.Rebus.dll": {}
+          "bin/placeholder/Base.Infrastructure.Messaging.MassTransit.dll": {}
         }
       },
       "Base.WebApi/1.0.0": {
@@ -1966,6 +2007,24 @@
           "bin/placeholder/Payment.Core.Domain.Application.dll": {}
         }
       },
+      "Payment.Infrastructure.MassTransit/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Base.Infrastructure.Messaging": "1.0.0",
+          "Base.Infrastructure.Messaging.MassTransit": "1.0.0",
+          "MassTransit": "8.3.6",
+          "MassTransit.RabbitMQ": "8.3.6",
+          "Payment.Core.Domain.Application": "1.0.0",
+          "Sale.Core.Domain.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Payment.Infrastructure.MassTransit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Payment.Infrastructure.MassTransit.dll": {}
+        }
+      },
       "Payment.Infrastructure.Orm/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1978,27 +2037,6 @@
         },
         "runtime": {
           "bin/placeholder/Payment.Infrastructure.Orm.dll": {}
-        }
-      },
-      "Payment.Infrastructure.Rebus/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Base.Infrastructure.Messaging": "1.0.0",
-          "Base.Infrastructure.Messaging.Rebus": "1.0.0",
-          "Payment.Core.Domain": "1.0.0",
-          "Payment.Core.Domain.Application": "1.0.0",
-          "Rebus": "8.7.1",
-          "Rebus.PostgreSql": "9.1.1",
-          "Rebus.RabbitMq": "10.0.0",
-          "Rebus.ServiceProvider": "10.3.0",
-          "Sale.Core.Domain.Contracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Payment.Infrastructure.Rebus.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Payment.Infrastructure.Rebus.dll": {}
         }
       },
       "Product.Core.Domain/1.0.0": {
@@ -2032,6 +2070,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
+          "MassTransit": "8.3.6",
           "NServiceBus": "9.2.6"
         },
         "compile": {
@@ -2117,6 +2156,69 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "MassTransit/8.3.6": {
+      "sha512": "iQQ02dUJuWlpNai3eDN7WmnstvmB2LAD8YN1i8OFT5BaNpGYYg3v0US3S6f1Zz7us+NnGHm6csg25Ak3z0H7Xg==",
+      "type": "package",
+      "path": "masstransit/8.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.README.md",
+        "lib/net472/MassTransit.dll",
+        "lib/net472/MassTransit.xml",
+        "lib/net8.0/MassTransit.dll",
+        "lib/net8.0/MassTransit.xml",
+        "lib/net9.0/MassTransit.dll",
+        "lib/net9.0/MassTransit.xml",
+        "lib/netstandard2.0/MassTransit.dll",
+        "lib/netstandard2.0/MassTransit.xml",
+        "masstransit.8.3.6.nupkg.sha512",
+        "masstransit.nuspec",
+        "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.Abstractions/8.3.6": {
+      "sha512": "F3R3EFPvUvpsiebnijmpvZ4IhSEcqkEJdrhlFuTOjzIUnMRYBgki/oDfFWj57Ki4b9yq0nilt4Q5bk11pC4ygg==",
+      "type": "package",
+      "path": "masstransit.abstractions/8.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.README.md",
+        "lib/net472/MassTransit.Abstractions.dll",
+        "lib/net472/MassTransit.Abstractions.xml",
+        "lib/net8.0/MassTransit.Abstractions.dll",
+        "lib/net8.0/MassTransit.Abstractions.xml",
+        "lib/net9.0/MassTransit.Abstractions.dll",
+        "lib/net9.0/MassTransit.Abstractions.xml",
+        "lib/netstandard2.0/MassTransit.Abstractions.dll",
+        "lib/netstandard2.0/MassTransit.Abstractions.xml",
+        "masstransit.abstractions.8.3.6.nupkg.sha512",
+        "masstransit.abstractions.nuspec",
+        "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.RabbitMQ/8.3.6": {
+      "sha512": "gR67/f8reudNVUf0yDdUBuDLBFjDdqCSF8K3XaIlpHSRmmCUTBVPVrt0h65/Zty00okBHzcbUX32bLZeQL51sw==",
+      "type": "package",
+      "path": "masstransit.rabbitmq/8.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.README.md",
+        "lib/net472/MassTransit.RabbitMqTransport.dll",
+        "lib/net472/MassTransit.RabbitMqTransport.xml",
+        "lib/net8.0/MassTransit.RabbitMqTransport.dll",
+        "lib/net8.0/MassTransit.RabbitMqTransport.xml",
+        "lib/net9.0/MassTransit.RabbitMqTransport.dll",
+        "lib/net9.0/MassTransit.RabbitMqTransport.xml",
+        "lib/netstandard2.0/MassTransit.RabbitMqTransport.dll",
+        "lib/netstandard2.0/MassTransit.RabbitMqTransport.xml",
+        "masstransit.rabbitmq.8.3.6.nupkg.sha512",
+        "masstransit.rabbitmq.nuspec",
+        "mt-logo-small.png"
       ]
     },
     "MediatR/12.4.1": {
@@ -3057,6 +3159,44 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.0": {
+      "sha512": "P9SoBuVZhJPpALZmSq72aQEb9ryP67EdquaCZGXGrrcASTNHYdrUhnpgSwIipgM5oVC+dKpRXg5zxobmF9xr5g==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.0": {
+      "sha512": "AT2qqos3IgI09ok36Qag9T8bb6kHJ3uT9Q5ki6CySybFsK6/9JbvQAgAHf1pVEjST0/N4JaFaCbm40R5edffwg==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.abstractions.nuspec"
+      ]
+    },
     "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
       "sha512": "ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
       "type": "package",
@@ -3560,52 +3700,6 @@
         "little_rebusbus2_copy-500x500.png",
         "rebus.8.7.1.nupkg.sha512",
         "rebus.nuspec"
-      ]
-    },
-    "Rebus.PostgreSql/9.1.1": {
-      "sha512": "JgDCZkxOG8yDT0AWFlElWnPs1tryvFqIRlbwkegxVyKgNbiICHN95HdNq8EqT8yudCo8tVK7BNxFi0gkKgUArg==",
-      "type": "package",
-      "path": "rebus.postgresql/9.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/netstandard2.0/Rebus.PostgreSql.dll",
-        "little_rebusbus2_copy-500x500.png",
-        "rebus.postgresql.9.1.1.nupkg.sha512",
-        "rebus.postgresql.nuspec"
-      ]
-    },
-    "Rebus.RabbitMq/10.0.0": {
-      "sha512": "WAJyLvMPiQz3eodmPilXJVZsk0XK/aw4tk7m5MmQI0Trq1uoXDyVHX+hl11+ZvCvjfGZ3roVlbkVW/57on47jg==",
-      "type": "package",
-      "path": "rebus.rabbitmq/10.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net8.0/Rebus.RabbitMq.dll",
-        "lib/net9.0/Rebus.RabbitMq.dll",
-        "lib/netstandard2.0/Rebus.RabbitMq.dll",
-        "little_rebusbus2_copy-500x500.png",
-        "rebus.rabbitmq.10.0.0.nupkg.sha512",
-        "rebus.rabbitmq.nuspec"
-      ]
-    },
-    "Rebus.ServiceProvider/10.3.0": {
-      "sha512": "sYoAY3nUNVMPCD9wnTh6+iktbyjqyT+ORyv5CysmNvYnKJd/5C6bCPww52EY3fhiQKjuNExu4I8qUN8F7NSMnQ==",
-      "type": "package",
-      "path": "rebus.serviceprovider/10.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net8.0/Rebus.ServiceProvider.dll",
-        "lib/netstandard2.0/Rebus.ServiceProvider.dll",
-        "lib/netstandard2.1/Rebus.ServiceProvider.dll",
-        "little_rebusbus2_copy-200x200.png",
-        "rebus.serviceprovider.10.3.0.nupkg.sha512",
-        "rebus.serviceprovider.nuspec"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -5709,10 +5803,10 @@
       "path": "../../Base/Base.Infrastructure.Messaging/Base.Infrastructure.Messaging.csproj",
       "msbuildProject": "../../Base/Base.Infrastructure.Messaging/Base.Infrastructure.Messaging.csproj"
     },
-    "Base.Infrastructure.Messaging.Rebus/1.0.0": {
+    "Base.Infrastructure.Messaging.MassTransit/1.0.0": {
       "type": "project",
-      "path": "../../Base/Base.Infrastructure.Messaging.Rebus/Base.Infrastructure.Messaging.Rebus.csproj",
-      "msbuildProject": "../../Base/Base.Infrastructure.Messaging.Rebus/Base.Infrastructure.Messaging.Rebus.csproj"
+      "path": "../../Base/Base.Infrastructure.Messaging.MassTransit/Base.Infrastructure.Messaging.MassTransit.csproj",
+      "msbuildProject": "../../Base/Base.Infrastructure.Messaging.MassTransit/Base.Infrastructure.Messaging.MassTransit.csproj"
     },
     "Base.WebApi/1.0.0": {
       "type": "project",
@@ -5729,15 +5823,15 @@
       "path": "../Payment.Core.Domain.Application/Payment.Core.Domain.Application.csproj",
       "msbuildProject": "../Payment.Core.Domain.Application/Payment.Core.Domain.Application.csproj"
     },
+    "Payment.Infrastructure.MassTransit/1.0.0": {
+      "type": "project",
+      "path": "../Payment.Infrastructure.MassTransit/Payment.Infrastructure.MassTransit.csproj",
+      "msbuildProject": "../Payment.Infrastructure.MassTransit/Payment.Infrastructure.MassTransit.csproj"
+    },
     "Payment.Infrastructure.Orm/1.0.0": {
       "type": "project",
       "path": "../Payment.Infrastructure.Orm/Payment.Infrastructure.Orm.csproj",
       "msbuildProject": "../Payment.Infrastructure.Orm/Payment.Infrastructure.Orm.csproj"
-    },
-    "Payment.Infrastructure.Rebus/1.0.0": {
-      "type": "project",
-      "path": "../Payment.Infrastrucure.Rebus/Payment.Infrastructure.Rebus.csproj",
-      "msbuildProject": "../Payment.Infrastrucure.Rebus/Payment.Infrastructure.Rebus.csproj"
     },
     "Product.Core.Domain/1.0.0": {
       "type": "project",
@@ -5770,8 +5864,9 @@
       "AutoMapper >= 14.0.0",
       "Base.WebApi >= 1.0.0",
       "MediatR >= 12.4.1",
+      "Payment.Core.Domain.Application >= 1.0.0",
+      "Payment.Infrastructure.MassTransit >= 1.0.0",
       "Payment.Infrastructure.Orm >= 1.0.0",
-      "Payment.Infrastructure.Rebus >= 1.0.0",
       "Sale.Core.Domain.Contracts >= 1.0.0",
       "Shared.Infrasctructure.Orm >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
@@ -5785,11 +5880,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\Payment.WebApi.csproj",
+      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.WebApi\\Payment.WebApi.csproj",
       "projectName": "Payment.WebApi",
-      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\Payment.WebApi.csproj",
+      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.WebApi\\Payment.WebApi.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.WebApi\\obj\\",
+      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -5814,20 +5909,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure.Orm\\Payment.Infrastructure.Orm.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastructure.Orm\\Payment.Infrastructure.Orm.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain.Application\\Payment.Core.Domain.Application.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain.Application\\Payment.Core.Domain.Application.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastrucure.Rebus\\Payment.Infrastructure.Rebus.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Payment\\Payment.Infrastrucure.Rebus\\Payment.Infrastructure.Rebus.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Infrastructure.MassTransit\\Payment.Infrastructure.MassTransit.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Infrastructure.MassTransit\\Payment.Infrastructure.MassTransit.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Infrastructure.Orm\\Payment.Infrastructure.Orm.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Infrastructure.Orm\\Payment.Infrastructure.Orm.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Projeto 3 apis\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj"
+            },
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj"
             }
           }
         }

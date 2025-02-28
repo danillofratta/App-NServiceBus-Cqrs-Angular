@@ -15,8 +15,8 @@
           "Shared.Infrasctructure.Orm": "1.0.0",
           "Stock.Core.Domain": "1.0.0",
           "Stock.Core.Domain.Application": "1.0.0",
+          "Stock.Infrastructure.MassTransit": "1.0.0",
           "Stock.Infrastructure.Orm": "1.0.0",
-          "Stock.Infrastructure.Rebus": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -39,6 +39,42 @@
           "lib/net8.0/FluentValidation.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.11.0.0"
+          }
+        }
+      },
+      "MassTransit/8.3.6": {
+        "dependencies": {
+          "MassTransit.Abstractions": "8.3.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.dll": {
+            "assemblyVersion": "8.3.6.0",
+            "fileVersion": "8.3.6.0"
+          }
+        }
+      },
+      "MassTransit.Abstractions/8.3.6": {
+        "runtime": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "assemblyVersion": "8.3.6.0",
+            "fileVersion": "8.3.6.0"
+          }
+        }
+      },
+      "MassTransit.RabbitMQ/8.3.6": {
+        "dependencies": {
+          "MassTransit": "8.3.6",
+          "RabbitMQ.Client": "7.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.RabbitMqTransport.dll": {
+            "assemblyVersion": "8.3.6.0",
+            "fileVersion": "8.3.6.0"
           }
         }
       },
@@ -321,6 +357,15 @@
           }
         }
       },
+      "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Options": "9.0.0"
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.0": {},
       "Microsoft.Extensions.FileProviders.Abstractions/9.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.0"
@@ -508,44 +553,6 @@
           "lib/net8.0/Rebus.dll": {
             "assemblyVersion": "8.7.1.0",
             "fileVersion": "8.7.1.0"
-          }
-        }
-      },
-      "Rebus.PostgreSql/9.1.1": {
-        "dependencies": {
-          "Npgsql": "9.0.1",
-          "Rebus": "8.7.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Rebus.PostgreSql.dll": {
-            "assemblyVersion": "9.1.1.0",
-            "fileVersion": "9.1.1.0"
-          }
-        }
-      },
-      "Rebus.RabbitMq/10.0.0": {
-        "dependencies": {
-          "RabbitMQ.Client": "7.0.0",
-          "Rebus": "8.7.1"
-        },
-        "runtime": {
-          "lib/net8.0/Rebus.RabbitMq.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.0.0"
-          }
-        }
-      },
-      "Rebus.ServiceProvider/10.3.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "9.0.0",
-          "Microsoft.Extensions.Hosting.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
-          "Rebus": "8.7.1"
-        },
-        "runtime": {
-          "lib/net8.0/Rebus.ServiceProvider.dll": {
-            "assemblyVersion": "10.3.0.0",
-            "fileVersion": "10.3.0.0"
           }
         }
       },
@@ -813,14 +820,13 @@
           }
         }
       },
-      "Base.Infrastructure.Messaging.Rebus/1.0.0": {
+      "Base.Infrastructure.Messaging.MassTransit/1.0.0": {
         "dependencies": {
           "Base.Infrastructure.Messaging": "1.0.0",
-          "Rebus": "8.7.1",
-          "Rebus.ServiceProvider": "10.3.0"
+          "MassTransit": "8.3.6"
         },
         "runtime": {
-          "Base.Infrastructure.Messaging.Rebus.dll": {
+          "Base.Infrastructure.Messaging.MassTransit.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -877,6 +883,7 @@
       "Sale.Core.Domain.Contracts/1.0.0": {
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
+          "MassTransit": "8.3.6",
           "NServiceBus": "9.2.6"
         },
         "runtime": {
@@ -936,6 +943,22 @@
           }
         }
       },
+      "Stock.Infrastructure.MassTransit/1.0.0": {
+        "dependencies": {
+          "Base.Infrastructure.Messaging": "1.0.0",
+          "Base.Infrastructure.Messaging.MassTransit": "1.0.0",
+          "MassTransit": "8.3.6",
+          "MassTransit.RabbitMQ": "8.3.6",
+          "Sale.Core.Domain.Contracts": "1.0.0",
+          "Stock.Core.Domain.Application": "1.0.0"
+        },
+        "runtime": {
+          "Stock.Infrastructure.MassTransit.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Stock.Infrastructure.Orm/1.0.0": {
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
@@ -944,23 +967,6 @@
         },
         "runtime": {
           "Stock.Infrastructure.Orm.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Stock.Infrastructure.Rebus/1.0.0": {
-        "dependencies": {
-          "Base.Infrastructure.Messaging.Rebus": "1.0.0",
-          "Rebus": "8.7.1",
-          "Rebus.PostgreSql": "9.1.1",
-          "Rebus.RabbitMq": "10.0.0",
-          "Rebus.ServiceProvider": "10.3.0",
-          "Sale.Core.Domain.Contracts": "1.0.0",
-          "Stock.Core.Domain.Application": "1.0.0"
-        },
-        "runtime": {
-          "Stock.Infrastructure.Rebus.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -987,6 +993,27 @@
       "sha512": "sha512-cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
       "path": "fluentvalidation/11.11.0",
       "hashPath": "fluentvalidation.11.11.0.nupkg.sha512"
+    },
+    "MassTransit/8.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iQQ02dUJuWlpNai3eDN7WmnstvmB2LAD8YN1i8OFT5BaNpGYYg3v0US3S6f1Zz7us+NnGHm6csg25Ak3z0H7Xg==",
+      "path": "masstransit/8.3.6",
+      "hashPath": "masstransit.8.3.6.nupkg.sha512"
+    },
+    "MassTransit.Abstractions/8.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F3R3EFPvUvpsiebnijmpvZ4IhSEcqkEJdrhlFuTOjzIUnMRYBgki/oDfFWj57Ki4b9yq0nilt4Q5bk11pC4ygg==",
+      "path": "masstransit.abstractions/8.3.6",
+      "hashPath": "masstransit.abstractions.8.3.6.nupkg.sha512"
+    },
+    "MassTransit.RabbitMQ/8.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gR67/f8reudNVUf0yDdUBuDLBFjDdqCSF8K3XaIlpHSRmmCUTBVPVrt0h65/Zty00okBHzcbUX32bLZeQL51sw==",
+      "path": "masstransit.rabbitmq/8.3.6",
+      "hashPath": "masstransit.rabbitmq.8.3.6.nupkg.sha512"
     },
     "MediatR/12.4.1": {
       "type": "package",
@@ -1219,6 +1246,20 @@
       "path": "microsoft.extensions.diagnostics.abstractions/9.0.0",
       "hashPath": "microsoft.extensions.diagnostics.abstractions.9.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Diagnostics.HealthChecks/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P9SoBuVZhJPpALZmSq72aQEb9ryP67EdquaCZGXGrrcASTNHYdrUhnpgSwIipgM5oVC+dKpRXg5zxobmF9xr5g==",
+      "path": "microsoft.extensions.diagnostics.healthchecks/8.0.0",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AT2qqos3IgI09ok36Qag9T8bb6kHJ3uT9Q5ki6CySybFsK6/9JbvQAgAHf1pVEjST0/N4JaFaCbm40R5edffwg==",
+      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.FileProviders.Abstractions/9.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1344,27 +1385,6 @@
       "sha512": "sha512-HIxlzizlw46zjmy6ykOmbT0QMpxquLnVWc6xVOIZM1RjTTXAJm9AddFzlomqlq2UJl/OJFwoM5DwLmHFOdnO5w==",
       "path": "rebus/8.7.1",
       "hashPath": "rebus.8.7.1.nupkg.sha512"
-    },
-    "Rebus.PostgreSql/9.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-JgDCZkxOG8yDT0AWFlElWnPs1tryvFqIRlbwkegxVyKgNbiICHN95HdNq8EqT8yudCo8tVK7BNxFi0gkKgUArg==",
-      "path": "rebus.postgresql/9.1.1",
-      "hashPath": "rebus.postgresql.9.1.1.nupkg.sha512"
-    },
-    "Rebus.RabbitMq/10.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-WAJyLvMPiQz3eodmPilXJVZsk0XK/aw4tk7m5MmQI0Trq1uoXDyVHX+hl11+ZvCvjfGZ3roVlbkVW/57on47jg==",
-      "path": "rebus.rabbitmq/10.0.0",
-      "hashPath": "rebus.rabbitmq.10.0.0.nupkg.sha512"
-    },
-    "Rebus.ServiceProvider/10.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-sYoAY3nUNVMPCD9wnTh6+iktbyjqyT+ORyv5CysmNvYnKJd/5C6bCPww52EY3fhiQKjuNExu4I8qUN8F7NSMnQ==",
-      "path": "rebus.serviceprovider/10.3.0",
-      "hashPath": "rebus.serviceprovider.10.3.0.nupkg.sha512"
     },
     "Serilog/4.2.0": {
       "type": "package",
@@ -1542,7 +1562,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Base.Infrastructure.Messaging.Rebus/1.0.0": {
+    "Base.Infrastructure.Messaging.MassTransit/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1587,12 +1607,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Stock.Infrastructure.Orm/1.0.0": {
+    "Stock.Infrastructure.MassTransit/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Stock.Infrastructure.Rebus/1.0.0": {
+    "Stock.Infrastructure.Orm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

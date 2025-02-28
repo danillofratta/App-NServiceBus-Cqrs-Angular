@@ -4,10 +4,15 @@ using Sale.Core.Domain.Contracts.Dto.Entities;
 using Sale.Core.Domain.Contracts.Event;
 using Stock.Core.Domain.Services;
 using Base.Infrastructure.Messaging;
+using MassTransit;
+using Rebus.Messages;
 
 namespace Stock.Core.Domain.Application.Stock.Handlers
 {
-    public class ReserveStockCommandHandle : Rebus.Handlers.IHandleMessages<ReserveStockCommand>, IHandleMessages<ReserveStockCommand>
+    public class ReserveStockCommandHandle : 
+        Rebus.Handlers.IHandleMessages<ReserveStockCommand>, 
+        IHandleMessages<ReserveStockCommand>,
+        IConsumer<ReserveStockCommand>
     {
         private List<ValidationErrorDetail> _Errors = new();
         private readonly CalculateStockService _CalculateStockService;
@@ -66,6 +71,20 @@ namespace Stock.Core.Domain.Application.Stock.Handlers
             else
             {
                 await _bus.PublishAsync(new StockConfirmedEvent { SaleId = message.SaleId, Total = message.SaleItens.Sum(x => x.TotalPrice) });
+            }
+        }
+
+        public async Task Consume(ConsumeContext<ReserveStockCommand> context)
+        {
+            await this.CheckStockFail(context.Message);
+
+            if (this._Errors.Count > 0)
+            {
+                await _bus.PublishAsync(new StockInsufficientEvent { SaleId = context.Message.SaleId, Errors = _Errors });
+            }
+            else
+            {
+                await _bus.PublishAsync(new StockConfirmedEvent { SaleId = context.Message.SaleId, Total = context.Message.SaleItens.Sum(x => x.TotalPrice) });
             }
         }
     }    

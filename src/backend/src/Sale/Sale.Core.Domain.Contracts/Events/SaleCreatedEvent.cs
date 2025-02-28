@@ -5,4 +5,7 @@ public class SaleCreatedEvent : NServiceBus.IEvent
 {
     public Guid SaleId { get; set; }
     public List<SaleItensDto> SaleItens { get; set; } = new();
+
+    //use in sagamasstransit
+    public Guid CorrelationId => SaleId;
 }

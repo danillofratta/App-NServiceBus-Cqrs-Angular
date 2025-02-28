@@ -1,3 +1,7 @@
+# Desafio
+
+Criar no mesmo projeto a opção de utilizar mensageria com Rebus ou MassTransit ou NServiceBus.
+
 # Objetivo
 
 Este projeto tem o objetivo de demonstrar a implementação das seguintes tecnologias e padrões: 
@@ -43,13 +47,24 @@ São 4 serviços:
 
 ![alt text](image.png)
 
+## Trocar de mensageria
+
+1. WebApi Sale, Stock, Payment relacionar qual mensageria deseja usar. Por exemplo:
+   1.1 Se for usar MassTransit add referencia ao projeto Stock.Infrastructure.MassTransit
+   1.2 Se for usar Rebus add referencia ao projeto Stock.Infrastructure.Rebus
+   1.3 Se for usar NServiceBus add referencia ao projeto Stock.Infrastructure.NServiceBus
+2. No appsettings.json definir qual mensageria utilizar.
+
+TODO:
+1.Criar orquestrador para definir qual mensageria utilizar sem precisar referencia ou criar workers separadado e um orquestrador que antes de rodar o projeto escolher a mensageria
+
 ## TODO
 
-- feito refatory no project tirando acoplamento e add rebus with nservicebus
-- continuar refactory para add masstransit
-- nservicebus tem problema de compatibilidade, não está chamando StockHandle mas tb não dá erro
-- depois de refatorar tudo ver para criar services exclusivos para endpoints de mensageria
 - criar IoC
 - revisar projeto
 - add mais consultas com signalr
+- add outras tecnologias de frontend como blazor, nextjs
+- NServiceBus tem problema de compatibilidade, então em alguns momento falha a mensageria verificar mais a fundo o problema. 
+- A solução final seria criar workers específicos e um orquestrador para definir a mensageria e no handle de events ter projetos separados por mensageria
+- Ver a possbilidade de criar Handle genércio para tratas os evens and commands.
 

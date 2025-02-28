@@ -51,7 +51,6 @@ namespace Sale.Infrastructure.NServiceBus
 #else
             transport.ConnectionString("amqp://guest:guest@rabbitmq:5672/");       
             logger.LogInformation("Iniciando configuração do NServiceBus: PAYMENT RELEASE");
-            Console.Write("RELEASE");
 #endif
             // Persistence
             var connection = "Host=localhost;Port=5432;Username=admin;Password=root;Database=apitest;";

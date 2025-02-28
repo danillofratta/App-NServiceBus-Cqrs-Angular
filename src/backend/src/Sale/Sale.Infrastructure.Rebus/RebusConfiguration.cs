@@ -9,6 +9,7 @@ using Sale.Core.Domain.SagaRebus;
 using Base.Infrastruture.Messaging.Rebus;
 using Rebus.Bus;
 using Base.Infrastructure.Messaging;
+using static MassTransit.Logging.LogCategoryName;
 
 namespace Sale.Infrastructure.Rebus
 {
@@ -18,8 +19,14 @@ namespace Sale.Infrastructure.Rebus
         {
             if (messagingType.ToLower() != "rebus") return;
 
-            services.AddRebus(configure => configure                
+            services.AddRebus(configure => configure
+
+#if DEBUG
                 .Transport(t => t.UseRabbitMq("amqp://guest:guest@localhost", "SaleSagaEndpoint"))
+#else            
+                .Transport(t => t.UseRabbitMq("amqp://guest:guest@rabbitmq", "SaleSagaEndpoint"))     
+#endif
+
                 .Routing(r => r.TypeBased()
                     .Map<ReserveStockCommand>("StockSagaEndpoint")
                     .Map<ProcessPaymentCommand>("PaymentSagaEndpoint")                         

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sale.Core.Domain.SagaRebus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55a570c9f65bb6f509d1ae91fcf2d23f70a3203f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc3c187f25f38b4bbbfd7c6ff79e00cf91dc05b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sale.Core.Domain.SagaRebus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sale.Core.Domain.SagaRebus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
