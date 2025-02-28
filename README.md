@@ -39,7 +39,7 @@ São 4 serviços:
     - dotnet ef database update
 - rodar os containers
 
-## Fluxo Mensagens entras as APIs
+## Fluxo Mensagens entre Endpoints
 
 ![alt text](image.png)
 
