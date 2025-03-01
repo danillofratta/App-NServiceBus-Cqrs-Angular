@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using Rebus.Bus;
+using Rebus.Compression;
 using Rebus.Sagas;
 using Sale.Core.Domain.Contracts.Command;
 using Sale.Core.Domain.Contracts.Event;
@@ -28,7 +29,7 @@ namespace Sale.Core.Domain.SagaRebus
             config.Correlate<StockConfirmedEvent>(msg => msg.SaleId, saga => saga.SaleId);            
             config.Correlate<StockInsufficientEvent>(msg => msg.SaleId, saga => saga.SaleId);
             config.Correlate<PaymentConfirmedEvent>(msg => msg.SaleId, saga => saga.SaleId);
-            config.Correlate<PaymentFailEvent>(msg => msg.SaleId, saga => saga.SaleId);
+            config.Correlate<PaymentFailEvent>(msg => msg.SaleId, saga => saga.SaleId);            
         }
 
         public async Task Handle(SaleCreatedEvent message)
@@ -37,11 +38,15 @@ namespace Sale.Core.Domain.SagaRebus
 
             try
             {
+                if (!IsNew) return;
+
                 if (Data.ProcessStarted.HasValue)
                     return;
 
+                //Data.Id = message.SaleId;
+                Data.SaleId = message.SaleId;
                 Data.ProcessStarted = DateTime.UtcNow;
-                
+
                 await _bus.Send(new ReserveStockCommand
                 {
                     SaleId = message.SaleId,
@@ -64,7 +69,12 @@ namespace Sale.Core.Domain.SagaRebus
 
             try
             {
-                if (Data.StockConfirmed.HasValue)
+                if (Data.Id == Guid.Empty)
+                {
+                    return;
+                }
+
+                    if (Data.StockConfirmed.HasValue)
                 {
                     _logger.LogWarning("Stock already confirmed for sale {SaleId}", message.SaleId);
                     return;
@@ -127,8 +137,6 @@ namespace Sale.Core.Domain.SagaRebus
                 _logger.LogError(ex, "Erro ao processar StockInsufficientEvent para venda {SaleId}", message.SaleId);
                 throw;
             }
-
-            await Task.CompletedTask;
         }
 
         public async Task Handle(PaymentConfirmedEvent message)
@@ -155,8 +163,6 @@ namespace Sale.Core.Domain.SagaRebus
                 _logger.LogError(ex, "Erro ao processar PaymentConfirmedEvent para venda {SaleId}", message.SaleId);
                 throw;
             }
-
-            await Task.CompletedTask;
         }
 
         public async Task Handle(PaymentFailEvent message)
@@ -181,8 +187,6 @@ namespace Sale.Core.Domain.SagaRebus
                 _logger.LogError(ex, "Erro ao processar PaymentFailEvent para venda {SaleId}", message.SaleId);
                 throw;
             }
-
-            await Task.CompletedTask;
         }
     }
 }

@@ -18,8 +18,8 @@
     <ProjectReference Include="..\..\Shared\Shared.Infrasctructure.Orm\Shared.Infrasctructure.Orm.csproj" />
     <ProjectReference Include="..\Stock.Core.Domain.Application\Stock.Core.Domain.Application.csproj" />
     <ProjectReference Include="..\Stock.Core.Domain\Stock.Core.Domain.csproj" />
-    <ProjectReference Include="..\Stock.Infrastructure.MassTransit\Stock.Infrastructure.MassTransit.csproj" />
     <ProjectReference Include="..\Stock.Infrastructure.Orm\Stock.Infrastructure.Orm.csproj" />
+    <ProjectReference Include="..\Stock.Infrastructure.Rebus\Stock.Infrastructure.Rebus.csproj" />
   </ItemGroup>
 
 </Project>

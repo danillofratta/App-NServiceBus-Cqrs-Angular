@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YeHDA4g295M=",
+  "dgSpecHash": "J6Kvg9Qlpck=",
   "success": true,
   "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.WebApi\\Stock.WebApi.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,6 @@
     "C:\\Users\\danil\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\masstransit\\8.3.6\\masstransit.8.3.6.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\masstransit.abstractions\\8.3.6\\masstransit.abstractions.8.3.6.nupkg.sha512",
-    "C:\\Users\\danil\\.nuget\\packages\\masstransit.rabbitmq\\8.3.6\\masstransit.rabbitmq.8.3.6.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
@@ -62,6 +61,9 @@
     "C:\\Users\\danil\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\rebus\\8.7.1\\rebus.8.7.1.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\rebus.postgresql\\9.1.1\\rebus.postgresql.9.1.1.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\rebus.rabbitmq\\10.0.0\\rebus.rabbitmq.10.0.0.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\rebus.serviceprovider\\10.3.0\\rebus.serviceprovider.10.3.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\serilog.aspnetcore\\9.0.0\\serilog.aspnetcore.9.0.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\serilog.extensions.hosting\\9.0.0\\serilog.extensions.hosting.9.0.0.nupkg.sha512",

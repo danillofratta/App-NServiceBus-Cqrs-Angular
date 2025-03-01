@@ -1,4 +1,5 @@
-﻿using Base.Common.Validation;
+﻿using Sale.Core.Domain.Contracts.Base;
+using Base.Common.Validation;
 
 namespace Sale.Core.Domain.Contracts.Event;
 public class StockInsufficientEvent : IEvent

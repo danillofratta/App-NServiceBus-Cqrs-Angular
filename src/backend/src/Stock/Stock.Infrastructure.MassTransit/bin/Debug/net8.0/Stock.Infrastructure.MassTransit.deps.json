@@ -409,9 +409,7 @@
       },
       "Sale.Core.Domain.Contracts/1.0.0": {
         "dependencies": {
-          "Base.Core.Domain": "1.0.0",
-          "MassTransit": "8.3.6",
-          "NServiceBus": "9.2.6"
+          "Base.Core.Domain": "1.0.0"
         },
         "runtime": {
           "Sale.Core.Domain.Contracts.dll": {
@@ -438,6 +436,7 @@
           "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
           "Base.Infrastructure.Messaging": "1.0.0",
+          "MassTransit": "8.3.6",
           "MediatR": "12.4.1",
           "NServiceBus": "9.2.6",
           "Rebus": "8.7.1",

@@ -11,7 +11,6 @@ using Sale.Core.Domain.Contracts.Event;
 
 namespace Payment.Core.Domain.Application.Payment.Handlers
 {
-
     public class ProcessPaymentHandler : 
         Rebus.Handlers.IHandleMessages<ProcessPaymentCommand>, 
         IHandleMessages<ProcessPaymentCommand>,

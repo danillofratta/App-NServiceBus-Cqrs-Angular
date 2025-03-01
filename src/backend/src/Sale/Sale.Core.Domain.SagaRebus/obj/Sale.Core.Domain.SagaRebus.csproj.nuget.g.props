@@ -14,7 +14,4 @@
     <SourceRoot Include="C:\Program Files\DevExpress 23.2\Components\Offline Packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
-  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)nservicebus\9.2.6\buildTransitive\net8.0\NServiceBus.props" Condition="Exists('$(NuGetPackageRoot)nservicebus\9.2.6\buildTransitive\net8.0\NServiceBus.props')" />
-  </ImportGroup>
 </Project>

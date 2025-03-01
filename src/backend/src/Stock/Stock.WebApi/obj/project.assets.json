@@ -65,23 +65,6 @@
           }
         }
       },
-      "MassTransit.RabbitMQ/8.3.6": {
-        "type": "package",
-        "dependencies": {
-          "MassTransit": "8.3.6",
-          "RabbitMQ.Client": "7.0.0"
-        },
-        "compile": {
-          "lib/net8.0/MassTransit.RabbitMqTransport.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/MassTransit.RabbitMqTransport.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MediatR/12.4.1": {
         "type": "package",
         "dependencies": {
@@ -1017,6 +1000,47 @@
           }
         }
       },
+      "Rebus.PostgreSql/9.1.1": {
+        "type": "package",
+        "dependencies": {
+          "npgsql": "8.0.3",
+          "rebus": "8.4.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Rebus.PostgreSql.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rebus.PostgreSql.dll": {}
+        }
+      },
+      "Rebus.RabbitMq/10.0.0": {
+        "type": "package",
+        "dependencies": {
+          "RabbitMq.Client": "7.0.0",
+          "rebus": "8.2.2"
+        },
+        "compile": {
+          "lib/net8.0/Rebus.RabbitMq.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Rebus.RabbitMq.dll": {}
+        }
+      },
+      "Rebus.ServiceProvider/10.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "[8.0.0, 10.0.0)",
+          "Microsoft.Extensions.Hosting.Abstractions": "[6.0.0, 10.0.0)",
+          "Microsoft.Extensions.Logging.Abstractions": "[6.0.0, 10.0.0)",
+          "Rebus": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Rebus.ServiceProvider.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Rebus.ServiceProvider.dll": {}
+        }
+      },
       "Serilog/4.2.0": {
         "type": "package",
         "compile": {
@@ -1447,18 +1471,19 @@
           "bin/placeholder/Base.Infrastructure.Messaging.dll": {}
         }
       },
-      "Base.Infrastructure.Messaging.MassTransit/1.0.0": {
+      "Base.Infrastructure.Messaging.Rebus/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Base.Infrastructure.Messaging": "1.0.0",
-          "MassTransit": "8.3.6"
+          "Rebus": "8.7.1",
+          "Rebus.ServiceProvider": "10.3.0"
         },
         "compile": {
-          "bin/placeholder/Base.Infrastructure.Messaging.MassTransit.dll": {}
+          "bin/placeholder/Base.Infrastructure.Messaging.Rebus.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Base.Infrastructure.Messaging.MassTransit.dll": {}
+          "bin/placeholder/Base.Infrastructure.Messaging.Rebus.dll": {}
         }
       },
       "Base.WebApi/1.0.0": {
@@ -1521,9 +1546,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Base.Core.Domain": "1.0.0",
-          "MassTransit": "8.3.6",
-          "NServiceBus": "9.2.6"
+          "Base.Core.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Sale.Core.Domain.Contracts.dll": {}
@@ -1575,6 +1598,7 @@
           "Base.Core.Domain": "1.0.0",
           "Base.Core.Domain.Application": "1.0.0",
           "Base.Infrastructure.Messaging": "1.0.0",
+          "MassTransit": "8.3.6",
           "MediatR": "12.4.1",
           "NServiceBus": "9.2.6",
           "Rebus": "8.7.1",
@@ -1586,24 +1610,6 @@
         },
         "runtime": {
           "bin/placeholder/Stock.Core.Domain.Application.dll": {}
-        }
-      },
-      "Stock.Infrastructure.MassTransit/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Base.Infrastructure.Messaging": "1.0.0",
-          "Base.Infrastructure.Messaging.MassTransit": "1.0.0",
-          "MassTransit": "8.3.6",
-          "MassTransit.RabbitMQ": "8.3.6",
-          "Sale.Core.Domain.Contracts": "1.0.0",
-          "Stock.Core.Domain.Application": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Stock.Infrastructure.MassTransit.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Stock.Infrastructure.MassTransit.dll": {}
         }
       },
       "Stock.Infrastructure.Orm/1.0.0": {
@@ -1619,6 +1625,25 @@
         },
         "runtime": {
           "bin/placeholder/Stock.Infrastructure.Orm.dll": {}
+        }
+      },
+      "Stock.Infrastructure.Rebus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Base.Infrastructure.Messaging.Rebus": "1.0.0",
+          "Rebus": "8.7.1",
+          "Rebus.PostgreSql": "9.1.1",
+          "Rebus.RabbitMq": "10.0.0",
+          "Rebus.ServiceProvider": "10.3.0",
+          "Sale.Core.Domain.Contracts": "1.0.0",
+          "Stock.Core.Domain.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stock.Infrastructure.Rebus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stock.Infrastructure.Rebus.dll": {}
         }
       }
     }
@@ -1703,27 +1728,6 @@
         "lib/netstandard2.0/MassTransit.Abstractions.xml",
         "masstransit.abstractions.8.3.6.nupkg.sha512",
         "masstransit.abstractions.nuspec",
-        "mt-logo-small.png"
-      ]
-    },
-    "MassTransit.RabbitMQ/8.3.6": {
-      "sha512": "gR67/f8reudNVUf0yDdUBuDLBFjDdqCSF8K3XaIlpHSRmmCUTBVPVrt0h65/Zty00okBHzcbUX32bLZeQL51sw==",
-      "type": "package",
-      "path": "masstransit.rabbitmq/8.3.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NuGet.README.md",
-        "lib/net472/MassTransit.RabbitMqTransport.dll",
-        "lib/net472/MassTransit.RabbitMqTransport.xml",
-        "lib/net8.0/MassTransit.RabbitMqTransport.dll",
-        "lib/net8.0/MassTransit.RabbitMqTransport.xml",
-        "lib/net9.0/MassTransit.RabbitMqTransport.dll",
-        "lib/net9.0/MassTransit.RabbitMqTransport.xml",
-        "lib/netstandard2.0/MassTransit.RabbitMqTransport.dll",
-        "lib/netstandard2.0/MassTransit.RabbitMqTransport.xml",
-        "masstransit.rabbitmq.8.3.6.nupkg.sha512",
-        "masstransit.rabbitmq.nuspec",
         "mt-logo-small.png"
       ]
     },
@@ -3067,6 +3071,52 @@
         "rebus.nuspec"
       ]
     },
+    "Rebus.PostgreSql/9.1.1": {
+      "sha512": "JgDCZkxOG8yDT0AWFlElWnPs1tryvFqIRlbwkegxVyKgNbiICHN95HdNq8EqT8yudCo8tVK7BNxFi0gkKgUArg==",
+      "type": "package",
+      "path": "rebus.postgresql/9.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Rebus.PostgreSql.dll",
+        "little_rebusbus2_copy-500x500.png",
+        "rebus.postgresql.9.1.1.nupkg.sha512",
+        "rebus.postgresql.nuspec"
+      ]
+    },
+    "Rebus.RabbitMq/10.0.0": {
+      "sha512": "WAJyLvMPiQz3eodmPilXJVZsk0XK/aw4tk7m5MmQI0Trq1uoXDyVHX+hl11+ZvCvjfGZ3roVlbkVW/57on47jg==",
+      "type": "package",
+      "path": "rebus.rabbitmq/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Rebus.RabbitMq.dll",
+        "lib/net9.0/Rebus.RabbitMq.dll",
+        "lib/netstandard2.0/Rebus.RabbitMq.dll",
+        "little_rebusbus2_copy-500x500.png",
+        "rebus.rabbitmq.10.0.0.nupkg.sha512",
+        "rebus.rabbitmq.nuspec"
+      ]
+    },
+    "Rebus.ServiceProvider/10.3.0": {
+      "sha512": "sYoAY3nUNVMPCD9wnTh6+iktbyjqyT+ORyv5CysmNvYnKJd/5C6bCPww52EY3fhiQKjuNExu4I8qUN8F7NSMnQ==",
+      "type": "package",
+      "path": "rebus.serviceprovider/10.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Rebus.ServiceProvider.dll",
+        "lib/netstandard2.0/Rebus.ServiceProvider.dll",
+        "lib/netstandard2.1/Rebus.ServiceProvider.dll",
+        "little_rebusbus2_copy-200x200.png",
+        "rebus.serviceprovider.10.3.0.nupkg.sha512",
+        "rebus.serviceprovider.nuspec"
+      ]
+    },
     "Serilog/4.2.0": {
       "sha512": "gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA==",
       "type": "package",
@@ -3712,10 +3762,10 @@
       "path": "../../Base/Base.Infrastructure.Messaging/Base.Infrastructure.Messaging.csproj",
       "msbuildProject": "../../Base/Base.Infrastructure.Messaging/Base.Infrastructure.Messaging.csproj"
     },
-    "Base.Infrastructure.Messaging.MassTransit/1.0.0": {
+    "Base.Infrastructure.Messaging.Rebus/1.0.0": {
       "type": "project",
-      "path": "../../Base/Base.Infrastructure.Messaging.MassTransit/Base.Infrastructure.Messaging.MassTransit.csproj",
-      "msbuildProject": "../../Base/Base.Infrastructure.Messaging.MassTransit/Base.Infrastructure.Messaging.MassTransit.csproj"
+      "path": "../../Base/Base.Infrastructure.Messaging.Rebus/Base.Infrastructure.Messaging.Rebus.csproj",
+      "msbuildProject": "../../Base/Base.Infrastructure.Messaging.Rebus/Base.Infrastructure.Messaging.Rebus.csproj"
     },
     "Base.WebApi/1.0.0": {
       "type": "project",
@@ -3757,15 +3807,15 @@
       "path": "../Stock.Core.Domain.Application/Stock.Core.Domain.Application.csproj",
       "msbuildProject": "../Stock.Core.Domain.Application/Stock.Core.Domain.Application.csproj"
     },
-    "Stock.Infrastructure.MassTransit/1.0.0": {
-      "type": "project",
-      "path": "../Stock.Infrastructure.MassTransit/Stock.Infrastructure.MassTransit.csproj",
-      "msbuildProject": "../Stock.Infrastructure.MassTransit/Stock.Infrastructure.MassTransit.csproj"
-    },
     "Stock.Infrastructure.Orm/1.0.0": {
       "type": "project",
       "path": "../Stock.Infrastructure.Orm/Stock.Infrastructure.Orm.csproj",
       "msbuildProject": "../Stock.Infrastructure.Orm/Stock.Infrastructure.Orm.csproj"
+    },
+    "Stock.Infrastructure.Rebus/1.0.0": {
+      "type": "project",
+      "path": "../Stock.Infrastructure.Rebus/Stock.Infrastructure.Rebus.csproj",
+      "msbuildProject": "../Stock.Infrastructure.Rebus/Stock.Infrastructure.Rebus.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3777,8 +3827,8 @@
       "Shared.Infrasctructure.Orm >= 1.0.0",
       "Stock.Core.Domain >= 1.0.0",
       "Stock.Core.Domain.Application >= 1.0.0",
-      "Stock.Infrastructure.MassTransit >= 1.0.0",
       "Stock.Infrastructure.Orm >= 1.0.0",
+      "Stock.Infrastructure.Rebus >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -3834,11 +3884,11 @@
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.MassTransit\\Stock.Infrastructure.MassTransit.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.MassTransit\\Stock.Infrastructure.MassTransit.csproj"
-            },
             "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\Stock.Infrastructure.Orm.csproj": {
               "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\Stock.Infrastructure.Orm.csproj"
+            },
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Rebus\\Stock.Infrastructure.Rebus.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Rebus\\Stock.Infrastructure.Rebus.csproj"
             }
           }
         }

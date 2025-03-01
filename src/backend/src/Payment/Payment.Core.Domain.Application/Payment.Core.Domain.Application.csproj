@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="MassTransit" Version="8.3.6" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.0" />
     <PackageReference Include="NServiceBus" Version="9.2.6" />
     <PackageReference Include="Rebus" Version="8.7.1" />

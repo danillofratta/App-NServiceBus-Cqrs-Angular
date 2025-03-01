@@ -582,16 +582,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "MassTransit": {
-              "target": "Package",
-              "version": "[8.3.6, )"
-            },
-            "NServiceBus": {
-              "target": "Package",
-              "version": "[9.2.6, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

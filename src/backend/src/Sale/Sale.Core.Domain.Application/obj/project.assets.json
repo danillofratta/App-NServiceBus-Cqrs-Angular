@@ -1463,9 +1463,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Base.Core.Domain": "1.0.0",
-          "MassTransit": "8.3.6",
-          "NServiceBus": "9.2.6"
+          "Base.Core.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Sale.Core.Domain.Contracts.dll": {}

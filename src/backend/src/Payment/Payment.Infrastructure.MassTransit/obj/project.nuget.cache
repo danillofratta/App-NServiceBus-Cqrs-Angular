@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oU2WOkoKXTM=",
+  "dgSpecHash": "x2eNOm8T7qI=",
   "success": true,
   "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Infrastructure.MassTransit\\Payment.Infrastructure.MassTransit.csproj",
   "expectedPackageFiles": [

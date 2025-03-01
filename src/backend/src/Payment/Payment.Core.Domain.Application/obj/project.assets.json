@@ -1287,9 +1287,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Base.Core.Domain": "1.0.0",
-          "MassTransit": "8.3.6",
-          "NServiceBus": "9.2.6"
+          "Base.Core.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Sale.Core.Domain.Contracts.dll": {}
@@ -2900,6 +2898,7 @@
       "AutoMapper >= 14.0.0",
       "Base.Core.Domain.Messaging >= 1.0.0",
       "Base.Infrastructure.Messaging >= 1.0.0",
+      "MassTransit >= 8.3.6",
       "Microsoft.AspNetCore.SignalR.Core >= 1.2.0",
       "NServiceBus >= 9.2.6",
       "Payment.Core.Domain >= 1.0.0",
@@ -2986,6 +2985,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[14.0.0, )"
+          },
+          "MassTransit": {
+            "target": "Package",
+            "version": "[8.3.6, )"
           },
           "Microsoft.AspNetCore.SignalR.Core": {
             "target": "Package",

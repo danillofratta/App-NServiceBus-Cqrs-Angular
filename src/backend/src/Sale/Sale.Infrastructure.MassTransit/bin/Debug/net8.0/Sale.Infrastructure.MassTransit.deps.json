@@ -1103,9 +1103,7 @@
       },
       "Sale.Core.Domain.Contracts/1.0.0": {
         "dependencies": {
-          "Base.Core.Domain": "1.0.0",
-          "MassTransit": "8.3.6",
-          "NServiceBus": "9.2.6"
+          "Base.Core.Domain": "1.0.0"
         },
         "runtime": {
           "Sale.Core.Domain.Contracts.dll": {

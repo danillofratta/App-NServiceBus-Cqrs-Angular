@@ -1,4 +1,4 @@
-﻿using MassTransit;
+﻿using Sale.Core.Domain.Contracts.Base;
 using Sale.Core.Domain.Contracts.Dto.Entities;
 
 namespace Sale.Core.Domain.Contracts.Command

@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MassTransit" Version="8.3.6" />
-    <PackageReference Include="NServiceBus" Version="9.2.6" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Base\Base.Core.Domain\Base.Core.Domain.csproj" />
   </ItemGroup>
 

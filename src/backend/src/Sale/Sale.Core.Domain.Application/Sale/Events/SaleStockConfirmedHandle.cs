@@ -1,5 +1,6 @@
 ﻿using MassTransit;
 using Rebus.Messages;
+using Rebus.Threading;
 using Sale.Core.Domain.Contracts.Command;
 using Sale.Core.Domain.Service;
 

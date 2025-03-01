@@ -1,4 +1,4 @@
-﻿
+﻿using Sale.Core.Domain.Contracts.Base;
 namespace Sale.Core.Domain.Contracts.Event;
 public class StockConfirmedEvent : IEvent
 {

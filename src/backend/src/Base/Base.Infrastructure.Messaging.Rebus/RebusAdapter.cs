@@ -42,6 +42,6 @@ public class RebusAdapter : IMessageBus
 
     public void Subscribe<T>()
     {
-        //_bus.Subscribe<T>().Wait();
+        _bus.Subscribe<T>().Wait();
     }    
 }
