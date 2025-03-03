@@ -16,6 +16,13 @@ public class SaleRepository : RepositoryBase<SaleCoreDomainEntities.Sale>, ISale
         return await _DefaultDbContext.Sales.AsNoTracking().Include(s => s.SaleItens).FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
     }
 
+    public override Task BeforeUpdateAsync(SaleCoreDomainEntities.Sale obj)
+    {
+        obj.UpdatedAt = DateTime.UtcNow;
+
+        return base.BeforeUpdateAsync(obj);
+    }
+
     public async Task<(IReadOnlyList<SaleCoreDomainEntities.Sale> sales, int totalCount)> GetPagedAsync(
         int pageNumber,
         int pageSize,

@@ -13,6 +13,11 @@ public class BaseEntity
     /// </summary>
     public DateTime? DeletedAt { get; set; }    
 
+    /// <summary>
+    /// Register when update register
+    /// </summary>
+    public DateTime? UpdatedAt { get; set; }
+
     //public Task<IEnumerable<ValidationErrorDetail>> ValidateAsync()
     //{
     //    return Validator.ValidateAsync(this);

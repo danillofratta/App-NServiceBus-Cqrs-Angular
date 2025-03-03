@@ -78,7 +78,7 @@ namespace Sale.Core.Domain.SagaNServiceBus
                     return;
                 }
 
-                if (Data.PaymentRequested.HasValue || Data.PaymentRequestId.HasValue)
+                if (Data.PaymentRequested.HasValue)
                 {
                     _logger.LogWarning("Payment already requested for sale {SaleId}", message.SaleId);
                     return;
@@ -91,13 +91,11 @@ namespace Sale.Core.Domain.SagaNServiceBus
                     SaleId = message.SaleId
                 });
 
-                Data.PaymentRequestId = Guid.NewGuid();
                 Data.PaymentRequested = DateTime.UtcNow;
 
                 await context.Send("PaymentSagaEndpoint", new ProcessPaymentCommand
                 {
                     SaleId = message.SaleId,
-                    PaymentRequestId = Data.PaymentRequestId.Value,
                     Valor = message.Total
                 });
 

@@ -12,6 +12,12 @@ public class PaymentRepository : RepositoryBase<PaymentCoreDomainEntities.Paymen
     {
     }
 
+    public override Task BeforeUpdateAsync(PaymentCoreDomainEntities.Payment obj)
+    {
+        obj.UpdatedAt = DateTime.UtcNow;
+
+        return base.BeforeUpdateAsync(obj);
+    }
 
 
     public async override Task AfterDeleteAsync(PaymentCoreDomainEntities.Payment obj)
@@ -82,11 +88,6 @@ public class PaymentRepository : RepositoryBase<PaymentCoreDomainEntities.Paymen
             .ToListAsync(cancellationToken);
 
         return (items, totalCount);
-    }
-
-    public async Task<PaymentCoreDomainEntities.Payment> GetByPaymentRequestId(Guid paymentRequestId)
-    {
-        return await _DefaultDbContext.Payments.FirstOrDefaultAsync(x => x.PaymentRequestId == paymentRequestId);    
     }
 }
 

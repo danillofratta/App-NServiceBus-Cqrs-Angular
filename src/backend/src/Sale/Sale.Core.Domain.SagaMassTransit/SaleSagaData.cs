@@ -16,7 +16,6 @@ public class SaleSagaState : SagaStateMachineInstance
     public DateTime? StockInsufficient { get; set; } = null;
     public DateTime? PaymentConfirmed { get; set; } = null;
     public DateTime? PaymentCancelled { get; set; } = null;
-    public Guid? PaymentRequestId { get; set; } = null;
 
     // For optimistic concurrency
     public uint RowVersion { get; set; }

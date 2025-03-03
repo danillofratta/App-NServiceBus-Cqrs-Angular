@@ -11,8 +11,6 @@ namespace Sale.Core.Domain.SagaRebus
         public DateTime? StockInsufficient { get; set; } = null;
         public DateTime? PaymentConfirmed { get; set; } = null;
         public DateTime? PaymentCancelled { get; set; } = null;
-        public Guid? PaymentRequestId { get; set; } = null;
-
         public SaleSagaData()
         {
             Id = Guid.NewGuid(); // Initialize with a valid GUID

@@ -1,5 +1,9 @@
-﻿using Base.Core.Domain.Common;
+﻿using Base.Common.Validation;
+using Base.Core.Domain.Common;
 using Sale.Core.Domain.Enum;
+using Sale.Core.Domain.Validation.Sale;
+using FluentValidation;
+using FluentValidation.Results;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SaleCoreDomainEntities
@@ -32,8 +36,65 @@ namespace SaleCoreDomainEntities
         /// </summary>
         public string BranchName { get; set; } = string.Empty;
         public decimal TotalAmount { get; set; }
-        public SaleStatus Status { get; set; } = SaleStatus.Create;
+        public SaleStatus Status { get; private set; } = SaleStatus.Create;
         public List<SaleItens> SaleItens { get; set; } = new()!;
+
+        public void PaymentConfirmed()
+        {
+            this.Status = SaleStatus.PaymentConfirmed;
+            this.UpdatedAt = DateTime.UtcNow;
+        }
+
+        public void PaymentCancelled()
+        {
+            this.Status = SaleStatus.PaymentCancelled;
+            this.UpdatedAt = DateTime.UtcNow;
+        }
+
+        public void PaymentWaiting()
+        {
+            this.Status = SaleStatus.PaymentWaiting;
+            this.UpdatedAt = DateTime.UtcNow;
+        }
+        
+        public void StockConfirmed()
+        {
+            this.Status = SaleStatus.StockConfirmed;
+            this.UpdatedAt = DateTime.UtcNow;
+        }
+
+        public void StockInsufficient()
+        {
+            this.Status = SaleStatus.StockInsufficient;
+            this.UpdatedAt = DateTime.UtcNow;
+        }
+
+        public void SaleCreate()
+        {
+            this.Status = SaleStatus.Create;
+            this.UpdatedAt = DateTime.UtcNow;
+        }
+
+        public void SaleCancelled()
+        {            
+            this.Status = SaleStatus.Cancelled;
+            this.UpdatedAt = DateTime.UtcNow;
+        }
+
+        public ValidationResult Validate()
+        {
+            var validator = new SaleBasicValidator();
+            return validator.Validate(this);            
+        }
+        /// <summary>
+        /// Performs basic entity validations
+        /// </summary>
+        /// <returns></returns>
+        public async Task<ValidationResult> ValidateAsync()
+        {
+            var validator = new SaleBasicValidator();
+            return await validator.ValidateAsync(this);
+        }
     }
 }
 

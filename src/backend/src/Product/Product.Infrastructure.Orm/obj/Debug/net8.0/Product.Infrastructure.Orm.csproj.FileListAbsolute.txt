@@ -54,6 +54,12 @@ C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Inf
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\refint\Product.Infrastructure.Orm.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\Projeto 3 apis\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\ref\Product.Infrastructure.Orm.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.sourcelink.json
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\bin\Debug\net8.0\Product.Infrastructure.Orm.deps.json
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\bin\Debug\net8.0\Product.Infrastructure.Orm.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\bin\Debug\net8.0\Product.Infrastructure.Orm.pdb
@@ -71,12 +77,6 @@ C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backe
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\bin\Debug\net8.0\Payment.Core.Domain.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\bin\Debug\net8.0\Sale.Core.Domain.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\bin\Debug\net8.0\Stock.Core.Domain.pdb
-C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.csproj.AssemblyReference.cache
-C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.GeneratedMSBuildEditorConfig.editorconfig
-C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.AssemblyInfoInputs.cache
-C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.AssemblyInfo.cs
-C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.csproj.CoreCompileInputs.cache
-C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.sourcelink.json
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product..A5B0C8A0.Up2Date
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\Product.Infrastructure.Orm.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Product\Product.Infrastructure.Orm\obj\Debug\net8.0\refint\Product.Infrastructure.Orm.dll

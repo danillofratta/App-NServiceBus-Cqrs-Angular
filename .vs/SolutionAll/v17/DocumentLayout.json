@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4300307-CCCF-40B4-A2DF-419FA45D2310}|src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\app-sale-servicebus-edd-cqrs-ddd-angular\\src\\backend\\src\\sale\\sale.core.domain\\service\\salepaymentfailedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4300307-CCCF-40B4-A2DF-419FA45D2310}|src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj|solutionrelative:src\\backend\\src\\sale\\sale.core.domain\\service\\salepaymentfailedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4300307-CCCF-40B4-A2DF-419FA45D2310}|src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj|c:\\1 arquivos\\ti\\0 dev\\github\\app-sale-servicebus-edd-cqrs-ddd-angular\\src\\backend\\src\\sale\\sale.core.domain\\specification\\sale\\salecanbepaymentfailedspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4300307-CCCF-40B4-A2DF-419FA45D2310}|src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj|solutionrelative:src\\backend\\src\\sale\\sale.core.domain\\specification\\sale\\salecanbepaymentfailedspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +43,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalePaymentFailedService.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Service\\SalePaymentFailedService.cs",
+              "RelativeDocumentMoniker": "src\\backend\\src\\Sale\\Sale.Core.Domain\\Service\\SalePaymentFailedService.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Service\\SalePaymentFailedService.cs",
+              "RelativeToolTip": "src\\backend\\src\\Sale\\Sale.Core.Domain\\Service\\SalePaymentFailedService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T20:09:14.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SaleCanBePaymentFailedSpecification.cs",
+              "DocumentMoniker": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Specification\\Sale\\SaleCanBePaymentFailedSpecification.cs",
+              "RelativeDocumentMoniker": "src\\backend\\src\\Sale\\Sale.Core.Domain\\Specification\\Sale\\SaleCanBePaymentFailedSpecification.cs",
+              "ToolTip": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Specification\\Sale\\SaleCanBePaymentFailedSpecification.cs",
+              "RelativeToolTip": "src\\backend\\src\\Sale\\Sale.Core.Domain\\Specification\\Sale\\SaleCanBePaymentFailedSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T20:09:09.499Z",
+              "EditorCaption": ""
             }
           ]
         },

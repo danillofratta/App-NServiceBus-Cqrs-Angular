@@ -23,7 +23,7 @@ namespace Shared.Infrastructure.Common
 
         public virtual async Task BeforeSaveAsync(TEntity obj)
         {
-
+            
         }
 
         public virtual async Task BeforeUpdateAsync(TEntity obj)

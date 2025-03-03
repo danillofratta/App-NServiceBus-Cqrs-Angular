@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SaleCoreDomainEntities;
+using Shared.Infrasctructure.Orm.Mapping;
 using System.Reflection;
 
 namespace Shared.Infrastructure.Orm;
@@ -10,7 +11,6 @@ public class DefaultDbContext : DbContext
     public DbSet<SaleCoreDomainEntities.SaleItens> SaleItens { get; set; }
     public DbSet<StockCoreDomainEntitties.Stock> Stocks { get; set; }
     public DbSet<Product.Core.Domain.Entities.Product> Products { get; set; }
-
     public DbSet<PaymentCoreDomainEntities.Payment> Payments { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -32,7 +32,6 @@ public class DefaultDbContext : DbContext
 #endif
 
         }
-
     }
 
 
@@ -41,21 +40,10 @@ public class DefaultDbContext : DbContext
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         base.OnModelCreating(modelBuilder);
 
-        modelBuilder.Entity<SaleCoreDomainEntities.Sale>()
-            .HasMany(s => s.SaleItens)
-            .WithOne(si => si.Sale)
-            .HasForeignKey(si => si.SaleId);
-
-        modelBuilder.Entity<SaleCoreDomainEntities.Sale>()
-            .HasKey(x => x.Id);
-
-        modelBuilder.Entity<StockCoreDomainEntitties.Stock>()
-            .HasKey(x => x.Id);
-
-        modelBuilder.Entity<Product.Core.Domain.Entities.Product>()
-            .HasKey(x => x.Id);
-
-        modelBuilder.Entity<PaymentCoreDomainEntities.Payment>()
-            .HasKey(x => x.Id);
+        modelBuilder.ApplyConfiguration(new ProductConfiguration());
+        modelBuilder.ApplyConfiguration(new SaleConfiguration());
+        modelBuilder.ApplyConfiguration(new SaleItensConfiguration());
+        modelBuilder.ApplyConfiguration(new PaymentConfiguration());
+        modelBuilder.ApplyConfiguration(new StockConfiguration());
     }
 }

@@ -9,7 +9,13 @@ public class StockRepository : RepositoryBase<StockCoreDomainEntitties.Stock>, I
 {
     public StockRepository(DefaultDbContext defaultDbContext) : base(defaultDbContext)
     {
-    }    
+    }
+
+    public override Task BeforeUpdateAsync(StockCoreDomainEntitties.Stock obj)
+    {
+        obj.UpdatedAt = DateTime.UtcNow;
+        return base.BeforeUpdateAsync(obj);
+    }
 
     public async Task<StockCoreDomainEntitties.Stock> GetByProductIdAsync(Guid id, CancellationToken cancellationToken = default)
     {

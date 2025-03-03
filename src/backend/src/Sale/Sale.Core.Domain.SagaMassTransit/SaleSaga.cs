@@ -64,13 +64,12 @@ namespace Sale.Core.Domain.SagaMassTransit
                             _logger.LogWarning("Stock already confirmed for sale {SaleId}", context.Message.SaleId);
                             return;
                         }
-                        if (context.Saga.PaymentRequested.HasValue || context.Saga.PaymentRequestId.HasValue)
+                        if (context.Saga.PaymentRequested.HasValue)
                         {
                             _logger.LogWarning("Payment already requested for sale {SaleId}", context.Message.SaleId);
                             return;
                         }
                         context.Saga.StockConfirmed = DateTime.UtcNow;
-                        context.Saga.PaymentRequestId = Guid.NewGuid();
                         context.Saga.PaymentRequested = DateTime.UtcNow;
                     })
                     .ThenAsync(async context =>
@@ -85,7 +84,6 @@ namespace Sale.Core.Domain.SagaMassTransit
                         await context.Send(new Uri("queue:PaymentSagaEndpoint"), new ProcessPaymentCommand
                         {
                             SaleId = context.Saga.SaleId,
-                            PaymentRequestId = context.Saga.PaymentRequestId.Value,
                             Valor = context.Message.Total
                         });
                     })

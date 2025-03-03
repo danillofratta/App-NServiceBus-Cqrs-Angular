@@ -5,7 +5,6 @@ namespace PaymentCoreDomainEntities
 {
     public class Payment : BaseEntity
     {
-        public Guid PaymentRequestId { get; set; }
         public Guid SaleId { get; set; }
         public decimal Total { get; set; }
         public PaymentStatus Status { get; set; } = PaymentStatus.Create;

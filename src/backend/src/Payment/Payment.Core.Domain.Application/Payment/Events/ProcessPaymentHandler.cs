@@ -11,8 +11,8 @@ using Sale.Core.Domain.Contracts.Event;
 
 namespace Payment.Core.Domain.Application.Payment.Handlers
 {
-    public class ProcessPaymentHandler : 
-        Rebus.Handlers.IHandleMessages<ProcessPaymentCommand>, 
+    public class ProcessPaymentHandler :
+        Rebus.Handlers.IHandleMessages<ProcessPaymentCommand>,
         IHandleMessages<ProcessPaymentCommand>,
         IConsumer<ProcessPaymentCommand>
     {
@@ -37,47 +37,43 @@ namespace Payment.Core.Domain.Application.Payment.Handlers
         //using mass
         public async Task Consume(ConsumeContext<ProcessPaymentCommand> context)
         {
-            var hasprocess = await _paymentRepository.GetByPaymentRequestId(context.Message.PaymentRequestId);
 
-            if (hasprocess == null)
+            var haspayment = await _paymentRepository.GetByIdSaleAsync(context.Message.SaleId);
+            //verificar triplicando payments, a principio na criação da saga
+            //isso garante que não vai duplicar criação de paymentes
+            if (haspayment != null && haspayment.CreatedAt <= DateTime.UtcNow.AddSeconds(10))
+                return;
+
+            var payment = await _PaymentCreateService.Process(context.Message.SaleId, context.Message.Valor);
+            if (payment != null)
             {
-                var haspayment = await _paymentRepository.GetByIdSaleAsync(context.Message.SaleId);
-                //verificar triplicando payments, a principio na criação da saga
-                //isso garante que não vai duplicar criação de paymentes
-                if (haspayment != null && haspayment.CreatedAt <= DateTime.UtcNow.AddSeconds(10))
+                if (payment.Status == PaymentStatus.Sucefull || payment.Status == PaymentStatus.Cancelled)
                     return;
 
-                var payment = await _PaymentCreateService.Process(context.Message.SaleId, context.Message.Valor);
-                if (payment != null)
+                Random random = new Random();
+                bool randomBool = random.Next(2) == 0;
+
+                if (randomBool)
                 {
-                    if (payment.Status == PaymentStatus.Sucefull || payment.Status == PaymentStatus.Cancelled)
-                        return;
+                    //todo create class service                    
+                    payment.Status = PaymentStatus.Sucefull;
+                    await _paymentRepository.UpdateAsync(payment);
 
-                    Random random = new Random();
-                    bool randomBool = random.Next(2) == 0;
+                    List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
+                    await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
 
-                    if (randomBool)
-                    {
-                        //todo create class service                    
-                        payment.Status = PaymentStatus.Sucefull;
-                        await _paymentRepository.UpdateAsync(payment);
+                    await _bus.PublishAsync(new PaymentConfirmedEvent { SaleId = context.Message.SaleId });
+                }
+                else
+                {
+                    //todo create class service                    
+                    payment.Status = PaymentStatus.Cancelled;
+                    await _paymentRepository.UpdateAsync(payment);
 
-                        List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
-                        await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
+                    List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
+                    await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
 
-                        await _bus.PublishAsync(new PaymentConfirmedEvent { SaleId = context.Message.SaleId });
-                    }
-                    else
-                    {
-                        //todo create class service                    
-                        payment.Status = PaymentStatus.Cancelled;
-                        await _paymentRepository.UpdateAsync(payment);
-
-                        List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
-                        await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
-
-                        await _bus.PublishAsync(new PaymentFailEvent { SaleId = context.Message.SaleId });
-                    }
+                    await _bus.PublishAsync(new PaymentFailEvent { SaleId = context.Message.SaleId });
                 }
             }
         }
@@ -85,47 +81,42 @@ namespace Payment.Core.Domain.Application.Payment.Handlers
         //using nservicebus
         public async Task Handle(ProcessPaymentCommand message, IMessageHandlerContext context)
         {
-            var hasprocess = await _paymentRepository.GetByPaymentRequestId(message.PaymentRequestId);
+            var haspayment = await _paymentRepository.GetByIdSaleAsync(message.SaleId);
+            //verificar triplicando payments, a principio na criação da saga
+            //isso garante que não vai duplicar criação de paymentes
+            if (haspayment != null && haspayment.CreatedAt <= DateTime.UtcNow.AddSeconds(10))
+                return;
 
-            if (hasprocess == null)
+            var payment = await _PaymentCreateService.Process(message.SaleId, message.Valor);
+            if (payment != null)
             {
-                var haspayment = await _paymentRepository.GetByIdSaleAsync(message.SaleId);
-                //verificar triplicando payments, a principio na criação da saga
-                //isso garante que não vai duplicar criação de paymentes
-                if (haspayment != null && haspayment.CreatedAt <= DateTime.UtcNow.AddSeconds(10))
+                if (payment.Status == PaymentStatus.Sucefull || payment.Status == PaymentStatus.Cancelled)
                     return;
 
-                var payment = await _PaymentCreateService.Process(message.SaleId, message.Valor);
-                if (payment != null)
+                Random random = new Random();
+                bool randomBool = random.Next(2) == 0;
+
+                if (randomBool)
                 {
-                    if (payment.Status == PaymentStatus.Sucefull || payment.Status == PaymentStatus.Cancelled)
-                        return;
+                    //todo create class service                    
+                    payment.Status = PaymentStatus.Sucefull;
+                    await _paymentRepository.UpdateAsync(payment);
 
-                    Random random = new Random();
-                    bool randomBool = random.Next(2) == 0;
+                    List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
+                    await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
 
-                    if (randomBool)
-                    {
-                        //todo create class service                    
-                        payment.Status = PaymentStatus.Sucefull;
-                        await _paymentRepository.UpdateAsync(payment);
+                    await _bus.PublishAsync(new PaymentConfirmedEvent { SaleId = message.SaleId });
+                }
+                else
+                {
+                    //todo create class service                    
+                    payment.Status = PaymentStatus.Cancelled;
+                    await _paymentRepository.UpdateAsync(payment);
 
-                        List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
-                        await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
+                    List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
+                    await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
 
-                        await _bus.PublishAsync(new PaymentConfirmedEvent { SaleId = message.SaleId });
-                    }
-                    else
-                    {
-                        //todo create class service                    
-                        payment.Status = PaymentStatus.Cancelled;
-                        await _paymentRepository.UpdateAsync(payment);
-
-                        List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
-                        await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
-
-                        await _bus.PublishAsync(new PaymentFailEvent { SaleId = message.SaleId });
-                    }
+                    await _bus.PublishAsync(new PaymentFailEvent { SaleId = message.SaleId });
                 }
             }
         }
@@ -134,51 +125,46 @@ namespace Payment.Core.Domain.Application.Payment.Handlers
         //using rebus
         public async Task Handle(ProcessPaymentCommand message)
         {
-            var hasprocess = await _paymentRepository.GetByPaymentRequestId(message.PaymentRequestId);
+            var haspayment = await _paymentRepository.GetByIdSaleAsync(message.SaleId);
+            //verificar triplicando payments, a principio na criação da saga
+            //isso garante que não vai duplicar criação de paymentes
+            if (haspayment != null && haspayment.CreatedAt <= DateTime.UtcNow.AddSeconds(10))
+                return;
 
-            if (hasprocess == null)
+            var payment = await _PaymentCreateService.Process(message.SaleId, message.Valor);
+            if (payment != null)
             {
-                var haspayment = await _paymentRepository.GetByIdSaleAsync(message.SaleId);
-                //verificar triplicando payments, a principio na criação da saga
-                //isso garante que não vai duplicar criação de paymentes
-                if (haspayment != null && haspayment.CreatedAt <= DateTime.UtcNow.AddSeconds(10))
+                if (payment.Status == PaymentStatus.Sucefull || payment.Status == PaymentStatus.Cancelled)
                     return;
 
-                var payment = await _PaymentCreateService.Process(message.SaleId, message.Valor);
-                if (payment != null)
+                Random random = new Random();
+                bool randomBool = random.Next(2) == 0;
+
+                if (randomBool)
                 {
-                    if (payment.Status == PaymentStatus.Sucefull || payment.Status == PaymentStatus.Cancelled)
-                        return;
+                    //todo create class service                    
+                    payment.Status = PaymentStatus.Sucefull;
+                    await _paymentRepository.UpdateAsync(payment);
 
-                    Random random = new Random();
-                    bool randomBool = random.Next(2) == 0;
+                    List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
+                    await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
 
-                    if (randomBool)
-                    {
-                        //todo create class service                    
-                        payment.Status = PaymentStatus.Sucefull;
-                        await _paymentRepository.UpdateAsync(payment);
+                    //await _hub1.Clients.All.GetListPayment(listpayment);
 
-                        List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
-                        await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
+                    await _bus.PublishAsync(new PaymentConfirmedEvent { SaleId = message.SaleId });
+                }
+                else
+                {
+                    //todo create class service                    
+                    payment.Status = PaymentStatus.Cancelled;
+                    await _paymentRepository.UpdateAsync(payment);
 
-                        //await _hub1.Clients.All.GetListPayment(listpayment);
+                    List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
+                    await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
 
-                        await _bus.PublishAsync(new PaymentConfirmedEvent { SaleId = message.SaleId });
-                    }
-                    else
-                    {
-                        //todo create class service                    
-                        payment.Status = PaymentStatus.Cancelled;
-                        await _paymentRepository.UpdateAsync(payment);
+                    //await _hub1.Clients.All.GetListPayment(listpayment);
 
-                        List<PaymentCoreDomainEntities.Payment> listpayment = await _paymentRepository.GetAll();
-                        await _hub.Clients.All.SendAsync("GetListPayment", listpayment);
-
-                        //await _hub1.Clients.All.GetListPayment(listpayment);
-
-                        await _bus.PublishAsync(new PaymentFailEvent { SaleId = message.SaleId });
-                    }
+                    await _bus.PublishAsync(new PaymentFailEvent { SaleId = message.SaleId });
                 }
             }
         }

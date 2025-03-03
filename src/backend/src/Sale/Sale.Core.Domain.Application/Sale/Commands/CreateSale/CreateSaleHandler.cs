@@ -36,6 +36,11 @@ namespace Sale.Core.Application.Sales.Create
             var record = _mapper.Map<SaleCoreDomainEntities.Sale>(command);
 
             record.TotalAmount = record.SaleItens.Sum(x => x.TotalPrice);
+            record.SaleCreate();
+
+            var entityvalidationresult = await record.ValidateAsync();
+            if (!entityvalidationresult.IsValid)
+                throw new ValidationException(entityvalidationresult.Errors);                
 
             var created = await _repository.SaveAsync(record);
             var result = _mapper.Map<CreateSaleResult>(created);

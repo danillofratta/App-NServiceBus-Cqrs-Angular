@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Stock.Infrastructure.Orm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8675f754b5a11a3803b85cf39e4c7db7f49f6d08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c557c6455d9b0b6469229049230413a59a06a54b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Stock.Infrastructure.Orm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Stock.Infrastructure.Orm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

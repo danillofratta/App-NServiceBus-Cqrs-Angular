@@ -84,6 +84,7 @@ public class ProductRepository : RepositoryBase<Product.Core.Domain.Entities.Pro
     public override async Task BeforeUpdateAsync(Core.Domain.Entities.Product obj)
     {
         await _RedisCacheService.RemoveAsync($"product:{obj.Id}");
+        obj.UpdatedAt = DateTime.UtcNow;
 
         base.BeforeUpdateAsync(obj);
     }
