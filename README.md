@@ -61,10 +61,7 @@ TODO:
 ## TODO
 
 - criar IoC
-- revisar projeto
 - add mais consultas com signalr
 - add outras tecnologias de frontend como blazor, nextjs
-- NServiceBus tem problema de compatibilidade, então em alguns momento falha a mensageria verificar mais a fundo o problema. 
-- A solução final seria criar workers específicos e um orquestrador para definir a mensageria e no handle de events ter projetos separados por mensageria
-- Ver a possbilidade de criar Handle genércio para tratas os evens and commands.
+- improvement: solução final seria criar workers específicos e um orquestrador para definir a mensageria
 
