@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7je8nKuiiiU=",
+  "dgSpecHash": "r99E1ODmy6Y=",
   "success": true,
-  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Infrastructure.Orm\\Product.Infrastructure.Orm.csproj",
+  "projectFilePath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Infrastructure.Orm\\Product.Infrastructure.Orm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danil\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",

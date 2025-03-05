@@ -1623,11 +1623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.MassTransit\\Stock.Infrastructure.MassTransit.csproj",
+      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.MassTransit\\Stock.Infrastructure.MassTransit.csproj",
       "projectName": "Stock.Infrastructure.MassTransit",
-      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.MassTransit\\Stock.Infrastructure.MassTransit.csproj",
+      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.MassTransit\\Stock.Infrastructure.MassTransit.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.MassTransit\\obj\\",
+      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.MassTransit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -1652,17 +1652,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging.MassTransit\\Base.Infrastructure.Messaging.MassTransit.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging.MassTransit\\Base.Infrastructure.Messaging.MassTransit.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging.MassTransit\\Base.Infrastructure.Messaging.MassTransit.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging.MassTransit\\Base.Infrastructure.Messaging.MassTransit.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging\\Base.Infrastructure.Messaging.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging\\Base.Infrastructure.Messaging.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging\\Base.Infrastructure.Messaging.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Infrastructure.Messaging\\Base.Infrastructure.Messaging.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain.Contracts\\Sale.Core.Domain.Contracts.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain.Application\\Stock.Core.Domain.Application.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain.Application\\Stock.Core.Domain.Application.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain.Application\\Stock.Core.Domain.Application.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain.Application\\Stock.Core.Domain.Application.csproj"
             }
           }
         }

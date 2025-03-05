@@ -37,3 +37,16 @@ C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backe
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\refint\Base.Core.Domain.dll
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\Base.Core.Domain.pdb
 C:\1 Arquivos\TI\0 Dev\GitHub\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\ref\Base.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\bin\Debug\net8.0\Base.Core.Domain.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\bin\Debug\net8.0\Base.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\bin\Debug\net8.0\Base.Core.Domain.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\Base.Core.Domain.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\Base.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\Base.Core.Domain.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\Base.Core.Domain.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\Base.Core.Domain.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\Base.Core.Domain.sourcelink.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\Base.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\refint\Base.Core.Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\Base.Core.Domain.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\src\backend\src\Base\Base.Core.Domain\obj\Debug\net8.0\ref\Base.Core.Domain.dll

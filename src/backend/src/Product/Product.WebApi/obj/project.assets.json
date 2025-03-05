@@ -5102,11 +5102,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.WebApi\\Product.WebApi.csproj",
+      "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.WebApi\\Product.WebApi.csproj",
       "projectName": "Product.WebApi",
-      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.WebApi\\Product.WebApi.csproj",
+      "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.WebApi\\Product.WebApi.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.WebApi\\obj\\",
+      "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -5131,17 +5131,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.WebApi\\Base.WebApi.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Application\\Product.Core.Application.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj"
             },
-            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Infrastructure.Orm\\Product.Infrastructure.Orm.csproj": {
-              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Infrastructure.Orm\\Product.Infrastructure.Orm.csproj"
+            "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Infrastructure.Orm\\Product.Infrastructure.Orm.csproj": {
+              "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Infrastructure.Orm\\Product.Infrastructure.Orm.csproj"
             }
           }
         }

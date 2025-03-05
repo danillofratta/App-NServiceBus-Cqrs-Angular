@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\Stock.Infrastructure.Orm.csproj": {}
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\Stock.Infrastructure.Orm.csproj": {}
   },
   "projects": {
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\Base.Core.Domain.Application.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\Base.Core.Domain.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\Base.Core.Domain.Application.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\Base.Core.Domain.Application.csproj",
         "projectName": "Base.Core.Domain.Application",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\Base.Core.Domain.Application.csproj",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\Base.Core.Domain.Application.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj",
         "projectName": "Base.Core.Domain",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj",
         "projectName": "Payment.Core.Domain",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -184,8 +184,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
               }
             }
           }
@@ -225,14 +225,14 @@
         }
       }
     },
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj",
         "projectName": "Product.Core.Domain",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -257,8 +257,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
               }
             }
           }
@@ -298,14 +298,14 @@
         }
       }
     },
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj",
         "projectName": "Sale.Core.Domain",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -330,8 +330,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
               }
             }
           }
@@ -371,14 +371,14 @@
         }
       }
     },
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj",
         "projectName": "Shared.Infrasctructure.Orm",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -403,20 +403,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
               },
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Payment\\Payment.Core.Domain\\Payment.Core.Domain.csproj"
               },
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Product\\Product.Core.Domain\\Product.Core.Domain.csproj"
               },
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Sale\\Sale.Core.Domain\\Sale.Core.Domain.csproj"
               },
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj"
               }
             }
           }
@@ -486,14 +486,14 @@
         }
       }
     },
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj",
         "projectName": "Stock.Core.Domain",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -518,11 +518,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\Base.Core.Domain.Application.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\Base.Core.Domain.Application.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\Base.Core.Domain.Application.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain.Application\\Base.Core.Domain.Application.csproj"
               },
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
               }
             }
           }
@@ -562,14 +562,14 @@
         }
       }
     },
-    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\Stock.Infrastructure.Orm.csproj": {
+    "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\Stock.Infrastructure.Orm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\Stock.Infrastructure.Orm.csproj",
+        "projectUniqueName": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\Stock.Infrastructure.Orm.csproj",
         "projectName": "Stock.Infrastructure.Orm",
-        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\Stock.Infrastructure.Orm.csproj",
+        "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\Stock.Infrastructure.Orm.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\obj\\",
+        "outputPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Infrastructure.Orm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -594,14 +594,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Base\\Base.Core.Domain\\Base.Core.Domain.csproj"
               },
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Shared\\Shared.Infrasctructure.Orm\\Shared.Infrasctructure.Orm.csproj"
               },
-              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj": {
-                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj"
+              "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj": {
+                "projectPath": "C:\\1 Arquivos\\TI\\0 Dev\\GitHub\\Public\\App-Sale-ServiceBus-EDD-CQRS-DDD-Angular\\src\\backend\\src\\Stock\\Stock.Core.Domain\\Stock.Core.Domain.csproj"
               }
             }
           }

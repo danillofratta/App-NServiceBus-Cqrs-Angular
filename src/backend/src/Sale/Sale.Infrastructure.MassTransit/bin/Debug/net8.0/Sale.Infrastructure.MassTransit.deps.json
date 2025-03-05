@@ -1039,18 +1039,6 @@
           }
         }
       },
-      "Base.Infrastructure.Messaging.NServiceBus/1.0.0": {
-        "dependencies": {
-          "Base.Infrastructure.Messaging": "1.0.0",
-          "NServiceBus": "9.2.6"
-        },
-        "runtime": {
-          "Base.Infrastructure.Messaging.NServiceBus.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Base.WebApi/1.0.0": {
         "dependencies": {
           "Base.Core.Domain": "1.0.0",
@@ -1082,7 +1070,6 @@
           "AutoMapper": "13.0.1",
           "Base.Core.Domain": "1.0.0",
           "Base.Infrastructure.Messaging": "1.0.0",
-          "Base.Infrastructure.Messaging.NServiceBus": "1.0.0",
           "Base.WebApi": "1.0.0",
           "FluentValidation": "11.11.0",
           "MassTransit": "8.3.6",
@@ -1815,11 +1802,6 @@
       "sha512": ""
     },
     "Base.Infrastructure.Messaging.MassTransit/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Base.Infrastructure.Messaging.NServiceBus/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

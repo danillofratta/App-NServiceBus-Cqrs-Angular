@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Base\Base.Core.Domain\Base.Core.Domain.csproj" />
-    <ProjectReference Include="..\..\Base\Base.Infrastructure.Messaging.NServiceBus\Base.Infrastructure.Messaging.NServiceBus.csproj" />
     <ProjectReference Include="..\..\Base\Base.Infrastructure.Messaging\Base.Infrastructure.Messaging.csproj" />
     <ProjectReference Include="..\..\Base\Base.WebApi\Base.WebApi.csproj" />
     <ProjectReference Include="..\Sale.Core.Domain.Contracts\Sale.Core.Domain.Contracts.csproj" />
